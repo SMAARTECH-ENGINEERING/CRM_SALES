@@ -1,0 +1,494 @@
+{
+  "app": {
+    "skipToContent": "मुख्य सामग्री पर जाएँ",
+    "loading": "लोड हो रहा है",
+    "tagline": "ग्राहक, बिक्री और सेवा एक ही जगह"
+  },
+  "actions": {
+    "save": "सहेजें",
+    "cancel": "रद्द करें",
+    "delete": "हटाएँ",
+    "edit": "संपादित करें",
+    "view": "देखें",
+    "create": "बनाएँ",
+    "add": "जोड़ें",
+    "close": "बंद करें",
+    "back": "वापस",
+    "retry": "फिर कोशिश करें",
+    "apply": "लागू करें",
+    "clear": "साफ़ करें",
+    "reset": "रीसेट करें",
+    "confirm": "पुष्टि करें",
+    "export": "निर्यात",
+    "search": "खोजें",
+    "filter": "फ़िल्टर",
+    "refresh": "ताज़ा करें",
+    "done": "हो गया",
+    "more": "और कार्रवाइयाँ",
+    "open": "खोलें",
+    "viewDetails": "विवरण देखें",
+    "openFullPage": "पूरा पृष्ठ खोलें",
+    "signOut": "साइन आउट",
+    "signIn": "साइन इन",
+    "goBack": "वापस जाएँ",
+    "goToDashboard": "डैशबोर्ड पर जाएँ",
+    "reload": "फिर से लोड करें"
+  },
+  "nav": {
+    "main": "मुख्य नेविगेशन",
+    "dashboard": "डैशबोर्ड",
+    "leads": "लीड",
+    "opportunities": "अवसर",
+    "pipelines": "पाइपलाइन",
+    "quotations": "कोटेशन",
+    "orders": "ऑर्डर",
+    "companies": "कंपनियाँ",
+    "contacts": "संपर्क",
+    "customers": "ग्राहक",
+    "projects": "प्रोजेक्ट",
+    "tickets": "टिकट",
+    "contracts": "अनुबंध",
+    "documents": "दस्तावेज़",
+    "payments": "भुगतान",
+    "products": "उत्पाद",
+    "categories": "श्रेणियाँ",
+    "units": "इकाइयाँ",
+    "taxes": "कर",
+    "reports": "रिपोर्ट",
+    "users": "उपयोगकर्ता",
+    "roles": "भूमिकाएँ",
+    "permissions": "अनुमतियाँ",
+    "lists": "सूचियाँ और स्थितियाँ",
+    "applicationSettings": "एप्लिकेशन सेटिंग्स",
+    "auditLog": "ऑडिट लॉग",
+    "notifications": "सूचनाएँ"
+  },
+  "navGroups": {
+    "sales": "बिक्री",
+    "customers": "ग्राहक",
+    "operations": "संचालन",
+    "finance": "वित्त",
+    "catalogue": "कैटलॉग",
+    "insights": "विश्लेषण",
+    "administration": "प्रशासन"
+  },
+  "sidebar": {
+    "collapse": "साइडबार छोटा करें",
+    "expand": "साइडबार बड़ा करें",
+    "open": "नेविगेशन खोलें",
+    "resize": "साइडबार की चौड़ाई बदलें",
+    "resizeHint": "चौड़ाई बदलने के लिए खींचें। रीसेट के लिए डबल-क्लिक करें।"
+  },
+  "topbar": {
+    "help": "सहायता और कीबोर्ड शॉर्टकट",
+    "language": "भाषा",
+    "theme": "थीम और रूप",
+    "account": "खाता: {{name}}",
+    "accountFallback": "खाता"
+  },
+  "search": {
+    "placeholder": "खोजें…",
+    "placeholderLong": "खोजें या किसी पृष्ठ पर जाएँ…",
+    "label": "CRM में खोजें",
+    "searching": "खोज रहे हैं…",
+    "nothing": "कुछ नहीं मिला",
+    "hint": "नाम, नंबर या फ़ोन से खोजें",
+    "commands": "यहाँ जाएँ",
+    "create": "बनाएँ",
+    "categories": {
+      "companies": "कंपनियाँ",
+      "contacts": "संपर्क",
+      "leads": "लीड",
+      "opportunities": "अवसर",
+      "quotations": "कोटेशन",
+      "orders": "ऑर्डर",
+      "projects": "प्रोजेक्ट",
+      "tickets": "टिकट",
+      "contracts": "अनुबंध"
+    }
+  },
+  "quickCreate": {
+    "label": "बनाएँ",
+    "lead": "लीड",
+    "company": "कंपनी",
+    "contact": "संपर्क",
+    "opportunity": "अवसर",
+    "quotation": "कोटेशन",
+    "product": "उत्पाद",
+    "newLead": "नई लीड",
+    "newCompany": "नई कंपनी",
+    "newContact": "नया संपर्क",
+    "newOpportunity": "नया अवसर",
+    "newQuotation": "नया कोटेशन",
+    "newProduct": "नया उत्पाद"
+  },
+  "appearance": {
+    "title": "रूप",
+    "mode": "मोड",
+    "theme": "रंग थीम",
+    "chooseTheme": "थीम चुनें",
+    "fontSize": "अक्षरों का आकार",
+    "density": "तालिका का घनत्व",
+    "preview": "पूर्वावलोकन",
+    "resetAll": "डिफ़ॉल्ट पर लौटाएँ",
+    "selected": "चुना हुआ"
+  },
+  "modes": {
+    "light": "लाइट",
+    "dark": "डार्क",
+    "system": "सिस्टम"
+  },
+  "themes": {
+    "professionalBlue": "प्रोफ़ेशनल ब्लू",
+    "enterpriseIndigo": "एंटरप्राइज़ इंडिगो",
+    "emerald": "एमराल्ड",
+    "ocean": "ओशन",
+    "purple": "पर्पल",
+    "slate": "स्लेट",
+    "warm": "वार्म",
+    "highContrast": "हाई कॉन्ट्रास्ट"
+  },
+  "fontSizes": {
+    "small": "छोटा",
+    "medium": "मध्यम",
+    "large": "बड़ा",
+    "xlarge": "बहुत बड़ा"
+  },
+  "density": {
+    "label": "घनत्व",
+    "compact": "सघन",
+    "standard": "सामान्य",
+    "comfortable": "खुला"
+  },
+  "languages": {
+    "label": "भाषा"
+  },
+  "userMenu": {
+    "profile": "प्रोफ़ाइल",
+    "preferences": "प्राथमिकताएँ",
+    "shortcuts": "कीबोर्ड शॉर्टकट",
+    "changePassword": "पासवर्ड बदलें"
+  },
+  "preferences": {
+    "title": "प्राथमिकताएँ",
+    "saved": "आपकी प्राथमिकताएँ आपके खाते में सहेजी जाती हैं।",
+    "savedLocal": "आपकी प्राथमिकताएँ इस डिवाइस पर सहेजी जाती हैं।",
+    "resetConfirm": "थीम, अक्षरों का आकार, साइडबार, तालिकाएँ और डैशबोर्ड डिफ़ॉल्ट पर लौटाएँ?"
+  },
+  "password": {
+    "title": "पासवर्ड बदलें",
+    "current": "मौजूदा पासवर्ड",
+    "new": "नया पासवर्ड",
+    "confirm": "नया पासवर्ड दोबारा लिखें",
+    "mismatch": "दोनों पासवर्ड मेल नहीं खाते",
+    "required": "यह ज़रूरी है",
+    "changed": "पासवर्ड बदल दिया गया",
+    "hint": "आप यहाँ साइन इन रहेंगे; अन्य डिवाइस साइन आउट हो जाएँगे।"
+  },
+  "shortcuts": {
+    "title": "कीबोर्ड शॉर्टकट",
+    "search": "खोजें, या किसी पृष्ठ पर जाएँ",
+    "create": "नया रिकॉर्ड बनाएँ",
+    "help": "कीबोर्ड शॉर्टकट दिखाएँ",
+    "sidebar": "साइडबार छोटा या बड़ा करें",
+    "close": "डायलॉग, ड्रॉअर या मेनू बंद करें",
+    "navigate": "परिणामों या मेनू में ऊपर-नीचे जाएँ",
+    "select": "चुना हुआ आइटम खोलें",
+    "general": "सामान्य",
+    "navigation": "नेविगेशन"
+  },
+  "table": {
+    "columns": "कॉलम",
+    "columnsTitle": "कॉलम चुनें और क्रम बदलें",
+    "moveUp": "{{name}} को ऊपर ले जाएँ",
+    "moveDown": "{{name}} को नीचे ले जाएँ",
+    "showAll": "सभी दिखाएँ",
+    "resetColumns": "कॉलम रीसेट करें",
+    "density": "घनत्व",
+    "fullscreen": "पूरी स्क्रीन",
+    "exitFullscreen": "पूरी स्क्रीन से बाहर",
+    "exportCsv": "CSV डाउनलोड करें",
+    "print": "प्रिंट करें",
+    "selected_one": "{{count}} चुना गया",
+    "selected_other": "{{count}} चुने गए",
+    "clearSelection": "चयन हटाएँ",
+    "noRows": "दिखाने के लिए कुछ नहीं",
+    "rowsPerPage": "प्रति पृष्ठ पंक्तियाँ:",
+    "pageOf": "{{count}} में से {{from}}–{{to}}",
+    "previousPage": "पिछला पृष्ठ",
+    "nextPage": "अगला पृष्ठ",
+    "quickView": "झटपट देखें"
+  },
+  "filters": {
+    "title": "फ़िल्टर",
+    "active_one": "{{count}} फ़िल्टर",
+    "active_other": "{{count}} फ़िल्टर",
+    "from": "से",
+    "to": "तक",
+    "all": "सभी"
+  },
+  "states": {
+    "emptyTitle": "अभी यहाँ कुछ नहीं है",
+    "emptyDescription": "आप जो रिकॉर्ड बनाएँगे वे यहाँ दिखेंगे।",
+    "noResultsTitle": "कोई परिणाम नहीं मिला",
+    "noResultsDescription": "अपनी खोज या फ़िल्टर बदलकर देखें।",
+    "errorTitle": "इसे लोड नहीं किया जा सका",
+    "errorDescription": "कृपया फिर कोशिश करें।",
+    "forbidden": "आपको यह पृष्ठ देखने की अनुमति नहीं है।"
+  },
+  "errors": {
+    "401": {
+      "title": "साइन इन ज़रूरी है",
+      "description": "आपका सत्र समाप्त हो गया है। जारी रखने के लिए फिर साइन इन करें।"
+    },
+    "403": {
+      "title": "पहुँच नहीं है",
+      "description": "आपको यह पृष्ठ देखने की अनुमति नहीं है। ज़रूरत हो तो एडमिन से कहें।"
+    },
+    "404": {
+      "title": "पृष्ठ नहीं मिला",
+      "description": "जो पृष्ठ आप खोज रहे हैं वह मौजूद नहीं है या हटा दिया गया है।"
+    },
+    "500": {
+      "title": "कुछ गड़बड़ हो गई",
+      "description": "एक अनपेक्षित त्रुटि हुई। फिर कोशिश करें, या पृष्ठ फिर से लोड करें।"
+    }
+  },
+  "login": {
+    "title": "साइन इन",
+    "subtitle": "जारी रखने के लिए {{name}} में साइन इन करें",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "showPassword": "पासवर्ड दिखाएँ",
+    "hidePassword": "पासवर्ड छिपाएँ",
+    "emailRequired": "ईमेल ज़रूरी है",
+    "emailInvalid": "सही ईमेल पता लिखें",
+    "passwordRequired": "पासवर्ड ज़रूरी है",
+    "points": {
+      "pipeline": "लीड, अवसर और कोटेशन एक ही पाइपलाइन में",
+      "service": "हर ग्राहक के प्रोजेक्ट, टिकट और अनुबंध",
+      "insight": "ताज़ा डेटा से डैशबोर्ड और रिपोर्ट"
+    }
+  },
+  "confirm": {
+    "deleteTitle": "{{name}} हटाएँ?",
+    "deleteBody": "यह सूचियों से हट जाएगा। इससे जुड़े रिकॉर्ड बने रहेंगे।"
+  },
+  "notifications": {
+    "label": "सूचनाएँ",
+    "labelUnread": "सूचनाएँ, {{count}} अपठित"
+  },
+  "pages": {
+    "leads": {
+      "title": "लीड",
+      "subtitle": "पहले संपर्क से रूपांतरण तक की पूछताछ",
+      "new": "नई लीड"
+    },
+    "companies": {
+      "title": "कंपनियाँ",
+      "subtitle": "वे संगठन जिन्हें आप बेचते और सेवा देते हैं",
+      "new": "नई कंपनी"
+    },
+    "contacts": {
+      "title": "संपर्क",
+      "subtitle": "आपकी कंपनियों के लोग",
+      "new": "नया संपर्क"
+    },
+    "customers": {
+      "title": "ग्राहक",
+      "subtitle": "वे कंपनियाँ जिन्होंने आपसे ख़रीदा है",
+      "new": "नया ग्राहक"
+    },
+    "opportunities": {
+      "title": "अवसर",
+      "subtitle": "आपकी पाइपलाइनों में चल रहे सौदे",
+      "new": "नया अवसर"
+    },
+    "quotations": {
+      "title": "कोटेशन",
+      "subtitle": "कंपनियों के लिए तैयार और भेजे गए प्रस्ताव",
+      "new": "नया कोटेशन"
+    },
+    "orders": {
+      "title": "ऑर्डर",
+      "subtitle": "पक्का हुआ काम और उसकी पूर्ति",
+      "new": "नया ऑर्डर"
+    },
+    "projects": {
+      "title": "प्रोजेक्ट",
+      "subtitle": "ग्राहकों के लिए चल रहा काम",
+      "new": "नया प्रोजेक्ट"
+    },
+    "tickets": {
+      "title": "टिकट",
+      "subtitle": "सहायता अनुरोध और उनकी प्रगति",
+      "new": "नया टिकट"
+    },
+    "contracts": {
+      "title": "अनुबंध",
+      "subtitle": "सेवा और रखरखाव अनुबंध, और उनकी समाप्ति",
+      "new": "नया अनुबंध"
+    },
+    "payments": {
+      "title": "भुगतान",
+      "subtitle": "कितना बिल हुआ, मिला और बाक़ी है",
+      "new": "नया भुगतान"
+    },
+    "products": {
+      "title": "उत्पाद",
+      "subtitle": "आप जो बेचते हैं: सामान और सेवाएँ",
+      "new": "नया उत्पाद"
+    },
+    "users": {
+      "title": "उपयोगकर्ता",
+      "subtitle": "जो साइन इन कर सकते हैं, और उनकी भूमिकाएँ",
+      "new": "नया उपयोगकर्ता"
+    },
+    "roles": {
+      "title": "भूमिकाएँ",
+      "subtitle": "हर तरह का उपयोगकर्ता क्या कर सकता है",
+      "new": "नई भूमिका"
+    },
+    "documents": {
+      "title": "दस्तावेज़",
+      "subtitle": "रिकॉर्ड से जुड़ी फ़ाइलें"
+    },
+    "reports": {
+      "title": "रिपोर्ट",
+      "subtitle": "ताज़ा डेटा से निकाले गए आँकड़े"
+    },
+    "auditLog": {
+      "title": "ऑडिट लॉग",
+      "subtitle": "किसने क्या बदला, और कब"
+    },
+    "notifications": {
+      "title": "सूचनाएँ",
+      "subtitle": "जो आपको सौंपा गया है या जिस पर ध्यान चाहिए"
+    }
+  },
+  "dashboard": {
+    "title": "डैशबोर्ड",
+    "customize": "अनुकूलित करें",
+    "customizeTitle": "डैशबोर्ड अनुकूलित करें",
+    "customizeHint": "चुनें कि क्या दिखे। विजेट को उसके हैंडल से खींचकर जगह बदलें; दाएँ किनारे को खींचकर आकार बदलें।",
+    "done": "हो गया",
+    "reset": "लेआउट रीसेट करें",
+    "editing": "आप डैशबोर्ड व्यवस्थित कर रहे हैं",
+    "widgetSize": "चौड़ाई",
+    "moveEarlier": "{{name}} को पहले ले जाएँ",
+    "moveLater": "{{name}} को बाद में ले जाएँ",
+    "hide": "{{name}} छिपाएँ",
+    "resize": "{{name}} का आकार बदलें",
+    "drag": "{{name}} को खींचकर ले जाएँ",
+    "fullscreen": "पूरी स्क्रीन",
+    "exitFullscreen": "पूरी स्क्रीन से बाहर",
+    "download": "डेटा डाउनलोड करें (CSV)",
+    "showChart": "चार्ट के रूप में दिखाएँ",
+    "showTable": "तालिका के रूप में दिखाएँ",
+    "sizes": {
+      "small": "छोटा",
+      "medium": "मध्यम",
+      "large": "बड़ा",
+      "full": "पूरी चौड़ाई"
+    },
+    "nothingShown": "सभी विजेट छिपे हैं।",
+    "unavailable": "आपको यह जानकारी देखने की अनुमति नहीं है।"
+  },
+  "fields": {
+    "status": "स्थिति",
+    "search": "खोजें",
+    "company": "कंपनी",
+    "viewDetails": "विवरण देखें",
+    "number": "नंबर",
+    "delete": "हटाएँ",
+    "actions": "कार्रवाइयाँ",
+    "allStatuses": "सभी स्थितियाँ",
+    "priority": "प्राथमिकता",
+    "edit": "संपादित करें",
+    "customer": "ग्राहक",
+    "assignedTo": "किसे सौंपा गया",
+    "type": "प्रकार",
+    "created": "बनाया गया",
+    "category": "श्रेणी",
+    "phone": "फ़ोन",
+    "industry": "उद्योग",
+    "allPriorities": "सभी प्राथमिकताएँ",
+    "to": "तक",
+    "role": "भूमिका",
+    "name": "नाम",
+    "method": "तरीका",
+    "grandTotal": "कुल योग",
+    "from": "से",
+    "email": "ईमेल",
+    "due": "देय",
+    "designation": "पद",
+    "city": "शहर",
+    "amount": "राशि",
+    "allCategories": "सभी श्रेणियाँ",
+    "accountManager": "खाता प्रबंधक",
+    "validUntil": "कब तक मान्य",
+    "unit": "इकाई",
+    "tax": "कर",
+    "subject": "विषय",
+    "start": "शुरू",
+    "source": "स्रोत",
+    "since": "कब से",
+    "show": "दिखाएँ",
+    "sKU": "SKU",
+    "resetPassword": "पासवर्ड रीसेट करें",
+    "replies": "जवाब",
+    "renewal": "नवीनीकरण",
+    "remaining": "बाक़ी",
+    "quotation": "कोटेशन",
+    "queue": "कतार",
+    "project": "प्रोजेक्ट",
+    "progress": "प्रगति",
+    "product": "उत्पाद",
+    "price": "कीमत",
+    "paidOn": "भुगतान की तारीख़",
+    "paid": "भुगतान हुआ",
+    "orders": "ऑर्डर",
+    "orderValue": "ऑर्डर मूल्य",
+    "orderDate": "ऑर्डर की तारीख़",
+    "order": "ऑर्डर",
+    "openTasks": "खुले कार्य",
+    "managerOrMember": "प्रबंधक या सदस्य",
+    "manager": "प्रबंधक",
+    "lead": "लीड",
+    "lastOrder": "पिछला ऑर्डर",
+    "lastLogin": "पिछला साइन इन",
+    "lastActivity": "पिछली गतिविधि",
+    "invoice": "इनवॉइस",
+    "expectedClose": "अपेक्षित समापन",
+    "estValue": "अनुमानित मूल्य",
+    "ends": "समाप्ति",
+    "end": "अंत",
+    "department": "विभाग",
+    "delivery": "डिलीवरी",
+    "date": "तारीख़",
+    "converted": "रूपांतरित",
+    "conversion": "रूपांतरण",
+    "contact": "संपर्क",
+    "code": "कोड",
+    "budget": "बजट",
+    "billingCycle": "बिलिंग चक्र",
+    "billing": "बिलिंग",
+    "allTypes": "सभी प्रकार",
+    "allSources": "सभी स्रोत",
+    "allMethods": "सभी तरीके",
+    "allCycles": "सभी चक्र"
+  },
+  "bulk": {
+    "assign": "सौंपें",
+    "changeStatus": "स्थिति बदलें",
+    "assignTitle_one": "{{count}} लीड सौंपें",
+    "assignTitle_other": "{{count}} लीड सौंपें",
+    "statusTitle_one": "{{count}} लीड की स्थिति बदलें",
+    "statusTitle_other": "{{count}} लीड की स्थिति बदलें",
+    "deleteTitle_one": "{{count}} लीड हटाएँ?",
+    "deleteTitle_other": "{{count}} लीड हटाएँ?",
+    "done_one": "{{count}} रिकॉर्ड अपडेट हुआ",
+    "done_other": "{{count}} रिकॉर्ड अपडेट हुए",
+    "partly": "{{done}} पूरे हुए, {{failed}} विफल: {{reason}}"
+  }
+}

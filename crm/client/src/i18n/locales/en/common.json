@@ -1,0 +1,494 @@
+{
+  "app": {
+    "skipToContent": "Skip to content",
+    "loading": "Loading",
+    "tagline": "Customers, sales and service in one place"
+  },
+  "actions": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "create": "Create",
+    "add": "Add",
+    "close": "Close",
+    "back": "Back",
+    "retry": "Retry",
+    "apply": "Apply",
+    "clear": "Clear",
+    "reset": "Reset",
+    "confirm": "Confirm",
+    "export": "Export",
+    "search": "Search",
+    "filter": "Filters",
+    "refresh": "Refresh",
+    "done": "Done",
+    "more": "More actions",
+    "open": "Open",
+    "viewDetails": "View details",
+    "openFullPage": "Open full page",
+    "signOut": "Sign out",
+    "signIn": "Sign in",
+    "goBack": "Go back",
+    "goToDashboard": "Go to dashboard",
+    "reload": "Reload"
+  },
+  "nav": {
+    "main": "Main navigation",
+    "dashboard": "Dashboard",
+    "leads": "Leads",
+    "opportunities": "Opportunities",
+    "pipelines": "Pipelines",
+    "quotations": "Quotations",
+    "orders": "Orders",
+    "companies": "Companies",
+    "contacts": "Contacts",
+    "customers": "Customers",
+    "projects": "Projects",
+    "tickets": "Tickets",
+    "contracts": "Contracts",
+    "documents": "Documents",
+    "payments": "Payments",
+    "products": "Products",
+    "categories": "Categories",
+    "units": "Units",
+    "taxes": "Taxes",
+    "reports": "Reports",
+    "users": "Users",
+    "roles": "Roles",
+    "permissions": "Permissions",
+    "lists": "Lists and statuses",
+    "applicationSettings": "Application settings",
+    "auditLog": "Audit log",
+    "notifications": "Notifications"
+  },
+  "navGroups": {
+    "sales": "Sales",
+    "customers": "Customers",
+    "operations": "Operations",
+    "finance": "Finance",
+    "catalogue": "Catalogue",
+    "insights": "Insights",
+    "administration": "Administration"
+  },
+  "sidebar": {
+    "collapse": "Collapse sidebar",
+    "expand": "Expand sidebar",
+    "open": "Open navigation",
+    "resize": "Resize sidebar",
+    "resizeHint": "Drag to resize. Double-click to reset."
+  },
+  "topbar": {
+    "help": "Help and keyboard shortcuts",
+    "language": "Language",
+    "theme": "Theme and appearance",
+    "account": "Account: {{name}}",
+    "accountFallback": "Account"
+  },
+  "search": {
+    "placeholder": "Search…",
+    "placeholderLong": "Search or jump to…",
+    "label": "Search the CRM",
+    "searching": "Searching…",
+    "nothing": "Nothing found",
+    "hint": "Try a name, a number or a phone",
+    "commands": "Go to",
+    "create": "Create",
+    "categories": {
+      "companies": "Companies",
+      "contacts": "Contacts",
+      "leads": "Leads",
+      "opportunities": "Opportunities",
+      "quotations": "Quotations",
+      "orders": "Orders",
+      "projects": "Projects",
+      "tickets": "Tickets",
+      "contracts": "Contracts"
+    }
+  },
+  "quickCreate": {
+    "label": "Create",
+    "lead": "Lead",
+    "company": "Company",
+    "contact": "Contact",
+    "opportunity": "Opportunity",
+    "quotation": "Quotation",
+    "product": "Product",
+    "newLead": "New lead",
+    "newCompany": "New company",
+    "newContact": "New contact",
+    "newOpportunity": "New opportunity",
+    "newQuotation": "New quotation",
+    "newProduct": "New product"
+  },
+  "appearance": {
+    "title": "Appearance",
+    "mode": "Mode",
+    "theme": "Colour theme",
+    "chooseTheme": "Choose theme",
+    "fontSize": "Text size",
+    "density": "Table density",
+    "preview": "Preview",
+    "resetAll": "Reset to defaults",
+    "selected": "Selected"
+  },
+  "modes": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "themes": {
+    "professionalBlue": "Professional Blue",
+    "enterpriseIndigo": "Enterprise Indigo",
+    "emerald": "Emerald",
+    "ocean": "Ocean",
+    "purple": "Purple",
+    "slate": "Slate",
+    "warm": "Warm",
+    "highContrast": "High Contrast"
+  },
+  "fontSizes": {
+    "small": "Small",
+    "medium": "Medium",
+    "large": "Large",
+    "xlarge": "Extra large"
+  },
+  "density": {
+    "label": "Density",
+    "compact": "Compact",
+    "standard": "Standard",
+    "comfortable": "Comfortable"
+  },
+  "languages": {
+    "label": "Language"
+  },
+  "userMenu": {
+    "profile": "Profile",
+    "preferences": "Preferences",
+    "shortcuts": "Keyboard shortcuts",
+    "changePassword": "Change password"
+  },
+  "preferences": {
+    "title": "Preferences",
+    "saved": "Your preferences are saved to your account.",
+    "savedLocal": "Your preferences are saved on this device.",
+    "resetConfirm": "Put the theme, text size, sidebar, tables and dashboard back to their defaults?"
+  },
+  "password": {
+    "title": "Change password",
+    "current": "Current password",
+    "new": "New password",
+    "confirm": "Confirm new password",
+    "mismatch": "The two passwords do not match",
+    "required": "This is required",
+    "changed": "Password changed",
+    "hint": "You stay signed in here; other devices are signed out."
+  },
+  "shortcuts": {
+    "title": "Keyboard shortcuts",
+    "search": "Search, or jump to a page",
+    "create": "Create a new record",
+    "help": "Show keyboard shortcuts",
+    "sidebar": "Collapse or expand the sidebar",
+    "close": "Close a dialog, drawer or menu",
+    "navigate": "Move through results or a menu",
+    "select": "Open the highlighted item",
+    "general": "General",
+    "navigation": "Navigation"
+  },
+  "table": {
+    "columns": "Columns",
+    "columnsTitle": "Choose and order columns",
+    "moveUp": "Move {{name}} up",
+    "moveDown": "Move {{name}} down",
+    "showAll": "Show all",
+    "resetColumns": "Reset columns",
+    "density": "Density",
+    "fullscreen": "Full screen",
+    "exitFullscreen": "Exit full screen",
+    "exportCsv": "Download as CSV",
+    "print": "Print",
+    "selected_one": "{{count}} selected",
+    "selected_other": "{{count}} selected",
+    "clearSelection": "Clear selection",
+    "noRows": "Nothing to show",
+    "rowsPerPage": "Rows per page:",
+    "pageOf": "{{from}}–{{to}} of {{count}}",
+    "previousPage": "Previous page",
+    "nextPage": "Next page",
+    "quickView": "Quick view"
+  },
+  "filters": {
+    "title": "Filters",
+    "active_one": "{{count}} filter",
+    "active_other": "{{count}} filters",
+    "from": "From",
+    "to": "To",
+    "all": "All"
+  },
+  "states": {
+    "emptyTitle": "Nothing here yet",
+    "emptyDescription": "Records you create will appear here.",
+    "noResultsTitle": "No results found",
+    "noResultsDescription": "Try changing your search or filters.",
+    "errorTitle": "Unable to load this",
+    "errorDescription": "Please try again.",
+    "forbidden": "You do not have permission to view this page."
+  },
+  "errors": {
+    "401": {
+      "title": "Sign in required",
+      "description": "Your session has ended. Sign in again to continue."
+    },
+    "403": {
+      "title": "Access denied",
+      "description": "You do not have permission to see this page. Ask an administrator if you need it."
+    },
+    "404": {
+      "title": "Page not found",
+      "description": "The page you are looking for does not exist or has moved."
+    },
+    "500": {
+      "title": "Something went wrong",
+      "description": "An unexpected error occurred. Try again, or reload the page."
+    }
+  },
+  "login": {
+    "title": "Sign in",
+    "subtitle": "Sign in to {{name}} to continue",
+    "email": "Email",
+    "password": "Password",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Enter a valid email address",
+    "passwordRequired": "Password is required",
+    "points": {
+      "pipeline": "Leads, opportunities and quotations in one pipeline",
+      "service": "Projects, tickets and contracts for every customer",
+      "insight": "Dashboards and reports from live data"
+    }
+  },
+  "confirm": {
+    "deleteTitle": "Delete {{name}}?",
+    "deleteBody": "This removes it from the lists. Records that refer to it are kept."
+  },
+  "notifications": {
+    "label": "Notifications",
+    "labelUnread": "Notifications, {{count}} unread"
+  },
+  "pages": {
+    "leads": {
+      "title": "Leads",
+      "subtitle": "Enquiries, from first contact to conversion",
+      "new": "New lead"
+    },
+    "companies": {
+      "title": "Companies",
+      "subtitle": "The organisations you sell to and serve",
+      "new": "New company"
+    },
+    "contacts": {
+      "title": "Contacts",
+      "subtitle": "The people at your companies",
+      "new": "New contact"
+    },
+    "customers": {
+      "title": "Customers",
+      "subtitle": "Companies that have bought from you",
+      "new": "New customer"
+    },
+    "opportunities": {
+      "title": "Opportunities",
+      "subtitle": "Deals in progress across your pipelines",
+      "new": "New opportunity"
+    },
+    "quotations": {
+      "title": "Quotations",
+      "subtitle": "Offers prepared and sent to companies",
+      "new": "New quotation"
+    },
+    "orders": {
+      "title": "Orders",
+      "subtitle": "Confirmed business and its fulfilment",
+      "new": "New order"
+    },
+    "projects": {
+      "title": "Projects",
+      "subtitle": "Work being delivered for customers",
+      "new": "New project"
+    },
+    "tickets": {
+      "title": "Tickets",
+      "subtitle": "Support requests and their progress",
+      "new": "New ticket"
+    },
+    "contracts": {
+      "title": "Contracts",
+      "subtitle": "Service and maintenance contracts, and when they end",
+      "new": "New contract"
+    },
+    "payments": {
+      "title": "Payments",
+      "subtitle": "What has been invoiced, received and is still due",
+      "new": "New payment"
+    },
+    "products": {
+      "title": "Products",
+      "subtitle": "What you sell: goods and services",
+      "new": "New product"
+    },
+    "users": {
+      "title": "Users",
+      "subtitle": "People who can sign in, and their roles",
+      "new": "New user"
+    },
+    "roles": {
+      "title": "Roles",
+      "subtitle": "What each kind of user may do",
+      "new": "New role"
+    },
+    "documents": {
+      "title": "Documents",
+      "subtitle": "Files attached to records"
+    },
+    "reports": {
+      "title": "Reports",
+      "subtitle": "Figures computed from live data"
+    },
+    "auditLog": {
+      "title": "Audit log",
+      "subtitle": "Who changed what, and when"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "subtitle": "What has been assigned to you or needs attention"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "customize": "Customize",
+    "customizeTitle": "Customize dashboard",
+    "customizeHint": "Choose what to show. Drag a widget by its handle to move it; drag its right edge to resize it.",
+    "done": "Done",
+    "reset": "Reset layout",
+    "editing": "You are arranging the dashboard",
+    "widgetSize": "Width",
+    "moveEarlier": "Move {{name}} earlier",
+    "moveLater": "Move {{name}} later",
+    "hide": "Hide {{name}}",
+    "resize": "Resize {{name}}",
+    "drag": "Drag to move {{name}}",
+    "fullscreen": "Full screen",
+    "exitFullscreen": "Exit full screen",
+    "download": "Download data (CSV)",
+    "showChart": "Show as chart",
+    "showTable": "Show as table",
+    "sizes": {
+      "small": "Small",
+      "medium": "Medium",
+      "large": "Large",
+      "full": "Full width"
+    },
+    "nothingShown": "Every widget is hidden.",
+    "unavailable": "You do not have access to this information."
+  },
+  "fields": {
+    "status": "Status",
+    "search": "Search",
+    "company": "Company",
+    "viewDetails": "View details",
+    "number": "Number",
+    "delete": "Delete",
+    "actions": "Actions",
+    "allStatuses": "All statuses",
+    "priority": "Priority",
+    "edit": "Edit",
+    "customer": "Customer",
+    "assignedTo": "Assigned to",
+    "type": "Type",
+    "created": "Created",
+    "category": "Category",
+    "phone": "Phone",
+    "industry": "Industry",
+    "allPriorities": "All priorities",
+    "to": "To",
+    "role": "Role",
+    "name": "Name",
+    "method": "Method",
+    "grandTotal": "Grand total",
+    "from": "From",
+    "email": "Email",
+    "due": "Due",
+    "designation": "Designation",
+    "city": "City",
+    "amount": "Amount",
+    "allCategories": "All categories",
+    "accountManager": "Account manager",
+    "validUntil": "Valid until",
+    "unit": "Unit",
+    "tax": "Tax",
+    "subject": "Subject",
+    "start": "Start",
+    "source": "Source",
+    "since": "Since",
+    "show": "Show",
+    "sKU": "SKU",
+    "resetPassword": "Reset password",
+    "replies": "Replies",
+    "renewal": "Renewal",
+    "remaining": "Remaining",
+    "quotation": "Quotation",
+    "queue": "Queue",
+    "project": "Project",
+    "progress": "Progress",
+    "product": "Product",
+    "price": "Price",
+    "paidOn": "Paid on",
+    "paid": "Paid",
+    "orders": "Orders",
+    "orderValue": "Order value",
+    "orderDate": "Order date",
+    "order": "Order",
+    "openTasks": "Open tasks",
+    "managerOrMember": "Manager or member",
+    "manager": "Manager",
+    "lead": "Lead",
+    "lastOrder": "Last order",
+    "lastLogin": "Last login",
+    "lastActivity": "Last activity",
+    "invoice": "Invoice",
+    "expectedClose": "Expected close",
+    "estValue": "Est. value",
+    "ends": "Ends",
+    "end": "End",
+    "department": "Department",
+    "delivery": "Delivery",
+    "date": "Date",
+    "converted": "Converted",
+    "conversion": "Conversion",
+    "contact": "Contact",
+    "code": "Code",
+    "budget": "Budget",
+    "billingCycle": "Billing cycle",
+    "billing": "Billing",
+    "allTypes": "All types",
+    "allSources": "All sources",
+    "allMethods": "All methods",
+    "allCycles": "All cycles"
+  },
+  "bulk": {
+    "assign": "Assign",
+    "changeStatus": "Change status",
+    "assignTitle_one": "Assign {{count}} lead",
+    "assignTitle_other": "Assign {{count}} leads",
+    "statusTitle_one": "Change the status of {{count}} lead",
+    "statusTitle_other": "Change the status of {{count}} leads",
+    "deleteTitle_one": "Delete {{count}} lead?",
+    "deleteTitle_other": "Delete {{count}} leads?",
+    "done_one": "{{count}} record updated",
+    "done_other": "{{count}} records updated",
+    "partly": "{{done}} done, {{failed}} failed: {{reason}}"
+  }
+}

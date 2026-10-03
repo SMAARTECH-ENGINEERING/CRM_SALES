@@ -1,0 +1,24 @@
+node_modules/
+dist/
+build/
+coverage/
+
+# Environment files - never commit real values
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Files uploaded through the API (ticket attachments)
+uploads/

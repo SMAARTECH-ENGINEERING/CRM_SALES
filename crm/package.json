@@ -1,0 +1,26 @@
+{
+  "name": "crm",
+  "version": "0.1.0",
+  "private": true,
+  "description": "B2B CRM - monorepo root (client + server)",
+  "scripts": {
+    "install:all": "npm install && npm --prefix server install && npm --prefix client install",
+    "setup:env": "npm --prefix server run setup:env && node -e \"const fs=require('fs');if(!fs.existsSync('client/.env')){fs.copyFileSync('client/.env.example','client/.env');console.log('Created client/.env')}else{console.log('client/.env already exists')}\"",
+    "dev": "concurrently -n server,client -c blue,green \"npm --prefix server run dev\" \"npm --prefix client run dev\"",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "start": "npm --prefix server start",
+    "test": "npm --prefix server test && npm --prefix client test",
+    "test:server": "npm --prefix server test",
+    "test:client": "npm --prefix client test",
+    "seed": "npm --prefix server run seed",
+    "seed:demo": "npm run seed:demo --prefix server --"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
