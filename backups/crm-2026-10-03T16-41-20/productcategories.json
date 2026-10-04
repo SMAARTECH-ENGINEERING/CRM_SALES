@@ -1,0 +1,137 @@
+[
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d5644"
+  },
+  "name": "Office Furniture",
+  "sortOrder": {
+   "$numberInt": "10"
+  },
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "skuPrefix": "FURN",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505617"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505617"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d5645"
+  },
+  "name": "IT Hardware",
+  "sortOrder": {
+   "$numberInt": "20"
+  },
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "skuPrefix": "ITHW",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505624"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505624"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d5646"
+  },
+  "name": "Software Licences",
+  "sortOrder": {
+   "$numberInt": "30"
+  },
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "skuPrefix": "SOFT",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505627"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505627"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d5647"
+  },
+  "name": "Professional Services",
+  "sortOrder": {
+   "$numberInt": "40"
+  },
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "skuPrefix": "SERV",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505630"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505630"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d5648"
+  },
+  "name": "Consumables",
+  "sortOrder": {
+   "$numberInt": "50"
+  },
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "skuPrefix": "CONS",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505633"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505633"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ }
+]

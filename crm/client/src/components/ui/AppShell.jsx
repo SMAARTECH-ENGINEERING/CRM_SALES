@@ -4,9 +4,10 @@ import Link from '@mui/material/Link';
 import Toolbar from '@mui/material/Toolbar';
 import { Suspense, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Outlet } from 'react-router-dom';
+import { Outlet, useLocation } from 'react-router-dom';
 import { usePreferences } from '../../context/PreferencesContext.jsx';
 import { useApplySettings } from '../../hooks/useSettings.js';
+import ErrorBoundary from '../ErrorBoundary.jsx';
 import useShortcuts from '../../hooks/useShortcuts.js';
 import { LAYOUT } from '../../theme/spacing.js';
 import AutoBreadcrumbs from './AutoBreadcrumbs.jsx';
@@ -26,6 +27,7 @@ const MAIN_ID = 'main-content';
 //  - Small screens: the sidebar is a drawer opened from the top bar.
 export default function AppShell() {
   const { t, i18n } = useTranslation();
+  const { pathname } = useLocation();
   const { preferences, update } = usePreferences();
   // Name, logo, date format, time zone and currency come from the settings.
   const { settings, ready } = useApplySettings();
@@ -115,7 +117,11 @@ export default function AppShell() {
           {/* Keeps the shell on screen while a lazily loaded page arrives. A new
               language redraws the page, so every date and number follows it. */}
           <AutoBreadcrumbs />
-          <Suspense fallback={<LoadingState />}>{ready ? <Outlet key={i18n.language} /> : <LoadingState />}</Suspense>
+          {/* A page that fails shows the error in its own area - the menus keep
+              working, and going to another page clears it. */}
+          <ErrorBoundary key={pathname} fullHeight={false}>
+            <Suspense fallback={<LoadingState />}>{ready ? <Outlet key={i18n.language} /> : <LoadingState />}</Suspense>
+          </ErrorBoundary>
         </Box>
       </Box>
 

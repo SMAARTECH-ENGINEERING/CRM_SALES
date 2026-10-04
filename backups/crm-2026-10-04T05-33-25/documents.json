@@ -1,0 +1,191 @@
+[
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de859"
+  },
+  "fileName": "Company registration.pdf",
+  "fileType": "application/pdf",
+  "fileSize": {
+   "$numberInt": "50"
+  },
+  "entityType": "company",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de5ba"
+  },
+  "uploadedBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "storageKey": "documents/company/6ac130c5032f6295e82de5ba/b189a935-5efc-4340-9710-0efa78640503.pdf",
+  "storageDriver": "local",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832658"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de85a"
+  },
+  "fileName": "Meeting notes.txt",
+  "fileType": "text/plain",
+  "fileSize": {
+   "$numberInt": "55"
+  },
+  "entityType": "company",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de5ba"
+  },
+  "uploadedBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "storageKey": "documents/company/6ac130c5032f6295e82de5ba/e0946f29-37f0-4800-90ee-970d36116bf7.txt",
+  "storageDriver": "local",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832658"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de85c"
+  },
+  "fileName": "Company registration.pdf",
+  "fileType": "application/pdf",
+  "fileSize": {
+   "$numberInt": "47"
+  },
+  "entityType": "company",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de5bf"
+  },
+  "uploadedBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "storageKey": "documents/company/6ac130c5032f6295e82de5bf/c42673e7-3316-485b-8eca-47dec7696b4c.pdf",
+  "storageDriver": "local",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832665"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de85d"
+  },
+  "fileName": "Meeting notes.txt",
+  "fileType": "text/plain",
+  "fileSize": {
+   "$numberInt": "52"
+  },
+  "entityType": "company",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de5bf"
+  },
+  "uploadedBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "storageKey": "documents/company/6ac130c5032f6295e82de5bf/895c37c9-7eb4-49ba-b549-97a465abf776.txt",
+  "storageDriver": "local",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832665"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de85f"
+  },
+  "fileName": "Company registration.pdf",
+  "fileType": "application/pdf",
+  "fileSize": {
+   "$numberInt": "48"
+  },
+  "entityType": "company",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de5c4"
+  },
+  "uploadedBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "storageKey": "documents/company/6ac130c5032f6295e82de5c4/a63c77a9-2754-4268-bbdf-abb66f1696f2.pdf",
+  "storageDriver": "local",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832671"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de860"
+  },
+  "fileName": "Meeting notes.txt",
+  "fileType": "text/plain",
+  "fileSize": {
+   "$numberInt": "53"
+  },
+  "entityType": "company",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de5c4"
+  },
+  "uploadedBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "storageKey": "documents/company/6ac130c5032f6295e82de5c4/69ba229c-bf07-4bec-990b-a04e0d71efdb.txt",
+  "storageDriver": "local",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832671"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de862"
+  },
+  "fileName": "Customer purchase order.pdf",
+  "fileType": "application/pdf",
+  "fileSize": {
+   "$numberInt": "45"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de73e"
+  },
+  "uploadedBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "storageKey": "documents/quotation/6ac130c7032f6295e82de73e/90fbe7cd-23e2-476d-ae82-1cb8eebb8a1e.pdf",
+  "storageDriver": "local",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832677"
+   }
+  }
+ }
+]

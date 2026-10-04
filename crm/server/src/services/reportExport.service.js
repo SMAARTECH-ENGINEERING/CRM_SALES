@@ -50,7 +50,7 @@ export function toCsv(data) {
     lines.push(columns.map((column) => csvCell(text(row[column.key], column.type), NUMERIC.includes(column.type))).join(','));
   }
   // The byte-order mark makes Excel read the file as UTF-8.
-  return Buffer.from(`﻿${lines.join('\r\n')}\r\n`, 'utf8');
+  return Buffer.from(`\uFEFF${lines.join('\r\n')}\r\n`, 'utf8');
 }
 
 // --- Excel ----------------------------------------------------------------------------

@@ -115,7 +115,6 @@ function AuditLogDialog({ id, onClose }) {
                         {field}
                       </TableCell>
                       {[entry.oldData, entry.newData].map((side, index) => (
-                        // eslint-disable-next-line react/no-array-index-key
                         <TableCell key={index} sx={{ verticalAlign: 'top', whiteSpace: 'pre-wrap', wordBreak: 'break-word', fontFamily: 'monospace', fontSize: 12 }}>
                           {show(side?.[field])}
                         </TableCell>

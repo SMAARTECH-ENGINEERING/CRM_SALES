@@ -1,0 +1,164 @@
+[
+ {
+  "_id": {
+   "$oid": "6abfd0151f4affd3581f283b"
+  },
+  "name": "New",
+  "description": "Received, not yet confirmed",
+  "sortOrder": {
+   "$numberInt": "10"
+  },
+  "isActive": true,
+  "category": "open",
+  "color": "#757575",
+  "isDefault": true,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790955541523"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790955541523"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfd0151f4affd3581f283c"
+  },
+  "name": "Confirmed",
+  "description": "Accepted and scheduled",
+  "sortOrder": {
+   "$numberInt": "20"
+  },
+  "isActive": true,
+  "category": "in_progress",
+  "color": "#1976d2",
+  "isDefault": false,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790955541523"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790955541523"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfd0151f4affd3581f283d"
+  },
+  "name": "Processing",
+  "description": "Being prepared",
+  "sortOrder": {
+   "$numberInt": "30"
+  },
+  "isActive": true,
+  "category": "in_progress",
+  "color": "#7b1fa2",
+  "isDefault": false,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790955541523"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790955541523"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfd0151f4affd3581f283e"
+  },
+  "name": "Shipped",
+  "description": "On its way",
+  "sortOrder": {
+   "$numberInt": "40"
+  },
+  "isActive": true,
+  "category": "in_progress",
+  "color": "#ed6c02",
+  "isDefault": false,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790955541523"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790955541523"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfd0151f4affd3581f283f"
+  },
+  "name": "Delivered",
+  "description": "Delivered to the customer",
+  "sortOrder": {
+   "$numberInt": "50"
+  },
+  "isActive": true,
+  "category": "completed",
+  "color": "#2e7d32",
+  "isDefault": false,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790955541523"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790955541523"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfd0151f4affd3581f2840"
+  },
+  "name": "Cancelled",
+  "description": "Will not be fulfilled",
+  "sortOrder": {
+   "$numberInt": "60"
+  },
+  "isActive": true,
+  "category": "cancelled",
+  "color": "#d32f2f",
+  "isDefault": false,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790955541523"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790955541523"
+   }
+  }
+ }
+]

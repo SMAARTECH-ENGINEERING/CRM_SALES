@@ -1,0 +1,116 @@
+[
+ {
+  "_id": {
+   "$oid": "6ac13146495771d303e8b332"
+  },
+  "contractId": {
+   "$oid": "6ac130c8032f6295e82de831"
+  },
+  "daysBefore": {
+   "$numberInt": "7"
+  },
+  "endDate": {
+   "$date": {
+    "$numberLong": "1791417600000"
+   }
+  },
+  "daysLeft": {
+   "$numberInt": "5"
+  },
+  "recipientId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045958506"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "emailedAt": {
+   "$date": {
+    "$numberLong": "1791045984001"
+   }
+  },
+  "followUpId": {
+   "$oid": "6ac13146495771d303e8b334"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac13160495771d303e8b339"
+  },
+  "contractId": {
+   "$oid": "6ac130c8032f6295e82de833"
+  },
+  "daysBefore": {
+   "$numberInt": "15"
+  },
+  "endDate": {
+   "$date": {
+    "$numberLong": "1792022400000"
+   }
+  },
+  "daysLeft": {
+   "$numberInt": "12"
+  },
+  "recipientId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045984017"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "emailedAt": {
+   "$date": {
+    "$numberLong": "1791046008959"
+   }
+  },
+  "followUpId": {
+   "$oid": "6ac13160495771d303e8b33a"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac13178495771d303e8b33d"
+  },
+  "contractId": {
+   "$oid": "6ac130c8032f6295e82de835"
+  },
+  "daysBefore": {
+   "$numberInt": "30"
+  },
+  "endDate": {
+   "$date": {
+    "$numberLong": "1793404800000"
+   }
+  },
+  "daysLeft": {
+   "$numberInt": "28"
+  },
+  "recipientId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791046008971"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "emailedAt": {
+   "$date": {
+    "$numberLong": "1791046033720"
+   }
+  },
+  "followUpId": {
+   "$oid": "6ac13178495771d303e8b33e"
+  }
+ }
+]

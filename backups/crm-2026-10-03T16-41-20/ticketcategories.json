@@ -1,0 +1,127 @@
+[
+ {
+  "_id": {
+   "$oid": "6abfe70076bb65fc623fe5f4"
+  },
+  "name": "General Enquiry",
+  "description": "Questions and requests for information",
+  "sortOrder": {
+   "$numberInt": "10"
+  },
+  "isActive": true,
+  "color": "#757575",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790961408518"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790961408518"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfe70076bb65fc623fe5f5"
+  },
+  "name": "Technical Issue",
+  "description": "Something does not work",
+  "sortOrder": {
+   "$numberInt": "20"
+  },
+  "isActive": true,
+  "color": "#d32f2f",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790961408519"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790961408519"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfe70076bb65fc623fe5f6"
+  },
+  "name": "Billing",
+  "description": "Invoices, payments and refunds",
+  "sortOrder": {
+   "$numberInt": "30"
+  },
+  "isActive": true,
+  "color": "#ed6c02",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790961408519"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790961408519"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfe70076bb65fc623fe5f7"
+  },
+  "name": "Delivery",
+  "description": "Shipping, installation and handover",
+  "sortOrder": {
+   "$numberInt": "40"
+  },
+  "isActive": true,
+  "color": "#0288d1",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790961408519"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790961408519"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfe70076bb65fc623fe5f8"
+  },
+  "name": "Feature Request",
+  "description": "Suggestions and improvements",
+  "sortOrder": {
+   "$numberInt": "50"
+  },
+  "isActive": true,
+  "color": "#7b1fa2",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790961408519"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790961408519"
+   }
+  }
+ }
+]

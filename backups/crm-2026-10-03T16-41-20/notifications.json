@@ -1,0 +1,192 @@
+[
+ {
+  "_id": {
+   "$oid": "6ac0903b83d9f1b6cf99d6af"
+  },
+  "userId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "type": "follow_up_due",
+  "title": "Follow-up overdue",
+  "message": "\"Send revised proposal\" was due on 2026-09-29",
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6abfcc0b35f535f3326d5761"
+  },
+  "isRead": false,
+  "dedupeKey": "follow-up-due:6abfcc0b35f535f3326d57e1:1790695307989",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791004731380"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac0903b83d9f1b6cf99d6b0"
+  },
+  "userId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "type": "follow_up_due",
+  "title": "Follow-up due",
+  "message": "\"Contract CON-000001 with Acme Industries ends in 5 days\" is due on 2026-10-08",
+  "entityType": "contract",
+  "entityId": {
+   "$oid": "6ac0875ff3dc88e82c4c5e02"
+  },
+  "isRead": true,
+  "dedupeKey": "follow-up-due:6ac08928a26ba2b001a69a8f:1791417600000",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791004731385"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "readAt": {
+   "$date": {
+    "$numberLong": "1791004916330"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac0903b83d9f1b6cf99d6b1"
+  },
+  "userId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "type": "follow_up_due",
+  "title": "Follow-up due",
+  "message": "\"Contract CON-000002 with Evergreen Builders ends in 12 days\" is due on 2026-10-15",
+  "entityType": "contract",
+  "entityId": {
+   "$oid": "6ac0875ff3dc88e82c4c5e04"
+  },
+  "isRead": false,
+  "dedupeKey": "follow-up-due:6ac0892da26ba2b001a69a92:1792022400000",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791004731389"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac0903b83d9f1b6cf99d6b2"
+  },
+  "userId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "type": "follow_up_due",
+  "title": "Follow-up due",
+  "message": "\"Contract CON-000003 with Cedar Systems ends in 28 days\" is due on 2026-10-31",
+  "entityType": "contract",
+  "entityId": {
+   "$oid": "6ac0875ff3dc88e82c4c5e06"
+  },
+  "isRead": false,
+  "dedupeKey": "follow-up-due:6ac08931a26ba2b001a69a95:1793404800000",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791004731392"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac0903b83d9f1b6cf99d6b3"
+  },
+  "userId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "type": "payment_overdue",
+  "title": "Payment overdue",
+  "message": "INV-000004 (Evergreen Builders): 64000.00 outstanding, due 2026-09-21 - 12 days ago",
+  "entityType": "payment",
+  "entityId": {
+   "$oid": "6ac08b9c2159b61e55e32475"
+  },
+  "isRead": false,
+  "dedupeKey": "payment-overdue:6ac08b9c2159b61e55e32475:1789948800000",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791004731400"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac0903b83d9f1b6cf99d6b4"
+  },
+  "userId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "type": "payment_overdue",
+  "title": "Payment overdue",
+  "message": "INV-000005 (Cedar Systems): 36500.00 outstanding, due 2026-09-27 - 6 days ago",
+  "entityType": "payment",
+  "entityId": {
+   "$oid": "6ac08b9c2159b61e55e32477"
+  },
+  "isRead": true,
+  "dedupeKey": "payment-overdue:6ac08b9c2159b61e55e32477:1790467200000",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791004731404"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "readAt": {
+   "$date": {
+    "$numberLong": "1791004947991"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac0903b83d9f1b6cf99d6b5"
+  },
+  "userId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "type": "payment_overdue",
+  "title": "Payment overdue",
+  "message": "INV-000010 (Evergreen Builders): 45750.00 outstanding, due 2026-10-01 - 2 days ago",
+  "entityType": "payment",
+  "entityId": {
+   "$oid": "6ac08b9c2159b61e55e32481"
+  },
+  "isRead": true,
+  "dedupeKey": "payment-overdue:6ac08b9c2159b61e55e32481:1790812800000",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791004731408"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "readAt": {
+   "$date": {
+    "$numberLong": "1791004909466"
+   }
+  }
+ }
+]

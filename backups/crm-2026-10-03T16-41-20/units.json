@@ -1,0 +1,110 @@
+[
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d5649"
+  },
+  "name": "Piece",
+  "sortOrder": {
+   "$numberInt": "10"
+  },
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "symbol": "pc",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505641"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505641"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d564a"
+  },
+  "name": "Hour",
+  "sortOrder": {
+   "$numberInt": "20"
+  },
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "symbol": "hr",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505647"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505647"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d564b"
+  },
+  "name": "Licence",
+  "sortOrder": {
+   "$numberInt": "30"
+  },
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "symbol": "lic",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505650"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505650"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d564c"
+  },
+  "name": "Box",
+  "sortOrder": {
+   "$numberInt": "40"
+  },
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "symbol": "box",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505653"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505653"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ }
+]

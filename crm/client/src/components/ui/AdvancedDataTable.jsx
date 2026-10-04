@@ -211,11 +211,9 @@ export default function AdvancedDataTable({ tableId, columns, rows, toolbar, bul
             hideable: false,
             renderHeader: () => null,
             renderCell: ({ row }) => (
-              <Tooltip title={t('table.quickView')}>
-                <IconButton size="small" aria-label={t('table.quickView')} onClick={() => setPeek(row)}>
-                  <VisibilityOutlinedIcon sx={{ fontSize: 18 }} />
-                </IconButton>
-              </Tooltip>
+              <IconButton size="small" title={t('table.quickView')} aria-label={t('table.quickView')} onClick={() => setPeek(row)}>
+                <VisibilityOutlinedIcon sx={{ fontSize: 18 }} />
+              </IconButton>
             ),
           },
         ]

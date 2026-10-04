@@ -1,0 +1,48 @@
+[
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d5642"
+  },
+  "name": "Head Office",
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505600"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505600"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d5643"
+  },
+  "name": "South Region",
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505607"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505607"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ }
+]

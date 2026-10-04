@@ -1,0 +1,118 @@
+[
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d564d"
+  },
+  "name": "GST 18%",
+  "sortOrder": {
+   "$numberInt": "10"
+  },
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "rate": {
+   "$numberInt": "18"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505660"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505660"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d564e"
+  },
+  "name": "GST 12%",
+  "sortOrder": {
+   "$numberInt": "20"
+  },
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "rate": {
+   "$numberInt": "12"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505668"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505668"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d564f"
+  },
+  "name": "GST 5%",
+  "sortOrder": {
+   "$numberInt": "30"
+  },
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "rate": {
+   "$numberInt": "5"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505670"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505670"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d5650"
+  },
+  "name": "Exempt",
+  "sortOrder": {
+   "$numberInt": "40"
+  },
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "rate": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505673"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505673"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ }
+]

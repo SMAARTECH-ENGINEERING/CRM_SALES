@@ -22,3 +22,6 @@ Thumbs.db
 
 # Files uploaded through the API (ticket attachments)
 uploads/
+
+# Throwaway upload folders made by test runs
+uploads-*/

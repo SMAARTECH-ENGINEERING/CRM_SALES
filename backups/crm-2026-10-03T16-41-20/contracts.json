@@ -1,0 +1,442 @@
+[
+ {
+  "_id": {
+   "$oid": "6ac0875ff3dc88e82c4c5e02"
+  },
+  "companyId": {
+   "$oid": "6abfcc0935f535f3326d5669"
+  },
+  "customerId": {
+   "$oid": "6abfdbd46a751217613fb253"
+  },
+  "contractTypeId": {
+   "$oid": "6abfee438deff8c2c2df0734"
+  },
+  "startDate": {
+   "$date": {
+    "$numberLong": "1759968000000"
+   }
+  },
+  "endDate": {
+   "$date": {
+    "$numberLong": "1791417600000"
+   }
+  },
+  "amount": {
+   "$numberInt": "48000"
+  },
+  "billingCycleId": {
+   "$oid": "6abfee438deff8c2c2df073d"
+  },
+  "statusId": {
+   "$oid": "6abfee438deff8c2c2df0739"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "description": "AMC for office printers and scanners",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "contractNumber": "CON-000001",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791002463377"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791002463377"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "con",
+   "000001",
+   "1"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6ac0875ff3dc88e82c4c5e04"
+  },
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d567b"
+  },
+  "customerId": {
+   "$oid": "6abfdbd46a751217613fb255"
+  },
+  "contractTypeId": {
+   "$oid": "6abfee438deff8c2c2df0735"
+  },
+  "startDate": {
+   "$date": {
+    "$numberLong": "1760572800000"
+   }
+  },
+  "endDate": {
+   "$date": {
+    "$numberLong": "1792022400000"
+   }
+  },
+  "amount": {
+   "$numberInt": "120000"
+  },
+  "billingCycleId": {
+   "$oid": "6abfee438deff8c2c2df073e"
+  },
+  "statusId": {
+   "$oid": "6abfee438deff8c2c2df0739"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "description": "Comprehensive maintenance for laptops",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "contractNumber": "CON-000002",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791002463423"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791002463423"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "con",
+   "000002",
+   "2"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6ac0875ff3dc88e82c4c5e06"
+  },
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5673"
+  },
+  "customerId": {
+   "$oid": "6abfde488c6f94de4194519d"
+  },
+  "contractTypeId": {
+   "$oid": "6abfee438deff8c2c2df0736"
+  },
+  "startDate": {
+   "$date": {
+    "$numberLong": "1761955200000"
+   }
+  },
+  "endDate": {
+   "$date": {
+    "$numberLong": "1793404800000"
+   }
+  },
+  "amount": {
+   "$numberInt": "75000"
+  },
+  "billingCycleId": {
+   "$oid": "6abfee438deff8c2c2df073f"
+  },
+  "statusId": {
+   "$oid": "6abfee438deff8c2c2df0739"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "renewalDate": {
+   "$date": {
+    "$numberLong": "1792108800000"
+   }
+  },
+  "description": "Help desk support plan",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "contractNumber": "CON-000003",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791002463457"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791002463457"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "con",
+   "000003",
+   "3"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6ac0875ff3dc88e82c4c5e08"
+  },
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5684"
+  },
+  "customerId": {
+   "$oid": "6abfde488c6f94de4194519f"
+  },
+  "contractTypeId": {
+   "$oid": "6abfee438deff8c2c2df0737"
+  },
+  "startDate": {
+   "$date": {
+    "$numberLong": "1764720000000"
+   }
+  },
+  "endDate": {
+   "$date": {
+    "$numberLong": "1796169600000"
+   }
+  },
+  "amount": {
+   "$numberInt": "36000"
+  },
+  "billingCycleId": {
+   "$oid": "6abfee438deff8c2c2df0740"
+  },
+  "statusId": {
+   "$oid": "6abfee438deff8c2c2df0739"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "renewalDate": {
+   "$date": {
+    "$numberLong": "1794873600000"
+   }
+  },
+  "description": "Furniture maintenance visits, twice a year",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "contractNumber": "CON-000004",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791002463478"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791002463478"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "con",
+   "000004",
+   "4"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6ac0875ff3dc88e82c4c5e0a"
+  },
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d568d"
+  },
+  "customerId": {
+   "$oid": "6abfde488c6f94de419451a1"
+  },
+  "contractTypeId": {
+   "$oid": "6abfee438deff8c2c2df0734"
+  },
+  "startDate": {
+   "$date": {
+    "$numberLong": "1776816000000"
+   }
+  },
+  "endDate": {
+   "$date": {
+    "$numberLong": "1808265600000"
+   }
+  },
+  "amount": {
+   "$numberInt": "210000"
+  },
+  "billingCycleId": {
+   "$oid": "6abfee438deff8c2c2df0741"
+  },
+  "statusId": {
+   "$oid": "6abfee438deff8c2c2df0739"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "renewalDate": {
+   "$date": {
+    "$numberLong": "1806969600000"
+   }
+  },
+  "description": "Network equipment AMC",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "contractNumber": "CON-000005",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791002463499"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791002463499"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "con",
+   "000005",
+   "5"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6ac0875ff3dc88e82c4c5e0c"
+  },
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5696"
+  },
+  "customerId": {
+   "$oid": "6abfde488c6f94de419451a3"
+  },
+  "contractTypeId": {
+   "$oid": "6abfee438deff8c2c2df0735"
+  },
+  "startDate": {
+   "$date": {
+    "$numberLong": "1758672000000"
+   }
+  },
+  "endDate": {
+   "$date": {
+    "$numberLong": "1790121600000"
+   }
+  },
+  "amount": {
+   "$numberInt": "54000"
+  },
+  "billingCycleId": {
+   "$oid": "6abfee438deff8c2c2df073d"
+  },
+  "statusId": {
+   "$oid": "6abfee438deff8c2c2df073a"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "description": "Projector maintenance - ended, awaiting the automatic expiry",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "contractNumber": "CON-000006",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791002463540"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791002920042"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "con",
+   "000006",
+   "6"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6ac0875ff3dc88e82c4c5e0e"
+  },
+  "companyId": {
+   "$oid": "6abfcc0935f535f3326d5669"
+  },
+  "customerId": {
+   "$oid": "6abfdbd46a751217613fb253"
+  },
+  "contractTypeId": {
+   "$oid": "6abfee438deff8c2c2df0736"
+  },
+  "startDate": {
+   "$date": {
+    "$numberLong": "1772496000000"
+   }
+  },
+  "endDate": {
+   "$date": {
+    "$numberLong": "1803945600000"
+   }
+  },
+  "amount": {
+   "$numberInt": "90000"
+  },
+  "billingCycleId": {
+   "$oid": "6abfee438deff8c2c2df073e"
+  },
+  "statusId": {
+   "$oid": "6abfee438deff8c2c2df0738"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "renewalDate": {
+   "$date": {
+    "$numberLong": "1802649600000"
+   }
+  },
+  "description": "Proposed AMC for the new branch",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "contractNumber": "CON-000007",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791002463560"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791002463560"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "con",
+   "000007",
+   "7"
+  ]
+ }
+]

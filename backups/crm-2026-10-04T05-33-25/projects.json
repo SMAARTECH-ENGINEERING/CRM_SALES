@@ -1,0 +1,417 @@
+[
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7ac"
+  },
+  "name": "Office fit-out",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5fb"
+  },
+  "customerId": {
+   "$oid": "6ac130c7032f6295e82de77f"
+  },
+  "orderId": {
+   "$oid": "6ac130c7032f6295e82de77c"
+  },
+  "description": "Demo project",
+  "startDate": {
+   "$date": {
+    "$numberLong": "1790208000000"
+   }
+  },
+  "expectedEndDate": {
+   "$date": {
+    "$numberLong": "1793664000000"
+   }
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b7"
+  },
+  "projectManagerId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "teamMembers": [
+   {
+    "$oid": "6abe20a9c0b355dbdb548e84"
+   }
+  ],
+  "budget": {
+   "$numberInt": "450000"
+  },
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "prj",
+   "000001",
+   "1",
+   "office",
+   "fit",
+   "out"
+  ],
+  "statusId": {
+   "$oid": "6abfe04a971d3cf38fcdf265"
+  },
+  "projectNumber": "PRJ-000001",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831680"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045831764"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7be"
+  },
+  "name": "IT rollout",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5ba"
+  },
+  "customerId": {
+   "$oid": "6ac130c7032f6295e82de785"
+  },
+  "orderId": {
+   "$oid": "6ac130c7032f6295e82de782"
+  },
+  "description": "Demo project",
+  "startDate": {
+   "$date": {
+    "$numberLong": "1787788800000"
+   }
+  },
+  "expectedEndDate": {
+   "$date": {
+    "$numberLong": "1790726400000"
+   }
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b7"
+  },
+  "projectManagerId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "teamMembers": [
+   {
+    "$oid": "6abe20a9c0b355dbdb548e84"
+   }
+  ],
+  "budget": {
+   "$numberInt": "290000"
+  },
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "prj",
+   "000002",
+   "2",
+   "it",
+   "rollout"
+  ],
+  "statusId": {
+   "$oid": "6abfe04a971d3cf38fcdf265"
+  },
+  "projectNumber": "PRJ-000002",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831782"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045831833"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7ce"
+  },
+  "name": "Annual maintenance",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de604"
+  },
+  "customerId": {
+   "$oid": "6ac130c7032f6295e82de78b"
+  },
+  "orderId": {
+   "$oid": "6ac130c7032f6295e82de788"
+  },
+  "description": "Demo project",
+  "startDate": {
+   "$date": {
+    "$numberLong": "1789084800000"
+   }
+  },
+  "expectedEndDate": {
+   "$date": {
+    "$numberLong": "1798934400000"
+   }
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b7"
+  },
+  "projectManagerId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "teamMembers": [
+   {
+    "$oid": "6abe20a9c0b355dbdb548e84"
+   }
+  ],
+  "budget": {
+   "$numberInt": "390000"
+  },
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "prj",
+   "000003",
+   "3",
+   "annual",
+   "maintenance"
+  ],
+  "statusId": {
+   "$oid": "6abfe04a971d3cf38fcdf264"
+  },
+  "projectNumber": "PRJ-000003",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831850"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045831850"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7db"
+  },
+  "name": "Office fit-out",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5da"
+  },
+  "customerId": {
+   "$oid": "6ac130c7032f6295e82de790"
+  },
+  "orderId": {
+   "$oid": "6ac130c7032f6295e82de78d"
+  },
+  "description": "Demo project",
+  "startDate": {
+   "$date": {
+    "$numberLong": "1788393600000"
+   }
+  },
+  "expectedEndDate": {
+   "$date": {
+    "$numberLong": "1791676800000"
+   }
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b7"
+  },
+  "projectManagerId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "teamMembers": [
+   {
+    "$oid": "6abe20a9c0b355dbdb548e84"
+   }
+  ],
+  "budget": {
+   "$numberInt": "420000"
+  },
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "prj",
+   "000004",
+   "4",
+   "office",
+   "fit",
+   "out"
+  ],
+  "statusId": {
+   "$oid": "6abfe04a971d3cf38fcdf266"
+  },
+  "projectNumber": "PRJ-000004",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831902"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045831960"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7ed"
+  },
+  "name": "IT rollout",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5cc"
+  },
+  "customerId": {
+   "$oid": "6ac130c7032f6295e82de796"
+  },
+  "orderId": {
+   "$oid": "6ac130c7032f6295e82de793"
+  },
+  "description": "Demo project",
+  "startDate": {
+   "$date": {
+    "$numberLong": "1787097600000"
+   }
+  },
+  "expectedEndDate": {
+   "$date": {
+    "$numberLong": "1797206400000"
+   }
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b7"
+  },
+  "projectManagerId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "teamMembers": [
+   {
+    "$oid": "6abe20a9c0b355dbdb548e84"
+   }
+  ],
+  "budget": {
+   "$numberInt": "110000"
+  },
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "prj",
+   "000005",
+   "5",
+   "it",
+   "rollout"
+  ],
+  "statusId": {
+   "$oid": "6abfe04a971d3cf38fcdf265"
+  },
+  "projectNumber": "PRJ-000005",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831976"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045832022"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de7fc"
+  },
+  "name": "Annual maintenance",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5bf"
+  },
+  "customerId": {
+   "$oid": "6ac130c7032f6295e82de79c"
+  },
+  "orderId": {
+   "$oid": "6ac130c7032f6295e82de799"
+  },
+  "description": "Demo project",
+  "startDate": {
+   "$date": {
+    "$numberLong": "1788480000000"
+   }
+  },
+  "expectedEndDate": {
+   "$date": {
+    "$numberLong": "1794182400000"
+   }
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b7"
+  },
+  "projectManagerId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "teamMembers": [
+   {
+    "$oid": "6abe20a9c0b355dbdb548e84"
+   }
+  ],
+  "budget": {
+   "$numberInt": "270000"
+  },
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "prj",
+   "000006",
+   "6",
+   "annual",
+   "maintenance"
+  ],
+  "statusId": {
+   "$oid": "6abfe04a971d3cf38fcdf267"
+  },
+  "projectNumber": "PRJ-000006",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832041"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045832079"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "actualEndDate": {
+   "$date": {
+    "$numberLong": "1790985600000"
+   }
+  }
+ }
+]

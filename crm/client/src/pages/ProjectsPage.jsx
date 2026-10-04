@@ -117,7 +117,7 @@ export default function ProjectsPage() {
         valueFormatter: (value) => formatAmount(value),
       },
     ],
-    []
+    [t]
   );
 
   const hasFilters = Boolean(params.search || FILTER_KEYS.some((key) => params[key]));

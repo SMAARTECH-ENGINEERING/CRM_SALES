@@ -1,0 +1,52 @@
+[
+ {
+  "_id": {
+   "$oid": "6abe207bc0b355dbdb548e82"
+  },
+  "name": "Administrator",
+  "description": "Full access to every part of the system",
+  "status": "active",
+  "permissions": [],
+  "isSystem": true,
+  "isSuperAdmin": true,
+  "isDefault": false,
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790845051653"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790845051653"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe207bc0b355dbdb548e83"
+  },
+  "name": "User",
+  "description": "Default role for new accounts",
+  "status": "active",
+  "permissions": [],
+  "isSystem": true,
+  "isSuperAdmin": false,
+  "isDefault": true,
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790845051656"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790845051656"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ }
+]

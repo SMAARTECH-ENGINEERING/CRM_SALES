@@ -1,0 +1,114 @@
+[
+ {
+  "_id": {
+   "$oid": "6abe2cac0053a86abb1ee9b6"
+  },
+  "name": "Low",
+  "sortOrder": {
+   "$numberInt": "10"
+  },
+  "isActive": true,
+  "level": {
+   "$numberInt": "1"
+  },
+  "color": "#757575",
+  "isDefault": false,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790848172458"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790848172458"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe2cac0053a86abb1ee9b7"
+  },
+  "name": "Medium",
+  "sortOrder": {
+   "$numberInt": "20"
+  },
+  "isActive": true,
+  "level": {
+   "$numberInt": "2"
+  },
+  "color": "#1976d2",
+  "isDefault": true,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790848172458"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790848172458"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe2cac0053a86abb1ee9b8"
+  },
+  "name": "High",
+  "sortOrder": {
+   "$numberInt": "30"
+  },
+  "isActive": true,
+  "level": {
+   "$numberInt": "3"
+  },
+  "color": "#ed6c02",
+  "isDefault": false,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790848172458"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790848172458"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe2cac0053a86abb1ee9b9"
+  },
+  "name": "Urgent",
+  "sortOrder": {
+   "$numberInt": "40"
+  },
+  "isActive": true,
+  "level": {
+   "$numberInt": "4"
+  },
+  "color": "#d32f2f",
+  "isDefault": false,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790848172458"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790848172458"
+   }
+  }
+ }
+]

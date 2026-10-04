@@ -1,0 +1,2378 @@
+[
+ {
+  "_id": {
+   "$oid": "6abfcc0a35f535f3326d5709"
+  },
+  "name": "Consumables supply contract - Acme Industries",
+  "companyId": {
+   "$oid": "6abfcc0935f535f3326d5669"
+  },
+  "contactId": {
+   "$oid": "6abfcc0935f535f3326d566b"
+  },
+  "leadId": {
+   "$oid": "6abfcc0a35f535f3326d56c1"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "sourceId": {
+   "$oid": "6abe2cac0053a86abb1ee9a9"
+  },
+  "estimatedValue": {
+   "$numberInt": "65000"
+  },
+  "probability": {
+   "$numberInt": "10"
+  },
+  "expectedCloseDate": {
+   "$date": {
+    "$numberLong": "1797206400000"
+   }
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b8"
+  },
+  "status": "open",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "stageId": {
+   "$oid": "6abf61e6b9bacbde9ad25451"
+  },
+  "opportunityNumber": "OPP-000001",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954506715"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954506715"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "opp",
+   "000001",
+   "1",
+   "consumables",
+   "supply",
+   "contract",
+   "acme",
+   "industries"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0a35f535f3326d570c"
+  },
+  "name": "Network upgrade - Bolt Traders",
+  "companyId": {
+   "$oid": "6abfcc0935f535f3326d566e"
+  },
+  "contactId": {
+   "$oid": "6abfcc0935f535f3326d5670"
+  },
+  "leadId": {
+   "$oid": "6abfcc0a35f535f3326d56c3"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "sourceId": {
+   "$oid": "6abe2cac0053a86abb1ee9ae"
+  },
+  "estimatedValue": {
+   "$numberInt": "205000"
+  },
+  "probability": {
+   "$numberInt": "10"
+  },
+  "expectedCloseDate": {
+   "$date": {
+    "$numberLong": "1794009600000"
+   }
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b7"
+  },
+  "status": "open",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "stageId": {
+   "$oid": "6abf61e6b9bacbde9ad25451"
+  },
+  "opportunityNumber": "OPP-000002",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954506779"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954506779"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "opp",
+   "000002",
+   "2",
+   "network",
+   "upgrade",
+   "bolt",
+   "traders"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0a35f535f3326d570f"
+  },
+  "name": "Consumables supply contract - Cedar Systems",
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5673"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d5676"
+  },
+  "leadId": {
+   "$oid": "6abfcc0a35f535f3326d56c5"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "sourceId": {
+   "$oid": "6abe2cac0053a86abb1ee9ae"
+  },
+  "estimatedValue": {
+   "$numberInt": "375000"
+  },
+  "probability": {
+   "$numberInt": "10"
+  },
+  "expectedCloseDate": {
+   "$date": {
+    "$numberLong": "1800057600000"
+   }
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b8"
+  },
+  "status": "open",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "stageId": {
+   "$oid": "6abf61e6b9bacbde9ad25451"
+  },
+  "opportunityNumber": "OPP-000003",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954506797"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954506797"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "opp",
+   "000003",
+   "3",
+   "consumables",
+   "supply",
+   "contract",
+   "cedar",
+   "systems"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0a35f535f3326d5712"
+  },
+  "name": "Laptop refresh for sales team - Evergreen Builders",
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d567b"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d567e"
+  },
+  "leadId": {
+   "$oid": "6abfcc0a35f535f3326d56c9"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "sourceId": {
+   "$oid": "6abe2cac0053a86abb1ee9ae"
+  },
+  "estimatedValue": {
+   "$numberInt": "105000"
+  },
+  "probability": {
+   "$numberInt": "10"
+  },
+  "expectedCloseDate": {
+   "$date": {
+    "$numberLong": "1795824000000"
+   }
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b8"
+  },
+  "status": "open",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "stageId": {
+   "$oid": "6abf61e6b9bacbde9ad25451"
+  },
+  "opportunityNumber": "OPP-000004",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954506813"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954506813"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "opp",
+   "000004",
+   "4",
+   "laptop",
+   "refresh",
+   "for",
+   "sales",
+   "team",
+   "evergreen",
+   "builders"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0a35f535f3326d5715"
+  },
+  "name": "Annual maintenance contract - Falcon Logistics",
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5680"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d5682"
+  },
+  "leadId": {
+   "$oid": "6abfcc0a35f535f3326d56cb"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "sourceId": {
+   "$oid": "6abe2cac0053a86abb1ee9ab"
+  },
+  "estimatedValue": {
+   "$numberInt": "265000"
+  },
+  "probability": {
+   "$numberInt": "10"
+  },
+  "expectedCloseDate": {
+   "$date": {
+    "$numberLong": "1799366400000"
+   }
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b8"
+  },
+  "status": "open",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "stageId": {
+   "$oid": "6abf61e6b9bacbde9ad25451"
+  },
+  "opportunityNumber": "OPP-000005",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954506832"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954506832"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "opp",
+   "000005",
+   "5",
+   "annual",
+   "maintenance",
+   "contract",
+   "falcon",
+   "logistics"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0a35f535f3326d5718"
+  },
+  "name": "Meeting room upgrade - Granite Software",
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5684"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d5687"
+  },
+  "leadId": {
+   "$oid": "6abfcc0a35f535f3326d56cd"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "sourceId": {
+   "$oid": "6abe2cac0053a86abb1ee9ad"
+  },
+  "estimatedValue": {
+   "$numberInt": "255000"
+  },
+  "probability": {
+   "$numberInt": "10"
+  },
+  "expectedCloseDate": {
+   "$date": {
+    "$numberLong": "1792627200000"
+   }
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b8"
+  },
+  "status": "open",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "stageId": {
+   "$oid": "6abf61e6b9bacbde9ad25451"
+  },
+  "opportunityNumber": "OPP-000006",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954506853"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954506853"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "opp",
+   "000006",
+   "6",
+   "meeting",
+   "room",
+   "upgrade",
+   "granite",
+   "software"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0a35f535f3326d571b"
+  },
+  "name": "New branch fit-out - Juniper Pharma",
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5692"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d5695"
+  },
+  "leadId": {
+   "$oid": "6abfcc0a35f535f3326d56d3"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "sourceId": {
+   "$oid": "6abe2cac0053a86abb1ee9a9"
+  },
+  "estimatedValue": {
+   "$numberInt": "455000"
+  },
+  "probability": {
+   "$numberInt": "10"
+  },
+  "expectedCloseDate": {
+   "$date": {
+    "$numberLong": "1800748800000"
+   }
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b8"
+  },
+  "status": "open",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "stageId": {
+   "$oid": "6abf61e6b9bacbde9ad25451"
+  },
+  "opportunityNumber": "OPP-000007",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954506870"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954506870"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "opp",
+   "000007",
+   "7",
+   "new",
+   "branch",
+   "fit",
+   "out",
+   "juniper",
+   "pharma"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0a35f535f3326d571e"
+  },
+  "name": "Security licence renewal - Kestrel Engineering",
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5696"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d5699"
+  },
+  "leadId": {
+   "$oid": "6abfcc0a35f535f3326d56d5"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "sourceId": {
+   "$oid": "6abe2cac0053a86abb1ee9ae"
+  },
+  "estimatedValue": {
+   "$numberInt": "525000"
+  },
+  "probability": {
+   "$numberInt": "10"
+  },
+  "expectedCloseDate": {
+   "$date": {
+    "$numberLong": "1795219200000"
+   }
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b8"
+  },
+  "status": "open",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "stageId": {
+   "$oid": "6abf61e6b9bacbde9ad25451"
+  },
+  "opportunityNumber": "OPP-000008",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954506890"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954506890"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "opp",
+   "000008",
+   "8",
+   "security",
+   "licence",
+   "renewal",
+   "kestrel",
+   "engineering"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0a35f535f3326d5721"
+  },
+  "name": "Meeting room upgrade - Meridian Infotech",
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d569e"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d56a0"
+  },
+  "leadId": {
+   "$oid": "6abfcc0a35f535f3326d56d9"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "sourceId": {
+   "$oid": "6abe2cac0053a86abb1ee9ad"
+  },
+  "estimatedValue": {
+   "$numberInt": "185000"
+  },
+  "probability": {
+   "$numberInt": "10"
+  },
+  "expectedCloseDate": {
+   "$date": {
+    "$numberLong": "1800921600000"
+   }
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b9"
+  },
+  "status": "open",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "stageId": {
+   "$oid": "6abf61e6b9bacbde9ad25451"
+  },
+  "opportunityNumber": "OPP-000009",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954506908"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954506908"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "opp",
+   "000009",
+   "9",
+   "meeting",
+   "room",
+   "upgrade",
+   "meridian",
+   "infotech"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0a35f535f3326d5724"
+  },
+  "name": "New branch fit-out - Nova Packaging",
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d56a2"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d56a5"
+  },
+  "leadId": {
+   "$oid": "6abfcc0a35f535f3326d56db"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "sourceId": {
+   "$oid": "6abe2cac0053a86abb1ee9ad"
+  },
+  "estimatedValue": {
+   "$numberInt": "450000"
+  },
+  "probability": {
+   "$numberInt": "10"
+  },
+  "expectedCloseDate": {
+   "$date": {
+    "$numberLong": "1794614400000"
+   }
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b9"
+  },
+  "status": "open",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "stageId": {
+   "$oid": "6abf61e6b9bacbde9ad25451"
+  },
+  "opportunityNumber": "OPP-000010",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954506926"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954506926"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "opp",
+   "000010",
+   "10",
+   "new",
+   "branch",
+   "fit",
+   "out",
+   "nova",
+   "packaging"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0a35f535f3326d572a"
+  },
+  "name": "Remote work kits",
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5727"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d5729"
+  },
+  "leadId": {
+   "$oid": "6abfcc0a35f535f3326d56c7"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "sourceId": {
+   "$oid": "6abe2cac0053a86abb1ee9a9"
+  },
+  "estimatedValue": {
+   "$numberInt": "350000"
+  },
+  "probability": {
+   "$numberInt": "10"
+  },
+  "expectedCloseDate": {
+   "$date": {
+    "$numberLong": "1801180800000"
+   }
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b9"
+  },
+  "status": "open",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "stageId": {
+   "$oid": "6abf61e6b9bacbde9ad25451"
+  },
+  "opportunityNumber": "OPP-000011",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954506955"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954506955"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "opp",
+   "000011",
+   "11",
+   "remote",
+   "work",
+   "kits"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0a35f535f3326d572d"
+  },
+  "name": "Consumables supply contract - Acme Industries",
+  "companyId": {
+   "$oid": "6abfcc0935f535f3326d5669"
+  },
+  "contactId": {
+   "$oid": "6abfcc0935f535f3326d566b"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "estimatedValue": {
+   "$numberInt": "420000"
+  },
+  "probability": {
+   "$numberInt": "10"
+  },
+  "expectedCloseDate": {
+   "$date": {
+    "$numberLong": "1794700800000"
+   }
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b8"
+  },
+  "status": "open",
+  "notes": "Demo opportunity",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "stageId": {
+   "$oid": "6abf61e6b9bacbde9ad25451"
+  },
+  "opportunityNumber": "OPP-000012",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954506974"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954506974"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "opp",
+   "000012",
+   "12",
+   "consumables",
+   "supply",
+   "contract",
+   "acme",
+   "industries"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0a35f535f3326d572f"
+  },
+  "name": "Annual maintenance contract - Horizon Academy",
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5689"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d568c"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "estimatedValue": {
+   "$numberInt": "410000"
+  },
+  "probability": {
+   "$numberInt": "25"
+  },
+  "expectedCloseDate": {
+   "$date": {
+    "$numberLong": "1799625600000"
+   }
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b7"
+  },
+  "status": "open",
+  "notes": "Demo opportunity",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "stageId": {
+   "$oid": "6abf61e6b9bacbde9ad25452"
+  },
+  "opportunityNumber": "OPP-000013",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954506984"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954506992"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "opp",
+   "000013",
+   "13",
+   "annual",
+   "maintenance",
+   "contract",
+   "horizon",
+   "academy"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d5732"
+  },
+  "name": "Remote work kits - Orchid Schools Trust",
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d56a6"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d56a8"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "estimatedValue": {
+   "$numberInt": "585000"
+  },
+  "probability": {
+   "$numberInt": "50"
+  },
+  "expectedCloseDate": {
+   "$date": {
+    "$numberLong": "1791590400000"
+   }
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b7"
+  },
+  "status": "open",
+  "notes": "Demo opportunity",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "stageId": {
+   "$oid": "6abf61e6b9bacbde9ad25453"
+  },
+  "opportunityNumber": "OPP-000014",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507002"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507017"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "opp",
+   "000014",
+   "14",
+   "remote",
+   "work",
+   "kits",
+   "orchid",
+   "schools",
+   "trust"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d5736"
+  },
+  "name": "Ergonomic seating rollout - Bolt Traders",
+  "companyId": {
+   "$oid": "6abfcc0935f535f3326d566e"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d5671"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "estimatedValue": {
+   "$numberInt": "750000"
+  },
+  "probability": {
+   "$numberInt": "75"
+  },
+  "expectedCloseDate": {
+   "$date": {
+    "$numberLong": "1799020800000"
+   }
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b9"
+  },
+  "status": "open",
+  "notes": "Demo opportunity",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "stageId": {
+   "$oid": "6abf61e6b9bacbde9ad25454"
+  },
+  "opportunityNumber": "OPP-000015",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507028"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507050"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "opp",
+   "000015",
+   "15",
+   "ergonomic",
+   "seating",
+   "rollout",
+   "bolt",
+   "traders"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d573b"
+  },
+  "name": "Ergonomic seating rollout - Indigo Retail Mart",
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d568d"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d568f"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "estimatedValue": {
+   "$numberInt": "70000"
+  },
+  "probability": {
+   "$numberInt": "100"
+  },
+  "expectedCloseDate": {
+   "$date": {
+    "$numberLong": "1800316800000"
+   }
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b9"
+  },
+  "status": "won",
+  "notes": "Demo opportunity",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "stageId": {
+   "$oid": "6abf61e6b9bacbde9ad25455"
+  },
+  "opportunityNumber": "OPP-000016",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507058"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507086"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "closedAt": {
+   "$date": {
+    "$numberLong": "1790954507086"
+   }
+  },
+  "searchKeys": [
+   "opp",
+   "000016",
+   "16",
+   "ergonomic",
+   "seating",
+   "rollout",
+   "indigo",
+   "retail",
+   "mart"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d5741"
+  },
+  "name": "Meeting room upgrade - Pinnacle Realty",
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d56aa"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d56ac"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "estimatedValue": {
+   "$numberInt": "490000"
+  },
+  "probability": {
+   "$numberInt": "0"
+  },
+  "expectedCloseDate": {
+   "$date": {
+    "$numberLong": "1803772800000"
+   }
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b7"
+  },
+  "status": "lost",
+  "notes": "Demo opportunity",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "stageId": {
+   "$oid": "6abf61e6b9bacbde9ad25456"
+  },
+  "opportunityNumber": "OPP-000017",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507095"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507128"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "closedAt": {
+   "$date": {
+    "$numberLong": "1790954507128"
+   }
+  },
+  "searchKeys": [
+   "opp",
+   "000017",
+   "17",
+   "meeting",
+   "room",
+   "upgrade",
+   "pinnacle",
+   "realty"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d5747"
+  },
+  "name": "Office refurbishment - Cedar Systems",
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5673"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d5676"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "estimatedValue": {
+   "$numberInt": "370000"
+  },
+  "probability": {
+   "$numberInt": "10"
+  },
+  "expectedCloseDate": {
+   "$date": {
+    "$numberLong": "1802995200000"
+   }
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b9"
+  },
+  "status": "open",
+  "notes": "Demo opportunity",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "stageId": {
+   "$oid": "6abf61e6b9bacbde9ad25451"
+  },
+  "opportunityNumber": "OPP-000018",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507137"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507137"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "opp",
+   "000018",
+   "18",
+   "office",
+   "refurbishment",
+   "cedar",
+   "systems"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d5749"
+  },
+  "name": "Security licence renewal - Juniper Pharma",
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5692"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d5695"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "estimatedValue": {
+   "$numberInt": "710000"
+  },
+  "probability": {
+   "$numberInt": "25"
+  },
+  "expectedCloseDate": {
+   "$date": {
+    "$numberLong": "1791763200000"
+   }
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b8"
+  },
+  "status": "open",
+  "notes": "Demo opportunity",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "stageId": {
+   "$oid": "6abf61e6b9bacbde9ad25452"
+  },
+  "opportunityNumber": "OPP-000019",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507146"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507154"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "opp",
+   "000019",
+   "19",
+   "security",
+   "licence",
+   "renewal",
+   "juniper",
+   "pharma"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d574c"
+  },
+  "name": "Security licence renewal - Quartz Electronics",
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d56ae"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d56b1"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "estimatedValue": {
+   "$numberInt": "560000"
+  },
+  "probability": {
+   "$numberInt": "50"
+  },
+  "expectedCloseDate": {
+   "$date": {
+    "$numberLong": "1802822400000"
+   }
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b9"
+  },
+  "status": "open",
+  "notes": "Demo opportunity",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "stageId": {
+   "$oid": "6abf61e6b9bacbde9ad25453"
+  },
+  "opportunityNumber": "OPP-000020",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507162"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507178"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "opp",
+   "000020",
+   "20",
+   "security",
+   "licence",
+   "renewal",
+   "quartz",
+   "electronics"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d5750"
+  },
+  "name": "Backup and recovery setup - Delta Health Clinics",
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5677"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d567a"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "estimatedValue": {
+   "$numberInt": "30000"
+  },
+  "probability": {
+   "$numberInt": "75"
+  },
+  "expectedCloseDate": {
+   "$date": {
+    "$numberLong": "1795132800000"
+   }
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b8"
+  },
+  "status": "open",
+  "notes": "Demo opportunity",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "stageId": {
+   "$oid": "6abf61e6b9bacbde9ad25454"
+  },
+  "opportunityNumber": "OPP-000021",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507188"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507208"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "opp",
+   "000021",
+   "21",
+   "backup",
+   "and",
+   "recovery",
+   "setup",
+   "delta",
+   "health",
+   "clinics"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d5755"
+  },
+  "name": "Network upgrade - Kestrel Engineering",
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5696"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d5698"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "estimatedValue": {
+   "$numberInt": "265000"
+  },
+  "probability": {
+   "$numberInt": "100"
+  },
+  "expectedCloseDate": {
+   "$date": {
+    "$numberLong": "1800489600000"
+   }
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b7"
+  },
+  "status": "won",
+  "notes": "Demo opportunity",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "stageId": {
+   "$oid": "6abf61e6b9bacbde9ad25455"
+  },
+  "opportunityNumber": "OPP-000022",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507217"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507245"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "closedAt": {
+   "$date": {
+    "$numberLong": "1790954507245"
+   }
+  },
+  "searchKeys": [
+   "opp",
+   "000022",
+   "22",
+   "network",
+   "upgrade",
+   "kestrel",
+   "engineering"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d575b"
+  },
+  "name": "New branch fit-out - Riverline Freight",
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d56b3"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d56b6"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "estimatedValue": {
+   "$numberInt": "210000"
+  },
+  "probability": {
+   "$numberInt": "0"
+  },
+  "expectedCloseDate": {
+   "$date": {
+    "$numberLong": "1802563200000"
+   }
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b8"
+  },
+  "status": "lost",
+  "notes": "Demo opportunity",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "stageId": {
+   "$oid": "6abf61e6b9bacbde9ad25456"
+  },
+  "opportunityNumber": "OPP-000023",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507254"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507282"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "closedAt": {
+   "$date": {
+    "$numberLong": "1790954507282"
+   }
+  },
+  "searchKeys": [
+   "opp",
+   "000023",
+   "23",
+   "new",
+   "branch",
+   "fit",
+   "out",
+   "riverline",
+   "freight"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d5761"
+  },
+  "name": "New branch fit-out - Evergreen Builders",
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d567b"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d567f"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "estimatedValue": {
+   "$numberInt": "85000"
+  },
+  "probability": {
+   "$numberInt": "10"
+  },
+  "expectedCloseDate": {
+   "$date": {
+    "$numberLong": "1800921600000"
+   }
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b7"
+  },
+  "status": "open",
+  "notes": "Demo opportunity",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "stageId": {
+   "$oid": "6abf61e6b9bacbde9ad25451"
+  },
+  "opportunityNumber": "OPP-000024",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507292"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507292"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "opp",
+   "000024",
+   "24",
+   "new",
+   "branch",
+   "fit",
+   "out",
+   "evergreen",
+   "builders"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d5763"
+  },
+  "name": "New branch fit-out - Lotus Hospitality",
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d569a"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d569c"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "estimatedValue": {
+   "$numberInt": "375000"
+  },
+  "probability": {
+   "$numberInt": "25"
+  },
+  "expectedCloseDate": {
+   "$date": {
+    "$numberLong": "1793491200000"
+   }
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b9"
+  },
+  "status": "open",
+  "notes": "Demo opportunity",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "stageId": {
+   "$oid": "6abf61e6b9bacbde9ad25452"
+  },
+  "opportunityNumber": "OPP-000025",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507301"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507308"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "opp",
+   "000025",
+   "25",
+   "new",
+   "branch",
+   "fit",
+   "out",
+   "lotus",
+   "hospitality"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d5766"
+  },
+  "name": "Remote work kits - Saffron Foods",
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d56b8"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d56bb"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "estimatedValue": {
+   "$numberInt": "465000"
+  },
+  "probability": {
+   "$numberInt": "50"
+  },
+  "expectedCloseDate": {
+   "$date": {
+    "$numberLong": "1795046400000"
+   }
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b8"
+  },
+  "status": "open",
+  "notes": "Demo opportunity",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "stageId": {
+   "$oid": "6abf61e6b9bacbde9ad25453"
+  },
+  "opportunityNumber": "OPP-000026",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507325"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507339"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "opp",
+   "000026",
+   "26",
+   "remote",
+   "work",
+   "kits",
+   "saffron",
+   "foods"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d576a"
+  },
+  "name": "Network upgrade - Falcon Logistics",
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5680"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d5683"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "estimatedValue": {
+   "$numberInt": "180000"
+  },
+  "probability": {
+   "$numberInt": "75"
+  },
+  "expectedCloseDate": {
+   "$date": {
+    "$numberLong": "1803600000000"
+   }
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b9"
+  },
+  "status": "open",
+  "notes": "Demo opportunity",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "stageId": {
+   "$oid": "6abf61e6b9bacbde9ad25454"
+  },
+  "opportunityNumber": "OPP-000027",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507347"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507370"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "opp",
+   "000027",
+   "27",
+   "network",
+   "upgrade",
+   "falcon",
+   "logistics"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d576f"
+  },
+  "name": "Consumables supply contract - Meridian Infotech",
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d569e"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d56a1"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "estimatedValue": {
+   "$numberInt": "50000"
+  },
+  "probability": {
+   "$numberInt": "100"
+  },
+  "expectedCloseDate": {
+   "$date": {
+    "$numberLong": "1794700800000"
+   }
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b8"
+  },
+  "status": "won",
+  "notes": "Demo opportunity",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "stageId": {
+   "$oid": "6abf61e6b9bacbde9ad25455"
+  },
+  "opportunityNumber": "OPP-000028",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507378"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507409"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "closedAt": {
+   "$date": {
+    "$numberLong": "1790954507408"
+   }
+  },
+  "searchKeys": [
+   "opp",
+   "000028",
+   "28",
+   "consumables",
+   "supply",
+   "contract",
+   "meridian",
+   "infotech"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d5775"
+  },
+  "name": "Ergonomic seating rollout - Teal Diagnostics",
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d56bc"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d56bf"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "estimatedValue": {
+   "$numberInt": "555000"
+  },
+  "probability": {
+   "$numberInt": "0"
+  },
+  "expectedCloseDate": {
+   "$date": {
+    "$numberLong": "1795996800000"
+   }
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b6"
+  },
+  "status": "lost",
+  "notes": "Demo opportunity",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "stageId": {
+   "$oid": "6abf61e6b9bacbde9ad25456"
+  },
+  "opportunityNumber": "OPP-000029",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507420"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507450"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "closedAt": {
+   "$date": {
+    "$numberLong": "1790954507450"
+   }
+  },
+  "searchKeys": [
+   "opp",
+   "000029",
+   "29",
+   "ergonomic",
+   "seating",
+   "rollout",
+   "teal",
+   "diagnostics"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d577b"
+  },
+  "name": "Security licence renewal - Granite Software",
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5684"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d5687"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "estimatedValue": {
+   "$numberInt": "670000"
+  },
+  "probability": {
+   "$numberInt": "10"
+  },
+  "expectedCloseDate": {
+   "$date": {
+    "$numberLong": "1796515200000"
+   }
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b6"
+  },
+  "status": "open",
+  "notes": "Demo opportunity",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "stageId": {
+   "$oid": "6abf61e6b9bacbde9ad25451"
+  },
+  "opportunityNumber": "OPP-000030",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507459"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507459"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "opp",
+   "000030",
+   "30",
+   "security",
+   "licence",
+   "renewal",
+   "granite",
+   "software"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d577d"
+  },
+  "name": "Meeting room upgrade - Nova Packaging",
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d56a2"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d56a5"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "estimatedValue": {
+   "$numberInt": "475000"
+  },
+  "probability": {
+   "$numberInt": "25"
+  },
+  "expectedCloseDate": {
+   "$date": {
+    "$numberLong": "1796774400000"
+   }
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b9"
+  },
+  "status": "open",
+  "notes": "Demo opportunity",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "stageId": {
+   "$oid": "6abf61e6b9bacbde9ad25452"
+  },
+  "opportunityNumber": "OPP-000031",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507467"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507473"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "opp",
+   "000031",
+   "31",
+   "meeting",
+   "room",
+   "upgrade",
+   "nova",
+   "packaging"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d5780"
+  },
+  "name": "Network upgrade - Acme Industries",
+  "companyId": {
+   "$oid": "6abfcc0935f535f3326d5669"
+  },
+  "contactId": {
+   "$oid": "6abfcc0935f535f3326d566b"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "estimatedValue": {
+   "$numberInt": "660000"
+  },
+  "probability": {
+   "$numberInt": "50"
+  },
+  "expectedCloseDate": {
+   "$date": {
+    "$numberLong": "1802908800000"
+   }
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b8"
+  },
+  "status": "open",
+  "notes": "Demo opportunity",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "stageId": {
+   "$oid": "6abf61e6b9bacbde9ad25453"
+  },
+  "opportunityNumber": "OPP-000032",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507480"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507497"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "opp",
+   "000032",
+   "32",
+   "network",
+   "upgrade",
+   "acme",
+   "industries"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d5784"
+  },
+  "name": "Ergonomic seating rollout - Horizon Academy",
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5689"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d568c"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "estimatedValue": {
+   "$numberInt": "615000"
+  },
+  "probability": {
+   "$numberInt": "75"
+  },
+  "expectedCloseDate": {
+   "$date": {
+    "$numberLong": "1798416000000"
+   }
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b7"
+  },
+  "status": "open",
+  "notes": "Demo opportunity",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "stageId": {
+   "$oid": "6abf61e6b9bacbde9ad25454"
+  },
+  "opportunityNumber": "OPP-000033",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507506"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507530"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "opp",
+   "000033",
+   "33",
+   "ergonomic",
+   "seating",
+   "rollout",
+   "horizon",
+   "academy"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d5789"
+  },
+  "name": "Ergonomic seating rollout - Orchid Schools Trust",
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d56a6"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d56a9"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "estimatedValue": {
+   "$numberInt": "640000"
+  },
+  "probability": {
+   "$numberInt": "100"
+  },
+  "expectedCloseDate": {
+   "$date": {
+    "$numberLong": "1801094400000"
+   }
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b6"
+  },
+  "status": "won",
+  "notes": "Demo opportunity",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "stageId": {
+   "$oid": "6abf61e6b9bacbde9ad25455"
+  },
+  "opportunityNumber": "OPP-000034",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507539"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507570"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "closedAt": {
+   "$date": {
+    "$numberLong": "1790954507570"
+   }
+  },
+  "searchKeys": [
+   "opp",
+   "000034",
+   "34",
+   "ergonomic",
+   "seating",
+   "rollout",
+   "orchid",
+   "schools",
+   "trust"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d578f"
+  },
+  "name": "Backup and recovery setup - Bolt Traders",
+  "companyId": {
+   "$oid": "6abfcc0935f535f3326d566e"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d5671"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "estimatedValue": {
+   "$numberInt": "160000"
+  },
+  "probability": {
+   "$numberInt": "0"
+  },
+  "expectedCloseDate": {
+   "$date": {
+    "$numberLong": "1800489600000"
+   }
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "priorityId": {
+   "$oid": "6abe2cac0053a86abb1ee9b7"
+  },
+  "status": "lost",
+  "notes": "Demo opportunity",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "stageId": {
+   "$oid": "6abf61e6b9bacbde9ad25456"
+  },
+  "opportunityNumber": "OPP-000035",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507579"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507607"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "closedAt": {
+   "$date": {
+    "$numberLong": "1790954507606"
+   }
+  },
+  "searchKeys": [
+   "opp",
+   "000035",
+   "35",
+   "backup",
+   "and",
+   "recovery",
+   "setup",
+   "bolt",
+   "traders"
+  ]
+ }
+]

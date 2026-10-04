@@ -1,0 +1,163 @@
+[
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d5637"
+  },
+  "name": "Manufacturing",
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505554"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505554"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d5638"
+  },
+  "name": "Information Technology",
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505569"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505569"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d5639"
+  },
+  "name": "Healthcare",
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505571"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505571"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d563a"
+  },
+  "name": "Retail",
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505573"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505573"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d563b"
+  },
+  "name": "Construction",
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505576"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505576"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d563c"
+  },
+  "name": "Education",
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505578"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505578"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d563d"
+  },
+  "name": "Logistics",
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505580"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505580"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ }
+]

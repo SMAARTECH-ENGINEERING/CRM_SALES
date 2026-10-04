@@ -127,7 +127,7 @@ export default function ContractsPage() {
       { field: 'billingCycle', headerName: t('fields.billing'), width: 120, sortable: false, valueGetter: (value) => value?.name ?? EMPTY },
       { field: 'assignedToUser', headerName: t('fields.assignedTo'), width: 150, sortable: false, valueGetter: (value) => value?.fullName ?? EMPTY },
     ],
-    [soonWithin]
+    [soonWithin, t]
   );
 
   const hasFilters = Boolean(params.search || FILTER_KEYS.some((key) => params[key]));

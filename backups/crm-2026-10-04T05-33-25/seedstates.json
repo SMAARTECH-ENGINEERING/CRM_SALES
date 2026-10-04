@@ -1,0 +1,154 @@
+[
+ {
+  "_id": "leadConfig",
+  "appliedAt": {
+   "$date": {
+    "$numberLong": "1790848172459"
+   }
+  }
+ },
+ {
+  "_id": "activityTypes",
+  "appliedAt": {
+   "$date": {
+    "$numberLong": "1790921796898"
+   }
+  }
+ },
+ {
+  "_id": "pipelines",
+  "appliedAt": {
+   "$date": {
+    "$numberLong": "1790927334299"
+   }
+  }
+ },
+ {
+  "_id": "quotationStatuses",
+  "appliedAt": {
+   "$date": {
+    "$numberLong": "1790938596772"
+   }
+  }
+ },
+ {
+  "_id": "demoData",
+  "appliedAt": {
+   "$date": {
+    "$numberLong": "1790954508386"
+   }
+  }
+ },
+ {
+  "_id": "orderStatuses",
+  "appliedAt": {
+   "$date": {
+    "$numberLong": "1790955541526"
+   }
+  }
+ },
+ {
+  "_id": "customersFromOrders",
+  "appliedAt": {
+   "$date": {
+    "$numberLong": "1790958548055"
+   }
+  }
+ },
+ {
+  "_id": "projectStatuses",
+  "appliedAt": {
+   "$date": {
+    "$numberLong": "1790959690629"
+   }
+  }
+ },
+ {
+  "_id": "taskStatuses",
+  "appliedAt": {
+   "$date": {
+    "$numberLong": "1790959690634"
+   }
+  }
+ },
+ {
+  "_id": "ticketCategories",
+  "appliedAt": {
+   "$date": {
+    "$numberLong": "1790961408529"
+   }
+  }
+ },
+ {
+  "_id": "ticketPriorities",
+  "appliedAt": {
+   "$date": {
+    "$numberLong": "1790961408534"
+   }
+  }
+ },
+ {
+  "_id": "ticketStatuses",
+  "appliedAt": {
+   "$date": {
+    "$numberLong": "1790961408539"
+   }
+  }
+ },
+ {
+  "_id": "contractTypes",
+  "appliedAt": {
+   "$date": {
+    "$numberLong": "1790963267794"
+   }
+  }
+ },
+ {
+  "_id": "contractStatuses",
+  "appliedAt": {
+   "$date": {
+    "$numberLong": "1790963267799"
+   }
+  }
+ },
+ {
+  "_id": "billingCycles",
+  "appliedAt": {
+   "$date": {
+    "$numberLong": "1790963267802"
+   }
+  }
+ },
+ {
+  "_id": "contractReminderPeriods",
+  "appliedAt": {
+   "$date": {
+    "$numberLong": "1790963267805"
+   }
+  }
+ },
+ {
+  "_id": "paymentMethods",
+  "appliedAt": {
+   "$date": {
+    "$numberLong": "1791003134165"
+   }
+  }
+ },
+ {
+  "_id": "paymentStatuses",
+  "appliedAt": {
+   "$date": {
+    "$numberLong": "1791003134170"
+   }
+  }
+ },
+ {
+  "_id": "leadStatusQualifiedFlag",
+  "appliedAt": {
+   "$date": {
+    "$numberLong": "1791005483259"
+   }
+  }
+ }
+]

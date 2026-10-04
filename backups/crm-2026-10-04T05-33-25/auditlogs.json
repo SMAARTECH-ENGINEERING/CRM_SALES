@@ -1,0 +1,580 @@
+[
+ {
+  "_id": {
+   "$oid": "6ac09c4fe0de5fd0711709b6"
+  },
+  "userId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "action": "UPDATE",
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6abfcc0c35f535f3326d5823"
+  },
+  "oldData": {
+   "sentAt": "2026-10-02T15:32:32.957Z",
+   "sentTo": "it@smaatechengineering.com"
+  },
+  "newData": {
+   "sentAt": "2026-10-03T06:10:23.140Z",
+   "sentTo": "info@smaatechengineering.com"
+  },
+  "ipAddress": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+  "method": "POST",
+  "path": "/api/v1/quotations/6abfcc0c35f535f3326d5823/send",
+  "statusCode": {
+   "$numberInt": "200"
+  },
+  "success": true,
+  "timestamp": {
+   "$date": {
+    "$numberLong": "1791007823429"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac09cc9e0de5fd0711709b8"
+  },
+  "userId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "action": "UPDATE",
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6abfcc0c35f535f3326d581e"
+  },
+  "newData": {
+   "sentAt": "2026-10-03T06:12:25.273Z",
+   "sentBy": "6abe20a9c0b355dbdb548e84",
+   "sentTo": "info@smaatechengineering.com"
+  },
+  "ipAddress": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+  "method": "POST",
+  "path": "/api/v1/quotations/6abfcc0c35f535f3326d581e/send",
+  "statusCode": {
+   "$numberInt": "200"
+  },
+  "success": true,
+  "timestamp": {
+   "$date": {
+    "$numberLong": "1791007945300"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac0a0c1cfb22f36795f8871"
+  },
+  "userId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "action": "UPDATE",
+  "entityType": "leadSource",
+  "entityId": {
+   "$oid": "6abe2cac0053a86abb1ee9ae"
+  },
+  "oldData": {
+   "isActive": true
+  },
+  "newData": {
+   "isActive": false
+  },
+  "ipAddress": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+  "method": "PUT",
+  "path": "/api/v1/lead-sources/6abe2cac0053a86abb1ee9ae",
+  "statusCode": {
+   "$numberInt": "200"
+  },
+  "success": true,
+  "timestamp": {
+   "$date": {
+    "$numberLong": "1791008961636"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac0a0c2cfb22f36795f8872"
+  },
+  "userId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "action": "UPDATE",
+  "entityType": "leadSource",
+  "entityId": {
+   "$oid": "6abe2cac0053a86abb1ee9ae"
+  },
+  "oldData": {
+   "isActive": false
+  },
+  "newData": {
+   "isActive": true
+  },
+  "ipAddress": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+  "method": "PUT",
+  "path": "/api/v1/lead-sources/6abe2cac0053a86abb1ee9ae",
+  "statusCode": {
+   "$numberInt": "200"
+  },
+  "success": true,
+  "timestamp": {
+   "$date": {
+    "$numberLong": "1791008962855"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac0ab36b04a991c192fc7a5"
+  },
+  "userId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "action": "UPDATE",
+  "entityType": "settings",
+  "newData": {
+   "company": {
+    "name": "SMAATECH"
+   }
+  },
+  "ipAddress": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+  "method": "PUT",
+  "path": "/api/v1/settings",
+  "statusCode": {
+   "$numberInt": "200"
+  },
+  "success": true,
+  "timestamp": {
+   "$date": {
+    "$numberLong": "1791011638018"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac0ac72b04a991c192fc7a6"
+  },
+  "userId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "action": "UPDATE",
+  "entityType": "settings",
+  "newData": {
+   "company": {
+    "name": "Your Company (edit in Company profile)"
+   }
+  },
+  "ipAddress": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+  "method": "PUT",
+  "path": "/api/v1/settings",
+  "statusCode": {
+   "$numberInt": "200"
+  },
+  "success": true,
+  "timestamp": {
+   "$date": {
+    "$numberLong": "1791011954210"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac0ac8d12b67104fd307734"
+  },
+  "userId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "action": "UPDATE",
+  "entityType": "settings",
+  "newData": {
+   "company": {
+    "logo": "https://www.smaatechengineering.com/assets/sepl-logo-rIxR-bxc.png"
+   }
+  },
+  "ipAddress": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+  "method": "PUT",
+  "path": "/api/v1/settings",
+  "statusCode": {
+   "$numberInt": "200"
+  },
+  "success": true,
+  "timestamp": {
+   "$date": {
+    "$numberLong": "1791011981548"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac0ac9a12b67104fd307735"
+  },
+  "userId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "action": "UPDATE",
+  "entityType": "settings",
+  "newData": {
+   "company": {
+    "logo": ""
+   }
+  },
+  "ipAddress": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+  "method": "PUT",
+  "path": "/api/v1/settings",
+  "statusCode": {
+   "$numberInt": "200"
+  },
+  "success": true,
+  "timestamp": {
+   "$date": {
+    "$numberLong": "1791011994019"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac0acb612b67104fd307736"
+  },
+  "userId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "action": "UPDATE",
+  "entityType": "settings",
+  "newData": {
+   "company": {
+    "name": "SMAATECH",
+    "logo": "https://www.smaatechengineering.com/assets/sepl-logo-rIxR-bxc.png"
+   }
+  },
+  "ipAddress": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+  "method": "PUT",
+  "path": "/api/v1/settings",
+  "statusCode": {
+   "$numberInt": "200"
+  },
+  "success": true,
+  "timestamp": {
+   "$date": {
+    "$numberLong": "1791012022833"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac12b20a49a6b81be40424d"
+  },
+  "action": "LOGIN",
+  "entityType": "user",
+  "newData": {
+   "email": "jagadishbehera961@gmail.com"
+  },
+  "ipAddress": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+  "method": "POST",
+  "path": "/api/v1/auth/login",
+  "statusCode": {
+   "$numberInt": "401"
+  },
+  "success": false,
+  "timestamp": {
+   "$date": {
+    "$numberLong": "1791044384193"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac12b2aa49a6b81be40424e"
+  },
+  "userId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "action": "LOGIN",
+  "entityType": "user",
+  "entityId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "newData": {
+   "email": "jagadishbehea961@gmail.com"
+  },
+  "ipAddress": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+  "method": "POST",
+  "path": "/api/v1/auth/login",
+  "statusCode": {
+   "$numberInt": "200"
+  },
+  "success": true,
+  "timestamp": {
+   "$date": {
+    "$numberLong": "1791044394207"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac12f680e1bce8c30e6c203"
+  },
+  "userId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "action": "UPDATE",
+  "entityType": "settings",
+  "newData": {
+   "branding": {
+    "loginLogo": "https://www.smaatechengineering.com/assets/sepl-logo-rIxR-bxc.png",
+    "favicon": "https://www.smaatechengineering.com/assets/sepl-logo-rIxR-bxc.png"
+   }
+  },
+  "ipAddress": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+  "method": "PUT",
+  "path": "/api/v1/settings",
+  "statusCode": {
+   "$numberInt": "200"
+  },
+  "success": true,
+  "timestamp": {
+   "$date": {
+    "$numberLong": "1791045480296"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac1dc3a2beddff1b853e988"
+  },
+  "userId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "action": "UPDATE",
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de778"
+  },
+  "ipAddress": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+  "method": "POST",
+  "path": "/api/v1/quotations/6ac130c7032f6295e82de778/pdf",
+  "statusCode": {
+   "$numberInt": "200"
+  },
+  "success": true,
+  "timestamp": {
+   "$date": {
+    "$numberLong": "1791089722417"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac1de172beddff1b853e98a"
+  },
+  "userId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "action": "CREATE",
+  "entityType": "industry",
+  "entityId": {
+   "$oid": "6ac1de172beddff1b853e989"
+  },
+  "newData": {
+   "id": "6ac1de172beddff1b853e989",
+   "name": "Agriculture",
+   "isActive": true,
+   "createdBy": "6abe20a9c0b355dbdb548e84",
+   "createdAt": "2026-10-04T05:03:19.766Z"
+  },
+  "ipAddress": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+  "method": "POST",
+  "path": "/api/v1/industries",
+  "statusCode": {
+   "$numberInt": "201"
+  },
+  "success": true,
+  "timestamp": {
+   "$date": {
+    "$numberLong": "1791090199801"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac1ded22beddff1b853e98c"
+  },
+  "userId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "action": "CREATE",
+  "entityType": "companyType",
+  "entityId": {
+   "$oid": "6ac1ded22beddff1b853e98b"
+  },
+  "newData": {
+   "id": "6ac1ded22beddff1b853e98b",
+   "name": "FPO",
+   "isActive": true,
+   "createdBy": "6abe20a9c0b355dbdb548e84",
+   "createdAt": "2026-10-04T05:06:26.741Z"
+  },
+  "ipAddress": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+  "method": "POST",
+  "path": "/api/v1/company-types",
+  "statusCode": {
+   "$numberInt": "201"
+  },
+  "success": true,
+  "timestamp": {
+   "$date": {
+    "$numberLong": "1791090386754"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac1def12beddff1b853e98f"
+  },
+  "userId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "action": "CREATE",
+  "entityType": "company",
+  "entityId": {
+   "$oid": "6ac1def12beddff1b853e98d"
+  },
+  "newData": {
+   "id": "6ac1def12beddff1b853e98d",
+   "name": "Maa Samaleswari FPO",
+   "status": "active",
+   "createdBy": "6abe20a9c0b355dbdb548e84",
+   "deletedAt": null,
+   "email": "jagadishbehera961@gmail.com",
+   "phone": "7205855966",
+   "address": "At - Pithapada Po - Pithapada Nischinta Koili",
+   "city": "Cuttack",
+   "state": "Odisha",
+   "country": "India",
+   "postalCode": "754207",
+   "industryId": "6ac1de172beddff1b853e989",
+   "companyTypeId": "6ac1ded22beddff1b853e98b",
+   "companyCode": "COMP-000022",
+   "createdAt": "2026-10-04T05:06:57.624Z"
+  },
+  "ipAddress": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+  "method": "POST",
+  "path": "/api/v1/companies",
+  "statusCode": {
+   "$numberInt": "201"
+  },
+  "success": true,
+  "timestamp": {
+   "$date": {
+    "$numberLong": "1791090417794"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac1df672beddff1b853e991"
+  },
+  "userId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "action": "CREATE",
+  "entityType": "contact",
+  "entityId": {
+   "$oid": "6ac1df672beddff1b853e990"
+  },
+  "newData": {
+   "id": "6ac1df672beddff1b853e990",
+   "firstName": "Ramesh",
+   "lastName": "Behera",
+   "companyId": "6ac1def12beddff1b853e98d",
+   "status": "active",
+   "createdBy": "6abe20a9c0b355dbdb548e84",
+   "deletedAt": null,
+   "designation": "Secretary",
+   "email": "asmaleswari@gmail.com",
+   "phone": "7584586932",
+   "preferredContactMethod": "phone",
+   "createdAt": "2026-10-04T05:08:55.838Z"
+  },
+  "ipAddress": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+  "method": "POST",
+  "path": "/api/v1/contacts",
+  "statusCode": {
+   "$numberInt": "201"
+  },
+  "success": true,
+  "timestamp": {
+   "$date": {
+    "$numberLong": "1791090535887"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ }
+]

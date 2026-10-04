@@ -1,0 +1,195 @@
+[
+ {
+  "_id": {
+   "$oid": "6abe2cac0053a86abb1ee9af"
+  },
+  "name": "New",
+  "description": "Not yet contacted",
+  "sortOrder": {
+   "$numberInt": "10"
+  },
+  "isActive": true,
+  "category": "open",
+  "color": "#1976d2",
+  "isDefault": true,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790848172456"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790848172456"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe2cac0053a86abb1ee9b0"
+  },
+  "name": "Contacted",
+  "description": "First contact made",
+  "sortOrder": {
+   "$numberInt": "20"
+  },
+  "isActive": true,
+  "category": "open",
+  "color": "#0288d1",
+  "isDefault": false,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790848172456"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790848172456"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe2cac0053a86abb1ee9b1"
+  },
+  "name": "Qualified",
+  "description": "Need, budget and authority confirmed",
+  "sortOrder": {
+   "$numberInt": "30"
+  },
+  "isActive": true,
+  "category": "open",
+  "color": "#7b1fa2",
+  "isDefault": false,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790848172456"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791005483238"
+   }
+  },
+  "isQualified": true
+ },
+ {
+  "_id": {
+   "$oid": "6abe2cac0053a86abb1ee9b2"
+  },
+  "name": "Proposal Sent",
+  "description": "Quotation or proposal shared",
+  "sortOrder": {
+   "$numberInt": "40"
+  },
+  "isActive": true,
+  "category": "open",
+  "color": "#ed6c02",
+  "isDefault": false,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790848172456"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791005483238"
+   }
+  },
+  "isQualified": true
+ },
+ {
+  "_id": {
+   "$oid": "6abe2cac0053a86abb1ee9b3"
+  },
+  "name": "Negotiation",
+  "description": "Terms under discussion",
+  "sortOrder": {
+   "$numberInt": "50"
+  },
+  "isActive": true,
+  "category": "open",
+  "color": "#f57c00",
+  "isDefault": false,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790848172456"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791005483238"
+   }
+  },
+  "isQualified": true
+ },
+ {
+  "_id": {
+   "$oid": "6abe2cac0053a86abb1ee9b4"
+  },
+  "name": "Won",
+  "description": "Converted to business",
+  "sortOrder": {
+   "$numberInt": "60"
+  },
+  "isActive": true,
+  "category": "won",
+  "color": "#2e7d32",
+  "isDefault": false,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790848172456"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791005483238"
+   }
+  },
+  "isQualified": true
+ },
+ {
+  "_id": {
+   "$oid": "6abe2cac0053a86abb1ee9b5"
+  },
+  "name": "Lost",
+  "description": "Did not proceed",
+  "sortOrder": {
+   "$numberInt": "70"
+  },
+  "isActive": true,
+  "category": "lost",
+  "color": "#d32f2f",
+  "isDefault": false,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790848172456"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790848172456"
+   }
+  }
+ }
+]

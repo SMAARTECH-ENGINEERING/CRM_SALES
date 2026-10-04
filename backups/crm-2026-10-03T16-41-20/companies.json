@@ -1,0 +1,1368 @@
+[
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d5669"
+  },
+  "name": "Acme Industries",
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "legalName": "Acme Industries Pvt Ltd",
+  "email": "info@acmeindustries.example.com",
+  "phone": "+91 83378 54534",
+  "website": "https://www.acmeindustries.example.com",
+  "address": "83, Industrial Estate",
+  "city": "Pune",
+  "state": "Maharashtra",
+  "country": "India",
+  "postalCode": "796734",
+  "notes": "Demo data",
+  "industryId": {
+   "$oid": "6abfcc0935f535f3326d5637"
+  },
+  "companyTypeId": {
+   "$oid": "6abfcc0935f535f3326d563e"
+  },
+  "organizationId": {
+   "$oid": "6abfcc0935f535f3326d5642"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "companyCode": "COMP-000001",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505933"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505933"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "comp",
+   "000001",
+   "1",
+   "acme",
+   "industries",
+   "pvt",
+   "ltd",
+   "info",
+   "acmeindustries",
+   "example",
+   "com",
+   "91",
+   "83378",
+   "54534",
+   "918337854534",
+   "8337854534",
+   "pune"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d566e"
+  },
+  "name": "Bolt Traders",
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "legalName": "Bolt Traders Pvt Ltd",
+  "email": "info@bolttraders.example.com",
+  "phone": "+91 79466 80702",
+  "website": "https://www.bolttraders.example.com",
+  "address": "128, Ring Road",
+  "city": "Mumbai",
+  "state": "Maharashtra",
+  "country": "India",
+  "postalCode": "604288",
+  "notes": "Demo data",
+  "industryId": {
+   "$oid": "6abfcc0935f535f3326d563a"
+  },
+  "companyTypeId": {
+   "$oid": "6abfcc0935f535f3326d563e"
+  },
+  "organizationId": {
+   "$oid": "6abfcc0935f535f3326d5643"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "companyCode": "COMP-000002",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505991"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505991"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "comp",
+   "000002",
+   "2",
+   "bolt",
+   "traders",
+   "pvt",
+   "ltd",
+   "info",
+   "bolttraders",
+   "example",
+   "com",
+   "91",
+   "79466",
+   "80702",
+   "917946680702",
+   "7946680702",
+   "mumbai"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0a35f535f3326d5673"
+  },
+  "name": "Cedar Systems",
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "legalName": "Cedar Systems Pvt Ltd",
+  "email": "info@cedarsystems.example.com",
+  "phone": "+91 79540 41021",
+  "website": "https://www.cedarsystems.example.com",
+  "address": "207, Station Road",
+  "city": "Bengaluru",
+  "state": "Karnataka",
+  "country": "India",
+  "postalCode": "426342",
+  "notes": "Demo data",
+  "industryId": {
+   "$oid": "6abfcc0935f535f3326d5638"
+  },
+  "companyTypeId": {
+   "$oid": "6abfcc0935f535f3326d563f"
+  },
+  "organizationId": {
+   "$oid": "6abfcc0935f535f3326d5642"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "companyCode": "COMP-000003",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954506010"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954506010"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "comp",
+   "000003",
+   "3",
+   "cedar",
+   "systems",
+   "pvt",
+   "ltd",
+   "info",
+   "cedarsystems",
+   "example",
+   "com",
+   "91",
+   "79540",
+   "41021",
+   "917954041021",
+   "7954041021",
+   "bengaluru"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0a35f535f3326d5677"
+  },
+  "name": "Delta Health Clinics",
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "legalName": "Delta Health Clinics Pvt Ltd",
+  "email": "info@deltahealthclinics.example.com",
+  "phone": "+91 76809 24574",
+  "website": "https://www.deltahealthclinics.example.com",
+  "address": "130, MG Road",
+  "city": "Chennai",
+  "state": "Tamil Nadu",
+  "country": "India",
+  "postalCode": "315780",
+  "notes": "Demo data",
+  "industryId": {
+   "$oid": "6abfcc0935f535f3326d5639"
+  },
+  "companyTypeId": {
+   "$oid": "6abfcc0935f535f3326d563e"
+  },
+  "organizationId": {
+   "$oid": "6abfcc0935f535f3326d5642"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "companyCode": "COMP-000004",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954506026"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954506026"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "comp",
+   "000004",
+   "4",
+   "delta",
+   "health",
+   "clinics",
+   "pvt",
+   "ltd",
+   "info",
+   "deltahealthclinics",
+   "example",
+   "com",
+   "91",
+   "76809",
+   "24574",
+   "917680924574",
+   "7680924574",
+   "chennai"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0a35f535f3326d567b"
+  },
+  "name": "Evergreen Builders",
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "legalName": "Evergreen Builders Pvt Ltd",
+  "email": "info@evergreenbuilders.example.com",
+  "phone": "+91 81031 15022",
+  "website": "https://www.evergreenbuilders.example.com",
+  "address": "158, Station Road",
+  "city": "Hyderabad",
+  "state": "Telangana",
+  "country": "India",
+  "postalCode": "754070",
+  "notes": "Demo data",
+  "industryId": {
+   "$oid": "6abfcc0935f535f3326d563b"
+  },
+  "companyTypeId": {
+   "$oid": "6abfcc0935f535f3326d563f"
+  },
+  "organizationId": {
+   "$oid": "6abfcc0935f535f3326d5642"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "companyCode": "COMP-000005",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954506040"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954506040"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "comp",
+   "000005",
+   "5",
+   "evergreen",
+   "builders",
+   "pvt",
+   "ltd",
+   "info",
+   "evergreenbuilders",
+   "example",
+   "com",
+   "91",
+   "81031",
+   "15022",
+   "918103115022",
+   "8103115022",
+   "hyderabad"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0a35f535f3326d5680"
+  },
+  "name": "Falcon Logistics",
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "legalName": "Falcon Logistics Pvt Ltd",
+  "email": "info@falconlogistics.example.com",
+  "phone": "+91 84213 98735",
+  "website": "https://www.falconlogistics.example.com",
+  "address": "125, MG Road",
+  "city": "Ahmedabad",
+  "state": "Gujarat",
+  "country": "India",
+  "postalCode": "457303",
+  "notes": "Demo data",
+  "industryId": {
+   "$oid": "6abfcc0935f535f3326d563d"
+  },
+  "companyTypeId": {
+   "$oid": "6abfcc0935f535f3326d563e"
+  },
+  "organizationId": {
+   "$oid": "6abfcc0935f535f3326d5643"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "companyCode": "COMP-000006",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954506057"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954506057"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "comp",
+   "000006",
+   "6",
+   "falcon",
+   "logistics",
+   "pvt",
+   "ltd",
+   "info",
+   "falconlogistics",
+   "example",
+   "com",
+   "91",
+   "84213",
+   "98735",
+   "918421398735",
+   "8421398735",
+   "ahmedabad"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0a35f535f3326d5684"
+  },
+  "name": "Granite Software",
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "legalName": "Granite Software Pvt Ltd",
+  "email": "info@granitesoftware.example.com",
+  "phone": "+91 75231 48979",
+  "website": "https://www.granitesoftware.example.com",
+  "address": "88, Tech Park",
+  "city": "Kochi",
+  "state": "Kerala",
+  "country": "India",
+  "postalCode": "162456",
+  "notes": "Demo data",
+  "industryId": {
+   "$oid": "6abfcc0935f535f3326d5638"
+  },
+  "companyTypeId": {
+   "$oid": "6abfcc0935f535f3326d5640"
+  },
+  "organizationId": {
+   "$oid": "6abfcc0935f535f3326d5643"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "companyCode": "COMP-000007",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954506072"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954506072"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "comp",
+   "000007",
+   "7",
+   "granite",
+   "software",
+   "pvt",
+   "ltd",
+   "info",
+   "granitesoftware",
+   "example",
+   "com",
+   "91",
+   "75231",
+   "48979",
+   "917523148979",
+   "7523148979",
+   "kochi"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0a35f535f3326d5689"
+  },
+  "name": "Horizon Academy",
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "legalName": "Horizon Academy Pvt Ltd",
+  "email": "info@horizonacademy.example.com",
+  "phone": "+91 95343 51924",
+  "website": "https://www.horizonacademy.example.com",
+  "address": "18, Station Road",
+  "city": "Jaipur",
+  "state": "Rajasthan",
+  "country": "India",
+  "postalCode": "298635",
+  "notes": "Demo data",
+  "industryId": {
+   "$oid": "6abfcc0935f535f3326d563c"
+  },
+  "companyTypeId": {
+   "$oid": "6abfcc0935f535f3326d563f"
+  },
+  "organizationId": {
+   "$oid": "6abfcc0935f535f3326d5643"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "companyCode": "COMP-000008",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954506091"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954506091"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "comp",
+   "000008",
+   "8",
+   "horizon",
+   "academy",
+   "pvt",
+   "ltd",
+   "info",
+   "horizonacademy",
+   "example",
+   "com",
+   "91",
+   "95343",
+   "51924",
+   "919534351924",
+   "9534351924",
+   "jaipur"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0a35f535f3326d568d"
+  },
+  "name": "Indigo Retail Mart",
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "legalName": "Indigo Retail Mart Pvt Ltd",
+  "email": "info@indigoretailmart.example.com",
+  "phone": "+91 89911 11779",
+  "website": "https://www.indigoretailmart.example.com",
+  "address": "118, Station Road",
+  "city": "Kolkata",
+  "state": "West Bengal",
+  "country": "India",
+  "postalCode": "681578",
+  "notes": "Demo data",
+  "industryId": {
+   "$oid": "6abfcc0935f535f3326d563a"
+  },
+  "companyTypeId": {
+   "$oid": "6abfcc0935f535f3326d563e"
+  },
+  "organizationId": {
+   "$oid": "6abfcc0935f535f3326d5642"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "companyCode": "COMP-000009",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954506106"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954506106"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "comp",
+   "000009",
+   "9",
+   "indigo",
+   "retail",
+   "mart",
+   "pvt",
+   "ltd",
+   "info",
+   "indigoretailmart",
+   "example",
+   "com",
+   "91",
+   "89911",
+   "11779",
+   "918991111779",
+   "8991111779",
+   "kolkata"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0a35f535f3326d5692"
+  },
+  "name": "Juniper Pharma",
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "legalName": "Juniper Pharma Pvt Ltd",
+  "email": "info@juniperpharma.example.com",
+  "phone": "+91 93725 11059",
+  "website": "https://www.juniperpharma.example.com",
+  "address": "45, Industrial Estate",
+  "city": "Vadodara",
+  "state": "Gujarat",
+  "country": "India",
+  "postalCode": "575166",
+  "notes": "Demo data",
+  "industryId": {
+   "$oid": "6abfcc0935f535f3326d5639"
+  },
+  "companyTypeId": {
+   "$oid": "6abfcc0935f535f3326d563f"
+  },
+  "organizationId": {
+   "$oid": "6abfcc0935f535f3326d5643"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "companyCode": "COMP-000010",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954506125"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954506125"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "comp",
+   "000010",
+   "10",
+   "juniper",
+   "pharma",
+   "pvt",
+   "ltd",
+   "info",
+   "juniperpharma",
+   "example",
+   "com",
+   "91",
+   "93725",
+   "11059",
+   "919372511059",
+   "9372511059",
+   "vadodara"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0a35f535f3326d5696"
+  },
+  "name": "Kestrel Engineering",
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "legalName": "Kestrel Engineering Pvt Ltd",
+  "email": "info@kestrelengineering.example.com",
+  "phone": "+91 86440 42557",
+  "website": "https://www.kestrelengineering.example.com",
+  "address": "78, Tech Park",
+  "city": "Coimbatore",
+  "state": "Tamil Nadu",
+  "country": "India",
+  "postalCode": "485270",
+  "notes": "Demo data",
+  "industryId": {
+   "$oid": "6abfcc0935f535f3326d5637"
+  },
+  "companyTypeId": {
+   "$oid": "6abfcc0935f535f3326d563e"
+  },
+  "organizationId": {
+   "$oid": "6abfcc0935f535f3326d5643"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "companyCode": "COMP-000011",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954506138"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954506138"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "comp",
+   "000011",
+   "11",
+   "kestrel",
+   "engineering",
+   "pvt",
+   "ltd",
+   "info",
+   "kestrelengineering",
+   "example",
+   "com",
+   "91",
+   "86440",
+   "42557",
+   "918644042557",
+   "8644042557",
+   "coimbatore"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0a35f535f3326d569a"
+  },
+  "name": "Lotus Hospitality",
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "legalName": "Lotus Hospitality Pvt Ltd",
+  "email": "info@lotushospitality.example.com",
+  "phone": "+91 92057 80770",
+  "website": "https://www.lotushospitality.example.com",
+  "address": "46, MG Road",
+  "city": "Goa",
+  "state": "Goa",
+  "country": "India",
+  "postalCode": "708498",
+  "notes": "Demo data",
+  "industryId": {
+   "$oid": "6abfcc0935f535f3326d563a"
+  },
+  "companyTypeId": {
+   "$oid": "6abfcc0935f535f3326d563f"
+  },
+  "organizationId": {
+   "$oid": "6abfcc0935f535f3326d5642"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "companyCode": "COMP-000012",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954506153"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954506153"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "comp",
+   "000012",
+   "12",
+   "lotus",
+   "hospitality",
+   "pvt",
+   "ltd",
+   "info",
+   "lotushospitality",
+   "example",
+   "com",
+   "91",
+   "92057",
+   "80770",
+   "919205780770",
+   "9205780770",
+   "goa"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0a35f535f3326d569e"
+  },
+  "name": "Meridian Infotech",
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "legalName": "Meridian Infotech Pvt Ltd",
+  "email": "info@meridianinfotech.example.com",
+  "phone": "+91 82759 73980",
+  "website": "https://www.meridianinfotech.example.com",
+  "address": "38, Station Road",
+  "city": "Noida",
+  "state": "Uttar Pradesh",
+  "country": "India",
+  "postalCode": "278155",
+  "notes": "Demo data",
+  "industryId": {
+   "$oid": "6abfcc0935f535f3326d5638"
+  },
+  "companyTypeId": {
+   "$oid": "6abfcc0935f535f3326d563e"
+  },
+  "organizationId": {
+   "$oid": "6abfcc0935f535f3326d5642"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "companyCode": "COMP-000013",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954506169"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954506169"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "comp",
+   "000013",
+   "13",
+   "meridian",
+   "infotech",
+   "pvt",
+   "ltd",
+   "info",
+   "meridianinfotech",
+   "example",
+   "com",
+   "91",
+   "82759",
+   "73980",
+   "918275973980",
+   "8275973980",
+   "noida"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0a35f535f3326d56a2"
+  },
+  "name": "Nova Packaging",
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "legalName": "Nova Packaging Pvt Ltd",
+  "email": "info@novapackaging.example.com",
+  "phone": "+91 73393 89017",
+  "website": "https://www.novapackaging.example.com",
+  "address": "72, Tech Park",
+  "city": "Indore",
+  "state": "Madhya Pradesh",
+  "country": "India",
+  "postalCode": "538228",
+  "notes": "Demo data",
+  "industryId": {
+   "$oid": "6abfcc0935f535f3326d5637"
+  },
+  "companyTypeId": {
+   "$oid": "6abfcc0935f535f3326d563f"
+  },
+  "organizationId": {
+   "$oid": "6abfcc0935f535f3326d5642"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "companyCode": "COMP-000014",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954506183"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954506183"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "comp",
+   "000014",
+   "14",
+   "nova",
+   "packaging",
+   "pvt",
+   "ltd",
+   "info",
+   "novapackaging",
+   "example",
+   "com",
+   "91",
+   "73393",
+   "89017",
+   "917339389017",
+   "7339389017",
+   "indore"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0a35f535f3326d56a6"
+  },
+  "name": "Orchid Schools Trust",
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "legalName": "Orchid Schools Trust Pvt Ltd",
+  "email": "info@orchidschoolstrust.example.com",
+  "phone": "+91 97406 86214",
+  "website": "https://www.orchidschoolstrust.example.com",
+  "address": "178, MG Road",
+  "city": "Lucknow",
+  "state": "Uttar Pradesh",
+  "country": "India",
+  "postalCode": "639389",
+  "notes": "Demo data",
+  "industryId": {
+   "$oid": "6abfcc0935f535f3326d563c"
+  },
+  "companyTypeId": {
+   "$oid": "6abfcc0935f535f3326d563e"
+  },
+  "organizationId": {
+   "$oid": "6abfcc0935f535f3326d5643"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "companyCode": "COMP-000015",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954506195"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954506195"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "comp",
+   "000015",
+   "15",
+   "orchid",
+   "schools",
+   "trust",
+   "pvt",
+   "ltd",
+   "info",
+   "orchidschoolstrust",
+   "example",
+   "com",
+   "91",
+   "97406",
+   "86214",
+   "919740686214",
+   "9740686214",
+   "lucknow"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0a35f535f3326d56aa"
+  },
+  "name": "Pinnacle Realty",
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "legalName": "Pinnacle Realty Pvt Ltd",
+  "email": "info@pinnaclerealty.example.com",
+  "phone": "+91 81837 75608",
+  "website": "https://www.pinnaclerealty.example.com",
+  "address": "213, Ring Road",
+  "city": "Gurugram",
+  "state": "Haryana",
+  "country": "India",
+  "postalCode": "309537",
+  "notes": "Demo data",
+  "industryId": {
+   "$oid": "6abfcc0935f535f3326d563b"
+  },
+  "companyTypeId": {
+   "$oid": "6abfcc0935f535f3326d563e"
+  },
+  "organizationId": {
+   "$oid": "6abfcc0935f535f3326d5642"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "companyCode": "COMP-000016",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954506210"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954506210"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "comp",
+   "000016",
+   "16",
+   "pinnacle",
+   "realty",
+   "pvt",
+   "ltd",
+   "info",
+   "pinnaclerealty",
+   "example",
+   "com",
+   "91",
+   "81837",
+   "75608",
+   "918183775608",
+   "8183775608",
+   "gurugram"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0a35f535f3326d56ae"
+  },
+  "name": "Quartz Electronics",
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "legalName": "Quartz Electronics Pvt Ltd",
+  "email": "info@quartzelectronics.example.com",
+  "phone": "+91 94334 41766",
+  "website": "https://www.quartzelectronics.example.com",
+  "address": "94, Ring Road",
+  "city": "Chandigarh",
+  "state": "Punjab",
+  "country": "India",
+  "postalCode": "469572",
+  "notes": "Demo data",
+  "industryId": {
+   "$oid": "6abfcc0935f535f3326d5637"
+  },
+  "companyTypeId": {
+   "$oid": "6abfcc0935f535f3326d5641"
+  },
+  "organizationId": {
+   "$oid": "6abfcc0935f535f3326d5642"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "companyCode": "COMP-000017",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954506225"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954506225"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "comp",
+   "000017",
+   "17",
+   "quartz",
+   "electronics",
+   "pvt",
+   "ltd",
+   "info",
+   "quartzelectronics",
+   "example",
+   "com",
+   "91",
+   "94334",
+   "41766",
+   "919433441766",
+   "9433441766",
+   "chandigarh"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0a35f535f3326d56b3"
+  },
+  "name": "Riverline Freight",
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "legalName": "Riverline Freight Pvt Ltd",
+  "email": "info@riverlinefreight.example.com",
+  "phone": "+91 88361 90785",
+  "website": "https://www.riverlinefreight.example.com",
+  "address": "21, Industrial Estate",
+  "city": "Visakhapatnam",
+  "state": "Andhra Pradesh",
+  "country": "India",
+  "postalCode": "535150",
+  "notes": "Demo data",
+  "industryId": {
+   "$oid": "6abfcc0935f535f3326d563d"
+  },
+  "companyTypeId": {
+   "$oid": "6abfcc0935f535f3326d563f"
+  },
+  "organizationId": {
+   "$oid": "6abfcc0935f535f3326d5643"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "companyCode": "COMP-000018",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954506242"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954506242"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "comp",
+   "000018",
+   "18",
+   "riverline",
+   "freight",
+   "pvt",
+   "ltd",
+   "info",
+   "riverlinefreight",
+   "example",
+   "com",
+   "91",
+   "88361",
+   "90785",
+   "918836190785",
+   "8836190785",
+   "visakhapatnam"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0a35f535f3326d56b8"
+  },
+  "name": "Saffron Foods",
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "legalName": "Saffron Foods Pvt Ltd",
+  "email": "info@saffronfoods.example.com",
+  "phone": "+91 99784 39580",
+  "website": "https://www.saffronfoods.example.com",
+  "address": "174, Tech Park",
+  "city": "Nagpur",
+  "state": "Maharashtra",
+  "country": "India",
+  "postalCode": "183689",
+  "notes": "Demo data",
+  "industryId": {
+   "$oid": "6abfcc0935f535f3326d563a"
+  },
+  "companyTypeId": {
+   "$oid": "6abfcc0935f535f3326d563e"
+  },
+  "organizationId": {
+   "$oid": "6abfcc0935f535f3326d5642"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "companyCode": "COMP-000019",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954506261"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954506261"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "comp",
+   "000019",
+   "19",
+   "saffron",
+   "foods",
+   "pvt",
+   "ltd",
+   "info",
+   "saffronfoods",
+   "example",
+   "com",
+   "91",
+   "99784",
+   "39580",
+   "919978439580",
+   "9978439580",
+   "nagpur"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0a35f535f3326d56bc"
+  },
+  "name": "Teal Diagnostics",
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "legalName": "Teal Diagnostics Pvt Ltd",
+  "email": "info@tealdiagnostics.example.com",
+  "phone": "+91 99237 77042",
+  "website": "https://www.tealdiagnostics.example.com",
+  "address": "20, Industrial Estate",
+  "city": "Mysuru",
+  "state": "Karnataka",
+  "country": "India",
+  "postalCode": "397400",
+  "notes": "Demo data",
+  "industryId": {
+   "$oid": "6abfcc0935f535f3326d5639"
+  },
+  "companyTypeId": {
+   "$oid": "6abfcc0935f535f3326d563f"
+  },
+  "organizationId": {
+   "$oid": "6abfcc0935f535f3326d5643"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "companyCode": "COMP-000020",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954506276"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954506276"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "comp",
+   "000020",
+   "20",
+   "teal",
+   "diagnostics",
+   "pvt",
+   "ltd",
+   "info",
+   "tealdiagnostics",
+   "example",
+   "com",
+   "91",
+   "99237",
+   "77042",
+   "919923777042",
+   "9923777042",
+   "mysuru"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0a35f535f3326d5727"
+  },
+  "name": "Zenith Coworking",
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "email": "hello@zenithcoworking.example.com",
+  "city": "Bengaluru",
+  "country": "India",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "companyCode": "COMP-000021",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954506946"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954506946"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "comp",
+   "000021",
+   "21",
+   "zenith",
+   "coworking",
+   "hello",
+   "zenithcoworking",
+   "example",
+   "com",
+   "bengaluru"
+  ]
+ }
+]

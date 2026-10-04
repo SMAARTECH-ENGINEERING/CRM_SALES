@@ -102,7 +102,7 @@ export default function PaymentsPage() {
       { field: 'paymentDate', headerName: t('fields.paidOn'), width: 115, valueFormatter: (value) => (value ? formatDate(value) : EMPTY) },
       { field: 'paymentMethod', headerName: t('fields.method'), width: 130, sortable: false, valueGetter: (value) => value?.name ?? EMPTY },
     ],
-    []
+    [t]
   );
 
   const hasFilters = Boolean(params.search || FILTER_KEYS.some((key) => params[key]));

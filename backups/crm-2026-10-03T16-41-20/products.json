@@ -1,0 +1,986 @@
+[
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d5651"
+  },
+  "name": "Ergonomic Office Chair",
+  "basePrice": {
+   "$numberInt": "8999"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "categoryId": {
+   "$oid": "6abfcc0935f535f3326d5644"
+  },
+  "unitId": {
+   "$oid": "6abfcc0935f535f3326d5649"
+  },
+  "taxId": {
+   "$oid": "6abfcc0935f535f3326d564d"
+  },
+  "description": "Ergonomic Office Chair - demo product",
+  "costPrice": {
+   "$numberInt": "6200"
+  },
+  "sku": "FURN-000001",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505690"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505690"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d5652"
+  },
+  "name": "Executive Desk 160cm",
+  "basePrice": {
+   "$numberInt": "24500"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "categoryId": {
+   "$oid": "6abfcc0935f535f3326d5644"
+  },
+  "unitId": {
+   "$oid": "6abfcc0935f535f3326d5649"
+  },
+  "taxId": {
+   "$oid": "6abfcc0935f535f3326d564d"
+  },
+  "description": "Executive Desk 160cm - demo product",
+  "costPrice": {
+   "$numberInt": "17000"
+  },
+  "sku": "FURN-000002",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505717"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505717"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d5653"
+  },
+  "name": "Height-Adjustable Desk",
+  "basePrice": {
+   "$numberInt": "38900"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "categoryId": {
+   "$oid": "6abfcc0935f535f3326d5644"
+  },
+  "unitId": {
+   "$oid": "6abfcc0935f535f3326d5649"
+  },
+  "taxId": {
+   "$oid": "6abfcc0935f535f3326d564d"
+  },
+  "description": "Height-Adjustable Desk - demo product",
+  "costPrice": {
+   "$numberInt": "28000"
+  },
+  "sku": "FURN-000003",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505726"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505726"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d5654"
+  },
+  "name": "Meeting Table 8-Seater",
+  "basePrice": {
+   "$numberInt": "46000"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "categoryId": {
+   "$oid": "6abfcc0935f535f3326d5644"
+  },
+  "unitId": {
+   "$oid": "6abfcc0935f535f3326d5649"
+  },
+  "taxId": {
+   "$oid": "6abfcc0935f535f3326d564d"
+  },
+  "description": "Meeting Table 8-Seater - demo product",
+  "costPrice": {
+   "$numberInt": "33500"
+  },
+  "sku": "FURN-000004",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505734"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505734"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d5655"
+  },
+  "name": "Filing Cabinet 4-Drawer",
+  "basePrice": {
+   "$numberInt": "12750"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "categoryId": {
+   "$oid": "6abfcc0935f535f3326d5644"
+  },
+  "unitId": {
+   "$oid": "6abfcc0935f535f3326d5649"
+  },
+  "taxId": {
+   "$oid": "6abfcc0935f535f3326d564e"
+  },
+  "description": "Filing Cabinet 4-Drawer - demo product",
+  "costPrice": {
+   "$numberInt": "9100"
+  },
+  "sku": "FURN-000005",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505743"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505743"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d5656"
+  },
+  "name": "Visitor Chair",
+  "basePrice": {
+   "$numberInt": "3450"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "categoryId": {
+   "$oid": "6abfcc0935f535f3326d5644"
+  },
+  "unitId": {
+   "$oid": "6abfcc0935f535f3326d5649"
+  },
+  "taxId": {
+   "$oid": "6abfcc0935f535f3326d564e"
+  },
+  "description": "Visitor Chair - demo product",
+  "costPrice": {
+   "$numberInt": "2300"
+  },
+  "sku": "FURN-000006",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505752"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505752"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d5657"
+  },
+  "name": "Business Laptop 14\"",
+  "basePrice": {
+   "$numberInt": "72000"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "categoryId": {
+   "$oid": "6abfcc0935f535f3326d5645"
+  },
+  "unitId": {
+   "$oid": "6abfcc0935f535f3326d5649"
+  },
+  "taxId": {
+   "$oid": "6abfcc0935f535f3326d564d"
+  },
+  "description": "Business Laptop 14\" - demo product",
+  "costPrice": {
+   "$numberInt": "61000"
+  },
+  "sku": "ITHW-000007",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505761"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505761"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d5658"
+  },
+  "name": "27\" Monitor",
+  "basePrice": {
+   "$numberInt": "18500"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "categoryId": {
+   "$oid": "6abfcc0935f535f3326d5645"
+  },
+  "unitId": {
+   "$oid": "6abfcc0935f535f3326d5649"
+  },
+  "taxId": {
+   "$oid": "6abfcc0935f535f3326d564d"
+  },
+  "description": "27\" Monitor - demo product",
+  "costPrice": {
+   "$numberInt": "14800"
+  },
+  "sku": "ITHW-000008",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505773"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505773"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d5659"
+  },
+  "name": "Docking Station",
+  "basePrice": {
+   "$numberInt": "9800"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "categoryId": {
+   "$oid": "6abfcc0935f535f3326d5645"
+  },
+  "unitId": {
+   "$oid": "6abfcc0935f535f3326d5649"
+  },
+  "taxId": {
+   "$oid": "6abfcc0935f535f3326d564d"
+  },
+  "description": "Docking Station - demo product",
+  "costPrice": {
+   "$numberInt": "7400"
+  },
+  "sku": "ITHW-000009",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505781"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505781"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d565a"
+  },
+  "name": "Wireless Keyboard and Mouse",
+  "basePrice": {
+   "$numberInt": "2950"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "categoryId": {
+   "$oid": "6abfcc0935f535f3326d5645"
+  },
+  "unitId": {
+   "$oid": "6abfcc0935f535f3326d5649"
+  },
+  "taxId": {
+   "$oid": "6abfcc0935f535f3326d564d"
+  },
+  "description": "Wireless Keyboard and Mouse - demo product",
+  "costPrice": {
+   "$numberInt": "1900"
+  },
+  "sku": "ITHW-000010",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505789"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505789"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d565b"
+  },
+  "name": "Network Switch 24-Port",
+  "basePrice": {
+   "$numberInt": "21400"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "categoryId": {
+   "$oid": "6abfcc0935f535f3326d5645"
+  },
+  "unitId": {
+   "$oid": "6abfcc0935f535f3326d5649"
+  },
+  "taxId": {
+   "$oid": "6abfcc0935f535f3326d564d"
+  },
+  "description": "Network Switch 24-Port - demo product",
+  "costPrice": {
+   "$numberInt": "16900"
+  },
+  "sku": "ITHW-000011",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505798"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505798"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d565c"
+  },
+  "name": "Office Productivity Suite",
+  "basePrice": {
+   "$numberInt": "8400"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "categoryId": {
+   "$oid": "6abfcc0935f535f3326d5646"
+  },
+  "unitId": {
+   "$oid": "6abfcc0935f535f3326d564b"
+  },
+  "taxId": {
+   "$oid": "6abfcc0935f535f3326d564d"
+  },
+  "description": "Office Productivity Suite - demo product",
+  "costPrice": {
+   "$numberInt": "6300"
+  },
+  "sku": "SOFT-000012",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505806"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505806"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d565d"
+  },
+  "name": "Endpoint Security (1 year)",
+  "basePrice": {
+   "$numberInt": "2100"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "categoryId": {
+   "$oid": "6abfcc0935f535f3326d5646"
+  },
+  "unitId": {
+   "$oid": "6abfcc0935f535f3326d564b"
+  },
+  "taxId": {
+   "$oid": "6abfcc0935f535f3326d564d"
+  },
+  "description": "Endpoint Security (1 year) - demo product",
+  "costPrice": {
+   "$numberInt": "1350"
+  },
+  "sku": "SOFT-000013",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505814"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505814"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d565e"
+  },
+  "name": "CRM User Licence (1 year)",
+  "basePrice": {
+   "$numberInt": "14400"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "categoryId": {
+   "$oid": "6abfcc0935f535f3326d5646"
+  },
+  "unitId": {
+   "$oid": "6abfcc0935f535f3326d564b"
+  },
+  "taxId": {
+   "$oid": "6abfcc0935f535f3326d564d"
+  },
+  "description": "CRM User Licence (1 year) - demo product",
+  "costPrice": {
+   "$numberInt": "9000"
+  },
+  "sku": "SOFT-000014",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505823"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505823"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d565f"
+  },
+  "name": "Backup Storage 1TB (1 year)",
+  "basePrice": {
+   "$numberInt": "6000"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "categoryId": {
+   "$oid": "6abfcc0935f535f3326d5646"
+  },
+  "unitId": {
+   "$oid": "6abfcc0935f535f3326d564b"
+  },
+  "taxId": {
+   "$oid": "6abfcc0935f535f3326d564d"
+  },
+  "description": "Backup Storage 1TB (1 year) - demo product",
+  "costPrice": {
+   "$numberInt": "3800"
+  },
+  "sku": "SOFT-000015",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505831"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505831"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d5660"
+  },
+  "name": "Installation and Setup",
+  "basePrice": {
+   "$numberInt": "1800"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "categoryId": {
+   "$oid": "6abfcc0935f535f3326d5647"
+  },
+  "unitId": {
+   "$oid": "6abfcc0935f535f3326d564a"
+  },
+  "taxId": {
+   "$oid": "6abfcc0935f535f3326d564d"
+  },
+  "description": "Installation and Setup - demo product",
+  "costPrice": {
+   "$numberInt": "900"
+  },
+  "sku": "SERV-000016",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505839"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505839"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d5661"
+  },
+  "name": "Workspace Design Consultation",
+  "basePrice": {
+   "$numberInt": "3500"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "categoryId": {
+   "$oid": "6abfcc0935f535f3326d5647"
+  },
+  "unitId": {
+   "$oid": "6abfcc0935f535f3326d564a"
+  },
+  "taxId": {
+   "$oid": "6abfcc0935f535f3326d564d"
+  },
+  "description": "Workspace Design Consultation - demo product",
+  "costPrice": {
+   "$numberInt": "1700"
+  },
+  "sku": "SERV-000017",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505852"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505852"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d5662"
+  },
+  "name": "On-site Training",
+  "basePrice": {
+   "$numberInt": "2500"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "categoryId": {
+   "$oid": "6abfcc0935f535f3326d5647"
+  },
+  "unitId": {
+   "$oid": "6abfcc0935f535f3326d564a"
+  },
+  "taxId": {
+   "$oid": "6abfcc0935f535f3326d564d"
+  },
+  "description": "On-site Training - demo product",
+  "costPrice": {
+   "$numberInt": "1200"
+  },
+  "sku": "SERV-000018",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505869"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505869"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d5663"
+  },
+  "name": "Annual Maintenance Visit",
+  "basePrice": {
+   "$numberInt": "2200"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "categoryId": {
+   "$oid": "6abfcc0935f535f3326d5647"
+  },
+  "unitId": {
+   "$oid": "6abfcc0935f535f3326d564a"
+  },
+  "taxId": {
+   "$oid": "6abfcc0935f535f3326d564d"
+  },
+  "description": "Annual Maintenance Visit - demo product",
+  "costPrice": {
+   "$numberInt": "1100"
+  },
+  "sku": "SERV-000019",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505876"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505876"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d5664"
+  },
+  "name": "A4 Paper (5 reams)",
+  "basePrice": {
+   "$numberInt": "1450"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "categoryId": {
+   "$oid": "6abfcc0935f535f3326d5648"
+  },
+  "unitId": {
+   "$oid": "6abfcc0935f535f3326d564c"
+  },
+  "taxId": {
+   "$oid": "6abfcc0935f535f3326d564e"
+  },
+  "description": "A4 Paper (5 reams) - demo product",
+  "costPrice": {
+   "$numberInt": "1100"
+  },
+  "sku": "CONS-000020",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505883"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505883"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d5665"
+  },
+  "name": "Printer Toner Cartridge",
+  "basePrice": {
+   "$numberInt": "4300"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "categoryId": {
+   "$oid": "6abfcc0935f535f3326d5648"
+  },
+  "unitId": {
+   "$oid": "6abfcc0935f535f3326d5649"
+  },
+  "taxId": {
+   "$oid": "6abfcc0935f535f3326d564d"
+  },
+  "description": "Printer Toner Cartridge - demo product",
+  "costPrice": {
+   "$numberInt": "3100"
+  },
+  "sku": "CONS-000021",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505892"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505892"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d5666"
+  },
+  "name": "Whiteboard Markers (box of 10)",
+  "basePrice": {
+   "$numberInt": "380"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "categoryId": {
+   "$oid": "6abfcc0935f535f3326d5648"
+  },
+  "unitId": {
+   "$oid": "6abfcc0935f535f3326d564c"
+  },
+  "taxId": {
+   "$oid": "6abfcc0935f535f3326d564e"
+  },
+  "description": "Whiteboard Markers (box of 10) - demo product",
+  "costPrice": {
+   "$numberInt": "240"
+  },
+  "sku": "CONS-000022",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505900"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505900"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d5667"
+  },
+  "name": "First-Aid Kit",
+  "basePrice": {
+   "$numberInt": "1250"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "categoryId": {
+   "$oid": "6abfcc0935f535f3326d5648"
+  },
+  "unitId": {
+   "$oid": "6abfcc0935f535f3326d5649"
+  },
+  "taxId": {
+   "$oid": "6abfcc0935f535f3326d564f"
+  },
+  "description": "First-Aid Kit - demo product",
+  "costPrice": {
+   "$numberInt": "800"
+  },
+  "sku": "CONS-000023",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505907"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505907"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d5668"
+  },
+  "name": "Recycled Notebooks (pack of 20)",
+  "basePrice": {
+   "$numberInt": "900"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "categoryId": {
+   "$oid": "6abfcc0935f535f3326d5648"
+  },
+  "unitId": {
+   "$oid": "6abfcc0935f535f3326d564c"
+  },
+  "taxId": {
+   "$oid": "6abfcc0935f535f3326d5650"
+  },
+  "description": "Recycled Notebooks (pack of 20) - demo product",
+  "costPrice": {
+   "$numberInt": "560"
+  },
+  "sku": "CONS-000024",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505914"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505914"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ }
+]

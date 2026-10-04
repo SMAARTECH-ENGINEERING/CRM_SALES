@@ -1,0 +1,2180 @@
+[
+ {
+  "_id": {
+   "$oid": "6abe207bafb8ea8f3796607d"
+  },
+  "key": "users.read",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "read",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790845051605"
+   }
+  },
+  "description": "View users",
+  "module": "users",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe207bafb8ea8f3796607e"
+  },
+  "key": "users.create",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "create",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790845051605"
+   }
+  },
+  "description": "Create users",
+  "module": "users",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe207bafb8ea8f3796607f"
+  },
+  "key": "users.update",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "update",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790845051605"
+   }
+  },
+  "description": "Edit user profiles",
+  "module": "users",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe207bafb8ea8f37966080"
+  },
+  "key": "users.changeStatus",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "changeStatus",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790845051605"
+   }
+  },
+  "description": "Activate and deactivate users",
+  "module": "users",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe207bafb8ea8f37966081"
+  },
+  "key": "users.resetPassword",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "resetPassword",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790845051605"
+   }
+  },
+  "description": "Set another user's password",
+  "module": "users",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe207bafb8ea8f37966082"
+  },
+  "key": "users.delete",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "delete",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790845051605"
+   }
+  },
+  "description": "Delete users",
+  "module": "users",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe207bafb8ea8f37966083"
+  },
+  "key": "users.assignRole",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "assignRole",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790845051605"
+   }
+  },
+  "description": "Choose the role of a user",
+  "module": "users",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe207bafb8ea8f37966084"
+  },
+  "key": "roles.read",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "read",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790845051605"
+   }
+  },
+  "description": "View roles",
+  "module": "roles",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe207bafb8ea8f37966085"
+  },
+  "key": "roles.create",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "create",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790845051605"
+   }
+  },
+  "description": "Create roles",
+  "module": "roles",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe207bafb8ea8f37966086"
+  },
+  "key": "roles.update",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "update",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790845051605"
+   }
+  },
+  "description": "Edit role name, description and status",
+  "module": "roles",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe207bafb8ea8f37966087"
+  },
+  "key": "roles.delete",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "delete",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790845051605"
+   }
+  },
+  "description": "Delete roles",
+  "module": "roles",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe207bafb8ea8f37966088"
+  },
+  "key": "roles.assignPermissions",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "assignPermissions",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790845051605"
+   }
+  },
+  "description": "Change which permissions a role has",
+  "module": "roles",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe207bafb8ea8f37966089"
+  },
+  "key": "permissions.read",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "read",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790845051605"
+   }
+  },
+  "description": "View the permission catalogue",
+  "module": "permissions",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe207bafb8ea8f3796608a"
+  },
+  "key": "leads.create",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "create",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790845051605"
+   }
+  },
+  "description": "Create leads",
+  "module": "leads",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe207bafb8ea8f3796608b"
+  },
+  "key": "leads.read",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "read",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790845051605"
+   }
+  },
+  "description": "View leads",
+  "module": "leads",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe207bafb8ea8f3796608c"
+  },
+  "key": "leads.update",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "update",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790845051605"
+   }
+  },
+  "description": "Edit leads and change their status",
+  "module": "leads",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe207bafb8ea8f3796608d"
+  },
+  "key": "leads.delete",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "delete",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790845051605"
+   }
+  },
+  "description": "Delete leads",
+  "module": "leads",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe21ecafb8ea8f3796608e"
+  },
+  "key": "companies.read",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "read",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790845420401"
+   }
+  },
+  "description": "View companies",
+  "module": "companies",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe21ecafb8ea8f3796608f"
+  },
+  "key": "companies.create",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "create",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790845420401"
+   }
+  },
+  "description": "Create companies",
+  "module": "companies",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe21ecafb8ea8f37966090"
+  },
+  "key": "companies.update",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "update",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790845420401"
+   }
+  },
+  "description": "Edit companies",
+  "module": "companies",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe21ecafb8ea8f37966091"
+  },
+  "key": "companies.delete",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "delete",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790845420401"
+   }
+  },
+  "description": "Delete companies",
+  "module": "companies",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe21ecafb8ea8f37966092"
+  },
+  "key": "companies.manageLookups",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "manageLookups",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790845420401"
+   }
+  },
+  "description": "Add industries, company types and organizations",
+  "module": "companies",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe28faafb8ea8f379661f3"
+  },
+  "key": "contacts.read",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "read",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790847226746"
+   }
+  },
+  "description": "View contacts",
+  "module": "contacts",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe28faafb8ea8f379661f4"
+  },
+  "key": "contacts.create",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "create",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790847226746"
+   }
+  },
+  "description": "Create contacts",
+  "module": "contacts",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe28faafb8ea8f379661f5"
+  },
+  "key": "contacts.update",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "update",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790847226746"
+   }
+  },
+  "description": "Edit contacts",
+  "module": "contacts",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe28faafb8ea8f379661f6"
+  },
+  "key": "contacts.delete",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "delete",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790847226746"
+   }
+  },
+  "description": "Delete contacts",
+  "module": "contacts",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe2c6bafb8ea8f379663e5"
+  },
+  "key": "leadConfig.manage",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "manage",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790848107314"
+   }
+  },
+  "description": "Manage lead sources, statuses and priorities",
+  "module": "leadConfig",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe320cafb8ea8f3796666e"
+  },
+  "key": "leads.assign",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "assign",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790849548713"
+   }
+  },
+  "description": "Assign leads to users",
+  "module": "leads",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe320cafb8ea8f3796666f"
+  },
+  "key": "leads.convert",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "convert",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790849548713"
+   }
+  },
+  "description": "Convert leads into a company, contact and opportunity",
+  "module": "leads",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf4c44afb8ea8f37966fd4"
+  },
+  "key": "activities.read",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "read",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790921796811"
+   }
+  },
+  "description": "View activities",
+  "module": "activities",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf4c44afb8ea8f37966fd5"
+  },
+  "key": "activities.create",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "create",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790921796811"
+   }
+  },
+  "description": "Log and plan activities",
+  "module": "activities",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf4c44afb8ea8f37966fd6"
+  },
+  "key": "activities.update",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "update",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790921796811"
+   }
+  },
+  "description": "Edit and complete activities",
+  "module": "activities",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf4c44afb8ea8f37966fd7"
+  },
+  "key": "activities.delete",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "delete",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790921796811"
+   }
+  },
+  "description": "Delete activities",
+  "module": "activities",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf4c44afb8ea8f37966fd8"
+  },
+  "key": "activities.manageTypes",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "manageTypes",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790921796811"
+   }
+  },
+  "description": "Manage activity types",
+  "module": "activities",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf4c44afb8ea8f37966fd9"
+  },
+  "key": "followups.read",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "read",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790921796811"
+   }
+  },
+  "description": "View follow-ups",
+  "module": "followups",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf4c44afb8ea8f37966fda"
+  },
+  "key": "followups.create",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "create",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790921796811"
+   }
+  },
+  "description": "Create follow-ups",
+  "module": "followups",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf4c44afb8ea8f37966fdb"
+  },
+  "key": "followups.update",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "update",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790921796811"
+   }
+  },
+  "description": "Edit, complete and reschedule follow-ups",
+  "module": "followups",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf5307afb8ea8f3796766c"
+  },
+  "key": "products.read",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "read",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790923527777"
+   }
+  },
+  "description": "View products and services",
+  "module": "products",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf5307afb8ea8f3796766d"
+  },
+  "key": "products.create",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "create",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790923527777"
+   }
+  },
+  "description": "Create products and services",
+  "module": "products",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf5307afb8ea8f3796766e"
+  },
+  "key": "products.update",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "update",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790923527777"
+   }
+  },
+  "description": "Edit products and services",
+  "module": "products",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf5307afb8ea8f3796766f"
+  },
+  "key": "products.delete",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "delete",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790923527777"
+   }
+  },
+  "description": "Delete products and services",
+  "module": "products",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf5307afb8ea8f37967670"
+  },
+  "key": "products.manageCatalog",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "manageCatalog",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790923527777"
+   }
+  },
+  "description": "Manage product categories, units and taxes",
+  "module": "products",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf61eeafb8ea8f37967671"
+  },
+  "key": "opportunities.read",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "read",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790927342810"
+   }
+  },
+  "description": "View opportunities",
+  "module": "opportunities",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf61eeafb8ea8f37967672"
+  },
+  "key": "opportunities.create",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "create",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790927342810"
+   }
+  },
+  "description": "Create opportunities",
+  "module": "opportunities",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf61eeafb8ea8f37967673"
+  },
+  "key": "opportunities.update",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "update",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790927342810"
+   }
+  },
+  "description": "Edit opportunities and move them between stages",
+  "module": "opportunities",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf61eeafb8ea8f37967674"
+  },
+  "key": "opportunities.delete",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "delete",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790927342810"
+   }
+  },
+  "description": "Delete opportunities",
+  "module": "opportunities",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf61eeafb8ea8f37967675"
+  },
+  "key": "opportunities.assign",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "assign",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790927342810"
+   }
+  },
+  "description": "Assign opportunities to users",
+  "module": "opportunities",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf61eeafb8ea8f37967676"
+  },
+  "key": "pipelines.manage",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "manage",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790927342810"
+   }
+  },
+  "description": "Manage sales pipelines and their stages",
+  "module": "pipelines",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf8c40afb8ea8f37967eb7"
+  },
+  "key": "quotations.read",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "read",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790938176071"
+   }
+  },
+  "description": "View quotations and download their PDF",
+  "module": "quotations",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf8c42afb8ea8f37967eb8"
+  },
+  "key": "quotations.create",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "create",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790938176071"
+   }
+  },
+  "description": "Create quotations",
+  "module": "quotations",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf8c42afb8ea8f37967eb9"
+  },
+  "key": "quotations.update",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "update",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790938176071"
+   }
+  },
+  "description": "Edit quotations and change their status",
+  "module": "quotations",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf8c42afb8ea8f37967eba"
+  },
+  "key": "quotations.delete",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "delete",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790938176071"
+   }
+  },
+  "description": "Delete quotations",
+  "module": "quotations",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf8c42afb8ea8f37967ebb"
+  },
+  "key": "quotations.send",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "send",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790938176071"
+   }
+  },
+  "description": "Send quotations to customers",
+  "module": "quotations",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf8c42afb8ea8f37967ebc"
+  },
+  "key": "quotations.manageStatuses",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "manageStatuses",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790938176071"
+   }
+  },
+  "description": "Manage quotation statuses",
+  "module": "quotations",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf8c42afb8ea8f37967ebd"
+  },
+  "key": "settings.manage",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "manage",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790938176071"
+   }
+  },
+  "description": "Edit the company profile printed on documents",
+  "module": "settings",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfd015afb8ea8f37968a58"
+  },
+  "key": "orders.read",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "read",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790955541438"
+   }
+  },
+  "description": "View orders",
+  "module": "orders",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfd015afb8ea8f37968a59"
+  },
+  "key": "orders.create",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "create",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790955541438"
+   }
+  },
+  "description": "Create orders, including from accepted quotations",
+  "module": "orders",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfd015afb8ea8f37968a5a"
+  },
+  "key": "orders.update",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "update",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790955541438"
+   }
+  },
+  "description": "Edit orders and change their status",
+  "module": "orders",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfd015afb8ea8f37968a5b"
+  },
+  "key": "orders.delete",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "delete",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790955541438"
+   }
+  },
+  "description": "Delete orders",
+  "module": "orders",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfd015afb8ea8f37968a5c"
+  },
+  "key": "orders.manageStatuses",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "manageStatuses",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790955541438"
+   }
+  },
+  "description": "Manage order statuses",
+  "module": "orders",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfdbd3afb8ea8f379693bd"
+  },
+  "key": "customers.read",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "read",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790958547954"
+   }
+  },
+  "description": "View customers and their 360-degree view",
+  "module": "customers",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfdbd4afb8ea8f379693be"
+  },
+  "key": "customers.create",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "create",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790958547954"
+   }
+  },
+  "description": "Make a company a customer",
+  "module": "customers",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfdbd4afb8ea8f379693bf"
+  },
+  "key": "customers.update",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "update",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790958547954"
+   }
+  },
+  "description": "Edit customer details",
+  "module": "customers",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfdbd4afb8ea8f379693c0"
+  },
+  "key": "customers.delete",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "delete",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790958547954"
+   }
+  },
+  "description": "Remove customer status from a company",
+  "module": "customers",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfe04aafb8ea8f37969dc1"
+  },
+  "key": "projects.read",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "read",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790959690556"
+   }
+  },
+  "description": "View projects, their tasks and milestones",
+  "module": "projects",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfe04aafb8ea8f37969dc2"
+  },
+  "key": "projects.create",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "create",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790959690556"
+   }
+  },
+  "description": "Create projects",
+  "module": "projects",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfe04aafb8ea8f37969dc3"
+  },
+  "key": "projects.update",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "update",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790959690556"
+   }
+  },
+  "description": "Edit projects and their team",
+  "module": "projects",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfe04aafb8ea8f37969dc4"
+  },
+  "key": "projects.delete",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "delete",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790959690556"
+   }
+  },
+  "description": "Delete projects",
+  "module": "projects",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfe04aafb8ea8f37969dc5"
+  },
+  "key": "projects.manageTasks",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "manageTasks",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790959690556"
+   }
+  },
+  "description": "Add, edit and delete project tasks and milestones",
+  "module": "projects",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfe04aafb8ea8f37969dc6"
+  },
+  "key": "projects.manageStatuses",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "manageStatuses",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790959690556"
+   }
+  },
+  "description": "Manage project and task statuses",
+  "module": "projects",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfe700afb8ea8f3796aebb"
+  },
+  "key": "tickets.read",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "read",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790961408433"
+   }
+  },
+  "description": "View tickets, their conversation and attachments",
+  "module": "tickets",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfe700afb8ea8f3796aebc"
+  },
+  "key": "tickets.create",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "create",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790961408433"
+   }
+  },
+  "description": "Open tickets",
+  "module": "tickets",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfe700afb8ea8f3796aebd"
+  },
+  "key": "tickets.update",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "update",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790961408433"
+   }
+  },
+  "description": "Edit tickets and change their status",
+  "module": "tickets",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfe700afb8ea8f3796aebe"
+  },
+  "key": "tickets.delete",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "delete",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790961408433"
+   }
+  },
+  "description": "Delete tickets",
+  "module": "tickets",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfe700afb8ea8f3796aebf"
+  },
+  "key": "tickets.assign",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "assign",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790961408433"
+   }
+  },
+  "description": "Assign tickets to other users",
+  "module": "tickets",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfe700afb8ea8f3796aec0"
+  },
+  "key": "tickets.reply",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "reply",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790961408433"
+   }
+  },
+  "description": "Reply on tickets",
+  "module": "tickets",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfe700afb8ea8f3796aec1"
+  },
+  "key": "tickets.addInternalNote",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "addInternalNote",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790961408433"
+   }
+  },
+  "description": "Add internal notes to tickets",
+  "module": "tickets",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfe700afb8ea8f3796aec2"
+  },
+  "key": "tickets.manageSettings",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "manageSettings",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790961408433"
+   }
+  },
+  "description": "Manage ticket categories, priorities and statuses",
+  "module": "tickets",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfed82afb8ea8f3796c85b"
+  },
+  "key": "contracts.read",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "read",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790963074757"
+   }
+  },
+  "description": "View contracts (AMC) and their reminders",
+  "module": "contracts",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfed82afb8ea8f3796c85c"
+  },
+  "key": "contracts.create",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "create",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790963074757"
+   }
+  },
+  "description": "Create contracts",
+  "module": "contracts",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfed82afb8ea8f3796c85d"
+  },
+  "key": "contracts.update",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "update",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790963074757"
+   }
+  },
+  "description": "Edit contracts and change their status",
+  "module": "contracts",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfed82afb8ea8f3796c85e"
+  },
+  "key": "contracts.delete",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "delete",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790963074757"
+   }
+  },
+  "description": "Delete contracts",
+  "module": "contracts",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfed82afb8ea8f3796c85f"
+  },
+  "key": "contracts.manageSettings",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "manageSettings",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790963074757"
+   }
+  },
+  "description": "Manage contract types, statuses, billing cycles and reminder periods, and run the reminder check",
+  "module": "contracts",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac089feafb8ea8f3796d6a4"
+  },
+  "key": "payments.read",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "read",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791003134024"
+   }
+  },
+  "description": "View payments and what is outstanding",
+  "module": "payments",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac089feafb8ea8f3796d6a5"
+  },
+  "key": "payments.create",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "create",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791003134024"
+   }
+  },
+  "description": "Create payment records (invoices to collect)",
+  "module": "payments",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac089feafb8ea8f3796d6a6"
+  },
+  "key": "payments.update",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "update",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791003134024"
+   }
+  },
+  "description": "Edit payments, record money received and cancel them",
+  "module": "payments",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac089feafb8ea8f3796d6a7"
+  },
+  "key": "payments.delete",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "delete",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791003134024"
+   }
+  },
+  "description": "Delete payments",
+  "module": "payments",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac089feafb8ea8f3796d6a8"
+  },
+  "key": "payments.manageSettings",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "manageSettings",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791003134024"
+   }
+  },
+  "description": "Manage payment methods and statuses",
+  "module": "payments",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac08d60afb8ea8f3796e781"
+  },
+  "key": "documents.read",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "read",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791004000749"
+   }
+  },
+  "description": "View and download documents of records you can see",
+  "module": "documents",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac08d60afb8ea8f3796e782"
+  },
+  "key": "documents.create",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "create",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791004000749"
+   }
+  },
+  "description": "Upload documents, and delete your own",
+  "module": "documents",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac08d60afb8ea8f3796e783"
+  },
+  "key": "documents.delete",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "delete",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791004000749"
+   }
+  },
+  "description": "Delete any document",
+  "module": "documents",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac0932bafb8ea8f37970399"
+  },
+  "key": "dashboard.read",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "read",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791005483134"
+   }
+  },
+  "description": "View the dashboard (each figure also needs the permission to read that module)",
+  "module": "dashboard",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac0932bafb8ea8f3797039a"
+  },
+  "key": "dashboard.viewAll",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "viewAll",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791005483134"
+   }
+  },
+  "description": "See dashboard figures for every organization and every user",
+  "module": "dashboard",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac0978cafb8ea8f37971739"
+  },
+  "key": "reports.read",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "read",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791006604555"
+   }
+  },
+  "description": "Run reports (each report also needs the permission to read that module)",
+  "module": "reports",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac0978cafb8ea8f3797173a"
+  },
+  "key": "reports.export",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "export",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791006604555"
+   }
+  },
+  "description": "Export reports to CSV, Excel and PDF",
+  "module": "reports",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac0978cafb8ea8f3797173b"
+  },
+  "key": "reports.viewAll",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "viewAll",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791006604555"
+   }
+  },
+  "description": "Run reports across every organization and every user",
+  "module": "reports",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac09b72afb8ea8f37972c9c"
+  },
+  "key": "audit.read",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "read",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791007602923"
+   }
+  },
+  "description": "View the audit log",
+  "module": "audit",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac09b72afb8ea8f37972c9d"
+  },
+  "key": "audit.viewAll",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "viewAll",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791007602923"
+   }
+  },
+  "description": "View audit log entries of every organization and every user",
+  "module": "audit",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac0ac89afb8ea8f37978694"
+  },
+  "key": "search.viewAll",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "action": "viewAll",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791011977616"
+   }
+  },
+  "description": "Find records of every organization and every user in global search",
+  "module": "search",
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791088164321"
+   }
+  }
+ }
+]

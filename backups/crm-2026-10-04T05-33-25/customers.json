@@ -1,0 +1,409 @@
+[
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de77f"
+  },
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5fb"
+  },
+  "accountManagerId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "active",
+  "customerSince": {
+   "$date": {
+    "$numberLong": "1790985600000"
+   }
+  },
+  "firstOrderId": {
+   "$oid": "6ac130c7032f6295e82de77c"
+  },
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "customerNumber": "CUST-000001",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831491"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045831491"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de785"
+  },
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5ba"
+  },
+  "accountManagerId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "active",
+  "customerSince": {
+   "$date": {
+    "$numberLong": "1790985600000"
+   }
+  },
+  "firstOrderId": {
+   "$oid": "6ac130c7032f6295e82de782"
+  },
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "customerNumber": "CUST-000002",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831512"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045831512"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de78b"
+  },
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de604"
+  },
+  "accountManagerId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "active",
+  "customerSince": {
+   "$date": {
+    "$numberLong": "1790985600000"
+   }
+  },
+  "firstOrderId": {
+   "$oid": "6ac130c7032f6295e82de788"
+  },
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "customerNumber": "CUST-000003",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831532"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045831532"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de790"
+  },
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5da"
+  },
+  "accountManagerId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "active",
+  "customerSince": {
+   "$date": {
+    "$numberLong": "1790985600000"
+   }
+  },
+  "firstOrderId": {
+   "$oid": "6ac130c7032f6295e82de78d"
+  },
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "customerNumber": "CUST-000004",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831545"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045831545"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de796"
+  },
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5cc"
+  },
+  "accountManagerId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "active",
+  "customerSince": {
+   "$date": {
+    "$numberLong": "1790985600000"
+   }
+  },
+  "firstOrderId": {
+   "$oid": "6ac130c7032f6295e82de793"
+  },
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "customerNumber": "CUST-000005",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831565"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045831565"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de79c"
+  },
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5bf"
+  },
+  "accountManagerId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "active",
+  "customerSince": {
+   "$date": {
+    "$numberLong": "1790985600000"
+   }
+  },
+  "firstOrderId": {
+   "$oid": "6ac130c7032f6295e82de799"
+  },
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "customerNumber": "CUST-000006",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831584"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045831584"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7a1"
+  },
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5eb"
+  },
+  "accountManagerId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "active",
+  "customerSince": {
+   "$date": {
+    "$numberLong": "1790985600000"
+   }
+  },
+  "firstOrderId": {
+   "$oid": "6ac130c7032f6295e82de79e"
+  },
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "customerNumber": "CUST-000007",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831595"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045831595"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7a4"
+  },
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5c4"
+  },
+  "primaryContactId": {
+   "$oid": "6ac130c5032f6295e82de5c6"
+  },
+  "accountManagerId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "active",
+  "customerSince": {
+   "$date": {
+    "$numberLong": "1778544000000"
+   }
+  },
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "customerNumber": "CUST-000008",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831613"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045831613"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7a6"
+  },
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5d5"
+  },
+  "primaryContactId": {
+   "$oid": "6ac130c5032f6295e82de5d7"
+  },
+  "accountManagerId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "active",
+  "customerSince": {
+   "$date": {
+    "$numberLong": "1750982400000"
+   }
+  },
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "customerNumber": "CUST-000009",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831629"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045831629"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7a8"
+  },
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5de"
+  },
+  "primaryContactId": {
+   "$oid": "6ac130c5032f6295e82de5e0"
+  },
+  "accountManagerId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "active",
+  "customerSince": {
+   "$date": {
+    "$numberLong": "1780185600000"
+   }
+  },
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "customerNumber": "CUST-000010",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831642"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045831642"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7aa"
+  },
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5e7"
+  },
+  "primaryContactId": {
+   "$oid": "6ac130c5032f6295e82de5e9"
+  },
+  "accountManagerId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "active",
+  "customerSince": {
+   "$date": {
+    "$numberLong": "1749945600000"
+   }
+  },
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "customerNumber": "CUST-000011",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831653"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045831653"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ }
+]

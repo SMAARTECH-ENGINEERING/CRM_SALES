@@ -1,0 +1,8197 @@
+[
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5bb"
+  },
+  "entityType": "company",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de5ba"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829127"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5c0"
+  },
+  "entityType": "company",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de5bf"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829153"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5c5"
+  },
+  "entityType": "company",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de5c4"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829177"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5c9"
+  },
+  "entityType": "company",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de5c8"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829195"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5cd"
+  },
+  "entityType": "company",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de5cc"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829211"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5d2"
+  },
+  "entityType": "company",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de5d1"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829236"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5d6"
+  },
+  "entityType": "company",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de5d5"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829251"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5db"
+  },
+  "entityType": "company",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de5da"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829271"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5df"
+  },
+  "entityType": "company",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de5de"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829290"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5e4"
+  },
+  "entityType": "company",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de5e3"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829312"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5e8"
+  },
+  "entityType": "company",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de5e7"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829329"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5ec"
+  },
+  "entityType": "company",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de5eb"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829350"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5f0"
+  },
+  "entityType": "company",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de5ef"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829367"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5f4"
+  },
+  "entityType": "company",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de5f3"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829383"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5f8"
+  },
+  "entityType": "company",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de5f7"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829399"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5fc"
+  },
+  "entityType": "company",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de5fb"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829415"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de600"
+  },
+  "entityType": "company",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de5ff"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829430"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de605"
+  },
+  "entityType": "company",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de604"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829450"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de60a"
+  },
+  "entityType": "company",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de609"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829471"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de60e"
+  },
+  "entityType": "company",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de60d"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829486"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de613"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de612"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829512"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de615"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de614"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829522"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de617"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de616"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829531"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de619"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de618"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829540"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de61b"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de61a"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829549"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de61d"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de61c"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829558"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de61f"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de61e"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829567"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de621"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de620"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829576"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de623"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de622"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829585"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de625"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de624"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829594"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de627"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de626"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829604"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de629"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de628"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829612"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de62b"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de62a"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829623"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de62d"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de62c"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829632"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de62f"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de62e"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829642"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de631"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de630"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829650"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de633"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de632"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829658"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de635"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de634"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829667"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de637"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de636"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829676"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de639"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de638"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829683"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de63b"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de63a"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829692"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de63d"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de63c"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829700"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de63f"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de63e"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829708"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de641"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de640"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829716"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de643"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de642"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829724"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de645"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de644"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829732"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de647"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de646"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829739"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de649"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de648"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829747"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de64b"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de64a"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829755"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de64d"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de64c"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829764"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de64f"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de64e"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829772"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de651"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de650"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829779"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de653"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de652"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829787"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de655"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de654"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829794"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de657"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de656"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829802"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de659"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de658"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829808"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de65b"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de65a"
+  },
+  "action": "created",
+  "summary": "Started in Sales Pipeline / Qualification",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829820"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de65c"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de612"
+  },
+  "action": "converted",
+  "summary": "Opportunity OPP-000001 created; company Acme Industries linked; contact Priya Nair linked",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Negotiation",
+    "to": "Won"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829829"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de65e"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de65d"
+  },
+  "action": "created",
+  "summary": "Started in Sales Pipeline / Qualification",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829839"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de65f"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de614"
+  },
+  "action": "converted",
+  "summary": "Opportunity OPP-000002 created; company Bolt Traders linked; contact Vikram Iyer linked",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Negotiation",
+    "to": "Won"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829847"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de661"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de660"
+  },
+  "action": "created",
+  "summary": "Started in Sales Pipeline / Qualification",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829857"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de662"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de616"
+  },
+  "action": "converted",
+  "summary": "Opportunity OPP-000003 created; company Cedar Systems linked; contact Karan Gupta linked",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Qualified",
+    "to": "Won"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829864"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de664"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de663"
+  },
+  "action": "created",
+  "summary": "Started in Sales Pipeline / Qualification",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829875"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de665"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de61a"
+  },
+  "action": "converted",
+  "summary": "Opportunity OPP-000004 created; company Evergreen Builders linked; contact Nikhil Rao linked",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Qualified",
+    "to": "Won"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829882"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de667"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de666"
+  },
+  "action": "created",
+  "summary": "Started in Sales Pipeline / Qualification",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829891"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de668"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de61c"
+  },
+  "action": "converted",
+  "summary": "Opportunity OPP-000005 created; company Falcon Logistics linked; contact Sanjay Desai linked",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Contacted",
+    "to": "Won"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829900"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de66a"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de669"
+  },
+  "action": "created",
+  "summary": "Started in Sales Pipeline / Qualification",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829909"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de66b"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de61e"
+  },
+  "action": "converted",
+  "summary": "Opportunity OPP-000006 created; company Granite Software linked; contact Varun Verma linked",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "New",
+    "to": "Won"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829917"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de66d"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de66c"
+  },
+  "action": "created",
+  "summary": "Started in Sales Pipeline / Qualification",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829926"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de66e"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de624"
+  },
+  "action": "converted",
+  "summary": "Opportunity OPP-000007 created; company Juniper Pharma linked; contact Divya Reddy linked",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "New",
+    "to": "Won"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829934"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de670"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de66f"
+  },
+  "action": "created",
+  "summary": "Started in Sales Pipeline / Qualification",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829944"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de671"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de626"
+  },
+  "action": "converted",
+  "summary": "Opportunity OPP-000008 created; company Kestrel Engineering linked; contact Aditya Menon linked",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Contacted",
+    "to": "Won"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829951"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de673"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de672"
+  },
+  "action": "created",
+  "summary": "Started in Sales Pipeline / Qualification",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829961"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de674"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de62a"
+  },
+  "action": "converted",
+  "summary": "Opportunity OPP-000009 created; company Meridian Infotech linked; contact Neha Rao linked",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Negotiation",
+    "to": "Won"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829969"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de676"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de675"
+  },
+  "action": "created",
+  "summary": "Started in Sales Pipeline / Qualification",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829979"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de677"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de62c"
+  },
+  "action": "converted",
+  "summary": "Opportunity OPP-000010 created; company Nova Packaging linked; contact Priya Pillai linked",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Contacted",
+    "to": "Won"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829987"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de679"
+  },
+  "entityType": "company",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de678"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829999"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de67c"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de67b"
+  },
+  "action": "created",
+  "summary": "Started in Sales Pipeline / Qualification",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830008"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de67d"
+  },
+  "entityType": "lead",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de618"
+  },
+  "action": "converted",
+  "summary": "Opportunity OPP-000011 created; company Zenith Coworking created; contact Tara Bose created",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Qualified",
+    "to": "Won"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830016"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de67f"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de67e"
+  },
+  "action": "created",
+  "summary": "Started in Sales Pipeline / Qualification",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830029"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de681"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de680"
+  },
+  "action": "created",
+  "summary": "Started in Sales Pipeline / Qualification",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830038"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de682"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de680"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Qualification",
+    "to": "Needs Analysis"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830051"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de684"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de683"
+  },
+  "action": "created",
+  "summary": "Started in Sales Pipeline / Qualification",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830058"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de685"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de683"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Qualification",
+    "to": "Needs Analysis"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830069"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de686"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de683"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Needs Analysis",
+    "to": "Proposal"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830076"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de688"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de687"
+  },
+  "action": "created",
+  "summary": "Started in Sales Pipeline / Qualification",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830082"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de689"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de687"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Qualification",
+    "to": "Needs Analysis"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830092"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de68a"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de687"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Needs Analysis",
+    "to": "Proposal"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830100"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de68b"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de687"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Proposal",
+    "to": "Negotiation"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830108"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de68d"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de68c"
+  },
+  "action": "created",
+  "summary": "Started in Sales Pipeline / Qualification",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830113"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de68e"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de68c"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Qualification",
+    "to": "Needs Analysis"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830124"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de68f"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de68c"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Needs Analysis",
+    "to": "Proposal"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830131"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de690"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de68c"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Proposal",
+    "to": "Negotiation"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830140"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de691"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de68c"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Negotiation",
+    "to": "Closed Won"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830147"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de693"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de692"
+  },
+  "action": "created",
+  "summary": "Started in Sales Pipeline / Qualification",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830153"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de694"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de692"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Qualification",
+    "to": "Needs Analysis"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830163"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de695"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de692"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Needs Analysis",
+    "to": "Proposal"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830171"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de696"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de692"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Proposal",
+    "to": "Negotiation"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830178"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de697"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de692"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Negotiation",
+    "to": "Closed Lost"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830185"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de699"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de698"
+  },
+  "action": "created",
+  "summary": "Started in Sales Pipeline / Qualification",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830191"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de69b"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de69a"
+  },
+  "action": "created",
+  "summary": "Started in Sales Pipeline / Qualification",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830199"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de69c"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de69a"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Qualification",
+    "to": "Needs Analysis"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830209"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de69e"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de69d"
+  },
+  "action": "created",
+  "summary": "Started in Sales Pipeline / Qualification",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830215"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de69f"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de69d"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Qualification",
+    "to": "Needs Analysis"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830225"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6a0"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de69d"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Needs Analysis",
+    "to": "Proposal"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830231"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6a2"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6a1"
+  },
+  "action": "created",
+  "summary": "Started in Sales Pipeline / Qualification",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830237"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6a3"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6a1"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Qualification",
+    "to": "Needs Analysis"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830246"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6a4"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6a1"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Needs Analysis",
+    "to": "Proposal"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830254"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6a5"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6a1"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Proposal",
+    "to": "Negotiation"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830261"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6a7"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6a6"
+  },
+  "action": "created",
+  "summary": "Started in Sales Pipeline / Qualification",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830267"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6a8"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6a6"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Qualification",
+    "to": "Needs Analysis"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830277"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6a9"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6a6"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Needs Analysis",
+    "to": "Proposal"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830285"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6aa"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6a6"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Proposal",
+    "to": "Negotiation"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830292"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6ab"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6a6"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Negotiation",
+    "to": "Closed Won"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830299"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6ad"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6ac"
+  },
+  "action": "created",
+  "summary": "Started in Sales Pipeline / Qualification",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830305"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6ae"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6ac"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Qualification",
+    "to": "Needs Analysis"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830314"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6af"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6ac"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Needs Analysis",
+    "to": "Proposal"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830321"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6b0"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6ac"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Proposal",
+    "to": "Negotiation"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830329"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6b1"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6ac"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Negotiation",
+    "to": "Closed Lost"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830336"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6b3"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6b2"
+  },
+  "action": "created",
+  "summary": "Started in Sales Pipeline / Qualification",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830343"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6b5"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6b4"
+  },
+  "action": "created",
+  "summary": "Started in Sales Pipeline / Qualification",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830351"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6b6"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6b4"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Qualification",
+    "to": "Needs Analysis"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830360"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6b8"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6b7"
+  },
+  "action": "created",
+  "summary": "Started in Sales Pipeline / Qualification",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830366"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6b9"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6b7"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Qualification",
+    "to": "Needs Analysis"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830376"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6ba"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6b7"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Needs Analysis",
+    "to": "Proposal"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830383"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6bc"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6bb"
+  },
+  "action": "created",
+  "summary": "Started in Sales Pipeline / Qualification",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830389"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6bd"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6bb"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Qualification",
+    "to": "Needs Analysis"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830399"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6be"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6bb"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Needs Analysis",
+    "to": "Proposal"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830407"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6bf"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6bb"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Proposal",
+    "to": "Negotiation"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830414"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6c1"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6c0"
+  },
+  "action": "created",
+  "summary": "Started in Sales Pipeline / Qualification",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830419"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6c2"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6c0"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Qualification",
+    "to": "Needs Analysis"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830428"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6c3"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6c0"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Needs Analysis",
+    "to": "Proposal"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830436"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6c4"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6c0"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Proposal",
+    "to": "Negotiation"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830442"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6c5"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6c0"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Negotiation",
+    "to": "Closed Won"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830449"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6c7"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6c6"
+  },
+  "action": "created",
+  "summary": "Started in Sales Pipeline / Qualification",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830455"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6c8"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6c6"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Qualification",
+    "to": "Needs Analysis"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830464"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6c9"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6c6"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Needs Analysis",
+    "to": "Proposal"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830471"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6ca"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6c6"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Proposal",
+    "to": "Negotiation"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830478"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6cb"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6c6"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Negotiation",
+    "to": "Closed Lost"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830484"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6cd"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6cc"
+  },
+  "action": "created",
+  "summary": "Started in Sales Pipeline / Qualification",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830491"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6cf"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6ce"
+  },
+  "action": "created",
+  "summary": "Started in Sales Pipeline / Qualification",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830499"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6d0"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6ce"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Qualification",
+    "to": "Needs Analysis"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830508"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6d2"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6d1"
+  },
+  "action": "created",
+  "summary": "Started in Sales Pipeline / Qualification",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830515"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6d3"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6d1"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Qualification",
+    "to": "Needs Analysis"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830525"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6d4"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6d1"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Needs Analysis",
+    "to": "Proposal"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830533"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6d6"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6d5"
+  },
+  "action": "created",
+  "summary": "Started in Sales Pipeline / Qualification",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830539"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6d7"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6d5"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Qualification",
+    "to": "Needs Analysis"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830548"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6d8"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6d5"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Needs Analysis",
+    "to": "Proposal"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830555"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6d9"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6d5"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Proposal",
+    "to": "Negotiation"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830565"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6db"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6da"
+  },
+  "action": "created",
+  "summary": "Started in Sales Pipeline / Qualification",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830572"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6dc"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6da"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Qualification",
+    "to": "Needs Analysis"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830582"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6dd"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6da"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Needs Analysis",
+    "to": "Proposal"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830589"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6de"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6da"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Proposal",
+    "to": "Negotiation"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830597"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6df"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6da"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Negotiation",
+    "to": "Closed Won"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830604"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6e1"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6e0"
+  },
+  "action": "created",
+  "summary": "Started in Sales Pipeline / Qualification",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830610"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6e2"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6e0"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Qualification",
+    "to": "Needs Analysis"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830619"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6e3"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6e0"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Needs Analysis",
+    "to": "Proposal"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830627"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6e4"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6e0"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Proposal",
+    "to": "Negotiation"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830633"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de6e5"
+  },
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6e0"
+  },
+  "action": "stage_changed",
+  "changes": [
+   {
+    "field": "stage",
+    "label": "Stage",
+    "from": "Negotiation",
+    "to": "Closed Lost"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830641"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de73f"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de73e"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831059"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de741"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de740"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831074"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de742"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de740"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Draft",
+    "to": "Sent"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831082"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de743"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de740"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Sent",
+    "to": "Accepted"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831096"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de745"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de744"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831109"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de746"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de744"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Draft",
+    "to": "Sent"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831116"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de748"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de747"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831130"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de749"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de747"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Draft",
+    "to": "Sent"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831141"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de74b"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de74a"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831153"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de74c"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de74a"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Draft",
+    "to": "Sent"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831161"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de74d"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de74a"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Sent",
+    "to": "Accepted"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831169"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de74f"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de74e"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831180"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de750"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de74e"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Draft",
+    "to": "Sent"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831187"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de751"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de74e"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Sent",
+    "to": "Rejected"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831195"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de753"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de752"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831206"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de754"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de752"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Draft",
+    "to": "Sent"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831213"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de755"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de752"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Sent",
+    "to": "Expired"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831221"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de757"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de756"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831232"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de758"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de756"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Draft",
+    "to": "Sent"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831238"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de759"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de756"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Sent",
+    "to": "Accepted"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831246"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de75b"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de75a"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831259"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de75d"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de75c"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831271"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de75e"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de75c"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Draft",
+    "to": "Sent"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831278"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de75f"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de75c"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Sent",
+    "to": "Accepted"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831286"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de761"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de760"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831298"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de762"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de760"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Draft",
+    "to": "Sent"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831305"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de764"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de763"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831318"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de765"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de763"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Draft",
+    "to": "Sent"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831326"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de767"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de766"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831338"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de768"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de766"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Draft",
+    "to": "Sent"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831346"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de769"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de766"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Sent",
+    "to": "Accepted"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831355"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de76b"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de76a"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831366"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de76c"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de76a"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Draft",
+    "to": "Sent"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831373"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de76d"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de76a"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Sent",
+    "to": "Rejected"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831382"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de76f"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de76e"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831393"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de770"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de76e"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Draft",
+    "to": "Sent"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831402"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de771"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de76e"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Sent",
+    "to": "Expired"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831410"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de773"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de772"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831423"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de774"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de772"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Draft",
+    "to": "Sent"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831430"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de775"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de772"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Sent",
+    "to": "Accepted"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831438"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de777"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de776"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831449"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de779"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de778"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831460"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de77a"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de778"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Draft",
+    "to": "Sent"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831467"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de77b"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de778"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Sent",
+    "to": "Accepted"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831474"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de77e"
+  },
+  "entityType": "order",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de77c"
+  },
+  "action": "created",
+  "summary": "Created from quotation QUO-000002",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831488"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de780"
+  },
+  "entityType": "customer",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de77f"
+  },
+  "action": "created",
+  "summary": "Became a customer with order ORD-000001",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831492"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de781"
+  },
+  "entityType": "order",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de77c"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "New",
+    "to": "Confirmed"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831500"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de784"
+  },
+  "entityType": "order",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de782"
+  },
+  "action": "created",
+  "summary": "Created from quotation QUO-000005",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831510"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de786"
+  },
+  "entityType": "customer",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de785"
+  },
+  "action": "created",
+  "summary": "Became a customer with order ORD-000002",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831513"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de787"
+  },
+  "entityType": "order",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de782"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "New",
+    "to": "Processing"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831520"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de78a"
+  },
+  "entityType": "order",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de788"
+  },
+  "action": "created",
+  "summary": "Created from quotation QUO-000008",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831530"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de78c"
+  },
+  "entityType": "customer",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de78b"
+  },
+  "action": "created",
+  "summary": "Became a customer with order ORD-000003",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831533"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de78f"
+  },
+  "entityType": "order",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de78d"
+  },
+  "action": "created",
+  "summary": "Created from quotation QUO-000010",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831542"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de791"
+  },
+  "entityType": "customer",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de790"
+  },
+  "action": "created",
+  "summary": "Became a customer with order ORD-000004",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831545"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de792"
+  },
+  "entityType": "order",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de78d"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "New",
+    "to": "Delivered"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831553"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de795"
+  },
+  "entityType": "order",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de793"
+  },
+  "action": "created",
+  "summary": "Created from quotation QUO-000013",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831563"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de797"
+  },
+  "entityType": "customer",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de796"
+  },
+  "action": "created",
+  "summary": "Became a customer with order ORD-000005",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831566"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de798"
+  },
+  "entityType": "order",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de793"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "New",
+    "to": "Cancelled"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831573"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de79b"
+  },
+  "entityType": "order",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de799"
+  },
+  "action": "created",
+  "summary": "Created from quotation QUO-000016",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831582"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de79d"
+  },
+  "entityType": "customer",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de79c"
+  },
+  "action": "created",
+  "summary": "Became a customer with order ORD-000006",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831585"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7a0"
+  },
+  "entityType": "order",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de79e"
+  },
+  "action": "created",
+  "summary": "Created from quotation QUO-000018",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831593"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7a2"
+  },
+  "entityType": "customer",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7a1"
+  },
+  "action": "created",
+  "summary": "Became a customer with order ORD-000007",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831596"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7a3"
+  },
+  "entityType": "order",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de79e"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "New",
+    "to": "Processing"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831603"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7a5"
+  },
+  "entityType": "customer",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7a4"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831614"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7a7"
+  },
+  "entityType": "customer",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7a6"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831630"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7a9"
+  },
+  "entityType": "customer",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7a8"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831642"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7ab"
+  },
+  "entityType": "customer",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7aa"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831654"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7ad"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7ac"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831681"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7af"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7ac"
+  },
+  "action": "updated",
+  "summary": "Milestone \"Phase 1 complete\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831693"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7b1"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7ac"
+  },
+  "action": "updated",
+  "summary": "Milestone \"Handover\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831697"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7b3"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7ac"
+  },
+  "action": "updated",
+  "summary": "Task \"Site survey\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831720"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7b5"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7ac"
+  },
+  "action": "updated",
+  "summary": "Task \"Floor plan\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831729"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7b7"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7ac"
+  },
+  "action": "updated",
+  "summary": "Task \"Furniture order\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831737"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7b9"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7ac"
+  },
+  "action": "updated",
+  "summary": "Task \"Installation\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831745"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7bb"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7ac"
+  },
+  "action": "updated",
+  "summary": "Task \"Handover\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831752"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7bc"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7ac"
+  },
+  "action": "updated",
+  "summary": "Milestone \"Phase 1 complete\" reached",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831759"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7bd"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7ac"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Planned",
+    "to": "In Progress"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831768"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7bf"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7be"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831783"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7c1"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7be"
+  },
+  "action": "updated",
+  "summary": "Milestone \"Phase 1 complete\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831792"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7c3"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7be"
+  },
+  "action": "updated",
+  "summary": "Milestone \"Handover\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831796"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7c5"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7be"
+  },
+  "action": "updated",
+  "summary": "Task \"Inventory\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831801"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7c7"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7be"
+  },
+  "action": "updated",
+  "summary": "Task \"Imaging\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831809"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7c9"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7be"
+  },
+  "action": "updated",
+  "summary": "Task \"Network setup\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831816"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7cb"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7be"
+  },
+  "action": "updated",
+  "summary": "Task \"User training\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831822"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7cc"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7be"
+  },
+  "action": "updated",
+  "summary": "Milestone \"Phase 1 complete\" reached",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831828"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7cd"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7be"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Planned",
+    "to": "In Progress"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831837"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7cf"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7ce"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831851"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7d1"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7ce"
+  },
+  "action": "updated",
+  "summary": "Milestone \"Phase 1 complete\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831860"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7d3"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7ce"
+  },
+  "action": "updated",
+  "summary": "Milestone \"Handover\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831864"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7d5"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7ce"
+  },
+  "action": "updated",
+  "summary": "Task \"Schedule visits\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831870"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7d7"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7ce"
+  },
+  "action": "updated",
+  "summary": "Task \"First visit\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831878"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7d9"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7ce"
+  },
+  "action": "updated",
+  "summary": "Task \"Second visit\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831885"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7da"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7ce"
+  },
+  "action": "updated",
+  "summary": "Milestone \"Phase 1 complete\" reached",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831892"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7dc"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7db"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831903"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7de"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7db"
+  },
+  "action": "updated",
+  "summary": "Milestone \"Phase 1 complete\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831912"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7e0"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7db"
+  },
+  "action": "updated",
+  "summary": "Milestone \"Handover\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831916"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7e2"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7db"
+  },
+  "action": "updated",
+  "summary": "Task \"Site survey\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831921"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7e4"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7db"
+  },
+  "action": "updated",
+  "summary": "Task \"Floor plan\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831930"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7e6"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7db"
+  },
+  "action": "updated",
+  "summary": "Task \"Furniture order\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831936"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7e8"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7db"
+  },
+  "action": "updated",
+  "summary": "Task \"Installation\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831943"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7ea"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7db"
+  },
+  "action": "updated",
+  "summary": "Task \"Handover\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831949"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7eb"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7db"
+  },
+  "action": "updated",
+  "summary": "Milestone \"Phase 1 complete\" reached",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831956"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7ec"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7db"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Planned",
+    "to": "On Hold"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831964"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7ee"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7ed"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831977"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7f0"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7ed"
+  },
+  "action": "updated",
+  "summary": "Milestone \"Phase 1 complete\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831985"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7f2"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7ed"
+  },
+  "action": "updated",
+  "summary": "Milestone \"Handover\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831989"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de7f4"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7ed"
+  },
+  "action": "updated",
+  "summary": "Task \"Inventory\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831994"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de7f6"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7ed"
+  },
+  "action": "updated",
+  "summary": "Task \"Imaging\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832001"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de7f8"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7ed"
+  },
+  "action": "updated",
+  "summary": "Task \"Network setup\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832007"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de7fa"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7ed"
+  },
+  "action": "updated",
+  "summary": "Task \"User training\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832015"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de7fb"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de7ed"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Planned",
+    "to": "In Progress"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832025"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de7fd"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de7fc"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832042"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de7ff"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de7fc"
+  },
+  "action": "updated",
+  "summary": "Milestone \"Phase 1 complete\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832050"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de801"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de7fc"
+  },
+  "action": "updated",
+  "summary": "Milestone \"Handover\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832054"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de803"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de7fc"
+  },
+  "action": "updated",
+  "summary": "Task \"Schedule visits\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832059"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de805"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de7fc"
+  },
+  "action": "updated",
+  "summary": "Task \"First visit\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832066"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de807"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de7fc"
+  },
+  "action": "updated",
+  "summary": "Task \"Second visit\" added",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832072"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de808"
+  },
+  "entityType": "project",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de7fc"
+  },
+  "action": "updated",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Planned",
+    "to": "Completed"
+   },
+   {
+    "field": "actualEndDate",
+    "label": "Actual end date",
+    "to": "2026-10-03"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832082"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de80a"
+  },
+  "entityType": "ticket",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de809"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832135"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de80c"
+  },
+  "entityType": "ticket",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de80b"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832148"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de80d"
+  },
+  "entityType": "ticket",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de80b"
+  },
+  "action": "assigned",
+  "changes": [
+   {
+    "field": "assignedTo",
+    "label": "Assigned to",
+    "to": "Jagadish Behera"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832160"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de80e"
+  },
+  "entityType": "ticket",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de80b"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "New",
+    "to": "In Progress"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832172"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de812"
+  },
+  "entityType": "ticket",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de811"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832193"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de813"
+  },
+  "entityType": "ticket",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de811"
+  },
+  "action": "assigned",
+  "changes": [
+   {
+    "field": "assignedTo",
+    "label": "Assigned to",
+    "to": "Jagadish Behera"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832205"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de814"
+  },
+  "entityType": "ticket",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de811"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "New",
+    "to": "In Progress"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832213"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de816"
+  },
+  "entityType": "ticket",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de811"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "In Progress",
+    "to": "Waiting on Customer"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832227"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de818"
+  },
+  "entityType": "ticket",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de817"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832235"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de819"
+  },
+  "entityType": "ticket",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de817"
+  },
+  "action": "assigned",
+  "changes": [
+   {
+    "field": "assignedTo",
+    "label": "Assigned to",
+    "to": "Jagadish Behera"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832245"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de81a"
+  },
+  "entityType": "ticket",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de817"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "New",
+    "to": "In Progress"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832253"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de81c"
+  },
+  "entityType": "ticket",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de817"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "In Progress",
+    "to": "Resolved"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832266"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de81e"
+  },
+  "entityType": "ticket",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de81d"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832273"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de81f"
+  },
+  "entityType": "ticket",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de81d"
+  },
+  "action": "assigned",
+  "changes": [
+   {
+    "field": "assignedTo",
+    "label": "Assigned to",
+    "to": "Jagadish Behera"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832285"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de820"
+  },
+  "entityType": "ticket",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de81d"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "New",
+    "to": "In Progress"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832293"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de823"
+  },
+  "entityType": "ticket",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de81d"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "In Progress",
+    "to": "Closed"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832314"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de825"
+  },
+  "entityType": "ticket",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de824"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832322"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de826"
+  },
+  "entityType": "ticket",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de824"
+  },
+  "action": "assigned",
+  "changes": [
+   {
+    "field": "assignedTo",
+    "label": "Assigned to",
+    "to": "Jagadish Behera"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832332"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de827"
+  },
+  "entityType": "ticket",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de824"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "New",
+    "to": "In Progress"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832342"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de82a"
+  },
+  "entityType": "ticket",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de829"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832355"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de82c"
+  },
+  "entityType": "ticket",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de82b"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832364"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de82d"
+  },
+  "entityType": "ticket",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de82b"
+  },
+  "action": "assigned",
+  "changes": [
+   {
+    "field": "assignedTo",
+    "label": "Assigned to",
+    "to": "Jagadish Behera"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832377"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de82e"
+  },
+  "entityType": "ticket",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de82b"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "New",
+    "to": "In Progress"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832386"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de830"
+  },
+  "entityType": "ticket",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de82b"
+  },
+  "action": "status_changed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "In Progress",
+    "to": "Resolved"
+   }
+  ],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832404"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de832"
+  },
+  "entityType": "contract",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de831"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832446"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de834"
+  },
+  "entityType": "contract",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de833"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832456"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de836"
+  },
+  "entityType": "contract",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de835"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832466"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de838"
+  },
+  "entityType": "contract",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de837"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832475"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de83a"
+  },
+  "entityType": "contract",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de839"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832483"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de83c"
+  },
+  "entityType": "contract",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de83b"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832493"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de83e"
+  },
+  "entityType": "contract",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de83d"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832502"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de840"
+  },
+  "entityType": "payment",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de83f"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832529"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de842"
+  },
+  "entityType": "payment",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de841"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832548"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de844"
+  },
+  "entityType": "payment",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de843"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832561"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de846"
+  },
+  "entityType": "payment",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de845"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832574"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de848"
+  },
+  "entityType": "payment",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de847"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832584"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de84a"
+  },
+  "entityType": "payment",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de849"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832593"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de84c"
+  },
+  "entityType": "payment",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de84b"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832599"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de84e"
+  },
+  "entityType": "payment",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de84d"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832610"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de850"
+  },
+  "entityType": "payment",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de84f"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832617"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de852"
+  },
+  "entityType": "payment",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de851"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832626"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de854"
+  },
+  "entityType": "payment",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de853"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832633"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de856"
+  },
+  "entityType": "payment",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de855"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832640"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de858"
+  },
+  "entityType": "payment",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de857"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832647"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de85b"
+  },
+  "entityType": "company",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de5ba"
+  },
+  "action": "updated",
+  "summary": "Document uploaded: Company registration.pdf, Meeting notes.txt",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832659"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de85e"
+  },
+  "entityType": "company",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de5bf"
+  },
+  "action": "updated",
+  "summary": "Document uploaded: Company registration.pdf, Meeting notes.txt",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832666"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de861"
+  },
+  "entityType": "company",
+  "entityId": {
+   "$oid": "6ac130c5032f6295e82de5c4"
+  },
+  "action": "updated",
+  "summary": "Document uploaded: Company registration.pdf, Meeting notes.txt",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832672"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c8032f6295e82de863"
+  },
+  "entityType": "quotation",
+  "entityId": {
+   "$oid": "6ac130c7032f6295e82de73e"
+  },
+  "action": "updated",
+  "summary": "Document uploaded: Customer purchase order.pdf",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045832678"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac13146495771d303e8b331"
+  },
+  "entityType": "contract",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de83b"
+  },
+  "action": "status_changed",
+  "summary": "Marked expired automatically: the end date has passed",
+  "changes": [
+   {
+    "field": "status",
+    "label": "Status",
+    "from": "Active",
+    "to": "Expired"
+   }
+  ],
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045958496"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac13160495771d303e8b338"
+  },
+  "entityType": "contract",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de831"
+  },
+  "action": "reminded",
+  "summary": "Expiry reminder (7 days before): ends in 5 days, sent to Jagadish Behera by email",
+  "changes": [],
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045984014"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac13178495771d303e8b33c"
+  },
+  "entityType": "contract",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de833"
+  },
+  "action": "reminded",
+  "summary": "Expiry reminder (15 days before): ends in 12 days, sent to Jagadish Behera by email",
+  "changes": [],
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791046008968"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac13191495771d303e8b340"
+  },
+  "entityType": "contract",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de835"
+  },
+  "action": "reminded",
+  "summary": "Expiry reminder (30 days before): ends in 28 days, sent to Jagadish Behera by email",
+  "changes": [],
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791046033795"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac1def12beddff1b853e98e"
+  },
+  "entityType": "company",
+  "entityId": {
+   "$oid": "6ac1def12beddff1b853e98d"
+  },
+  "action": "created",
+  "changes": [],
+  "actorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791090417771"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ }
+]

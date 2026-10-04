@@ -56,6 +56,8 @@ export function uploadFiles(field) {
 
 // A safe display name: no path, no control characters, at most 255 characters.
 export function cleanName(name) {
+  // Control characters are exactly what this removes.
+  // eslint-disable-next-line no-control-regex
   const base = path.basename(String(name ?? '')).replace(/[\u0000-\u001f\u007f"\\/]/g, '_').trim();
   return (base || 'file').slice(-255);
 }

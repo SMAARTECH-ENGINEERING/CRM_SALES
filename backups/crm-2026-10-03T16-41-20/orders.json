@@ -1,0 +1,294 @@
+[
+ {
+  "_id": {
+   "$oid": "6abfd9c6c81a7a6ec90bf297"
+  },
+  "quotationId": {
+   "$oid": "6abfcc0c35f535f3326d5812"
+  },
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d567b"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d567f"
+  },
+  "items": [
+   {
+    "productId": {
+     "$oid": "6abfcc0935f535f3326d565f"
+    },
+    "sku": "SOFT-000015",
+    "name": "Backup Storage 1TB (1 year)",
+    "unit": "lic",
+    "quantity": {
+     "$numberInt": "7"
+    },
+    "unitPrice": {
+     "$numberInt": "6000"
+    },
+    "discountPercent": {
+     "$numberInt": "5"
+    },
+    "discount": {
+     "$numberInt": "2100"
+    },
+    "taxName": "GST 18%",
+    "taxRate": {
+     "$numberInt": "18"
+    },
+    "tax": {
+     "$numberDouble": "6822.9"
+    },
+    "total": {
+     "$numberInt": "39900"
+    }
+   },
+   {
+    "productId": {
+     "$oid": "6abfcc0935f535f3326d565d"
+    },
+    "sku": "SOFT-000013",
+    "name": "Endpoint Security (1 year)",
+    "unit": "lic",
+    "quantity": {
+     "$numberInt": "24"
+    },
+    "unitPrice": {
+     "$numberInt": "2100"
+    },
+    "discountPercent": {
+     "$numberInt": "0"
+    },
+    "discount": {
+     "$numberInt": "0"
+    },
+    "taxName": "GST 18%",
+    "taxRate": {
+     "$numberInt": "18"
+    },
+    "tax": {
+     "$numberDouble": "8618.4"
+    },
+    "total": {
+     "$numberInt": "50400"
+    }
+   },
+   {
+    "productId": {
+     "$oid": "6abfcc0935f535f3326d5654"
+    },
+    "sku": "FURN-000004",
+    "name": "Meeting Table 8-Seater",
+    "unit": "pc",
+    "quantity": {
+     "$numberInt": "15"
+    },
+    "unitPrice": {
+     "$numberInt": "46000"
+    },
+    "discountPercent": {
+     "$numberInt": "0"
+    },
+    "discount": {
+     "$numberInt": "0"
+    },
+    "taxName": "GST 18%",
+    "taxRate": {
+     "$numberInt": "18"
+    },
+    "tax": {
+     "$numberInt": "117990"
+    },
+    "total": {
+     "$numberInt": "690000"
+    }
+   }
+  ],
+  "subtotal": {
+   "$numberInt": "780300"
+  },
+  "discountPercent": {
+   "$numberInt": "5"
+  },
+  "discount": {
+   "$numberInt": "39015"
+  },
+  "tax": {
+   "$numberDouble": "133431.3"
+  },
+  "grandTotal": {
+   "$numberDouble": "874716.3"
+  },
+  "orderDate": {
+   "$date": {
+    "$numberLong": "1790899200000"
+   }
+  },
+  "deliveryDate": {
+   "$date": {
+    "$numberLong": "1791417600000"
+   }
+  },
+  "statusId": {
+   "$oid": "6abfd0151f4affd3581f283b"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "notes": "Needed",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "orderNumber": "ORD-000001",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790958022125"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790958022125"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "ord",
+   "000001",
+   "1"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfda19cbbc24bf44c02ecc"
+  },
+  "quotationId": {
+   "$oid": "6abfcc0c35f535f3326d57f9"
+  },
+  "companyId": {
+   "$oid": "6abfcc0935f535f3326d5669"
+  },
+  "contactId": {
+   "$oid": "6abfcc0935f535f3326d566b"
+  },
+  "items": [
+   {
+    "productId": {
+     "$oid": "6abfcc0935f535f3326d5653"
+    },
+    "sku": "FURN-000003",
+    "name": "Height-Adjustable Desk",
+    "unit": "pc",
+    "quantity": {
+     "$numberInt": "6"
+    },
+    "unitPrice": {
+     "$numberInt": "38900"
+    },
+    "discountPercent": {
+     "$numberInt": "0"
+    },
+    "discount": {
+     "$numberInt": "0"
+    },
+    "taxName": "GST 18%",
+    "taxRate": {
+     "$numberInt": "18"
+    },
+    "tax": {
+     "$numberInt": "42012"
+    },
+    "total": {
+     "$numberInt": "233400"
+    }
+   },
+   {
+    "productId": {
+     "$oid": "6abfcc0935f535f3326d565e"
+    },
+    "sku": "SOFT-000014",
+    "name": "CRM User Licence (1 year)",
+    "unit": "lic",
+    "quantity": {
+     "$numberInt": "1"
+    },
+    "unitPrice": {
+     "$numberInt": "14400"
+    },
+    "discountPercent": {
+     "$numberInt": "0"
+    },
+    "discount": {
+     "$numberInt": "0"
+    },
+    "taxName": "GST 18%",
+    "taxRate": {
+     "$numberInt": "18"
+    },
+    "tax": {
+     "$numberInt": "2592"
+    },
+    "total": {
+     "$numberInt": "14400"
+    }
+   }
+  ],
+  "subtotal": {
+   "$numberInt": "247800"
+  },
+  "discountPercent": {
+   "$numberInt": "0"
+  },
+  "discount": {
+   "$numberInt": "0"
+  },
+  "tax": {
+   "$numberInt": "44604"
+  },
+  "grandTotal": {
+   "$numberInt": "292404"
+  },
+  "orderDate": {
+   "$date": {
+    "$numberLong": "1790899200000"
+   }
+  },
+  "deliveryDate": {
+   "$date": {
+    "$numberLong": "1792972800000"
+   }
+  },
+  "statusId": {
+   "$oid": "6abfd0151f4affd3581f283c"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "notes": "Demo quotation",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "orderNumber": "ORD-000002",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790958105246"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790958105273"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "ord",
+   "000002",
+   "2"
+  ]
+ }
+]

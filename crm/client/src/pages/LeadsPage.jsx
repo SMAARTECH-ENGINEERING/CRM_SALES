@@ -178,7 +178,7 @@ export default function LeadsPage() {
           ].filter(Boolean),
       },
     ],
-    [canEdit, canDelete, navigate]
+    [canEdit, canDelete, navigate, t]
   );
 
   async function confirmDelete() {

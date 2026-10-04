@@ -1,0 +1,24 @@
+[
+ {
+  "_id": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "name": "Sales Pipeline",
+  "description": "Standard sales process",
+  "isDefault": true,
+  "status": "active",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790927334293"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790927334293"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ }
+]

@@ -1,0 +1,194 @@
+[
+ {
+  "_id": {
+   "$oid": "6abf61e6b9bacbde9ad25451"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "name": "Qualification",
+  "description": "Need and fit being confirmed",
+  "order": {
+   "$numberInt": "1"
+  },
+  "probability": {
+   "$numberInt": "10"
+  },
+  "color": "#1976d2",
+  "type": "open",
+  "status": "active",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790927334296"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790937998909"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf61e6b9bacbde9ad25452"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "name": "Needs Analysis",
+  "description": "Requirements being gathered",
+  "order": {
+   "$numberInt": "2"
+  },
+  "probability": {
+   "$numberInt": "25"
+  },
+  "color": "#0288d1",
+  "type": "open",
+  "status": "active",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790927334296"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790937998909"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf61e6b9bacbde9ad25453"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "name": "Proposal",
+  "description": "Proposal or quotation shared",
+  "order": {
+   "$numberInt": "3"
+  },
+  "probability": {
+   "$numberInt": "50"
+  },
+  "color": "#7b1fa2",
+  "type": "open",
+  "status": "active",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790927334296"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790937998909"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf61e6b9bacbde9ad25454"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "name": "Negotiation",
+  "description": "Terms under discussion",
+  "order": {
+   "$numberInt": "4"
+  },
+  "probability": {
+   "$numberInt": "75"
+  },
+  "color": "#ed6c02",
+  "type": "open",
+  "status": "active",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790927334296"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790937998909"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf61e6b9bacbde9ad25455"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "name": "Closed Won",
+  "description": "Deal won",
+  "order": {
+   "$numberInt": "5"
+  },
+  "probability": {
+   "$numberInt": "100"
+  },
+  "color": "#2e7d32",
+  "type": "won",
+  "status": "active",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790927334296"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790937998909"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf61e6b9bacbde9ad25456"
+  },
+  "pipelineId": {
+   "$oid": "6abf61e6b9bacbde9ad25450"
+  },
+  "name": "Closed Lost",
+  "description": "Deal lost",
+  "order": {
+   "$numberInt": "6"
+  },
+  "probability": {
+   "$numberInt": "0"
+  },
+  "color": "#d32f2f",
+  "type": "lost",
+  "status": "active",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790927334297"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790937998909"
+   }
+  }
+ }
+]

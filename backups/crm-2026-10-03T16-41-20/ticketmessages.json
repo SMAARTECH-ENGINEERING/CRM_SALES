@@ -1,0 +1,170 @@
+[
+ {
+  "_id": {
+   "$oid": "6abfeb2308e288feab42c844"
+  },
+  "ticketId": {
+   "$oid": "6abfeb2308e288feab42c840"
+  },
+  "type": "reply",
+  "body": "Thanks - we are checking the tax setup on that product and will send a corrected invoice.",
+  "authorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790962467319"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfeb2308e288feab42c845"
+  },
+  "ticketId": {
+   "$oid": "6abfeb2308e288feab42c840"
+  },
+  "type": "internal_note",
+  "body": "Product tax was changed after quoting; reissue invoice.",
+  "authorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790962467329"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfeb2308e288feab42c84a"
+  },
+  "ticketId": {
+   "$oid": "6abfeb2308e288feab42c846"
+  },
+  "type": "reply",
+  "body": "Apologies - the shipment left our warehouse today. Tracking details to follow.",
+  "authorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790962467371"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfeb2308e288feab42c850"
+  },
+  "ticketId": {
+   "$oid": "6abfeb2308e288feab42c84c"
+  },
+  "type": "reply",
+  "body": "Happy to help. Which dates work best for your team?",
+  "authorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790962467419"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfeb2308e288feab42c856"
+  },
+  "ticketId": {
+   "$oid": "6abfeb2308e288feab42c852"
+  },
+  "type": "reply",
+  "body": "Please run the battery report and attach it here so we can check the health.",
+  "authorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790962467471"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfeb2308e288feab42c857"
+  },
+  "ticketId": {
+   "$oid": "6abfeb2308e288feab42c852"
+  },
+  "type": "internal_note",
+  "body": "Possibly a bad batch - check serial numbers.",
+  "authorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790962467477"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfeb2308e288feab42c85d"
+  },
+  "ticketId": {
+   "$oid": "6abfeb2308e288feab42c859"
+  },
+  "type": "reply",
+  "body": "Done - an invitation has been sent to the address you gave.",
+  "authorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790962467520"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfeb2308e288feab42c864"
+  },
+  "ticketId": {
+   "$oid": "6abfeb2308e288feab42c860"
+  },
+  "type": "reply",
+  "body": "Of course - a revised quotation will follow today.",
+  "authorId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790962467567"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ }
+]

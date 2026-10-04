@@ -135,7 +135,7 @@ export default function OrdersPage() {
           ].filter(Boolean),
       },
     ],
-    [canDelete, navigate]
+    [canDelete, navigate, t]
   );
 
   async function confirmDelete() {

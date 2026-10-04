@@ -1,0 +1,520 @@
+[
+ {
+  "_id": {
+   "$oid": "6abfeb2308e288feab42c83e"
+  },
+  "companyId": {
+   "$oid": "6abfcc0935f535f3326d5669"
+  },
+  "contactId": {
+   "$oid": "6abfcc0935f535f3326d566b"
+  },
+  "customerId": {
+   "$oid": "6abfdbd46a751217613fb253"
+  },
+  "subject": "Printer not connecting to the network",
+  "description": "It stopped working after the router was replaced.",
+  "categoryId": {
+   "$oid": "6abfe70076bb65fc623fe5f4"
+  },
+  "priorityId": {
+   "$oid": "6abfe70076bb65fc623fe5f9"
+  },
+  "replyCount": {
+   "$numberInt": "0"
+  },
+  "lastActivityAt": {
+   "$date": {
+    "$numberLong": "1790962467226"
+   }
+  },
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "attachments": [],
+  "statusId": {
+   "$oid": "6abfe70076bb65fc623fe5fd"
+  },
+  "ticketNumber": "TKT-000001",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790962467254"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790962467254"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "tkt",
+   "000001",
+   "1",
+   "printer",
+   "not",
+   "connecting",
+   "to",
+   "the",
+   "network"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfeb2308e288feab42c840"
+  },
+  "companyId": {
+   "$oid": "6abfcc0935f535f3326d566e"
+  },
+  "contactId": {
+   "$oid": "6abfcc0935f535f3326d5670"
+  },
+  "subject": "Invoice amount does not match the quotation",
+  "description": "The invoice shows tax at 18% but the quotation had 12%.",
+  "categoryId": {
+   "$oid": "6abfe70076bb65fc623fe5f5"
+  },
+  "priorityId": {
+   "$oid": "6abfe70076bb65fc623fe5fa"
+  },
+  "replyCount": {
+   "$numberInt": "1"
+  },
+  "lastActivityAt": {
+   "$date": {
+    "$numberLong": "1790962467329"
+   }
+  },
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "attachments": [],
+  "statusId": {
+   "$oid": "6abfe70076bb65fc623fe5fe"
+  },
+  "ticketNumber": "TKT-000002",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790962467281"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790962467329"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "searchKeys": [
+   "tkt",
+   "000002",
+   "2",
+   "invoice",
+   "amount",
+   "does",
+   "not",
+   "match",
+   "the",
+   "quotation"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfeb2308e288feab42c846"
+  },
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5673"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d5675"
+  },
+  "customerId": {
+   "$oid": "6abfde488c6f94de4194519d"
+  },
+  "subject": "Delivery delayed",
+  "description": "The chairs were due last Friday and have not arrived.",
+  "categoryId": {
+   "$oid": "6abfe70076bb65fc623fe5f6"
+  },
+  "priorityId": {
+   "$oid": "6abfe70076bb65fc623fe5fb"
+  },
+  "replyCount": {
+   "$numberInt": "1"
+  },
+  "lastActivityAt": {
+   "$date": {
+    "$numberLong": "1790962467379"
+   }
+  },
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "attachments": [],
+  "statusId": {
+   "$oid": "6abfe70076bb65fc623fe5ff"
+  },
+  "ticketNumber": "TKT-000003",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790962467340"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790962467379"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "searchKeys": [
+   "tkt",
+   "000003",
+   "3",
+   "delivery",
+   "delayed"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfeb2308e288feab42c84c"
+  },
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5677"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d5679"
+  },
+  "subject": "Training session request",
+  "description": "We would like a refresher session for new staff next month.",
+  "categoryId": {
+   "$oid": "6abfe70076bb65fc623fe5f7"
+  },
+  "priorityId": {
+   "$oid": "6abfe70076bb65fc623fe5fc"
+  },
+  "replyCount": {
+   "$numberInt": "1"
+  },
+  "lastActivityAt": {
+   "$date": {
+    "$numberLong": "1790962467427"
+   }
+  },
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "attachments": [],
+  "statusId": {
+   "$oid": "6abfe70076bb65fc623fe600"
+  },
+  "ticketNumber": "TKT-000004",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790962467391"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790962467427"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "resolvedAt": {
+   "$date": {
+    "$numberLong": "1790962467427"
+   }
+  },
+  "searchKeys": [
+   "tkt",
+   "000004",
+   "4",
+   "training",
+   "session",
+   "request"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfeb2308e288feab42c852"
+  },
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d567b"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d567d"
+  },
+  "customerId": {
+   "$oid": "6abfdbd46a751217613fb255"
+  },
+  "subject": "Laptop battery drains quickly",
+  "description": "Two laptops from the last order lose charge within an hour.",
+  "categoryId": {
+   "$oid": "6abfe70076bb65fc623fe5f8"
+  },
+  "priorityId": {
+   "$oid": "6abfe70076bb65fc623fe5f9"
+  },
+  "replyCount": {
+   "$numberInt": "1"
+  },
+  "lastActivityAt": {
+   "$date": {
+    "$numberLong": "1790962467484"
+   }
+  },
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "attachments": [],
+  "statusId": {
+   "$oid": "6abfe70076bb65fc623fe601"
+  },
+  "ticketNumber": "TKT-000005",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790962467439"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790962467485"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "closedAt": {
+   "$date": {
+    "$numberLong": "1790962467484"
+   }
+  },
+  "resolvedAt": {
+   "$date": {
+    "$numberLong": "1790962467484"
+   }
+  },
+  "searchKeys": [
+   "tkt",
+   "000005",
+   "5",
+   "laptop",
+   "battery",
+   "drains",
+   "quickly"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfeb2308e288feab42c859"
+  },
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5680"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d5682"
+  },
+  "subject": "Access to the support portal",
+  "description": "Our new IT manager needs a login.",
+  "categoryId": {
+   "$oid": "6abfe70076bb65fc623fe5f4"
+  },
+  "priorityId": {
+   "$oid": "6abfe70076bb65fc623fe5fa"
+  },
+  "replyCount": {
+   "$numberInt": "1"
+  },
+  "lastActivityAt": {
+   "$date": {
+    "$numberLong": "1790962467520"
+   }
+  },
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "attachments": [],
+  "statusId": {
+   "$oid": "6abfe70076bb65fc623fe5fe"
+  },
+  "ticketNumber": "TKT-000006",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790962467496"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790962467521"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "searchKeys": [
+   "tkt",
+   "000006",
+   "6",
+   "access",
+   "to",
+   "the",
+   "support",
+   "portal"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfeb2308e288feab42c85e"
+  },
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5684"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d5686"
+  },
+  "customerId": {
+   "$oid": "6abfde488c6f94de4194519f"
+  },
+  "subject": "Desk height adjustment stuck",
+  "description": "One standing desk no longer goes up.",
+  "categoryId": {
+   "$oid": "6abfe70076bb65fc623fe5f5"
+  },
+  "priorityId": {
+   "$oid": "6abfe70076bb65fc623fe5fb"
+  },
+  "replyCount": {
+   "$numberInt": "0"
+  },
+  "lastActivityAt": {
+   "$date": {
+    "$numberLong": "1790962467529"
+   }
+  },
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "attachments": [],
+  "statusId": {
+   "$oid": "6abfe70076bb65fc623fe5fd"
+  },
+  "ticketNumber": "TKT-000007",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790962467530"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790962467530"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "searchKeys": [
+   "tkt",
+   "000007",
+   "7",
+   "desk",
+   "height",
+   "adjustment",
+   "stuck"
+  ]
+ },
+ {
+  "_id": {
+   "$oid": "6abfeb2308e288feab42c860"
+  },
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5689"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d568b"
+  },
+  "subject": "Request for a quotation revision",
+  "description": "Could you add 10 more monitors to the quotation?",
+  "categoryId": {
+   "$oid": "6abfe70076bb65fc623fe5f6"
+  },
+  "priorityId": {
+   "$oid": "6abfe70076bb65fc623fe5fc"
+  },
+  "replyCount": {
+   "$numberInt": "1"
+  },
+  "lastActivityAt": {
+   "$date": {
+    "$numberLong": "1790962467576"
+   }
+  },
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "attachments": [],
+  "statusId": {
+   "$oid": "6abfe70076bb65fc623fe600"
+  },
+  "ticketNumber": "TKT-000008",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790962467542"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790962467577"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "resolvedAt": {
+   "$date": {
+    "$numberLong": "1790962467576"
+   }
+  },
+  "searchKeys": [
+   "tkt",
+   "000008",
+   "8",
+   "request",
+   "for",
+   "a",
+   "quotation",
+   "revision"
+  ]
+ }
+]

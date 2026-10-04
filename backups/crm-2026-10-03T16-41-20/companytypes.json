@@ -1,0 +1,94 @@
+[
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d563e"
+  },
+  "name": "Customer",
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505583"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505583"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d563f"
+  },
+  "name": "Prospect",
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505593"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505593"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d5640"
+  },
+  "name": "Partner",
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505595"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505595"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0935f535f3326d5641"
+  },
+  "name": "Distributor",
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954505597"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954505597"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ }
+]

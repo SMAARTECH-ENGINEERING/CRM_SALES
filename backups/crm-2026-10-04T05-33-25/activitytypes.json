@@ -1,0 +1,177 @@
+[
+ {
+  "_id": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fda"
+  },
+  "name": "Call",
+  "description": "Phone or video call",
+  "sortOrder": {
+   "$numberInt": "10"
+  },
+  "isActive": true,
+  "color": "#1976d2",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790921796896"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790928126419"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdb"
+  },
+  "name": "Meeting",
+  "description": "Meeting in person or online",
+  "sortOrder": {
+   "$numberInt": "20"
+  },
+  "isActive": true,
+  "color": "#7b1fa2",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790921796896"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790921796896"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdc"
+  },
+  "name": "Email",
+  "description": "Email sent or received",
+  "sortOrder": {
+   "$numberInt": "30"
+  },
+  "isActive": true,
+  "color": "#0288d1",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790921796896"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790921796896"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdd"
+  },
+  "name": "Task",
+  "description": "Something to get done",
+  "sortOrder": {
+   "$numberInt": "40"
+  },
+  "isActive": true,
+  "color": "#ed6c02",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790921796896"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790921796896"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fde"
+  },
+  "name": "Note",
+  "description": "Something worth recording",
+  "sortOrder": {
+   "$numberInt": "50"
+  },
+  "isActive": true,
+  "color": "#757575",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790921796896"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790921796896"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdf"
+  },
+  "name": "Demo",
+  "description": "Product demonstration",
+  "sortOrder": {
+   "$numberInt": "60"
+  },
+  "isActive": true,
+  "color": "#2e7d32",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790921796896"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790921796896"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fe0"
+  },
+  "name": "Site Visit",
+  "description": "Visit to the customer's premises",
+  "sortOrder": {
+   "$numberInt": "70"
+  },
+  "isActive": true,
+  "color": "#f57c00",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790921796896"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790921796896"
+   }
+  }
+ }
+]

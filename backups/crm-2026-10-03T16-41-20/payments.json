@@ -1,0 +1,534 @@
+[
+ {
+  "_id": {
+   "$oid": "6ac08b9c2159b61e55e3246f"
+  },
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d567b"
+  },
+  "customerId": {
+   "$oid": "6abfdbd46a751217613fb255"
+  },
+  "orderId": {
+   "$oid": "6abfd9c6c81a7a6ec90bf297"
+  },
+  "amount": {
+   "$numberDouble": "437358.15"
+  },
+  "paidAmount": {
+   "$numberDouble": "218679.08"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1791849600000"
+   }
+  },
+  "paymentDate": {
+   "$date": {
+    "$numberLong": "1790985600000"
+   }
+  },
+  "paymentMethodId": {
+   "$oid": "6ac089fe86b0c9b9acd726c2"
+  },
+  "notes": "First half of the order",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "remainingAmount": {
+   "$numberDouble": "218679.07"
+  },
+  "statusId": {
+   "$oid": "6ac089fe86b0c9b9acd726c8"
+  },
+  "invoiceNumber": "INV-000001",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791003548877"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791003548877"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac08b9c2159b61e55e32471"
+  },
+  "companyId": {
+   "$oid": "6abfcc0935f535f3326d5669"
+  },
+  "customerId": {
+   "$oid": "6abfdbd46a751217613fb253"
+  },
+  "orderId": {
+   "$oid": "6abfda19cbbc24bf44c02ecc"
+  },
+  "amount": {
+   "$numberInt": "146202"
+  },
+  "paidAmount": {
+   "$numberInt": "73101"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1791849600000"
+   }
+  },
+  "paymentDate": {
+   "$date": {
+    "$numberLong": "1790985600000"
+   }
+  },
+  "paymentMethodId": {
+   "$oid": "6ac089fe86b0c9b9acd726c3"
+  },
+  "notes": "First half of the order",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "remainingAmount": {
+   "$numberInt": "73101"
+  },
+  "statusId": {
+   "$oid": "6ac089fe86b0c9b9acd726c8"
+  },
+  "invoiceNumber": "INV-000002",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791003548893"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791003548893"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac08b9c2159b61e55e32473"
+  },
+  "companyId": {
+   "$oid": "6abfcc0935f535f3326d5669"
+  },
+  "customerId": {
+   "$oid": "6abfdbd46a751217613fb253"
+  },
+  "amount": {
+   "$numberInt": "45000"
+  },
+  "paidAmount": {
+   "$numberInt": "45000"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1787529600000"
+   }
+  },
+  "paymentDate": {
+   "$date": {
+    "$numberLong": "1787443200000"
+   }
+  },
+  "paymentMethodId": {
+   "$oid": "6ac089fe86b0c9b9acd726c2"
+  },
+  "notes": "Advance for the annual maintenance contract",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "remainingAmount": {
+   "$numberInt": "0"
+  },
+  "statusId": {
+   "$oid": "6ac089fe86b0c9b9acd726c9"
+  },
+  "invoiceNumber": "INV-000003",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791003548903"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791003548903"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac08b9c2159b61e55e32475"
+  },
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d567b"
+  },
+  "customerId": {
+   "$oid": "6abfdbd46a751217613fb255"
+  },
+  "amount": {
+   "$numberInt": "128000"
+  },
+  "paidAmount": {
+   "$numberInt": "64000"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1789948800000"
+   }
+  },
+  "paymentDate": {
+   "$date": {
+    "$numberLong": "1789862400000"
+   }
+  },
+  "paymentMethodId": {
+   "$oid": "6ac089fe86b0c9b9acd726c3"
+  },
+  "notes": "Second instalment - customer asked for two more weeks",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "remainingAmount": {
+   "$numberInt": "64000"
+  },
+  "statusId": {
+   "$oid": "6ac089fe86b0c9b9acd726c8"
+  },
+  "invoiceNumber": "INV-000004",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791003548911"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791003548911"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac08b9c2159b61e55e32477"
+  },
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5673"
+  },
+  "customerId": {
+   "$oid": "6abfde488c6f94de4194519d"
+  },
+  "amount": {
+   "$numberInt": "36500"
+  },
+  "paidAmount": {
+   "$numberInt": "0"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1790467200000"
+   }
+  },
+  "notes": "Reminder sent twice",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "remainingAmount": {
+   "$numberInt": "36500"
+  },
+  "statusId": {
+   "$oid": "6ac089fe86b0c9b9acd726c7"
+  },
+  "invoiceNumber": "INV-000005",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791003548919"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791003548919"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac08b9c2159b61e55e32479"
+  },
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5684"
+  },
+  "customerId": {
+   "$oid": "6abfde488c6f94de4194519f"
+  },
+  "amount": {
+   "$numberInt": "82000"
+  },
+  "paidAmount": {
+   "$numberInt": "0"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1792195200000"
+   }
+  },
+  "notes": "Invoice raised on delivery",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "remainingAmount": {
+   "$numberInt": "82000"
+  },
+  "statusId": {
+   "$oid": "6ac089fe86b0c9b9acd726c7"
+  },
+  "invoiceNumber": "INV-000006",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791003548926"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791003548926"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac08b9c2159b61e55e3247b"
+  },
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d568d"
+  },
+  "customerId": {
+   "$oid": "6abfde488c6f94de419451a1"
+  },
+  "amount": {
+   "$numberDouble": "15750.5"
+  },
+  "paidAmount": {
+   "$numberDouble": "6300.2"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1792800000000"
+   }
+  },
+  "paymentDate": {
+   "$date": {
+    "$numberLong": "1790899200000"
+   }
+  },
+  "paymentMethodId": {
+   "$oid": "6ac089fe86b0c9b9acd726c6"
+  },
+  "notes": "Balance on consumables",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "remainingAmount": {
+   "$numberDouble": "9450.3"
+  },
+  "statusId": {
+   "$oid": "6ac089fe86b0c9b9acd726c8"
+  },
+  "invoiceNumber": "INV-000007",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791003548933"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791003548933"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac08b9c2159b61e55e3247d"
+  },
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5696"
+  },
+  "customerId": {
+   "$oid": "6abfde488c6f94de419451a3"
+  },
+  "amount": {
+   "$numberInt": "240000"
+  },
+  "paidAmount": {
+   "$numberInt": "240000"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1784505600000"
+   }
+  },
+  "paymentDate": {
+   "$date": {
+    "$numberLong": "1784419200000"
+   }
+  },
+  "paymentMethodId": {
+   "$oid": "6ac089fe86b0c9b9acd726c2"
+  },
+  "notes": "Paid in full by bank transfer",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "remainingAmount": {
+   "$numberInt": "0"
+  },
+  "statusId": {
+   "$oid": "6ac089fe86b0c9b9acd726c9"
+  },
+  "invoiceNumber": "INV-000008",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791003548940"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791003548940"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac08b9c2159b61e55e3247f"
+  },
+  "companyId": {
+   "$oid": "6abfcc0935f535f3326d5669"
+  },
+  "customerId": {
+   "$oid": "6abfdbd46a751217613fb253"
+  },
+  "amount": {
+   "$numberInt": "9800"
+  },
+  "paidAmount": {
+   "$numberInt": "0"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1794873600000"
+   }
+  },
+  "notes": "Training session",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "remainingAmount": {
+   "$numberInt": "9800"
+  },
+  "statusId": {
+   "$oid": "6ac089fe86b0c9b9acd726c7"
+  },
+  "invoiceNumber": "INV-000009",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791003548948"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791003548948"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac08b9c2159b61e55e32481"
+  },
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d567b"
+  },
+  "customerId": {
+   "$oid": "6abfdbd46a751217613fb255"
+  },
+  "amount": {
+   "$numberInt": "61000"
+  },
+  "paidAmount": {
+   "$numberInt": "15250"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1790812800000"
+   }
+  },
+  "paymentDate": {
+   "$date": {
+    "$numberLong": "1790726400000"
+   }
+  },
+  "paymentMethodId": {
+   "$oid": "6ac089fe86b0c9b9acd726c4"
+  },
+  "notes": "Part payment received by cheque",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "remainingAmount": {
+   "$numberInt": "45750"
+  },
+  "statusId": {
+   "$oid": "6ac089fe86b0c9b9acd726c8"
+  },
+  "invoiceNumber": "INV-000010",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791003548956"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791003548956"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ }
+]

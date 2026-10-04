@@ -1,0 +1,137 @@
+[
+ {
+  "_id": {
+   "$oid": "6abf8de46be6c003a2268dee"
+  },
+  "name": "Draft",
+  "description": "Being prepared",
+  "sortOrder": {
+   "$numberInt": "10"
+  },
+  "isActive": true,
+  "category": "draft",
+  "color": "#757575",
+  "isDefault": true,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790938596769"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790938596769"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf8de46be6c003a2268def"
+  },
+  "name": "Sent",
+  "description": "Shared with the customer",
+  "sortOrder": {
+   "$numberInt": "20"
+  },
+  "isActive": true,
+  "category": "sent",
+  "color": "#1976d2",
+  "isDefault": false,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790938596770"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790938596770"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf8de46be6c003a2268df0"
+  },
+  "name": "Accepted",
+  "description": "Customer agreed",
+  "sortOrder": {
+   "$numberInt": "30"
+  },
+  "isActive": true,
+  "category": "accepted",
+  "color": "#2e7d32",
+  "isDefault": false,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790938596770"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790938596770"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf8de46be6c003a2268df1"
+  },
+  "name": "Rejected",
+  "description": "Customer declined",
+  "sortOrder": {
+   "$numberInt": "40"
+  },
+  "isActive": true,
+  "category": "rejected",
+  "color": "#d32f2f",
+  "isDefault": false,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790938596770"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790938596770"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abf8de46be6c003a2268df2"
+  },
+  "name": "Expired",
+  "description": "Validity ran out",
+  "sortOrder": {
+   "$numberInt": "50"
+  },
+  "isActive": true,
+  "category": "expired",
+  "color": "#ed6c02",
+  "isDefault": false,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790938596770"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790938596770"
+   }
+  }
+ }
+]

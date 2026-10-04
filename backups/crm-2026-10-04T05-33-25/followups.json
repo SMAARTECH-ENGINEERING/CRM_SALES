@@ -1,0 +1,719 @@
+[
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de72e"
+  },
+  "title": "Send revised proposal",
+  "relatedType": "opportunity",
+  "relatedId": {
+   "$oid": "6ac130c6032f6295e82de67e"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1790613830970"
+   }
+  },
+  "priority": "high",
+  "status": "completed",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830971"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045830976"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1791045830976"
+   }
+  },
+  "completedBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de72f"
+  },
+  "title": "Check decision status",
+  "relatedType": "opportunity",
+  "relatedId": {
+   "$oid": "6ac130c6032f6295e82de687"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1793205830979"
+   }
+  },
+  "priority": "low",
+  "status": "pending",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830980"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045830980"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de730"
+  },
+  "title": "Share case studies",
+  "relatedType": "opportunity",
+  "relatedId": {
+   "$oid": "6ac130c6032f6295e82de698"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1791305030982"
+   }
+  },
+  "priority": "high",
+  "status": "pending",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830983"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045830983"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de731"
+  },
+  "title": "Call back about budget",
+  "relatedType": "opportunity",
+  "relatedId": {
+   "$oid": "6ac130c6032f6295e82de6a1"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1791218630986"
+   }
+  },
+  "priority": "high",
+  "status": "completed",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830988"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045830992"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1791045830991"
+   }
+  },
+  "completedBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de732"
+  },
+  "title": "Send revised proposal",
+  "relatedType": "opportunity",
+  "relatedId": {
+   "$oid": "6ac130c6032f6295e82de6b2"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1790786630995"
+   }
+  },
+  "priority": "medium",
+  "status": "pending",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830996"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045830996"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de733"
+  },
+  "title": "Call back about budget",
+  "relatedType": "opportunity",
+  "relatedId": {
+   "$oid": "6ac130c6032f6295e82de6bb"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1792428230998"
+   }
+  },
+  "priority": "low",
+  "status": "pending",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830999"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045830999"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de734"
+  },
+  "title": "Check decision status",
+  "relatedType": "opportunity",
+  "relatedId": {
+   "$oid": "6ac130c6032f6295e82de6cc"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1791650631002"
+   }
+  },
+  "priority": "high",
+  "status": "completed",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831003"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045831007"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1791045831007"
+   }
+  },
+  "completedBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de735"
+  },
+  "title": "Check decision status",
+  "relatedType": "opportunity",
+  "relatedId": {
+   "$oid": "6ac130c6032f6295e82de6d5"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1793033031010"
+   }
+  },
+  "priority": "high",
+  "status": "pending",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831011"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045831011"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de736"
+  },
+  "title": "Confirm site visit date",
+  "relatedType": "company",
+  "relatedId": {
+   "$oid": "6ac130c5032f6295e82de5ba"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1792082631014"
+   }
+  },
+  "priority": "high",
+  "status": "pending",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831015"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045831015"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de737"
+  },
+  "title": "Confirm site visit date",
+  "relatedType": "company",
+  "relatedId": {
+   "$oid": "6ac130c5032f6295e82de5bf"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1791564231018"
+   }
+  },
+  "priority": "high",
+  "status": "pending",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831019"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045831019"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de738"
+  },
+  "title": "Confirm site visit date",
+  "relatedType": "company",
+  "relatedId": {
+   "$oid": "6ac130c5032f6295e82de5c4"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1792860231022"
+   }
+  },
+  "priority": "medium",
+  "status": "pending",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831023"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045831023"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de739"
+  },
+  "title": "Send revised proposal",
+  "relatedType": "company",
+  "relatedId": {
+   "$oid": "6ac130c5032f6295e82de5c8"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1793292231026"
+   }
+  },
+  "priority": "high",
+  "status": "pending",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831027"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045831027"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de73a"
+  },
+  "title": "Share case studies",
+  "relatedType": "company",
+  "relatedId": {
+   "$oid": "6ac130c5032f6295e82de5cc"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1791477831030"
+   }
+  },
+  "priority": "medium",
+  "status": "pending",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831031"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045831031"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de73b"
+  },
+  "title": "Share case studies",
+  "relatedType": "company",
+  "relatedId": {
+   "$oid": "6ac130c5032f6295e82de5d1"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1792428231033"
+   }
+  },
+  "priority": "high",
+  "status": "pending",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831034"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045831034"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de73c"
+  },
+  "title": "Send revised proposal",
+  "relatedType": "company",
+  "relatedId": {
+   "$oid": "6ac130c5032f6295e82de5d5"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1793292231036"
+   }
+  },
+  "priority": "high",
+  "status": "pending",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831037"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045831037"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c7032f6295e82de73d"
+  },
+  "title": "Confirm site visit date",
+  "relatedType": "company",
+  "relatedId": {
+   "$oid": "6ac130c5032f6295e82de5da"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1792169031040"
+   }
+  },
+  "priority": "medium",
+  "status": "pending",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045831041"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045831041"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac13146495771d303e8b334"
+  },
+  "title": "Contract CON-000001 with Pinnacle Realty ends in 5 days",
+  "description": "Hello Jagadish,\n\nContract CON-000001 with Pinnacle Realty ends on 2026-10-08 (in 5 days).\nPlease follow up on its renewal.\n\nThis reminder is sent 7 days before the end date (\"7 days before\").",
+  "relatedType": "contract",
+  "relatedId": {
+   "$oid": "6ac130c8032f6295e82de831"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1791417600000"
+   }
+  },
+  "priority": "medium",
+  "status": "pending",
+  "reminderDate": {
+   "$date": {
+    "$numberLong": "1790985600000"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045958508"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045958508"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac13160495771d303e8b33a"
+  },
+  "title": "Contract CON-000002 with Acme Industries ends in 12 days",
+  "description": "Hello Jagadish,\n\nContract CON-000002 with Acme Industries ends on 2026-10-15 (in 12 days).\nPlease follow up on its renewal.\n\nThis reminder is sent 15 days before the end date (\"15 days before\").",
+  "relatedType": "contract",
+  "relatedId": {
+   "$oid": "6ac130c8032f6295e82de833"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1792022400000"
+   }
+  },
+  "priority": "medium",
+  "status": "pending",
+  "reminderDate": {
+   "$date": {
+    "$numberLong": "1790985600000"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045984018"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045984018"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac13178495771d303e8b33e"
+  },
+  "title": "Contract CON-000003 with Riverline Freight ends in 28 days",
+  "description": "Hello Jagadish,\n\nContract CON-000003 with Riverline Freight ends on 2026-10-31 (in 28 days).\nRenewal date: 2026-10-16.\nPlease follow up on its renewal.\n\nThis reminder is sent 30 days before the end date (\"30 days before\").",
+  "relatedType": "contract",
+  "relatedId": {
+   "$oid": "6ac130c8032f6295e82de835"
+  },
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1793404800000"
+   }
+  },
+  "priority": "medium",
+  "status": "pending",
+  "reminderDate": {
+   "$date": {
+    "$numberLong": "1790985600000"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791046008972"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791046008972"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ }
+]

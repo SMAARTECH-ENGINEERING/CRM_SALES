@@ -1,0 +1,106 @@
+[
+ {
+  "_id": {
+   "$oid": "6ac089fe86b0c9b9acd726c7"
+  },
+  "name": "Unpaid",
+  "description": "Nothing received yet",
+  "sortOrder": {
+   "$numberInt": "10"
+  },
+  "isActive": true,
+  "category": "unpaid",
+  "color": "#ed6c02",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791003134169"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791003134169"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac089fe86b0c9b9acd726c8"
+  },
+  "name": "Partially Paid",
+  "description": "Part of the amount received",
+  "sortOrder": {
+   "$numberInt": "20"
+  },
+  "isActive": true,
+  "category": "partially_paid",
+  "color": "#0288d1",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791003134169"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791003134169"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac089fe86b0c9b9acd726c9"
+  },
+  "name": "Paid",
+  "description": "Received in full",
+  "sortOrder": {
+   "$numberInt": "30"
+  },
+  "isActive": true,
+  "category": "paid",
+  "color": "#2e7d32",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791003134169"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791003134169"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac089fe86b0c9b9acd726ca"
+  },
+  "name": "Cancelled",
+  "description": "Not to be collected",
+  "sortOrder": {
+   "$numberInt": "40"
+  },
+  "isActive": true,
+  "category": "cancelled",
+  "color": "#616161",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791003134169"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791003134169"
+   }
+  }
+ }
+]

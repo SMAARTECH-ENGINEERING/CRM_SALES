@@ -1,0 +1,80 @@
+[
+ {
+  "_id": {
+   "$oid": "6abfee438deff8c2c2df0742"
+  },
+  "name": "30 days before",
+  "sortOrder": {
+   "$numberInt": "10"
+  },
+  "isActive": true,
+  "daysBefore": {
+   "$numberInt": "30"
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790963267804"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790963267804"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfee438deff8c2c2df0743"
+  },
+  "name": "15 days before",
+  "sortOrder": {
+   "$numberInt": "20"
+  },
+  "isActive": true,
+  "daysBefore": {
+   "$numberInt": "15"
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790963267804"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790963267804"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfee438deff8c2c2df0744"
+  },
+  "name": "7 days before",
+  "sortOrder": {
+   "$numberInt": "30"
+  },
+  "isActive": true,
+  "daysBefore": {
+   "$numberInt": "7"
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790963267804"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790963267804"
+   }
+  }
+ }
+]

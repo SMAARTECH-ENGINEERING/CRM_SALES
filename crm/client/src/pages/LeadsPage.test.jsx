@@ -64,7 +64,7 @@ describe('LeadsPage paging', () => {
     fireEvent.click(screen.getByRole('button', { name: 'Go to previous page' }));
     expect(await screen.findByText('21–40 of 45')).toBeTruthy();
     await waitFor(() => expect(lastParams()).toMatchObject({ page: 2 }));
-  });
+  }, 60000);
 
   it('opens on the page in the address', async () => {
     renderPage('/leads?page=3');

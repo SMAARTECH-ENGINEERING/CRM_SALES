@@ -1,0 +1,218 @@
+[
+ {
+  "_id": {
+   "$oid": "6abfdbd46a751217613fb253"
+  },
+  "companyId": {
+   "$oid": "6abfcc0935f535f3326d5669"
+  },
+  "accountManagerId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "active",
+  "customerSince": {
+   "$date": {
+    "$numberLong": "1790899200000"
+   }
+  },
+  "firstOrderId": {
+   "$oid": "6abfda19cbbc24bf44c02ecc"
+  },
+  "customerNumber": "CUST-000001",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790958548047"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790958548047"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfdbd46a751217613fb255"
+  },
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d567b"
+  },
+  "accountManagerId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "active",
+  "customerSince": {
+   "$date": {
+    "$numberLong": "1790899200000"
+   }
+  },
+  "firstOrderId": {
+   "$oid": "6abfd9c6c81a7a6ec90bf297"
+  },
+  "customerNumber": "CUST-000002",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790958548054"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790958548054"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfde488c6f94de4194519d"
+  },
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5673"
+  },
+  "primaryContactId": {
+   "$oid": "6abfcc0a35f535f3326d5675"
+  },
+  "accountManagerId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "active",
+  "customerSince": {
+   "$date": {
+    "$numberLong": "1763078400000"
+   }
+  },
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "customerNumber": "CUST-000003",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790959176276"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790959176276"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfde488c6f94de4194519f"
+  },
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5684"
+  },
+  "primaryContactId": {
+   "$oid": "6abfcc0a35f535f3326d5686"
+  },
+  "accountManagerId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "active",
+  "customerSince": {
+   "$date": {
+    "$numberLong": "1762473600000"
+   }
+  },
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "customerNumber": "CUST-000004",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790959176302"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790959176302"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfde488c6f94de419451a1"
+  },
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d568d"
+  },
+  "primaryContactId": {
+   "$oid": "6abfcc0a35f535f3326d568f"
+  },
+  "accountManagerId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "active",
+  "customerSince": {
+   "$date": {
+    "$numberLong": "1759622400000"
+   }
+  },
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "customerNumber": "CUST-000005",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790959176319"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790959176319"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfde488c6f94de419451a3"
+  },
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5696"
+  },
+  "primaryContactId": {
+   "$oid": "6abfcc0a35f535f3326d5698"
+  },
+  "accountManagerId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "active",
+  "customerSince": {
+   "$date": {
+    "$numberLong": "1769126400000"
+   }
+  },
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "customerNumber": "CUST-000006",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790959176340"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790959176340"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ }
+]

@@ -1,0 +1,46 @@
+[
+ {
+  "_id": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "firstName": "Jagadish",
+  "lastName": "Behera",
+  "email": "jagadishbehea961@gmail.com",
+  "passwordHash": "$2b$12$faOR24pBU0rw4Esx.kLdy./BQr04PhoboRYhGEJo7xF53tnLxVDqm",
+  "roleId": {
+   "$oid": "6abe207bc0b355dbdb548e82"
+  },
+  "status": "active",
+  "tokenVersion": {
+   "$numberInt": "1"
+  },
+  "deletedAt": null,
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790845097701"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045662335"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "lastLogin": {
+   "$date": {
+    "$numberLong": "1791044394190"
+   }
+  },
+  "refreshTokenHash": "e707cd9b7de9899951f7e889f5abc1243e365312d77689a7bb7be30876435718",
+  "preferences": {
+   "theme": "professional-blue",
+   "fontSize": "large",
+   "sidebarCollapsed": false,
+   "sidebarWidth": {
+    "$numberInt": "254"
+   }
+  }
+ }
+]

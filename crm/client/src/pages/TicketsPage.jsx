@@ -99,7 +99,7 @@ export default function TicketsPage() {
       { field: 'replyCount', headerName: t('fields.replies'), width: 90, align: 'right', headerAlign: 'right', sortable: false },
       { field: 'lastActivityAt', headerName: t('fields.lastActivity'), width: 170, valueFormatter: (value) => formatDateTime(value) },
     ],
-    []
+    [t]
   );
 
   const hasFilters = Boolean(params.search || FILTER_KEYS.some((key) => params[key]));

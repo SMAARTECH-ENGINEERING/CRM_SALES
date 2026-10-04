@@ -1,0 +1,137 @@
+[
+ {
+  "_id": {
+   "$oid": "6abfe70076bb65fc623fe5fd"
+  },
+  "name": "New",
+  "description": "Not picked up yet",
+  "sortOrder": {
+   "$numberInt": "10"
+  },
+  "isActive": true,
+  "category": "open",
+  "color": "#1976d2",
+  "isDefault": true,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790961408538"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790961408538"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfe70076bb65fc623fe5fe"
+  },
+  "name": "In Progress",
+  "description": "Being worked on",
+  "sortOrder": {
+   "$numberInt": "20"
+  },
+  "isActive": true,
+  "category": "in_progress",
+  "color": "#7b1fa2",
+  "isDefault": false,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790961408538"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790961408538"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfe70076bb65fc623fe5ff"
+  },
+  "name": "Waiting on Customer",
+  "description": "Needs an answer from the customer",
+  "sortOrder": {
+   "$numberInt": "30"
+  },
+  "isActive": true,
+  "category": "waiting",
+  "color": "#ed6c02",
+  "isDefault": false,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790961408538"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790961408538"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfe70076bb65fc623fe600"
+  },
+  "name": "Resolved",
+  "description": "Solved; awaiting confirmation",
+  "sortOrder": {
+   "$numberInt": "40"
+  },
+  "isActive": true,
+  "category": "resolved",
+  "color": "#2e7d32",
+  "isDefault": false,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790961408538"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790961408538"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfe70076bb65fc623fe601"
+  },
+  "name": "Closed",
+  "description": "Finished",
+  "sortOrder": {
+   "$numberInt": "50"
+  },
+  "isActive": true,
+  "category": "closed",
+  "color": "#616161",
+  "isDefault": false,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790961408538"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790961408538"
+   }
+  }
+ }
+]

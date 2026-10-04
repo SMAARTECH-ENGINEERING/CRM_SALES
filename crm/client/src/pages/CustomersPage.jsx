@@ -122,7 +122,7 @@ export default function CustomersPage() {
         valueFormatter: (value) => formatDate(value),
       },
     ],
-    []
+    [t]
   );
 
   const hasFilters = Boolean(params.search || FILTER_KEYS.some((key) => params[key]));

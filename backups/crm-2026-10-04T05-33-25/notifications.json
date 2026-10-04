@@ -1,0 +1,267 @@
+[
+ {
+  "_id": {
+   "$oid": "6ac13146495771d303e8b330"
+  },
+  "userId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "type": "follow_up_due",
+  "title": "Follow-up overdue",
+  "message": "\"Send revised proposal\" was due on 2026-09-30",
+  "entityType": "opportunity",
+  "entityId": {
+   "$oid": "6ac130c6032f6295e82de6b2"
+  },
+  "isRead": false,
+  "dedupeKey": "follow-up-due:6ac130c6032f6295e82de732:1790786630995",
+  "deletedAt": null,
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045958491"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac13146495771d303e8b333"
+  },
+  "userId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "type": "payment_overdue",
+  "title": "Payment overdue",
+  "message": "INV-000007 (Acme Industries): 64000.00 outstanding, due 2026-09-21 - 12 days ago",
+  "entityType": "payment",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de84b"
+  },
+  "isRead": false,
+  "dedupeKey": "payment-overdue:6ac130c8032f6295e82de84b:1789948800000",
+  "deletedAt": null,
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045958507"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac13146495771d303e8b335"
+  },
+  "userId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "type": "payment_overdue",
+  "title": "Payment overdue",
+  "message": "INV-000008 (Riverline Freight): 36500.00 outstanding, due 2026-09-27 - 6 days ago",
+  "entityType": "payment",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de84d"
+  },
+  "isRead": false,
+  "dedupeKey": "payment-overdue:6ac130c8032f6295e82de84d:1790467200000",
+  "deletedAt": null,
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045958527"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac13146495771d303e8b336"
+  },
+  "userId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "type": "payment_overdue",
+  "title": "Payment overdue",
+  "message": "INV-000013 (Cedar Systems): 45750.00 outstanding, due 2026-10-01 - 2 days ago",
+  "entityType": "payment",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de857"
+  },
+  "isRead": false,
+  "dedupeKey": "payment-overdue:6ac130c8032f6295e82de857:1790812800000",
+  "deletedAt": null,
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045958533"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac13160495771d303e8b337"
+  },
+  "userId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "type": "contract_expiring",
+  "title": "Contract expiring",
+  "message": "Contract CON-000001 with Pinnacle Realty ends in 5 days",
+  "entityType": "contract",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de831"
+  },
+  "isRead": false,
+  "dedupeKey": "contract-expiring:6ac130c8032f6295e82de831:7:2026-10-08",
+  "deletedAt": null,
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045984010"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac13178495771d303e8b33b"
+  },
+  "userId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "type": "contract_expiring",
+  "title": "Contract expiring",
+  "message": "Contract CON-000002 with Acme Industries ends in 12 days",
+  "entityType": "contract",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de833"
+  },
+  "isRead": false,
+  "dedupeKey": "contract-expiring:6ac130c8032f6295e82de833:15:2026-10-15",
+  "deletedAt": null,
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791046008964"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac13191495771d303e8b33f"
+  },
+  "userId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "type": "contract_expiring",
+  "title": "Contract expiring",
+  "message": "Contract CON-000003 with Riverline Freight ends in 28 days",
+  "entityType": "contract",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de835"
+  },
+  "isRead": true,
+  "dedupeKey": "contract-expiring:6ac130c8032f6295e82de835:30:2026-10-31",
+  "deletedAt": null,
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791046033749"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "readAt": {
+   "$date": {
+    "$numberLong": "1791046086749"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac134ca495771d303e8b341"
+  },
+  "userId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "type": "follow_up_due",
+  "title": "Follow-up due",
+  "message": "\"Contract CON-000001 with Pinnacle Realty ends in 5 days\" is due on 2026-10-08",
+  "entityType": "contract",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de831"
+  },
+  "isRead": false,
+  "dedupeKey": "follow-up-due:6ac13146495771d303e8b334:1791417600000",
+  "deletedAt": null,
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791046858503"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac134ca495771d303e8b342"
+  },
+  "userId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "type": "follow_up_due",
+  "title": "Follow-up due",
+  "message": "\"Contract CON-000002 with Acme Industries ends in 12 days\" is due on 2026-10-15",
+  "entityType": "contract",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de833"
+  },
+  "isRead": false,
+  "dedupeKey": "follow-up-due:6ac13160495771d303e8b33a:1792022400000",
+  "deletedAt": null,
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791046858518"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac134ca495771d303e8b343"
+  },
+  "userId": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "type": "follow_up_due",
+  "title": "Follow-up due",
+  "message": "\"Contract CON-000003 with Riverline Freight ends in 28 days\" is due on 2026-10-31",
+  "entityType": "contract",
+  "entityId": {
+   "$oid": "6ac130c8032f6295e82de835"
+  },
+  "isRead": false,
+  "dedupeKey": "follow-up-due:6ac13178495771d303e8b33e:1793404800000",
+  "deletedAt": null,
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791046858530"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ }
+]

@@ -146,7 +146,7 @@ export default function QuotationsPage() {
           ].filter(Boolean),
       },
     ],
-    [canEdit, canDelete, navigate]
+    [canEdit, canDelete, navigate, t]
   );
 
   async function confirmDelete() {

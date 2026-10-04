@@ -62,7 +62,7 @@ export default function ChartCard({ title, subtitle, query, rows: pick, valueLab
     const header = ['', valueLabel, ...columns.map((column) => column.header)];
     const lines = rows.map((row) => [row.label, row.value, ...columns.map((column) => column.cell(row))]);
     const csv = [header, ...lines].map((line) => line.map(csvCell).join(',')).join('\r\n');
-    saveBlob(new Blob([`﻿${csv}`], { type: 'text/csv;charset=utf-8' }), `${title}.csv`);
+    saveBlob(new Blob([`\uFEFF${csv}`], { type: 'text/csv;charset=utf-8' }), `${title}.csv`);
   }
 
   const table = (

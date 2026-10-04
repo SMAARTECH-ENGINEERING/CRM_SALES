@@ -4,7 +4,6 @@ import EditOutlinedIcon from '@mui/icons-material/EditOutlined';
 import SearchIcon from '@mui/icons-material/Search';
 import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';
 import Alert from '@mui/material/Alert';
-import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import InputAdornment from '@mui/material/InputAdornment';
 import Link from '@mui/material/Link';
@@ -178,7 +177,7 @@ export default function CompaniesPage() {
           ].filter(Boolean),
       },
     ],
-    [canEdit, canDelete, navigate]
+    [canEdit, canDelete, navigate, t]
   );
 
   async function confirmDelete() {

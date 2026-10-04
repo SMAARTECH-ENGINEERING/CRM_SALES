@@ -1,0 +1,170 @@
+[
+ {
+  "_id": {
+   "$oid": "6abe2cac0053a86abb1ee9a8"
+  },
+  "name": "Website",
+  "description": "Enquiry form or chat on the website",
+  "sortOrder": {
+   "$numberInt": "10"
+  },
+  "isActive": true,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790848172447"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790848172447"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe2cac0053a86abb1ee9a9"
+  },
+  "name": "Referral",
+  "description": "Recommended by a customer or partner",
+  "sortOrder": {
+   "$numberInt": "20"
+  },
+  "isActive": true,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790848172448"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790848172448"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe2cac0053a86abb1ee9aa"
+  },
+  "name": "Cold Call",
+  "description": "Outbound call by the sales team",
+  "sortOrder": {
+   "$numberInt": "30"
+  },
+  "isActive": true,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790848172448"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790848172448"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe2cac0053a86abb1ee9ab"
+  },
+  "name": "Email Campaign",
+  "description": "Response to a marketing email",
+  "sortOrder": {
+   "$numberInt": "40"
+  },
+  "isActive": true,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790848172448"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790848172448"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe2cac0053a86abb1ee9ac"
+  },
+  "name": "Social Media",
+  "description": "Enquiry through a social network",
+  "sortOrder": {
+   "$numberInt": "50"
+  },
+  "isActive": true,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790848172448"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790848172448"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe2cac0053a86abb1ee9ad"
+  },
+  "name": "Trade Show",
+  "description": "Met at an exhibition or event",
+  "sortOrder": {
+   "$numberInt": "60"
+  },
+  "isActive": true,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790848172448"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790848172448"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abe2cac0053a86abb1ee9ae"
+  },
+  "name": "Walk-in",
+  "description": "Visited the office in person",
+  "sortOrder": {
+   "$numberInt": "70"
+  },
+  "isActive": true,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790848172448"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791008962848"
+   }
+  }
+ }
+]

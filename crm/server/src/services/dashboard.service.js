@@ -103,7 +103,7 @@ const within = ({ start, end }) => ({ $gte: start, $lt: end });
 // --- the scope --------------------------------------------------------------------
 
 // Whose records the figures cover.
-// iewAllKey is the permission that lifts the limit (reports have their own).
+// viewAllKey is the permission that lifts the limit (reports have their own).
 export async function resolveScope(actor, organizationId, viewAllKey = VIEW_ALL) {
   const viewAll = hasPermission(actor, viewAllKey);
   const own = actor.organizationId ? String(actor.organizationId) : '';

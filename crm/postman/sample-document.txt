@@ -1,0 +1,2 @@
+Sample document for the CRM Postman collection.
+Replace it with any file you like in Body -> form-data -> files.

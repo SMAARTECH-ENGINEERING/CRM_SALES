@@ -1,0 +1,122 @@
+[
+ {
+  "_id": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "firstName": "Jagadish",
+  "lastName": "Behera",
+  "email": "jagadishbehea961@gmail.com",
+  "passwordHash": "$2b$12$faOR24pBU0rw4Esx.kLdy./BQr04PhoboRYhGEJo7xF53tnLxVDqm",
+  "roleId": {
+   "$oid": "6abe207bc0b355dbdb548e82"
+  },
+  "status": "active",
+  "tokenVersion": {
+   "$numberInt": "1"
+  },
+  "deletedAt": null,
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790845097701"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791091356472"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  },
+  "lastLogin": {
+   "$date": {
+    "$numberLong": "1791044394190"
+   }
+  },
+  "refreshTokenHash": "aae2ca47a1df6f457e7e9e8f410d32e5b44a3d5e5fdaf25277610adb88d49bf5",
+  "preferences": {
+   "theme": "warm",
+   "fontSize": "large",
+   "sidebarCollapsed": false,
+   "sidebarWidth": {
+    "$numberInt": "220"
+   },
+   "dashboardLayout": [
+    {
+     "id": "figures",
+     "size": {
+      "$numberInt": "6"
+     },
+     "hidden": false
+    },
+    {
+     "id": "leadsBySource",
+     "size": {
+      "$numberInt": "6"
+     },
+     "hidden": false
+    },
+    {
+     "id": "leadsByStatus",
+     "size": {
+      "$numberInt": "4"
+     },
+     "hidden": false
+    },
+    {
+     "id": "pipeline",
+     "size": {
+      "$numberInt": "4"
+     },
+     "hidden": false
+    },
+    {
+     "id": "monthlySales",
+     "size": {
+      "$numberInt": "4"
+     },
+     "hidden": false
+    },
+    {
+     "id": "salespeople",
+     "size": {
+      "$numberInt": "6"
+     },
+     "hidden": false
+    },
+    {
+     "id": "products",
+     "size": {
+      "$numberInt": "6"
+     },
+     "hidden": false
+    },
+    {
+     "id": "activitiesByType",
+     "size": {
+      "$numberInt": "6"
+     },
+     "hidden": false
+    },
+    {
+     "id": "activitiesByUser",
+     "size": {
+      "$numberInt": "6"
+     },
+     "hidden": false
+    }
+   ],
+   "themeMode": "light",
+   "tableDensity": "standard",
+   "tableColumns": {
+    "quotations": {
+     "widths": {
+      "company": {
+       "$numberInt": "215"
+      }
+     }
+    }
+   }
+  }
+ }
+]

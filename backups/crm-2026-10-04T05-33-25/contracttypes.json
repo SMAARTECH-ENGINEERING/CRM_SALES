@@ -1,0 +1,102 @@
+[
+ {
+  "_id": {
+   "$oid": "6abfee438deff8c2c2df0734"
+  },
+  "name": "Annual Maintenance (AMC)",
+  "description": "Scheduled maintenance and repairs for a year",
+  "sortOrder": {
+   "$numberInt": "10"
+  },
+  "isActive": true,
+  "color": "#1976d2",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790963267792"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790963267792"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfee438deff8c2c2df0735"
+  },
+  "name": "Comprehensive AMC",
+  "description": "Maintenance including spare parts",
+  "sortOrder": {
+   "$numberInt": "20"
+  },
+  "isActive": true,
+  "color": "#2e7d32",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790963267793"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790963267793"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfee438deff8c2c2df0736"
+  },
+  "name": "Support Plan",
+  "description": "Help desk and remote support",
+  "sortOrder": {
+   "$numberInt": "30"
+  },
+  "isActive": true,
+  "color": "#7b1fa2",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790963267793"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790963267793"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfee438deff8c2c2df0737"
+  },
+  "name": "Warranty Extension",
+  "description": "Cover beyond the manufacturer warranty",
+  "sortOrder": {
+   "$numberInt": "40"
+  },
+  "isActive": true,
+  "color": "#ed6c02",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790963267793"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790963267793"
+   }
+  }
+ }
+]

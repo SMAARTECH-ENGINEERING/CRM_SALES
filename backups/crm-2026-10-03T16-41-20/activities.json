@@ -1,0 +1,3006 @@
+[
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d5795"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdf"
+  },
+  "subject": "Product demo",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "high",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0935f535f3326d5669"
+  },
+  "contactId": {
+   "$oid": "6abfcc0935f535f3326d566b"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1788362507611"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507622"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507622"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d5796"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fda"
+  },
+  "subject": "Negotiated payment terms",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "medium",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0935f535f3326d5669"
+  },
+  "contactId": {
+   "$oid": "6abfcc0935f535f3326d566b"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1790004107660"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507661"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507661"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d5797"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdb"
+  },
+  "subject": "Sent brochure and price list",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1790695307664"
+   }
+  },
+  "status": "pending",
+  "priority": "low",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0935f535f3326d5669"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507666"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507666"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d5798"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fda"
+  },
+  "subject": "Negotiated payment terms",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "medium",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0935f535f3326d566e"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d5672"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1787757707668"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507670"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507670"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d5799"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdd"
+  },
+  "subject": "Sent brochure and price list",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "low",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0935f535f3326d566e"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d5671"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1790263307672"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507673"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507673"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d579a"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fda"
+  },
+  "subject": "Sent brochure and price list",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1791559307676"
+   }
+  },
+  "status": "pending",
+  "priority": "low",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0935f535f3326d566e"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507677"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507677"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d579b"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fde"
+  },
+  "subject": "Follow-up on proposal",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "medium",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5673"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d5675"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1790695307680"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507681"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507681"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d579c"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdb"
+  },
+  "subject": "Requirement discussion",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "medium",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5673"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d5675"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1788880907684"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507686"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507686"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d579d"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fde"
+  },
+  "subject": "Product demo",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1792250507689"
+   }
+  },
+  "status": "pending",
+  "priority": "low",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5673"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507690"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507690"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d579e"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdb"
+  },
+  "subject": "Product demo",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "medium",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5677"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d5679"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1789312907692"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507694"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507694"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d579f"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdf"
+  },
+  "subject": "Negotiated payment terms",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "low",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5677"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d5679"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1789140107696"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507700"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507700"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57a0"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fde"
+  },
+  "subject": "Requirement discussion",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1791904907702"
+   }
+  },
+  "status": "pending",
+  "priority": "high",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5677"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507703"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507703"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57a1"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdc"
+  },
+  "subject": "Product demo",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "low",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d567b"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d567f"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1790608907705"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507707"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507707"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57a2"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdf"
+  },
+  "subject": "Follow-up on proposal",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "medium",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d567b"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d567d"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1789744907710"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507711"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507711"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57a3"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdb"
+  },
+  "subject": "Sent brochure and price list",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1792682507713"
+   }
+  },
+  "status": "pending",
+  "priority": "low",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d567b"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507715"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507715"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57a4"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fe0"
+  },
+  "subject": "Site visit",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "medium",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5680"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d5682"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1787498507717"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507719"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507719"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57a5"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdc"
+  },
+  "subject": "Site visit",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "low",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5680"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d5683"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1788362507721"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507723"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507723"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57a6"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fe0"
+  },
+  "subject": "Requirement discussion",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1790695307725"
+   }
+  },
+  "status": "pending",
+  "priority": "medium",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5680"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507726"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507726"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57a7"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdb"
+  },
+  "subject": "Requirement discussion",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "low",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5684"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d5687"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1788448907728"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507730"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507730"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57a8"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fe0"
+  },
+  "subject": "Clarified delivery timelines",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "high",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5684"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d5687"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1790263307732"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507734"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507734"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57a9"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fde"
+  },
+  "subject": "Requirement discussion",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1792077707736"
+   }
+  },
+  "status": "pending",
+  "priority": "low",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5684"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507737"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507737"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57aa"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdf"
+  },
+  "subject": "Clarified delivery timelines",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "low",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5689"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d568c"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1788621707739"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507740"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507740"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57ab"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fde"
+  },
+  "subject": "Requirement discussion",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "medium",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5689"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d568c"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1787930507742"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507744"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507744"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57ac"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fe0"
+  },
+  "subject": "Product demo",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1792077707747"
+   }
+  },
+  "status": "pending",
+  "priority": "high",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5689"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507748"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507748"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57ad"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fda"
+  },
+  "subject": "Introductory call",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "medium",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d568d"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d5691"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1789399307750"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507752"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507752"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57ae"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdc"
+  },
+  "subject": "Negotiated payment terms",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "low",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d568d"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d568f"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1787498507755"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507756"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507756"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57af"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdc"
+  },
+  "subject": "Follow-up on proposal",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1791645707759"
+   }
+  },
+  "status": "pending",
+  "priority": "high",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d568d"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507760"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507760"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57b0"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdf"
+  },
+  "subject": "Requirement discussion",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "medium",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5692"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d5695"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1790608907762"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507763"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507763"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57b1"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fde"
+  },
+  "subject": "Product demo",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "low",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5692"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d5694"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1789831307766"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507768"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507768"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57b2"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdc"
+  },
+  "subject": "Follow-up on proposal",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1791991307771"
+   }
+  },
+  "status": "pending",
+  "priority": "high",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5692"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507772"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507772"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57b3"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fe0"
+  },
+  "subject": "Introductory call",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "low",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5696"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d5699"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1789226507774"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507776"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507776"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57b4"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdd"
+  },
+  "subject": "Sent brochure and price list",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "medium",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5696"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d5698"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1790004107778"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507780"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507780"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57b5"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fda"
+  },
+  "subject": "Negotiated payment terms",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1790695307782"
+   }
+  },
+  "status": "pending",
+  "priority": "medium",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5696"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507783"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507783"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57b6"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fde"
+  },
+  "subject": "Site visit",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "high",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d569a"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d569c"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1788016907785"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507789"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507789"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57b7"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fe0"
+  },
+  "subject": "Follow-up on proposal",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "medium",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d569a"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d569d"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1789140107792"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507794"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507794"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57b8"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fda"
+  },
+  "subject": "Site visit",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1791300107796"
+   }
+  },
+  "status": "pending",
+  "priority": "high",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d569a"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507797"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507797"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57b9"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fe0"
+  },
+  "subject": "Product demo",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "high",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d569e"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d56a0"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1789485707800"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507802"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507802"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57ba"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdc"
+  },
+  "subject": "Negotiated payment terms",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "low",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d569e"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d56a1"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1789658507804"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507805"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507805"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57bb"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdd"
+  },
+  "subject": "Site visit",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1792682507808"
+   }
+  },
+  "status": "pending",
+  "priority": "high",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d569e"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507809"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507809"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57bc"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fda"
+  },
+  "subject": "Sent brochure and price list",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "medium",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d56a2"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d56a4"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1787498507811"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507813"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507813"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57bd"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdf"
+  },
+  "subject": "Negotiated payment terms",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "low",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d56a2"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d56a5"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1789572107815"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507817"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507817"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57be"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdc"
+  },
+  "subject": "Site visit",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1792423307820"
+   }
+  },
+  "status": "pending",
+  "priority": "high",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d56a2"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507821"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507821"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57bf"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fde"
+  },
+  "subject": "Sent brochure and price list",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "high",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d56a6"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d56a8"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1790176907823"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507825"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507825"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57c0"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdf"
+  },
+  "subject": "Introductory call",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "low",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d56a6"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d56a8"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1788448907828"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507830"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507830"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57c1"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdd"
+  },
+  "subject": "Follow-up on proposal",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1792423307833"
+   }
+  },
+  "status": "pending",
+  "priority": "medium",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d56a6"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507835"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507835"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57c2"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdc"
+  },
+  "subject": "Negotiated payment terms",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "medium",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d56aa"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d56ad"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1789917707837"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507839"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507839"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57c3"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdc"
+  },
+  "subject": "Sent brochure and price list",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "low",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d56aa"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d56ac"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1789140107841"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507843"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507843"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57c4"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fe0"
+  },
+  "subject": "Product demo",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1790695307845"
+   }
+  },
+  "status": "pending",
+  "priority": "low",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d56aa"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507846"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507846"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57c5"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdc"
+  },
+  "subject": "Follow-up on proposal",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "high",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d56ae"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d56b0"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1789917707848"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507850"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507850"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57c6"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdc"
+  },
+  "subject": "Follow-up on proposal",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "medium",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d56ae"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d56b0"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1790695307852"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507854"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507854"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57c7"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdc"
+  },
+  "subject": "Sent brochure and price list",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1791818507856"
+   }
+  },
+  "status": "pending",
+  "priority": "high",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d56ae"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507857"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507857"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57c8"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdd"
+  },
+  "subject": "Sent brochure and price list",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "low",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d56b3"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d56b7"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1787930507859"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507861"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507861"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57c9"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdf"
+  },
+  "subject": "Follow-up on proposal",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "medium",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d56b3"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d56b6"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1788016907863"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507865"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507865"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57ca"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fe0"
+  },
+  "subject": "Sent brochure and price list",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1791904907869"
+   }
+  },
+  "status": "pending",
+  "priority": "low",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d56b3"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507870"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507870"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57cb"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdb"
+  },
+  "subject": "Sent brochure and price list",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "high",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d56b8"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d56ba"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1789917707872"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507874"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507874"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57cc"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdd"
+  },
+  "subject": "Clarified delivery timelines",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "medium",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d56b8"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d56ba"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1789053707876"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507877"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507877"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57cd"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdb"
+  },
+  "subject": "Introductory call",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1791472907879"
+   }
+  },
+  "status": "pending",
+  "priority": "low",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d56b8"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507881"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507881"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57ce"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fda"
+  },
+  "subject": "Requirement discussion",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "medium",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d56bc"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d56be"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1790608907883"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507886"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507886"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57cf"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fda"
+  },
+  "subject": "Site visit",
+  "description": "Demo activity",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "high",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d56bc"
+  },
+  "contactId": {
+   "$oid": "6abfcc0a35f535f3326d56c0"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1790608907888"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507890"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507890"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57d0"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdb"
+  },
+  "subject": "Introductory call",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "dueDate": {
+   "$date": {
+    "$numberLong": "1791386507892"
+   }
+  },
+  "status": "pending",
+  "priority": "high",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d56bc"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507893"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507893"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57d1"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fde"
+  },
+  "subject": "Site visit",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "medium",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0935f535f3326d5669"
+  },
+  "opportunityId": {
+   "$oid": "6abfcc0a35f535f3326d572d"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1790090507895"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507897"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507897"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57d2"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdb"
+  },
+  "subject": "Negotiated payment terms",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "medium",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d56a6"
+  },
+  "opportunityId": {
+   "$oid": "6abfcc0b35f535f3326d5732"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1790004107901"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507902"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507902"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57d3"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fe0"
+  },
+  "subject": "Site visit",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "medium",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d568d"
+  },
+  "opportunityId": {
+   "$oid": "6abfcc0b35f535f3326d573b"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1790436107905"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507906"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507906"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57d4"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fe0"
+  },
+  "subject": "Site visit",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "medium",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5673"
+  },
+  "opportunityId": {
+   "$oid": "6abfcc0b35f535f3326d5747"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1790608907909"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507910"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507910"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57d5"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fda"
+  },
+  "subject": "Site visit",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "medium",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d56ae"
+  },
+  "opportunityId": {
+   "$oid": "6abfcc0b35f535f3326d574c"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1790349707917"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507919"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507919"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57d6"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fde"
+  },
+  "subject": "Sent brochure and price list",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "medium",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5696"
+  },
+  "opportunityId": {
+   "$oid": "6abfcc0b35f535f3326d5755"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1789744907922"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507923"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507923"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57d7"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fda"
+  },
+  "subject": "Follow-up on proposal",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "medium",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d567b"
+  },
+  "opportunityId": {
+   "$oid": "6abfcc0b35f535f3326d5761"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1790176907925"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507927"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507927"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57d8"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdc"
+  },
+  "subject": "Site visit",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "medium",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d56b8"
+  },
+  "opportunityId": {
+   "$oid": "6abfcc0b35f535f3326d5766"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1789917707929"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507931"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507931"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57d9"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdd"
+  },
+  "subject": "Product demo",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "medium",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d569e"
+  },
+  "opportunityId": {
+   "$oid": "6abfcc0b35f535f3326d576f"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1790608907933"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507934"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507934"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57da"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fda"
+  },
+  "subject": "Clarified delivery timelines",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "medium",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d5684"
+  },
+  "opportunityId": {
+   "$oid": "6abfcc0b35f535f3326d577b"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1790263307937"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507938"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507938"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57db"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fda"
+  },
+  "subject": "Requirement discussion",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "medium",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0935f535f3326d5669"
+  },
+  "opportunityId": {
+   "$oid": "6abfcc0b35f535f3326d5780"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1790781707940"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507942"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507942"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfcc0b35f535f3326d57dc"
+  },
+  "typeId": {
+   "$oid": "6abf4c44ecf7fb7dbf2d9fdb"
+  },
+  "subject": "Sent brochure and price list",
+  "assignedTo": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "status": "completed",
+  "priority": "medium",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "companyId": {
+   "$oid": "6abfcc0a35f535f3326d56a6"
+  },
+  "opportunityId": {
+   "$oid": "6abfcc0b35f535f3326d5789"
+  },
+  "completedAt": {
+   "$date": {
+    "$numberLong": "1790349707944"
+   }
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790954507946"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790954507946"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ }
+]

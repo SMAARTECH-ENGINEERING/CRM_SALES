@@ -1,0 +1,2227 @@
+[
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5bc"
+  },
+  "firstName": "Priya",
+  "lastName": "Nair",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5ba"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "priya",
+   "nair",
+   "acmeindustries",
+   "example",
+   "com",
+   "91",
+   "88932",
+   "85900",
+   "918893285900",
+   "8893285900",
+   "purchase",
+   "manager"
+  ],
+  "designation": "Purchase Manager",
+  "email": "priya.nair@acmeindustries.example.com",
+  "phone": "+91 88932 85900",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829133"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829133"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5bd"
+  },
+  "firstName": "Rahul",
+  "lastName": "Sharma",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5ba"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "rahul",
+   "sharma",
+   "acmeindustries",
+   "example",
+   "com",
+   "91",
+   "88735",
+   "15877",
+   "918873515877",
+   "8873515877",
+   "operations",
+   "head"
+  ],
+  "designation": "Operations Head",
+  "email": "rahul.sharma@acmeindustries.example.com",
+  "phone": "+91 88735 15877",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829139"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829139"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5be"
+  },
+  "firstName": "Ananya",
+  "lastName": "Iyer",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5ba"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "ananya",
+   "iyer",
+   "acmeindustries",
+   "example",
+   "com",
+   "91",
+   "84357",
+   "19561",
+   "918435719561",
+   "8435719561",
+   "it",
+   "manager"
+  ],
+  "designation": "IT Manager",
+  "email": "ananya.iyer@acmeindustries.example.com",
+  "phone": "+91 84357 19561",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829144"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829144"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5c1"
+  },
+  "firstName": "Vikram",
+  "lastName": "Iyer",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5bf"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "vikram",
+   "iyer",
+   "bolttraders",
+   "example",
+   "com",
+   "91",
+   "78982",
+   "76400",
+   "917898276400",
+   "7898276400",
+   "operations",
+   "head"
+  ],
+  "designation": "Operations Head",
+  "email": "vikram.iyer@bolttraders.example.com",
+  "phone": "+91 78982 76400",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829159"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829159"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5c2"
+  },
+  "firstName": "Sneha",
+  "lastName": "Patel",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5bf"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "sneha",
+   "patel",
+   "bolttraders",
+   "example",
+   "com",
+   "91",
+   "79422",
+   "90030",
+   "917942290030",
+   "7942290030",
+   "it",
+   "manager"
+  ],
+  "designation": "IT Manager",
+  "email": "sneha.patel@bolttraders.example.com",
+  "phone": "+91 79422 90030",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829164"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829164"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5c3"
+  },
+  "firstName": "Arjun",
+  "lastName": "Reddy",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5bf"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "arjun",
+   "reddy",
+   "bolttraders",
+   "example",
+   "com",
+   "91",
+   "84268",
+   "62162",
+   "918426862162",
+   "8426862162",
+   "director"
+  ],
+  "designation": "Director",
+  "email": "arjun.reddy@bolttraders.example.com",
+  "phone": "+91 84268 62162",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829169"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829169"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5c6"
+  },
+  "firstName": "Meera",
+  "lastName": "Reddy",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5c4"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "meera",
+   "reddy",
+   "cedarsystems",
+   "example",
+   "com",
+   "91",
+   "72229",
+   "98090",
+   "917222998090",
+   "7222998090",
+   "it",
+   "manager"
+  ],
+  "designation": "IT Manager",
+  "email": "meera.reddy@cedarsystems.example.com",
+  "phone": "+91 72229 98090",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829182"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829182"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5c7"
+  },
+  "firstName": "Karan",
+  "lastName": "Gupta",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5c4"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "karan",
+   "gupta",
+   "cedarsystems",
+   "example",
+   "com",
+   "91",
+   "97039",
+   "95488",
+   "919703995488",
+   "9703995488",
+   "director"
+  ],
+  "designation": "Director",
+  "email": "karan.gupta@cedarsystems.example.com",
+  "phone": "+91 97039 95488",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829187"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829187"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5ca"
+  },
+  "firstName": "Rohan",
+  "lastName": "Menon",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5c8"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "rohan",
+   "menon",
+   "deltahealthclinics",
+   "example",
+   "com",
+   "91",
+   "87962",
+   "44989",
+   "918796244989",
+   "8796244989",
+   "director"
+  ],
+  "designation": "Director",
+  "email": "rohan.menon@deltahealthclinics.example.com",
+  "phone": "+91 87962 44989",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829200"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829200"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5cb"
+  },
+  "firstName": "Kavya",
+  "lastName": "Kapoor",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5c8"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "kavya",
+   "kapoor",
+   "deltahealthclinics",
+   "example",
+   "com",
+   "91",
+   "89404",
+   "72061",
+   "918940472061",
+   "8940472061",
+   "facilities",
+   "manager"
+  ],
+  "designation": "Facilities Manager",
+  "email": "kavya.kapoor@deltahealthclinics.example.com",
+  "phone": "+91 89404 72061",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829204"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829204"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5ce"
+  },
+  "firstName": "Isha",
+  "lastName": "Joshi",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5cc"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "isha",
+   "joshi",
+   "evergreenbuilders",
+   "example",
+   "com",
+   "91",
+   "83027",
+   "73163",
+   "918302773163",
+   "8302773163",
+   "facilities",
+   "manager"
+  ],
+  "designation": "Facilities Manager",
+  "email": "isha.joshi@evergreenbuilders.example.com",
+  "phone": "+91 83027 73163",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829216"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829216"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5cf"
+  },
+  "firstName": "Nikhil",
+  "lastName": "Rao",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5cc"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "nikhil",
+   "rao",
+   "evergreenbuilders",
+   "example",
+   "com",
+   "91",
+   "87393",
+   "26368",
+   "918739326368",
+   "8739326368",
+   "finance",
+   "controller"
+  ],
+  "designation": "Finance Controller",
+  "email": "nikhil.rao@evergreenbuilders.example.com",
+  "phone": "+91 87393 26368",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829222"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829222"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5d0"
+  },
+  "firstName": "Pooja",
+  "lastName": "Desai",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5cc"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "pooja",
+   "desai",
+   "evergreenbuilders",
+   "example",
+   "com",
+   "91",
+   "78300",
+   "44687",
+   "917830044687",
+   "7830044687",
+   "admin",
+   "executive"
+  ],
+  "designation": "Admin Executive",
+  "email": "pooja.desai@evergreenbuilders.example.com",
+  "phone": "+91 78300 44687",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829227"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829227"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5d3"
+  },
+  "firstName": "Sanjay",
+  "lastName": "Desai",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5d1"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "sanjay",
+   "desai",
+   "falconlogistics",
+   "example",
+   "com",
+   "91",
+   "89609",
+   "39532",
+   "918960939532",
+   "8960939532",
+   "finance",
+   "controller"
+  ],
+  "designation": "Finance Controller",
+  "email": "sanjay.desai@falconlogistics.example.com",
+  "phone": "+91 89609 39532",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829240"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829240"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5d4"
+  },
+  "firstName": "Neha",
+  "lastName": "Banerjee",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5d1"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "neha",
+   "banerjee",
+   "falconlogistics",
+   "example",
+   "com",
+   "91",
+   "90276",
+   "49448",
+   "919027649448",
+   "9027649448",
+   "admin",
+   "executive"
+  ],
+  "designation": "Admin Executive",
+  "email": "neha.banerjee@falconlogistics.example.com",
+  "phone": "+91 90276 49448",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829244"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829244"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5d7"
+  },
+  "firstName": "Ritu",
+  "lastName": "Pillai",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5d5"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "ritu",
+   "pillai",
+   "granitesoftware",
+   "example",
+   "com",
+   "91",
+   "85237",
+   "59864",
+   "918523759864",
+   "8523759864",
+   "admin",
+   "executive"
+  ],
+  "designation": "Admin Executive",
+  "email": "ritu.pillai@granitesoftware.example.com",
+  "phone": "+91 85237 59864",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829256"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829256"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5d8"
+  },
+  "firstName": "Varun",
+  "lastName": "Verma",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5d5"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "varun",
+   "verma",
+   "granitesoftware",
+   "example",
+   "com",
+   "91",
+   "70863",
+   "74983",
+   "917086374983",
+   "7086374983",
+   "ceo"
+  ],
+  "designation": "CEO",
+  "email": "varun.verma@granitesoftware.example.com",
+  "phone": "+91 70863 74983",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829260"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829260"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5d9"
+  },
+  "firstName": "Priya",
+  "lastName": "Kulkarni",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5d5"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "priya",
+   "kulkarni",
+   "granitesoftware",
+   "example",
+   "com",
+   "91",
+   "78560",
+   "62799",
+   "917856062799",
+   "7856062799",
+   "purchase",
+   "manager"
+  ],
+  "designation": "Purchase Manager",
+  "email": "priya.kulkarni@granitesoftware.example.com",
+  "phone": "+91 78560 62799",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829264"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829264"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5dc"
+  },
+  "firstName": "Rahul",
+  "lastName": "Kulkarni",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5da"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "rahul",
+   "kulkarni",
+   "horizonacademy",
+   "example",
+   "com",
+   "91",
+   "87239",
+   "10117",
+   "918723910117",
+   "8723910117",
+   "ceo"
+  ],
+  "designation": "CEO",
+  "email": "rahul.kulkarni@horizonacademy.example.com",
+  "phone": "+91 87239 10117",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829276"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829276"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5dd"
+  },
+  "firstName": "Ananya",
+  "lastName": "Nair",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5da"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "ananya",
+   "nair",
+   "horizonacademy",
+   "example",
+   "com",
+   "91",
+   "94181",
+   "89353",
+   "919418189353",
+   "9418189353",
+   "purchase",
+   "manager"
+  ],
+  "designation": "Purchase Manager",
+  "email": "ananya.nair@horizonacademy.example.com",
+  "phone": "+91 94181 89353",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829280"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829280"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5e0"
+  },
+  "firstName": "Sneha",
+  "lastName": "Sharma",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5de"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "sneha",
+   "sharma",
+   "indigoretailmart",
+   "example",
+   "com",
+   "91",
+   "75416",
+   "12828",
+   "917541612828",
+   "7541612828",
+   "purchase",
+   "manager"
+  ],
+  "designation": "Purchase Manager",
+  "email": "sneha.sharma@indigoretailmart.example.com",
+  "phone": "+91 75416 12828",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829295"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829295"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5e1"
+  },
+  "firstName": "Arjun",
+  "lastName": "Iyer",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5de"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "arjun",
+   "iyer",
+   "indigoretailmart",
+   "example",
+   "com",
+   "91",
+   "76385",
+   "87636",
+   "917638587636",
+   "7638587636",
+   "operations",
+   "head"
+  ],
+  "designation": "Operations Head",
+  "email": "arjun.iyer@indigoretailmart.example.com",
+  "phone": "+91 76385 87636",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829300"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829300"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5e2"
+  },
+  "firstName": "Meera",
+  "lastName": "Patel",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5de"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "meera",
+   "patel",
+   "indigoretailmart",
+   "example",
+   "com",
+   "91",
+   "85245",
+   "68399",
+   "918524568399",
+   "8524568399",
+   "it",
+   "manager"
+  ],
+  "designation": "IT Manager",
+  "email": "meera.patel@indigoretailmart.example.com",
+  "phone": "+91 85245 68399",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829303"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829303"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5e5"
+  },
+  "firstName": "Karan",
+  "lastName": "Patel",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5e3"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "karan",
+   "patel",
+   "juniperpharma",
+   "example",
+   "com",
+   "91",
+   "96400",
+   "99866",
+   "919640099866",
+   "9640099866",
+   "operations",
+   "head"
+  ],
+  "designation": "Operations Head",
+  "email": "karan.patel@juniperpharma.example.com",
+  "phone": "+91 96400 99866",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829317"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829317"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5e6"
+  },
+  "firstName": "Divya",
+  "lastName": "Reddy",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5e3"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "divya",
+   "reddy",
+   "juniperpharma",
+   "example",
+   "com",
+   "91",
+   "78807",
+   "48774",
+   "917880748774",
+   "7880748774",
+   "it",
+   "manager"
+  ],
+  "designation": "IT Manager",
+  "email": "divya.reddy@juniperpharma.example.com",
+  "phone": "+91 78807 48774",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829321"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829321"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5e9"
+  },
+  "firstName": "Kavya",
+  "lastName": "Gupta",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5e7"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "kavya",
+   "gupta",
+   "kestrelengineering",
+   "example",
+   "com",
+   "91",
+   "96802",
+   "37504",
+   "919680237504",
+   "9680237504",
+   "it",
+   "manager"
+  ],
+  "designation": "IT Manager",
+  "email": "kavya.gupta@kestrelengineering.example.com",
+  "phone": "+91 96802 37504",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829336"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829336"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5ea"
+  },
+  "firstName": "Aditya",
+  "lastName": "Menon",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5e7"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "aditya",
+   "menon",
+   "kestrelengineering",
+   "example",
+   "com",
+   "91",
+   "85380",
+   "99550",
+   "918538099550",
+   "8538099550",
+   "director"
+  ],
+  "designation": "Director",
+  "email": "aditya.menon@kestrelengineering.example.com",
+  "phone": "+91 85380 99550",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829343"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829343"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5ed"
+  },
+  "firstName": "Nikhil",
+  "lastName": "Kapoor",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5eb"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "nikhil",
+   "kapoor",
+   "lotushospitality",
+   "example",
+   "com",
+   "91",
+   "99853",
+   "46733",
+   "919985346733",
+   "9985346733",
+   "director"
+  ],
+  "designation": "Director",
+  "email": "nikhil.kapoor@lotushospitality.example.com",
+  "phone": "+91 99853 46733",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829355"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829355"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5ee"
+  },
+  "firstName": "Pooja",
+  "lastName": "Joshi",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5eb"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "pooja",
+   "joshi",
+   "lotushospitality",
+   "example",
+   "com",
+   "91",
+   "79893",
+   "90699",
+   "917989390699",
+   "7989390699",
+   "facilities",
+   "manager"
+  ],
+  "designation": "Facilities Manager",
+  "email": "pooja.joshi@lotushospitality.example.com",
+  "phone": "+91 79893 90699",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829360"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829360"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5f1"
+  },
+  "firstName": "Neha",
+  "lastName": "Rao",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5ef"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "neha",
+   "rao",
+   "meridianinfotech",
+   "example",
+   "com",
+   "91",
+   "74043",
+   "71436",
+   "917404371436",
+   "7404371436",
+   "facilities",
+   "manager"
+  ],
+  "designation": "Facilities Manager",
+  "email": "neha.rao@meridianinfotech.example.com",
+  "phone": "+91 74043 71436",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829372"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829372"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5f2"
+  },
+  "firstName": "Amit",
+  "lastName": "Desai",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5ef"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "amit",
+   "desai",
+   "meridianinfotech",
+   "example",
+   "com",
+   "91",
+   "91879",
+   "64486",
+   "919187964486",
+   "9187964486",
+   "finance",
+   "controller"
+  ],
+  "designation": "Finance Controller",
+  "email": "amit.desai@meridianinfotech.example.com",
+  "phone": "+91 91879 64486",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829376"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829376"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5f5"
+  },
+  "firstName": "Varun",
+  "lastName": "Banerjee",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5f3"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "varun",
+   "banerjee",
+   "novapackaging",
+   "example",
+   "com",
+   "91",
+   "71858",
+   "95800",
+   "917185895800",
+   "7185895800",
+   "finance",
+   "controller"
+  ],
+  "designation": "Finance Controller",
+  "email": "varun.banerjee@novapackaging.example.com",
+  "phone": "+91 71858 95800",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829387"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829387"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5f6"
+  },
+  "firstName": "Priya",
+  "lastName": "Pillai",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5f3"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "priya",
+   "pillai",
+   "novapackaging",
+   "example",
+   "com",
+   "91",
+   "82347",
+   "84439",
+   "918234784439",
+   "8234784439",
+   "admin",
+   "executive"
+  ],
+  "designation": "Admin Executive",
+  "email": "priya.pillai@novapackaging.example.com",
+  "phone": "+91 82347 84439",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829391"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829391"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5f9"
+  },
+  "firstName": "Ananya",
+  "lastName": "Verma",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5f7"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "ananya",
+   "verma",
+   "orchidschoolstrust",
+   "example",
+   "com",
+   "91",
+   "92459",
+   "33802",
+   "919245933802",
+   "9245933802",
+   "admin",
+   "executive"
+  ],
+  "designation": "Admin Executive",
+  "email": "ananya.verma@orchidschoolstrust.example.com",
+  "phone": "+91 92459 33802",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829403"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829403"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5fa"
+  },
+  "firstName": "Vikram",
+  "lastName": "Kulkarni",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5f7"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "vikram",
+   "kulkarni",
+   "orchidschoolstrust",
+   "example",
+   "com",
+   "91",
+   "89922",
+   "37621",
+   "918992237621",
+   "8992237621",
+   "ceo"
+  ],
+  "designation": "CEO",
+  "email": "vikram.kulkarni@orchidschoolstrust.example.com",
+  "phone": "+91 89922 37621",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829407"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829407"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5fd"
+  },
+  "firstName": "Arjun",
+  "lastName": "Nair",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5fb"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "arjun",
+   "nair",
+   "pinnaclerealty",
+   "example",
+   "com",
+   "91",
+   "79969",
+   "74294",
+   "917996974294",
+   "7996974294",
+   "ceo"
+  ],
+  "designation": "CEO",
+  "email": "arjun.nair@pinnaclerealty.example.com",
+  "phone": "+91 79969 74294",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829419"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829419"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de5fe"
+  },
+  "firstName": "Meera",
+  "lastName": "Sharma",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5fb"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "meera",
+   "sharma",
+   "pinnaclerealty",
+   "example",
+   "com",
+   "91",
+   "83229",
+   "88357",
+   "918322988357",
+   "8322988357",
+   "purchase",
+   "manager"
+  ],
+  "designation": "Purchase Manager",
+  "email": "meera.sharma@pinnaclerealty.example.com",
+  "phone": "+91 83229 88357",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829423"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829423"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de601"
+  },
+  "firstName": "Divya",
+  "lastName": "Iyer",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5ff"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "divya",
+   "iyer",
+   "quartzelectronics",
+   "example",
+   "com",
+   "91",
+   "96248",
+   "79091",
+   "919624879091",
+   "9624879091",
+   "purchase",
+   "manager"
+  ],
+  "designation": "Purchase Manager",
+  "email": "divya.iyer@quartzelectronics.example.com",
+  "phone": "+91 96248 79091",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829435"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829435"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de602"
+  },
+  "firstName": "Rohan",
+  "lastName": "Patel",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5ff"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "rohan",
+   "patel",
+   "quartzelectronics",
+   "example",
+   "com",
+   "91",
+   "92960",
+   "68256",
+   "919296068256",
+   "9296068256",
+   "operations",
+   "head"
+  ],
+  "designation": "Operations Head",
+  "email": "rohan.patel@quartzelectronics.example.com",
+  "phone": "+91 92960 68256",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829439"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829439"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de603"
+  },
+  "firstName": "Kavya",
+  "lastName": "Reddy",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de5ff"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "kavya",
+   "reddy",
+   "quartzelectronics",
+   "example",
+   "com",
+   "91",
+   "92492",
+   "52355",
+   "919249252355",
+   "9249252355",
+   "it",
+   "manager"
+  ],
+  "designation": "IT Manager",
+  "email": "kavya.reddy@quartzelectronics.example.com",
+  "phone": "+91 92492 52355",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829443"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829443"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de606"
+  },
+  "firstName": "Aditya",
+  "lastName": "Reddy",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de604"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "aditya",
+   "reddy",
+   "riverlinefreight",
+   "example",
+   "com",
+   "91",
+   "87978",
+   "22980",
+   "918797822980",
+   "8797822980",
+   "operations",
+   "head"
+  ],
+  "designation": "Operations Head",
+  "email": "aditya.reddy@riverlinefreight.example.com",
+  "phone": "+91 87978 22980",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829454"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829454"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de607"
+  },
+  "firstName": "Isha",
+  "lastName": "Gupta",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de604"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "isha",
+   "gupta",
+   "riverlinefreight",
+   "example",
+   "com",
+   "91",
+   "80903",
+   "73188",
+   "918090373188",
+   "8090373188",
+   "it",
+   "manager"
+  ],
+  "designation": "IT Manager",
+  "email": "isha.gupta@riverlinefreight.example.com",
+  "phone": "+91 80903 73188",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829459"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829459"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de608"
+  },
+  "firstName": "Nikhil",
+  "lastName": "Menon",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de604"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "nikhil",
+   "menon",
+   "riverlinefreight",
+   "example",
+   "com",
+   "91",
+   "87138",
+   "37506",
+   "918713837506",
+   "8713837506",
+   "director"
+  ],
+  "designation": "Director",
+  "email": "nikhil.menon@riverlinefreight.example.com",
+  "phone": "+91 87138 37506",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829463"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829463"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de60b"
+  },
+  "firstName": "Pooja",
+  "lastName": "Menon",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de609"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "pooja",
+   "menon",
+   "saffronfoods",
+   "example",
+   "com",
+   "91",
+   "80920",
+   "69303",
+   "918092069303",
+   "8092069303",
+   "it",
+   "manager"
+  ],
+  "designation": "IT Manager",
+  "email": "pooja.menon@saffronfoods.example.com",
+  "phone": "+91 80920 69303",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829475"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829475"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de60c"
+  },
+  "firstName": "Sanjay",
+  "lastName": "Kapoor",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de609"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "sanjay",
+   "kapoor",
+   "saffronfoods",
+   "example",
+   "com",
+   "91",
+   "93444",
+   "41932",
+   "919344441932",
+   "9344441932",
+   "director"
+  ],
+  "designation": "Director",
+  "email": "sanjay.kapoor@saffronfoods.example.com",
+  "phone": "+91 93444 41932",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829479"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829479"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de60f"
+  },
+  "firstName": "Amit",
+  "lastName": "Joshi",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de60d"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "amit",
+   "joshi",
+   "tealdiagnostics",
+   "example",
+   "com",
+   "91",
+   "93136",
+   "61665",
+   "919313661665",
+   "9313661665",
+   "director"
+  ],
+  "designation": "Director",
+  "email": "amit.joshi@tealdiagnostics.example.com",
+  "phone": "+91 93136 61665",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829491"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829491"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de610"
+  },
+  "firstName": "Ritu",
+  "lastName": "Rao",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de60d"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "ritu",
+   "rao",
+   "tealdiagnostics",
+   "example",
+   "com",
+   "91",
+   "95765",
+   "22301",
+   "919576522301",
+   "9576522301",
+   "facilities",
+   "manager"
+  ],
+  "designation": "Facilities Manager",
+  "email": "ritu.rao@tealdiagnostics.example.com",
+  "phone": "+91 95765 22301",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829494"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829494"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c5032f6295e82de611"
+  },
+  "firstName": "Varun",
+  "lastName": "Desai",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de60d"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "varun",
+   "desai",
+   "tealdiagnostics",
+   "example",
+   "com",
+   "91",
+   "97842",
+   "60605",
+   "919784260605",
+   "9784260605",
+   "finance",
+   "controller"
+  ],
+  "designation": "Finance Controller",
+  "email": "varun.desai@tealdiagnostics.example.com",
+  "phone": "+91 97842 60605",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045829498"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045829498"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c6032f6295e82de67a"
+  },
+  "firstName": "Tara",
+  "lastName": "Bose",
+  "companyId": {
+   "$oid": "6ac130c5032f6295e82de678"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "tara",
+   "bose",
+   "zenithcoworking",
+   "example",
+   "com"
+  ],
+  "email": "tara.bose@zenithcoworking.example.com",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045830004"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045830004"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac1df672beddff1b853e990"
+  },
+  "firstName": "Ramesh",
+  "lastName": "Behera",
+  "companyId": {
+   "$oid": "6ac1def12beddff1b853e98d"
+  },
+  "status": "active",
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "deletedAt": null,
+  "searchKeys": [
+   "ramesh",
+   "behera",
+   "asmaleswari",
+   "gmail",
+   "com",
+   "7584586932",
+   "secretary"
+  ],
+  "designation": "Secretary",
+  "email": "asmaleswari@gmail.com",
+  "phone": "7584586932",
+  "preferredContactMethod": "phone",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791090535838"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791090535838"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ }
+]

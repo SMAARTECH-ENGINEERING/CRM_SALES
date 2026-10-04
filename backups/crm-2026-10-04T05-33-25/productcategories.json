@@ -1,0 +1,417 @@
+[
+ {
+  "_id": {
+   "$oid": "6ac1303210e9c2195fe7122b"
+  },
+  "name": "Cold Storage",
+  "description": "Our product, supplied to customers. Its devices report data for monitoring.",
+  "sortOrder": {
+   "$numberInt": "10"
+  },
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "skuPrefix": "COLD",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045682277"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045682277"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac1303210e9c2195fe7122c"
+  },
+  "name": "Water Monitoring",
+  "description": "Our product, supplied to customers. Its devices report data for monitoring.",
+  "sortOrder": {
+   "$numberInt": "20"
+  },
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "skuPrefix": "WMON",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045682281"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045682281"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac1303210e9c2195fe7122d"
+  },
+  "name": "AquaSense",
+  "description": "Our product, supplied to customers. Its devices report data for monitoring.",
+  "sortOrder": {
+   "$numberInt": "30"
+  },
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "skuPrefix": "AQUA",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045682284"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045682284"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac1303210e9c2195fe7122e"
+  },
+  "name": "EPC",
+  "description": "EPC projects: equipment supply, installation, integration and commissioning.",
+  "sortOrder": {
+   "$numberInt": "40"
+  },
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "skuPrefix": "EPC",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045682287"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045682287"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac1303210e9c2195fe7122f"
+  },
+  "name": "Flow Meter",
+  "description": "Flow meters.",
+  "sortOrder": {
+   "$numberInt": "50"
+  },
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "skuPrefix": "FLOW",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045682290"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045682290"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac1303210e9c2195fe71230"
+  },
+  "name": "Solar PT",
+  "description": "Solar PT.",
+  "sortOrder": {
+   "$numberInt": "60"
+  },
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "skuPrefix": "SOLAR",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045682293"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045682293"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac1303210e9c2195fe71231"
+  },
+  "name": "WTP Instrumentation",
+  "description": "Instrumentation for water treatment plants (WTP).",
+  "sortOrder": {
+   "$numberInt": "70"
+  },
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "skuPrefix": "WTP",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045682296"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045682296"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac1303210e9c2195fe71232"
+  },
+  "name": "ESR Instrumentation",
+  "description": "Instrumentation for elevated service reservoirs (ESR).",
+  "sortOrder": {
+   "$numberInt": "80"
+  },
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "skuPrefix": "ESR",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045682298"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045682298"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac1303210e9c2195fe71233"
+  },
+  "name": "EPC / Partner Company Equipment",
+  "description": "Partner / OEM products: purchased from another company and supplied to the customer as part of an EPC project.",
+  "sortOrder": {
+   "$numberInt": "90"
+  },
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "skuPrefix": "PARTNER",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045682300"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045682300"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac1303210e9c2195fe71234"
+  },
+  "name": "IoT / Device Data",
+  "description": "Devices, their data and monitoring - for Water Monitoring, WTP, ESR, Cold Storage, AquaSense and EPC projects.",
+  "sortOrder": {
+   "$numberInt": "100"
+  },
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "skuPrefix": "IOT",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045682302"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045682302"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c4032f6295e82de59d"
+  },
+  "name": "Office Furniture",
+  "sortOrder": {
+   "$numberInt": "110"
+  },
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "skuPrefix": "FURN",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045828814"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045828814"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c4032f6295e82de59e"
+  },
+  "name": "IT Hardware",
+  "sortOrder": {
+   "$numberInt": "120"
+  },
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "skuPrefix": "ITHW",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045828823"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045828823"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c4032f6295e82de59f"
+  },
+  "name": "Software Licences",
+  "sortOrder": {
+   "$numberInt": "130"
+  },
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "skuPrefix": "SOFT",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045828826"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045828826"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c4032f6295e82de5a0"
+  },
+  "name": "Professional Services",
+  "sortOrder": {
+   "$numberInt": "140"
+  },
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "skuPrefix": "SERV",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045828829"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045828829"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac130c4032f6295e82de5a1"
+  },
+  "name": "Consumables",
+  "sortOrder": {
+   "$numberInt": "150"
+  },
+  "isActive": true,
+  "createdBy": {
+   "$oid": "6abe20a9c0b355dbdb548e84"
+  },
+  "skuPrefix": "CONS",
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791045828831"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791045828831"
+   }
+  },
+  "__v": {
+   "$numberInt": "0"
+  }
+ }
+]

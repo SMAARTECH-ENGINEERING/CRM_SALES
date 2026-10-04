@@ -1,0 +1,124 @@
+[
+ {
+  "_id": {
+   "$oid": "6ac089fe86b0c9b9acd726c2"
+  },
+  "name": "Bank Transfer",
+  "description": "NEFT, RTGS, IMPS or wire",
+  "sortOrder": {
+   "$numberInt": "10"
+  },
+  "isActive": true,
+  "color": "#1976d2",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791003134163"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791003134163"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac089fe86b0c9b9acd726c3"
+  },
+  "name": "UPI",
+  "sortOrder": {
+   "$numberInt": "20"
+  },
+  "isActive": true,
+  "color": "#2e7d32",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791003134163"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791003134163"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac089fe86b0c9b9acd726c4"
+  },
+  "name": "Cheque",
+  "sortOrder": {
+   "$numberInt": "30"
+  },
+  "isActive": true,
+  "color": "#ed6c02",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791003134164"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791003134164"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac089fe86b0c9b9acd726c5"
+  },
+  "name": "Cash",
+  "sortOrder": {
+   "$numberInt": "40"
+  },
+  "isActive": true,
+  "color": "#757575",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791003134164"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791003134164"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6ac089fe86b0c9b9acd726c6"
+  },
+  "name": "Card",
+  "description": "Credit or debit card",
+  "sortOrder": {
+   "$numberInt": "50"
+  },
+  "isActive": true,
+  "color": "#7b1fa2",
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1791003134164"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1791003134164"
+   }
+  }
+ }
+]

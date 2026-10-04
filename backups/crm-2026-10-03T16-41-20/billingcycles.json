@@ -1,0 +1,135 @@
+[
+ {
+  "_id": {
+   "$oid": "6abfee438deff8c2c2df073d"
+  },
+  "name": "Monthly",
+  "sortOrder": {
+   "$numberInt": "10"
+  },
+  "isActive": true,
+  "months": {
+   "$numberInt": "1"
+  },
+  "isDefault": false,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790963267801"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790963267801"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfee438deff8c2c2df073e"
+  },
+  "name": "Quarterly",
+  "sortOrder": {
+   "$numberInt": "20"
+  },
+  "isActive": true,
+  "months": {
+   "$numberInt": "3"
+  },
+  "isDefault": false,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790963267801"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790963267801"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfee438deff8c2c2df073f"
+  },
+  "name": "Half-yearly",
+  "sortOrder": {
+   "$numberInt": "30"
+  },
+  "isActive": true,
+  "months": {
+   "$numberInt": "6"
+  },
+  "isDefault": false,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790963267801"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790963267801"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfee438deff8c2c2df0740"
+  },
+  "name": "Yearly",
+  "sortOrder": {
+   "$numberInt": "40"
+  },
+  "isActive": true,
+  "months": {
+   "$numberInt": "12"
+  },
+  "isDefault": true,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790963267801"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790963267801"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfee438deff8c2c2df0741"
+  },
+  "name": "One-time",
+  "description": "Billed once for the whole term",
+  "sortOrder": {
+   "$numberInt": "50"
+  },
+  "isActive": true,
+  "isDefault": false,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790963267801"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790963267801"
+   }
+  }
+ }
+]

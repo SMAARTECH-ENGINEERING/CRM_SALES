@@ -129,7 +129,6 @@ function Section({ title, children, action }) {
 }
 
 const grid = { display: 'grid', gap: 2, gridTemplateColumns: { xs: '1fr', md: '1fr 1fr' } };
-const FULL_WIDTH = { gridColumn: '1 / -1' };
 
 function TotalRow({ label, value, strong }) {
   return (

@@ -15,7 +15,10 @@
     "test:server": "npm --prefix server test",
     "test:client": "npm --prefix client test",
     "seed": "npm --prefix server run seed",
-    "seed:demo": "npm run seed:demo --prefix server --"
+    "seed:demo": "npm run seed:demo --prefix server --",
+    "lint": "npm run lint --prefix server && npm run lint --prefix client",
+    "test:e2e": "npm --prefix server run test:e2e",
+    "test:postman": "node postman/run-collection.js"
   },
   "devDependencies": {
     "concurrently": "^9.1.2"

@@ -238,7 +238,7 @@ test('reminders: one per period as the end date comes closer, never twice', asyn
   setMailTransport({ sendMail: async (message) => sent.push(message) });
 
   ctx.amc = (await create({ startDate: day(BASE, -300), endDate: day(BASE, 20), assignedTo: ctx.manager.id })).body.data.contract;
-  let result = await runReminderCheck(at(0));
+  const result = await runReminderCheck(at(0));
   assert.deepEqual(result.periods, [0, 10, 42]);
   let reminders = await remindersOf(ctx.amc);
   assert.deepEqual(reminders.map((r) => [r.daysBefore, r.daysLeft]), [[42, 20]], 'the period that covers 20 days');

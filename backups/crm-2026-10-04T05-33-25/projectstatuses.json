@@ -1,0 +1,137 @@
+[
+ {
+  "_id": {
+   "$oid": "6abfe04a971d3cf38fcdf264"
+  },
+  "name": "Planned",
+  "description": "Not started yet",
+  "sortOrder": {
+   "$numberInt": "10"
+  },
+  "isActive": true,
+  "category": "not_started",
+  "color": "#757575",
+  "isDefault": true,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790959690626"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790959690626"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfe04a971d3cf38fcdf265"
+  },
+  "name": "In Progress",
+  "description": "Work under way",
+  "sortOrder": {
+   "$numberInt": "20"
+  },
+  "isActive": true,
+  "category": "active",
+  "color": "#1976d2",
+  "isDefault": false,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790959690627"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790959690627"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfe04a971d3cf38fcdf266"
+  },
+  "name": "On Hold",
+  "description": "Paused",
+  "sortOrder": {
+   "$numberInt": "30"
+  },
+  "isActive": true,
+  "category": "on_hold",
+  "color": "#ed6c02",
+  "isDefault": false,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790959690627"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790959690627"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfe04a971d3cf38fcdf267"
+  },
+  "name": "Completed",
+  "description": "Delivered",
+  "sortOrder": {
+   "$numberInt": "40"
+  },
+  "isActive": true,
+  "category": "completed",
+  "color": "#2e7d32",
+  "isDefault": false,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790959690627"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790959690627"
+   }
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6abfe04a971d3cf38fcdf268"
+  },
+  "name": "Cancelled",
+  "description": "Stopped for good",
+  "sortOrder": {
+   "$numberInt": "50"
+  },
+  "isActive": true,
+  "category": "cancelled",
+  "color": "#d32f2f",
+  "isDefault": false,
+  "__v": {
+   "$numberInt": "0"
+  },
+  "createdAt": {
+   "$date": {
+    "$numberLong": "1790959690627"
+   }
+  },
+  "updatedAt": {
+   "$date": {
+    "$numberLong": "1790959690627"
+   }
+  }
+ }
+]
