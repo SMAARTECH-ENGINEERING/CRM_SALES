@@ -43,6 +43,15 @@ const paging = {
   limit: Joi.number().integer().min(1).max(PAGINATION.MAX_LIMIT).default(PAGINATION.DEFAULT_LIMIT),
 };
 
+// POST /leads/bulk-email: one message for the people behind several leads.
+// {{greeting}}, {{contactName}}, {{companyName}}, {{leadTitle}}, {{leadNumber}}
+// and {{senderCompany}} are filled in for each recipient.
+export const bulkEmailSchema = Joi.object({
+  leadIds: Joi.array().items(objectId.required()).min(1).max(100).unique().required(),
+  subject: Joi.string().trim().min(1).max(200).pattern(/^[^\r\n]*$/).required().messages({ 'string.pattern.base': '{{#label}} must be one line' }),
+  message: Joi.string().trim().min(1).max(10000).required(),
+});
+
 export const LEAD_SORT_FIELDS = ['leadNumber', 'title', 'estimatedValue', 'expectedCloseDate', 'createdAt', 'updatedAt'];
 
 export const listLeadsQuery = Joi.object({

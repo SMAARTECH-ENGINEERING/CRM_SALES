@@ -50,7 +50,7 @@ start; a typo is reported in the log instead of silently denying everyone.
 | `permissions` | read |
 | `companies` | read, create, update, delete, manageLookups |
 | `contacts` | read, create, update, delete |
-| `leads` | read, create, update, delete, assign, convert |
+| `leads` | read, create, update, delete, assign, convert, email |
 | `leadConfig` | manage |
 | `activities` | read, create, update, delete, manageTypes |
 | `followups` | read, create, update |

@@ -303,6 +303,20 @@ export const MESSAGES = Object.freeze({
   OPPORTUNITY_OPTIONS: 'Opportunity options retrieved',
   LEADS_LISTED: 'Leads retrieved',
   LEAD_RETRIEVED: 'Lead retrieved',
+  LEAD_EMAIL_SENT: 'Email sent to the selected leads',
+  IMPORT_PREVIEW: 'Import preview: nothing has been changed yet',
+  IMPORT_DONE: 'Import finished',
+  IMPORT_NOT_XLSX: 'Choose an Excel file (.xlsx) - download the template if you need one',
+  IMPORT_TOO_LARGE: 'The file is larger than 2 MB',
+  IMPORT_UNREADABLE: 'The file could not be read as an Excel sheet',
+  IMPORT_COLUMNS_MISSING: 'The sheet is missing required columns. Use the template, and do not rename its headings.',
+  IMPORT_EMPTY: 'The Contacts sheet has no rows to import',
+  IMPORT_TOO_MANY: 'At most 1000 rows can be imported at once',
+  IMPORT_DUPLICATE_ROW: 'Same person as an earlier row in this file',
+  LEAD_EMAIL_NOT_CONFIGURED: 'No mail server is configured, so nothing can be emailed. Ask an administrator to set SMTP in the server settings.',
+  LEAD_EMAIL_NO_ADDRESS: 'Neither the contact nor the company has an email address',
+  LEAD_EMAIL_SAME_ADDRESS: 'Same address as',
+  LEAD_EMAIL_FAILED: 'The mail server refused this message',
   LEAD_CREATED: 'Lead created successfully',
   LEAD_UPDATED: 'Lead updated successfully',
   LEAD_DELETED: 'Lead deleted successfully',
@@ -568,6 +582,8 @@ export const TIMELINE_ACTIONS = Object.freeze([
   'sent',
   'converted',
   'reminded',
+  // An email was sent to the record's contact (e.g. from the leads list).
+  'emailed',
 ]);
 
 export const CONTACT_STATUS = Object.freeze({

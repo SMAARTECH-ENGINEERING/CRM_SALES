@@ -11,11 +11,12 @@ import useNotify from '../../hooks/useNotify.js';
 import usePermission from '../../hooks/usePermission.js';
 import { PERMISSIONS } from '../../utils/permissions.js';
 import ConfirmDialog from '../ConfirmDialog.jsx';
+import EmailLeadsDialog from './EmailLeadsDialog.jsx';
 import UserSelect from '../users/UserSelect.jsx';
 import LeadConfigSelect from './LeadConfigSelect.jsx';
 
-// What can be done to several selected leads at once: assign, change status,
-// delete. Each button is shown only to someone whose role allows that action -
+// What can be done to several selected leads at once: email, assign, change
+// status, delete. Each button is shown only to someone whose role allows that action -
 // and the API checks every lead again. The leads are changed one request at a
 // time through the same endpoints as a single change; what failed is reported
 // with the API's own reason.
@@ -49,6 +50,11 @@ export default function LeadBulkActions({ ids, clear }) {
 
   return (
     <>
+      {can(PERMISSIONS.LEADS_EMAIL) && (
+        <Button size="small" onClick={open('email')}>
+          {t('bulkEmail.button')}
+        </Button>
+      )}
       {can(PERMISSIONS.LEADS_ASSIGN) && (
         <Button size="small" onClick={open('assign')}>
           {t('bulk.assign')}
@@ -86,6 +92,8 @@ export default function LeadBulkActions({ ids, clear }) {
           </Button>
         </DialogActions>
       </Dialog>
+
+      <EmailLeadsDialog open={dialog === 'email'} ids={ids} onClose={() => setDialog(null)} onSent={clear} />
 
       <ConfirmDialog
         open={dialog === 'delete'}

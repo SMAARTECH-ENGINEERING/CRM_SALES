@@ -30,6 +30,12 @@ export function changeLeadStatus(id, statusId) {
 }
 
 // With { dryRun: true } nothing is changed: the response says what would happen.
+// One email to the contacts of several leads: { leadIds, subject, message }.
+// Returns { sent, skipped, failed, summary }.
+export function emailLeads(payload) {
+  return axiosClient.post('/leads/bulk-email', payload);
+}
+
 export function convertLead(id, data) {
   return axiosClient.post(`/leads/${id}/convert`, data);
 }

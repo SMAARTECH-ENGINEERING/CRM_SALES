@@ -1309,6 +1309,30 @@ the references as `company` (`id`, `companyCode`, `name`, `status`) and `created
 
 Invalid values return 422.
 
+### Importing from Excel (business cards, expo visitors)
+
+The **Import** button on the Contacts and Companies pages (needs `companies.create` and `contacts.create`):
+
+1. **Download Excel template** - one row per person. Required columns: Company name, First name, Last name.
+   Others: company email, phone, website, address, city, state, country, postal code, GST number; the person's
+   designation, department, email, mobile, other phone; *Met at (event)*, *Interested in* and *Notes* (kept in
+   the contact's notes). An *Example* sheet and an *Instructions* sheet come with it.
+2. **Choose the filled-in file** - a preview shows, for every row, whether the company is new or already in the
+   CRM, whether the contact is new or already there, and any problems. Nothing is saved yet.
+3. **Import** - companies are created once (several rows for the same company share it), contacts are added
+   under them, rows with problems are skipped. Importing the same file again adds nothing.
+
+Matching uses the same rules as the forms (`COMPANY_MATCH_FIELDS`, `CONTACT_MATCH_FIELDS`); every row goes
+through the same validation and services, so codes, numbering and history are as if typed in.
+
+```text
+GET  /api/v1/imports/contacts/template           the .xlsx template
+POST /api/v1/imports/contacts?dryRun=true        preview (multipart, field "file")
+POST /api/v1/imports/contacts                    import
+```
+
+Limits: .xlsx only, 2 MB, 1000 rows. Columns are found by their heading, so their order does not matter.
+
 ### Company selector
 
 The company field on the contact form and the company filter on the list are the same component
@@ -1675,6 +1699,22 @@ move to). The Convert dialog in the web app always shows this review before conv
   first attempt is found by the duplicate search rather than created again. MongoDB transactions
   are not used, so a company created before a failure does remain.
 - Company and contact details are validated exactly like a normal create.
+
+### Emailing several leads
+
+On the Leads list, select leads and choose **Send email**: write one subject and message; each lead's
+contact receives their own copy (the company's address when the lead has no contact with an email).
+
+```text
+POST /api/v1/leads/bulk-email     { leadIds: [...up to 100], subject, message }     leads.read + leads.email
+```
+
+- Placeholders filled in per recipient: `{{greeting}}` ("Dear <name>," or "Hello,"), `{{contactName}}`,
+  `{{companyName}}`, `{{leadTitle}}`, `{{leadNumber}}`, `{{senderCompany}}` (your company name from Settings).
+- Separate messages, so no recipient sees another's address. Two leads with the same address get one email.
+- The response lists `sent`, `skipped` (no address, same address) and `failed` (refused by the mail server), each
+  with the lead and the reason. Each lead emailed gets an "Emailed" entry in its timeline.
+- Sent from the address in Settings -> Email. Without a mail server configured the API answers 409 and sends nothing.
 
 ### Activities, follow-ups and timeline
 

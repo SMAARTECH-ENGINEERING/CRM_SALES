@@ -71,7 +71,7 @@ export default function LeadsPage() {
   const canEdit = can(PERMISSIONS.LEADS_UPDATE);
   const canDelete = can(PERMISSIONS.LEADS_DELETE);
   // Rows can be selected only by someone who may do something with several at once.
-  const canBulk = canDelete || canEdit || can(PERMISSIONS.LEADS_ASSIGN);
+  const canBulk = canDelete || canEdit || can(PERMISSIONS.LEADS_ASSIGN) || can(PERMISSIONS.LEADS_EMAIL);
 
   const columns = useMemo(
     () => [

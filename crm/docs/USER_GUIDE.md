@@ -64,6 +64,16 @@ Check its city, state, phone and GST number; set **Assigned to** `Ravi Kumar`.
 On the company page, **Contacts** tab - **Ramesh Behera** is already there.
 Add his designation, phone and email if missing.
 
+### 6b. Business cards from an expo (many contacts at once)
+**Customers → Contacts → Import**:
+1. **Download Excel template** and type one row per card - company name, person's first and last name
+   (required), designation, email, mobile, *Met at (event)* (e.g. "Krushi Odisha Expo 2026") and
+   *Interested in* (e.g. "Cold Storage").
+2. **Choose Excel file** - you see what will happen to every row: new company or already in the CRM, new
+   contact or already there, and any mistakes to fix (shown in red).
+3. **Import** - companies are created once, contacts go under them. Fix the red rows in the sheet and
+   import the file again: what was already imported is not repeated.
+
 ### 7. The lead (the enquiry)
 **Sales → Leads → New lead**
 
@@ -85,6 +95,12 @@ Open the lead:
 - **Log activity** after the visit - type `Site Visit`, notes: "Shed 20×15 ft,
   single-phase supply, roof suitable for solar".
 - Change **Status** to `Qualified`.
+
+### 8b. Email several leads at once
+On **Sales → Leads**, tick the leads you want (the checkboxes on the left), then click **Send email** in
+the bar that appears. Write one subject and message - click `{{greeting}}`, `{{companyName}}` and the
+other chips to insert words that are filled in for each person. Each contact gets their own copy; at the
+end you see who received it and who did not (for example, no email address on record).
 
 ### 9. Convert the lead
 Click **Convert lead**. This creates an **opportunity** (a deal in the

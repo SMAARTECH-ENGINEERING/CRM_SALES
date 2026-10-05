@@ -32,6 +32,7 @@ export const PERMISSIONS = Object.freeze({
   LEADS_DELETE: 'leads.delete',
   LEADS_ASSIGN: 'leads.assign',
   LEADS_CONVERT: 'leads.convert',
+  LEADS_EMAIL: 'leads.email',
   OPPORTUNITIES_READ: 'opportunities.read',
   OPPORTUNITIES_CREATE: 'opportunities.create',
   OPPORTUNITIES_UPDATE: 'opportunities.update',

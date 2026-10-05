@@ -65,6 +65,8 @@ export function useLeadMutations() {
       mutationFn: ({ id, statusId }) => leadsApi.changeLeadStatus(id, statusId),
       onSuccess: refresh,
     }),
+    // Adds an entry to each lead's history.
+    email: useMutation({ mutationFn: leadsApi.emailLeads, onSuccess: refresh }),
     // A dry run changes nothing, so there is nothing to refresh.
     preview: useMutation({ mutationFn: ({ id, data }) => leadsApi.convertLead(id, { ...data, dryRun: true }) }),
     convert: useMutation({

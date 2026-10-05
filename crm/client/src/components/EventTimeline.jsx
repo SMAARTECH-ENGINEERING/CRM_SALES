@@ -19,6 +19,7 @@ const ACTIONS = {
   stage_changed: { label: 'Stage changed', color: 'info' },
   converted: { label: 'Converted', color: 'success' },
   reminded: { label: 'Reminder sent', color: 'warning' },
+  emailed: { label: 'Emailed', color: 'info' },
 };
 
 const NOTHING = 'empty';

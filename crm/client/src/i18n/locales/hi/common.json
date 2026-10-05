@@ -490,5 +490,57 @@
     "done_one": "{{count}} रिकॉर्ड अपडेट हुआ",
     "done_other": "{{count}} रिकॉर्ड अपडेट हुए",
     "partly": "{{done}} पूरे हुए, {{failed}} विफल: {{reason}}"
+  },
+  "bulkEmail": {
+    "button": "ईमेल भेजें",
+    "title_one": "{{count}} लीड को ईमेल",
+    "title_other": "{{count}} लीड को ईमेल",
+    "intro": "एक संदेश लिखें। हर लीड के संपर्क को अपनी अलग कॉपी मिलेगी (संपर्क का ईमेल न हो तो कंपनी को)। कोई दूसरे प्राप्तकर्ताओं को नहीं देखेगा।",
+    "subject": "विषय",
+    "message": "संदेश",
+    "messageHint": "दोहरे कोष्ठक वाले शब्द हर व्यक्ति के लिए भरे जाते हैं।",
+    "insert": "संदेश में जोड़ें:",
+    "required": "यह ज़रूरी है",
+    "send_one": "{{count}} लीड को भेजें",
+    "send_other": "{{count}} लीड को भेजें",
+    "sent_one": "{{count}} व्यक्ति को ईमेल भेजा गया",
+    "sent_other": "{{count}} लोगों को ईमेल भेजा गया",
+    "resultTitle": "ईमेल भेजा गया",
+    "summary": "{{requested}} में से {{sent}} भेजे गए।",
+    "notSent": "नहीं भेजे गए"
+  },
+  "contactImport": {
+    "button": "इम्पोर्ट",
+    "title": "Excel से कंपनियाँ और संपर्क इम्पोर्ट करें",
+    "step1": "1. टेम्पलेट डाउनलोड करें",
+    "step1Help": "हर विज़िटिंग कार्ड के लिए एक पंक्ति। ज़रूरी: कंपनी का नाम, पहला नाम और अंतिम नाम। एक ही कंपनी के कई लोग हों तो हर पंक्ति में कंपनी का नाम एक जैसा लिखें।",
+    "downloadTemplate": "Excel टेम्पलेट डाउनलोड करें",
+    "step2": "2. भरी हुई फ़ाइल चुनें",
+    "step2Help": "कुछ भी सहेजने से पहले आप देखेंगे कि हर पंक्ति का क्या होगा।",
+    "chooseFile": "Excel फ़ाइल चुनें",
+    "chooseAnother": "दूसरी फ़ाइल चुनें",
+    "previewSummary": "{{rows}} पंक्तियाँ: {{companiesNew}} नई कंपनियाँ, {{companiesExisting}} पहले से CRM में; {{contactsNew}} नए संपर्क, {{contactsExisting}} पहले से मौजूद; {{rowsWithProblems}} पंक्तियों में समस्या (छोड़ दी जाएँगी)। अभी कुछ सहेजा नहीं गया है।",
+    "resultSummary": "इम्पोर्ट हुआ: {{companiesNew}} नई कंपनियाँ और {{contactsNew}} नए संपर्क। {{contactsExisting}} संपर्क पहले से थे; {{rowsWithProblems}} पंक्तियाँ छोड़ी गईं।",
+    "import_one": "{{count}} संपर्क इम्पोर्ट करें",
+    "import_other": "{{count}} संपर्क इम्पोर्ट करें",
+    "done_one": "{{count}} संपर्क इम्पोर्ट हुआ",
+    "done_other": "{{count}} संपर्क इम्पोर्ट हुए",
+    "rowsLabel": "फ़ाइल की पंक्तियाँ",
+    "columns": {
+      "row": "पंक्ति",
+      "problems": "समस्याएँ"
+    },
+    "actions": {
+      "company": {
+        "new": "नई कंपनी",
+        "existing": "पहले से CRM में",
+        "none": "-"
+      },
+      "contact": {
+        "new": "नया संपर्क",
+        "existing": "पहले से संपर्क",
+        "none": "-"
+      }
+    }
   }
 }

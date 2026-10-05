@@ -133,7 +133,7 @@ test('permissions: lists the catalogue, filterable by module and search', async 
   ]);
   assert.deepEqual(
     leads.body.data.permissions.map((p) => p.key),
-    ['leads.assign', 'leads.convert', 'leads.create', 'leads.delete', 'leads.read', 'leads.update']
+    ['leads.assign', 'leads.convert', 'leads.create', 'leads.delete', 'leads.email', 'leads.read', 'leads.update']
   );
   assert.deepEqual(search.body.data.permissions.map((p) => p.key).sort(), [
     'leads.assign',

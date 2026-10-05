@@ -70,6 +70,7 @@ export const PERMISSION_SEED = {
     delete: 'Delete leads',
     assign: 'Assign leads to users',
     convert: 'Convert leads into a company, contact and opportunity',
+    email: 'Email the contacts of several leads at once',
   },
   opportunities: {
     read: 'View opportunities',

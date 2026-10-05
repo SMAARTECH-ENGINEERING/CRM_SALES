@@ -17,6 +17,7 @@ import AdvancedDataTable from '../components/ui/AdvancedDataTable.jsx';
 import EmptyState from '../components/ui/EmptyState.jsx';
 import { FilterBar } from '../components/ui/FilterDrawer.jsx';
 import PageHeader from '../components/ui/PageHeader.jsx';
+import { ImportContactsButton } from '../components/contacts/ImportContactsDialog.jsx';
 import CompanySelect from '../components/companies/CompanySelect.jsx';
 import ConfirmDialog from '../components/ConfirmDialog.jsx';
 import PermissionGate from '../components/PermissionGate.jsx';
@@ -153,6 +154,7 @@ export default function ContactsPage() {
         subtitle={t('pages.contacts.subtitle')}
         actions={
           <>
+            <ImportContactsButton />
             <PermissionGate permission={PERMISSIONS.CONTACTS_CREATE}>
               <Button variant="contained" startIcon={<AddIcon />} component={RouterLink} to={newContactLink}>
                 {t('pages.contacts.new')}

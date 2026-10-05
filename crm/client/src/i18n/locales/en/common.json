@@ -490,5 +490,57 @@
     "done_one": "{{count}} record updated",
     "done_other": "{{count}} records updated",
     "partly": "{{done}} done, {{failed}} failed: {{reason}}"
+  },
+  "bulkEmail": {
+    "button": "Send email",
+    "title_one": "Email {{count}} lead",
+    "title_other": "Email {{count}} leads",
+    "intro": "Write one message. Each lead's contact gets their own copy (or the company, if the lead has no contact with an email). Nobody sees the other recipients.",
+    "subject": "Subject",
+    "message": "Message",
+    "messageHint": "Words in double curly brackets are filled in for each person.",
+    "insert": "Insert into the message:",
+    "required": "This is required",
+    "send_one": "Send to {{count}} lead",
+    "send_other": "Send to {{count}} leads",
+    "sent_one": "Email sent to {{count}} person",
+    "sent_other": "Email sent to {{count}} people",
+    "resultTitle": "Email sent",
+    "summary": "{{sent}} of {{requested}} sent.",
+    "notSent": "Not sent"
+  },
+  "contactImport": {
+    "button": "Import",
+    "title": "Import companies and contacts from Excel",
+    "step1": "1. Download the template",
+    "step1Help": "One row per business card. Required: company name, first name and last name. Several people from the same company: write the company name the same way on each row.",
+    "downloadTemplate": "Download Excel template",
+    "step2": "2. Choose the filled-in file",
+    "step2Help": "You will see what happens to every row before anything is saved.",
+    "chooseFile": "Choose Excel file",
+    "chooseAnother": "Choose another file",
+    "previewSummary": "{{rows}} rows: {{companiesNew}} new companies, {{companiesExisting}} already in the CRM; {{contactsNew}} new contacts, {{contactsExisting}} already there; {{rowsWithProblems}} rows with problems (they will be skipped). Nothing has been saved yet.",
+    "resultSummary": "Imported: {{companiesNew}} new companies and {{contactsNew}} new contacts. {{contactsExisting}} contacts were already there; {{rowsWithProblems}} rows were skipped.",
+    "import_one": "Import {{count}} contact",
+    "import_other": "Import {{count}} contacts",
+    "done_one": "{{count}} contact imported",
+    "done_other": "{{count}} contacts imported",
+    "rowsLabel": "Rows of the file",
+    "columns": {
+      "row": "Row",
+      "problems": "Problems"
+    },
+    "actions": {
+      "company": {
+        "new": "New company",
+        "existing": "Already in CRM",
+        "none": "-"
+      },
+      "contact": {
+        "new": "New contact",
+        "existing": "Already a contact",
+        "none": "-"
+      }
+    }
   }
 }
