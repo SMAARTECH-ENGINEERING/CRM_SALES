@@ -17,6 +17,7 @@
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
+    "@fortune-sheet/react": "^1.0.4",
     "@hookform/resolvers": "^5.9.1",
     "@mui/icons-material": "^9.4.0",
     "@mui/material": "^9.4.0",
@@ -24,13 +25,19 @@
     "@mui/x-data-grid": "^9.14.0",
     "@tanstack/react-query": "^5.104.0",
     "axios": "^1.20.0",
+    "exceljs": "^4.4.0",
     "i18next": "^26.4.2",
+    "mammoth": "^1.13.0",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^6.4.299",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
     "react-hook-form": "^7.89.0",
     "react-i18next": "^17.0.15",
     "react-router-dom": "^7.18.4",
     "socket.io-client": "^4.8.4",
+    "tesseract.js": "^7.0.0",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz",
     "yup": "^1.7.1"
   },
   "devDependencies": {
@@ -43,5 +50,8 @@
     "jsdom": "^30.1.1",
     "vite": "^8.3.1",
     "vitest": "^5.0.3"
+  },
+  "overrides": {
+    "uuid": "^11.1.1"
   }
 }

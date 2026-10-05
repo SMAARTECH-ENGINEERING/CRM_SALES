@@ -8,6 +8,10 @@ export default defineConfig(({ mode }) => {
   return {
     plugins: [react()],
     server: { port, strictPort: true },
+    // The document tools' libraries are only loaded when a document is opened.
+    // Listed here so the dev server prepares them at start instead of on first
+    // use (which reloads the page in the middle of opening a document).
+    optimizeDeps: { include: ['@fortune-sheet/react', 'pdfjs-dist', 'pdf-lib', 'exceljs', 'xlsx', 'mammoth', 'tesseract.js'] },
     preview: { port },
     test: {
       environment: 'jsdom',

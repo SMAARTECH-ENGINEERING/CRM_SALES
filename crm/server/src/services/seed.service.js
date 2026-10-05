@@ -15,6 +15,9 @@ import BillingCycle from '../models/BillingCycle.js';
 import ContractReminderPeriod from '../models/ContractReminderPeriod.js';
 import ContractStatus from '../models/ContractStatus.js';
 import ContractType from '../models/ContractType.js';
+import DocumentStatus from '../models/DocumentStatus.js';
+import DocumentType from '../models/DocumentType.js';
+import { DOCUMENT_STATUS_SEED, DOCUMENT_TYPE_SEED } from '../seeds/document.seed.js';
 import PaymentMethod from '../models/PaymentMethod.js';
 import PaymentStatus from '../models/PaymentStatus.js';
 import { PAYMENT_METHOD_SEED, PAYMENT_STATUS_SEED } from '../seeds/payment.seed.js';
@@ -222,6 +225,26 @@ export async function seedTicketSettings() {
     ['ticketCategories', TicketCategory, TICKET_CATEGORY_SEED],
     ['ticketPriorities', TicketPriority, TICKET_PRIORITY_SEED],
     ['ticketStatuses', TicketStatus, TICKET_STATUS_SEED],
+  ]) {
+    if (await SeedState.exists({ _id: key })) continue;
+    let created = 0;
+    if (!(await Model.exists({}))) {
+      await Model.insertMany(entries.map((entry, index) => ({ ...entry, sortOrder: (index + 1) * ORDER_STEP })));
+      created = entries.length;
+    }
+    await SeedState.create({ _id: key });
+    logger.info(`${Model.modelName} seed: ${created} initial value(s) added`);
+    seeded = true;
+  }
+  return seeded;
+}
+
+// Loads the initial document types and statuses - once each.
+export async function seedDocumentSettings() {
+  let seeded = false;
+  for (const [key, Model, entries] of [
+    ['documentTypes', DocumentType, DOCUMENT_TYPE_SEED],
+    ['documentStatuses', DocumentStatus, DOCUMENT_STATUS_SEED],
   ]) {
     if (await SeedState.exists({ _id: key })) continue;
     let created = 0;

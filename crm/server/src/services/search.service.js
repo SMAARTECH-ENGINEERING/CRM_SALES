@@ -2,6 +2,7 @@ import logger from '../config/logger.js';
 import Company from '../models/Company.js';
 import Contact from '../models/Contact.js';
 import Contract from '../models/Contract.js';
+import Document from '../models/Document.js';
 import Lead from '../models/Lead.js';
 import Opportunity from '../models/Opportunity.js';
 import Order from '../models/Order.js';
@@ -12,6 +13,7 @@ import { declarePermission, hasPermission } from '../utils/permissions.js';
 import { escapeRegex } from '../utils/query.js';
 import { searchWords } from '../utils/searchKeys.js';
 import { resolveScope, scoped } from './dashboard.service.js';
+import { DOCUMENT_ENTITIES } from './document.service.js';
 
 // Global search: one question, asked of every kind of record the user may read.
 //
@@ -130,6 +132,20 @@ const CATEGORIES = [
     byCompany: true,
     present: (r) => ({ title: r.contractNumber, subtitle: line(r.companyId?.name, r.contractTypeId?.name) }),
   },
+  {
+    key: 'documents',
+    type: 'document',
+    Model: Document,
+    permission: declarePermission('documents.read'),
+    select: 'fileName relatedLabel',
+    scope: {
+      organization: (s) => ({ companyId: { $in: s.companyIds } }),
+      own: (s) => ({ uploadedBy: s.userId }),
+    },
+    // Only documents of the kinds of record this user may read.
+    only: (actor) => ({ entityType: { $in: Object.keys(DOCUMENT_ENTITIES).filter((type) => hasPermission(actor, DOCUMENT_ENTITIES[type].permission)) } }),
+    present: (r) => ({ title: r.fileName, subtitle: r.relatedLabel ?? '' }),
+  },
 ];
 
 export const SEARCH_CATEGORIES = CATEGORIES.map((category) => category.key);
@@ -145,10 +161,10 @@ function scopeFilter(category, scope) {
   return filter;
 }
 
-async function searchCategory(category, { words, scope, companyIds, limit }) {
+async function searchCategory(category, { words, scope, companyIds, limit, actor }) {
   const match = keyFilter(words);
   const found = category.byCompany && companyIds.length ? { $or: [match, { companyId: { $in: companyIds } }] } : match;
-  const records = await category.Model.find({ $and: [found, scopeFilter(category, scope)] })
+  const records = await category.Model.find({ $and: [found, scopeFilter(category, scope), category.only ? category.only(actor) : {}] })
     .select(category.select)
     .populate(category.populate ?? [])
     .sort({ updatedAt: -1 })
@@ -172,7 +188,7 @@ export async function search(actor, { q, limit }) {
     ? (await Company.find(keyFilter(words)).select('_id').sort({ updatedAt: -1 }).limit(MAX_COMPANY_MATCHES).lean()).map((c) => c._id)
     : [];
 
-  const lists = await Promise.all(allowed.map((category) => searchCategory(category, { words, scope, companyIds, limit })));
+  const lists = await Promise.all(allowed.map((category) => searchCategory(category, { words, scope, companyIds, limit, actor })));
   allowed.forEach((category, index) => {
     results[category.key] = lists[index];
   });

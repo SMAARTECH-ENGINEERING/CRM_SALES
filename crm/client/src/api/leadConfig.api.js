@@ -218,6 +218,30 @@ export const PAYMENT_CONFIG = Object.freeze({
   },
 });
 
+// Document types and statuses. A status's meaning is draft, final or archived.
+export const DOCUMENT_CONFIG = Object.freeze({
+  TYPES: {
+    resource: 'document-types',
+    title: 'Document types',
+    singular: 'document type',
+    fields: ['color'],
+    hasDefault: false,
+  },
+  STATUSES: {
+    resource: 'document-statuses',
+    title: 'Document statuses',
+    singular: 'document status',
+    fields: ['category', 'color'],
+    hasDefault: true,
+    defaultLabel: 'Default for new documents',
+    categories: [
+      { value: 'draft', label: 'Draft', hint: 'Being worked on' },
+      { value: 'final', label: 'Final', hint: 'Ready to send' },
+      { value: 'archived', label: 'Archived', hint: 'Kept for reference' },
+    ],
+  },
+});
+
 // `params`: { isActive: true } for what a lead form offers; omit for everything.
 export function listLeadConfig(resource, params, { signal } = {}) {
   return axiosClient.get(`/${resource}`, { params, signal });

@@ -188,7 +188,32 @@ In the ticket, **Reply** (the customer's conversation) or add an internal note
 
 ### 18. Documents
 Every record has a **Documents** tab - upload drawings, site photos, the
-signed purchase order, test reports.
+signed purchase order, test reports. **Documents** in the menu shows them all:
+search `Cold Storage` or the quotation number, filter by type (BOQ, Drawing,
+Installation Report, ...), status, company or date. Drop files anywhere on that
+page to upload them, then choose the record.
+
+Open a document to read it, **Print** it (pages, copies, paper, margins, header,
+footer, page numbers) or **Download** it. The **⋮** menu has the rest:
+
+- **Edit PDF** - change text, add text, your logo and signature, highlight,
+  draw, comment; rotate, reorder, delete, merge, extract or split pages.
+  **Save new version** keeps the old one under **Versions**.
+- **Edit spreadsheet** - the BOQ in Excel: change quantities, the formulas
+  recalculate; save a new version or export it as PDF.
+- **Convert to Excel** - the item table of a supplier's PDF quotation as a
+  spreadsheet (scanned pages are read with OCR - check the numbers).
+- **Convert to PDF** - the BOQ spreadsheet as a PDF to send.
+
+Example: the quotation for the 50 MT cold storage. Open it and choose **Edit
+PDF**. Press **E** and click the customer's name line to change it, drag it
+into place, add the **company logo** and your **signature**, then **Attach to
+quotation**: type `QUO-000018 signed`, type *Quotation*, status *Final*.
+**Print** it, or **Download** it to send. It is now in the quotation's
+Documents tab, and every later save is a new version.
+
+What the PDF editor can and cannot change is explained in
+[DOCUMENTS.md](DOCUMENTS.md#limits---what-it-cannot-do).
 
 ---
 

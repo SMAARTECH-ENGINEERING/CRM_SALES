@@ -12186,7 +12186,7 @@
                   "});",
                   "",
                   "pm.test('Has the rules', function () {",
-                  "  pm.expect(pm.response.json().data).to.have.all.keys('field', 'maxFileBytes', 'maxFiles', 'allowedTypes', 'entityTypes');",
+                  "  pm.expect(pm.response.json().data).to.have.all.keys('field', 'maxFileBytes', 'maxFiles', 'allowedTypes', 'entityTypes', 'kinds');",
                   "});"
                 ]
               }
@@ -12206,6 +12206,137 @@
               ]
             },
             "description": "Requires documents.read or documents.create. The limits the API enforces (from UPLOAD_MAX_FILE_MB, UPLOAD_MAX_FILES, UPLOAD_ALLOWED_TYPES), the upload field name, and the kinds of record you may attach to."
+          },
+          "response": []
+        },
+        {
+          "name": "List Document Types",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "var items = pm.response.json().data.items;",
+                  "pm.test('Types come from the database', function () { pm.expect(items).to.be.an('array'); });",
+                  "if (items.length) pm.environment.set('documentTypeId', items[0].id);"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/document-types?isActive=true",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "document-types"
+              ],
+              "query": [
+                {
+                  "key": "isActive",
+                  "value": "true"
+                }
+              ]
+            },
+            "description": "The document types (Quotation, Purchase Order, BOQ, ...) - an administrator-managed list. Readable with documents.read, documents.create or documents.update; managed with documents.manageSettings. Saves documentTypeId (the first active one)."
+          },
+          "response": []
+        },
+        {
+          "name": "List Document Statuses",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "var items = pm.response.json().data.items;",
+                  "pm.test('Each status means draft, final or archived', function () { items.forEach(function (s) { pm.expect(['draft', 'final', 'archived']).to.include(s.category); }); });",
+                  "var final = items.find(function (s) { return s.category === 'final'; });",
+                  "if (final) pm.environment.set('documentStatusId', final.id);"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/document-statuses?isActive=true",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "document-statuses"
+              ],
+              "query": [
+                {
+                  "key": "isActive",
+                  "value": "true"
+                }
+              ]
+            },
+            "description": "The document statuses, each meaning draft, final or archived. One is the default for new documents. Saves documentStatusId (a \"final\" one)."
+          },
+          "response": []
+        },
+        {
+          "name": "Create Document Type",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status is 201', function () {",
+                  "  pm.response.to.have.status(201);",
+                  "});",
+                  "",
+                  "var body = pm.response.json();",
+                  "if (body.success) pm.environment.set('postmanDocumentTypeId', body.data.item.id);"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Postman type {{$timestamp}}\",\n  \"description\": \"Created from Postman\",\n  \"color\": \"#607d8b\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/document-types",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "document-types"
+              ]
+            },
+            "description": "Requires documents.manageSettings. Saves postmanDocumentTypeId (deleted again in Cleanup)."
           },
           "response": []
         },
@@ -12245,13 +12376,25 @@
                   "key": "entityType",
                   "value": "company",
                   "type": "text",
-                  "description": "company | contact | lead | opportunity | quotation | order | project | ticket | contract | payment"
+                  "description": "company | contact | lead | opportunity | quotation | order | customer | project | task | ticket | contract | payment"
                 },
                 {
                   "key": "entityId",
                   "value": "{{companyId}}",
                   "type": "text",
                   "description": "The id of that record"
+                },
+                {
+                  "key": "documentTypeId",
+                  "value": "{{documentTypeId}}",
+                  "type": "text",
+                  "description": "Optional: a document type id"
+                },
+                {
+                  "key": "statusId",
+                  "value": "",
+                  "type": "text",
+                  "description": "Optional: a status id (the default status otherwise)"
                 },
                 {
                   "key": "files",
@@ -12505,6 +12648,367 @@
               ]
             },
             "description": "What fileUrl points to. Responds with the file itself (Content-Disposition: attachment). Use \"Send and Download\" to save it."
+          },
+          "response": []
+        },
+        {
+          "name": "Update Document - rename, type and status",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "var document = pm.response.json().data.document;",
+                  "pm.test('The extension is kept', function () { pm.expect(document.fileName).to.eql('Renamed by Postman.txt'); });",
+                  "pm.test('Type and status are set', function () { pm.expect(document.documentType.id).to.eql(pm.environment.get('documentTypeId')); pm.expect(document.status.id).to.eql(pm.environment.get('documentStatusId')); });"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"fileName\": \"Renamed by Postman\",\n  \"documentTypeId\": \"{{documentTypeId}}\",\n  \"statusId\": \"{{documentStatusId}}\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/documents/{{documentId}}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "documents",
+                "{{documentId}}"
+              ]
+            },
+            "description": "Requires documents.update. Only what is sent changes. A new name keeps the file extension. documentTypeId and statusId come from the lists above (\"\" clears the type; \"\" for the status sets the default)."
+          },
+          "response": []
+        },
+        {
+          "name": "Update Document - nothing sent (expect 422)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status is 422', function () {",
+                  "  pm.response.to.have.status(422);",
+                  "});",
+                  ""
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/documents/{{documentId}}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "documents",
+                "{{documentId}}"
+              ]
+            },
+            "description": "At least one of fileName, documentTypeId, statusId."
+          },
+          "response": []
+        },
+        {
+          "name": "Find Documents - type, status, company, kind",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test('The renamed document is found', function () { pm.expect(pm.response.json().data.documents.map(function (d) { return d.id; })).to.include(pm.environment.get('documentId')); });"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/documents?documentTypeId={{documentTypeId}}&statusId={{documentStatusId}}&companyId={{companyId}}&kind=other&search=Renamed&sortBy=updatedAt&sortOrder=desc",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "documents"
+              ],
+              "query": [
+                {
+                  "key": "documentTypeId",
+                  "value": "{{documentTypeId}}"
+                },
+                {
+                  "key": "statusId",
+                  "value": "{{documentStatusId}}"
+                },
+                {
+                  "key": "companyId",
+                  "value": "{{companyId}}"
+                },
+                {
+                  "key": "kind",
+                  "value": "other"
+                },
+                {
+                  "key": "search",
+                  "value": "Renamed"
+                },
+                {
+                  "key": "sortBy",
+                  "value": "updatedAt"
+                },
+                {
+                  "key": "sortOrder",
+                  "value": "desc"
+                }
+              ]
+            },
+            "description": "Filters: search (file name, record number, company name), kind (pdf | excel | word | image | other), documentTypeId, statusId, companyId (every document of a company and its records), uploadedBy, from / to (last changed), entityType + entityId."
+          },
+          "response": []
+        },
+        {
+          "name": "Upload New Version",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status is 201', function () {",
+                  "  pm.response.to.have.status(201);",
+                  "});",
+                  "",
+                  "pm.test('Now version 2', function () { var d = pm.response.json().data.document; pm.expect(d.version).to.eql(2); pm.expect(d.versionCount).to.eql(2); });"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "file",
+                  "type": "file",
+                  "src": "sample-document.txt",
+                  "description": "The new file (one)"
+                },
+                {
+                  "key": "note",
+                  "value": "Updated from Postman",
+                  "type": "text",
+                  "description": "Optional, up to 300 characters"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{baseUrl}}/documents/{{documentId}}/versions",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "documents",
+                "{{documentId}}",
+                "versions"
+              ]
+            },
+            "description": "Requires documents.update. multipart/form-data: the file in \"file\", optionally a note and a fileName. The file it replaces is kept as the previous version. This is how the PDF editor, the spreadsheet editor and the converters save."
+          },
+          "response": []
+        },
+        {
+          "name": "List Versions",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "var versions = pm.response.json().data.versions;",
+                  "pm.test('Newest first; the first is current', function () { pm.expect(versions[0].current).to.eql(true); pm.expect(versions[0].version).to.be.above(versions[1].version); });"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/documents/{{documentId}}/versions",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "documents",
+                "{{documentId}}",
+                "versions"
+              ]
+            },
+            "description": "Requires documents.read. Every version, newest first, with who saved it and its note."
+          },
+          "response": []
+        },
+        {
+          "name": "Download an Earlier Version",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test('The file itself', function () { pm.expect(pm.response.headers.get('Content-Disposition')).to.include('attachment'); });"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/documents/{{documentId}}/download?version=1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "documents",
+                "{{documentId}}",
+                "download"
+              ],
+              "query": [
+                {
+                  "key": "version",
+                  "value": "1"
+                }
+              ]
+            },
+            "description": "Requires documents.read. Without ?version, the current one."
+          },
+          "response": []
+        },
+        {
+          "name": "Restore Version 1",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test('Restored as a new version - nothing is lost', function () { pm.expect(pm.response.json().data.document.version).to.eql(3); });"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/documents/{{documentId}}/versions/1/restore",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "documents",
+                "{{documentId}}",
+                "versions",
+                "1",
+                "restore"
+              ]
+            },
+            "description": "Requires documents.manageVersions. The version it replaces is kept too."
+          },
+          "response": []
+        },
+        {
+          "name": "Restore a version that does not exist (expect 404)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status is 404', function () {",
+                  "  pm.response.to.have.status(404);",
+                  "});",
+                  ""
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/documents/{{documentId}}/versions/99/restore",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "documents",
+                "{{documentId}}",
+                "versions",
+                "99",
+                "restore"
+              ]
+            }
           },
           "response": []
         },
@@ -16294,7 +16798,7 @@
                   "",
                   "var data = pm.response.json().data;",
                   "pm.test('One list per category', function () {",
-                  "  pm.expect(Object.keys(data)).to.eql([\"companies\",\"contacts\",\"leads\",\"opportunities\",\"quotations\",\"orders\",\"projects\",\"tickets\",\"contracts\"]);",
+                  "  pm.expect(Object.keys(data)).to.eql([\"companies\",\"contacts\",\"leads\",\"opportunities\",\"quotations\",\"orders\",\"projects\",\"tickets\",\"contracts\",\"documents\"]);",
                   "  Object.values(data).forEach(function (list) { pm.expect(list).to.be.an('array'); });",
                   "});",
                   "pm.test('Each result is { id, type, title, subtitle }', function () {",
@@ -16344,7 +16848,7 @@
                   "",
                   "var data = pm.response.json().data;",
                   "pm.test('One list per category', function () {",
-                  "  pm.expect(Object.keys(data)).to.eql([\"companies\",\"contacts\",\"leads\",\"opportunities\",\"quotations\",\"orders\",\"projects\",\"tickets\",\"contracts\"]);",
+                  "  pm.expect(Object.keys(data)).to.eql([\"companies\",\"contacts\",\"leads\",\"opportunities\",\"quotations\",\"orders\",\"projects\",\"tickets\",\"contracts\",\"documents\"]);",
                   "  Object.values(data).forEach(function (list) { pm.expect(list).to.be.an('array'); });",
                   "});",
                   "pm.test('Each result is { id, type, title, subtitle }', function () {",
@@ -16401,7 +16905,7 @@
                   "",
                   "var data = pm.response.json().data;",
                   "pm.test('One list per category', function () {",
-                  "  pm.expect(Object.keys(data)).to.eql([\"companies\",\"contacts\",\"leads\",\"opportunities\",\"quotations\",\"orders\",\"projects\",\"tickets\",\"contracts\"]);",
+                  "  pm.expect(Object.keys(data)).to.eql([\"companies\",\"contacts\",\"leads\",\"opportunities\",\"quotations\",\"orders\",\"projects\",\"tickets\",\"contracts\",\"documents\"]);",
                   "  Object.values(data).forEach(function (list) { pm.expect(list).to.be.an('array'); });",
                   "});",
                   "pm.test('Each result is { id, type, title, subtitle }', function () {",
@@ -17027,6 +17531,37 @@
               ]
             },
             "description": "Requires users.delete. Soft delete: the user disappears from the API and is signed out, but the record is kept and its email stays reserved. You cannot delete yourself."
+          },
+          "response": []
+        },
+        {
+          "name": "Delete Document Type",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Deleted, or refused because it is in use', function () { pm.expect(pm.response.code).to.be.oneOf([200, 409]); });",
+                  "if (pm.response.code === 200) pm.environment.set('postmanDocumentTypeId', '');"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/document-types/{{postmanDocumentTypeId}}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "document-types",
+                "{{postmanDocumentTypeId}}"
+              ]
+            },
+            "description": "Requires documents.manageSettings. A type still used by documents cannot be deleted (409) - deactivate it instead."
           },
           "response": []
         }

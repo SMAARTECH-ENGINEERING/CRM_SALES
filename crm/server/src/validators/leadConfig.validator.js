@@ -1,6 +1,7 @@
 import Joi from 'joi';
 import {
   CONTRACT_STATUS_CATEGORY,
+  DOCUMENT_STATUS_CATEGORY,
   LEAD_STATUS_CATEGORY,
   ORDER_STATUS_CATEGORY,
   PAYMENT_STATUS_CATEGORY,
@@ -98,6 +99,14 @@ const EXTRA = {
   },
   contractTypes: {
     color: { schema: color.allow('', null), required: false },
+  },
+  documentTypes: {
+    color: { schema: color.allow('', null), required: false },
+  },
+  documentStatuses: {
+    category: { schema: Joi.string().valid(...Object.values(DOCUMENT_STATUS_CATEGORY)), required: false },
+    color: { schema: color.allow('', null), required: false },
+    isDefault: { schema: Joi.boolean(), required: false },
   },
   contractStatuses: {
     category: { schema: Joi.string().valid(...Object.values(CONTRACT_STATUS_CATEGORY)), required: false },

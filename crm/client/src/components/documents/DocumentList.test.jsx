@@ -77,7 +77,8 @@ describe('DocumentList', () => {
     expect(table.getByText('Ada Admin')).toBeTruthy();
     expect(table.queryByText('Belongs to')).toBeNull();
     expect(screen.queryByLabelText('Choose files')).toBeNull();
-    expect(screen.queryByLabelText('Delete Contract draft.pdf')).toBeNull();
+    // Each name opens the document's own page.
+    expect(table.getByRole('link', { name: 'Contract draft.pdf' }).getAttribute('href')).toBe('/documents/d1');
     expect(getDocumentConfig).not.toHaveBeenCalled();
   });
 
@@ -102,10 +103,16 @@ describe('DocumentList', () => {
     await screen.findByRole('table', { name: 'Documents' });
 
     fireEvent.click(screen.getByLabelText('Download site photo.png'));
-    await waitFor(() => expect(downloadDocument).toHaveBeenCalledWith('d2'));
+    await waitFor(() => expect(downloadDocument.mock.calls[0][0]).toBe('d2'));
 
-    expect(screen.queryByLabelText('Delete site photo.png')).toBeNull();
-    fireEvent.click(screen.getByLabelText('Delete Contract draft.pdf'));
+    // Someone else's upload: no Delete in its menu.
+    fireEvent.click(screen.getByLabelText('Actions for site photo.png'));
+    expect(within(await screen.findByRole('menu')).queryByRole('menuitem', { name: 'Delete' })).toBeNull();
+    fireEvent.keyDown(screen.getByRole('menu'), { key: 'Escape' });
+    await waitFor(() => expect(screen.queryByRole('menu')).toBeNull());
+
+    fireEvent.click(screen.getByLabelText('Actions for Contract draft.pdf'));
+    fireEvent.click(within(await screen.findByRole('menu')).getByRole('menuitem', { name: 'Delete' }));
     fireEvent.click(within(await screen.findByRole('dialog')).getByRole('button', { name: 'Delete' }));
     await waitFor(() => expect(deleteDocument).toHaveBeenCalledWith('d1'));
   });
@@ -117,6 +124,7 @@ describe('DocumentList', () => {
     expect(table.getByText('A deleted quotation')).toBeTruthy();
     expect(screen.queryByLabelText('Choose files')).toBeNull();
     // documents.delete: any document.
-    expect(screen.getByLabelText('Delete site photo.png')).toBeTruthy();
+    fireEvent.click(screen.getByLabelText('Actions for site photo.png'));
+    expect(within(await screen.findByRole('menu')).getByRole('menuitem', { name: 'Delete' })).toBeTruthy();
   });
 });

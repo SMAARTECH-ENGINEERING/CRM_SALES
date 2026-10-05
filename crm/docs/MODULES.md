@@ -3454,8 +3454,13 @@ shows the order total and how much of it is still to invoice. No screen has a "r
 
 ## Document management
 
-Files can be attached to a **company, contact, lead, opportunity, quotation, order, project,
-ticket, contract or payment**. The file goes to object storage; MongoDB holds only its details.
+Files can be attached to a **company, contact, lead, opportunity, quotation, order, customer,
+project, task, ticket, contract or payment**. The file goes to object storage; MongoDB holds only its details.
+
+Documents have a **type** and a **status** (administrator-managed lists) and **versions**; they
+can be viewed, printed, edited (PDF editor, spreadsheet editor) and converted (PDF ↔ Excel) in
+the browser. That is described in **[DOCUMENTS.md](DOCUMENTS.md)**; this section covers storage,
+validation and access.
 
 ### Database model
 
@@ -3470,7 +3475,13 @@ ticket, contract or payment**. The file goes to object storage; MongoDB holds on
 | `entityType` | one of the ten kinds above    | Fixed once uploaded                                |
 | `entityId`   | ObjectId                      | The record; must exist when uploading              |
 | `uploadedBy` | ObjectId -> `User`            | The signed-in user; never sent                     |
-| `createdAt`  | date                          |                                                    |
+| `companyId`, `relatedLabel` | ObjectId, string | The record's company and name ("QUO-000018 · Lotus Hospitality"), kept for search and filters |
+| `documentTypeId` | ObjectId -> `DocumentType` | Optional                                           |
+| `statusId`   | ObjectId -> `DocumentStatus`  | The default status when not given                   |
+| `version`    | number, from 1                | The current version                                 |
+| `versions`   | array                         | Earlier versions: `version, fileName, fileType, fileSize, storageKey, storageDriver, uploadedBy, createdAt, note`. Never sent; see `GET /documents/:id/versions` |
+| `updatedBy`  | ObjectId -> `User`            | Who saved the current version                       |
+| `createdAt`, `updatedAt` | date              |                                                    |
 | `storageKey`, `storageDriver` | strings        | Where the file is. **Never sent to clients**       |
 
 Lists also return `entity: { type, id, label }` - what the document belongs to - and
@@ -3520,7 +3531,8 @@ one bad file refuses the whole request.
 Two things are needed for every operation:
 
 1. A **documents permission** - `documents.read` (list, details, download), `documents.create`
-   (upload), `documents.delete` (delete anyone's).
+   (upload), `documents.update` (rename, type, status, new versions), `documents.manageVersions`
+   (restore), `documents.delete` (delete anyone's), `documents.manageSettings` (types and statuses).
 2. **Access to the record** the document belongs to - `companies.read` for a company's documents,
    `quotations.read` for a quotation's, `payments.read` for a payment's, and so on. Without it the
    answer is 403, whatever documents permissions the user holds.
@@ -3541,7 +3553,15 @@ Two things are needed for every operation:
 | GET | `/documents/:id` | `documents.read` + the record | The details of one document |
 | GET | `/documents/:id/download` | `documents.read` + the record | The file itself (what `fileUrl` points to) |
 | DELETE | `/documents/:id` | own upload: `documents.create`; any: `documents.delete` | Delete the record and the file |
-| GET | `/documents/config` | `documents.read` or `documents.create` | The upload rules: `{ field, maxFileBytes, maxFiles, allowedTypes, entityTypes }` |
+| GET | `/documents/config` | `documents.read` or `documents.create` | The upload rules: `{ field, maxFileBytes, maxFiles, allowedTypes, entityTypes, kinds }` |
+| PATCH | `/documents/:id` | `documents.update` + the record | Rename (the extension is kept), set `documentTypeId`, `statusId` |
+| GET | `/documents/:id/versions` | `documents.read` + the record | Every version, newest first |
+| POST | `/documents/:id/versions` | `documents.update` + the record | A new version (`file`, optional `note`, `fileName`); the old file is kept |
+| POST | `/documents/:id/versions/:version/restore` | `documents.manageVersions` + the record | Restore an earlier version as a new one |
+
+Uploads also take optional `documentTypeId` and `statusId`; the list also filters by `kind`,
+`documentTypeId`, `statusId`, `companyId`, `from`, `to`, and sorts by `updatedAt`; downloads take
+`?version=N`. Deleting a document removes every version's file.
 
 ### Examples
 

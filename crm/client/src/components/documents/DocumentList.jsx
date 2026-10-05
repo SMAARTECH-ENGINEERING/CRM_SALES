@@ -1,4 +1,3 @@
-import DeleteOutlinedIcon from '@mui/icons-material/DeleteOutlined';
 import DownloadOutlinedIcon from '@mui/icons-material/DownloadOutlined';
 import Alert from '@mui/material/Alert';
 import Button from '@mui/material/Button';
@@ -15,7 +14,6 @@ import TableRow from '@mui/material/TableRow';
 import Tooltip from '@mui/material/Tooltip';
 import { useState } from 'react';
 import { Link as RouterLink } from 'react-router-dom';
-import useAuth from '../../hooks/useAuth.js';
 import { useDocumentConfig, useDocumentMutations, useDocumentsList } from '../../hooks/useDocuments.js';
 import useNotify from '../../hooks/useNotify.js';
 import usePermission from '../../hooks/usePermission.js';
@@ -23,7 +21,9 @@ import { saveBlob } from '../../hooks/useQuotations.js';
 import { entityPath } from '../../utils/entityPaths.js';
 import { EMPTY, formatBytes, formatDateTime } from '../../utils/format.js';
 import { PERMISSIONS } from '../../utils/permissions.js';
-import ConfirmDialog from '../ConfirmDialog.jsx';
+import DocumentActionsMenu from '../../features/documents/components/DocumentActions.jsx';
+import FileKindIcon from '../../features/documents/components/FileKindIcon.jsx';
+import ConfigChip from '../leads/ConfigChip.jsx';
 import LoadingScreen from '../LoadingScreen.jsx';
 import FileUploader from './FileUploader.jsx';
 
@@ -34,19 +34,18 @@ const PAGE_SIZE = 20;
 //
 //   <DocumentList entityType="quotation" entityId={quotation.id} />
 //
-// Without entityType / entityId it lists every document the user may see,
+// Each name opens the document; the menu has the rest (edit, convert, print,
+// versions, delete). Without entityType / entityId it lists every document the user may see,
 // with a "Belongs to" column and no uploader. `search` narrows by file name.
 // What may be uploaded comes from the API; so does every row.
 export default function DocumentList({ entityType, entityId, search = '' }) {
-  const { user } = useAuth();
   const { can } = usePermission();
   const notify = useNotify();
   const canRead = can(PERMISSIONS.DOCUMENTS_READ);
   const canUpload = can(PERMISSIONS.DOCUMENTS_CREATE);
   const scoped = Boolean(entityType && entityId);
   const [page, setPage] = useState(1);
-  const [deleting, setDeleting] = useState(null);
-  const { upload, download, remove } = useDocumentMutations();
+  const { upload, download } = useDocumentMutations();
 
   const { data, error, isPending, refetch } = useDocumentsList(
     { ...(scoped ? { entityType, entityId } : {}), ...(search ? { search } : {}), page, limit: PAGE_SIZE, sortBy: 'createdAt', sortOrder: 'desc' },
@@ -70,16 +69,6 @@ export default function DocumentList({ entityType, entityId, search = '' }) {
     } catch (err) {
       notify.error(err.message);
     }
-  }
-
-  async function confirmDelete() {
-    try {
-      await remove.mutateAsync(deleting.id);
-      notify.success(`${deleting.fileName} deleted`);
-    } catch (err) {
-      notify.error(err.message);
-    }
-    setDeleting(null);
   }
 
   if (!canRead) {
@@ -108,9 +97,6 @@ export default function DocumentList({ entityType, entityId, search = '' }) {
     );
   }
 
-  // Your own uploads, or any with documents.delete - the API decides again.
-  const canDelete = (document) => can(PERMISSIONS.DOCUMENTS_DELETE) || (canUpload && document.uploadedBy === user.id);
-
   return (
     <Stack spacing={2}>
       {uploader}
@@ -124,9 +110,11 @@ export default function DocumentList({ entityType, entityId, search = '' }) {
                 <TableCell>Name</TableCell>
                 {!scoped && <TableCell>Belongs to</TableCell>}
                 <TableCell>Type</TableCell>
+                <TableCell>Status</TableCell>
+                <TableCell align="right">Ver.</TableCell>
                 <TableCell align="right">Size</TableCell>
-                <TableCell>Uploaded by</TableCell>
-                <TableCell>Uploaded</TableCell>
+                <TableCell>Last saved by</TableCell>
+                <TableCell>Updated</TableCell>
                 <TableCell align="right">Actions</TableCell>
               </TableRow>
             </TableHead>
@@ -134,9 +122,12 @@ export default function DocumentList({ entityType, entityId, search = '' }) {
               {data.documents.map((document) => (
                 <TableRow key={document.id} hover>
                   <TableCell sx={{ wordBreak: 'break-word' }}>
-                    <Link component="button" type="button" underline="hover" onClick={() => save(document)} sx={{ fontWeight: 500, textAlign: 'left' }}>
-                      {document.fileName}
-                    </Link>
+                    <Stack direction="row" spacing={1} sx={{ alignItems: 'center' }}>
+                      <FileKindIcon document={document} />
+                      <Link component={RouterLink} to={`/documents/${document.id}`} underline="hover" sx={{ fontWeight: 500 }}>
+                        {document.fileName}
+                      </Link>
+                    </Stack>
                   </TableCell>
                   {!scoped && (
                     <TableCell>
@@ -149,25 +140,21 @@ export default function DocumentList({ entityType, entityId, search = '' }) {
                       )}
                     </TableCell>
                   )}
-                  <TableCell sx={{ color: 'text.secondary', wordBreak: 'break-word' }}>{document.fileType}</TableCell>
+                  <TableCell sx={{ color: 'text.secondary' }}>{document.documentType?.name ?? EMPTY}</TableCell>
+                  <TableCell>{document.status ? <ConfigChip value={document.status} /> : EMPTY}</TableCell>
+                  <TableCell align="right">v{document.version ?? 1}</TableCell>
                   <TableCell align="right" sx={{ whiteSpace: 'nowrap' }}>
                     {formatBytes(document.fileSize)}
                   </TableCell>
-                  <TableCell>{document.uploadedByUser?.fullName ?? EMPTY}</TableCell>
-                  <TableCell sx={{ whiteSpace: 'nowrap' }}>{formatDateTime(document.createdAt)}</TableCell>
+                  <TableCell>{document.updatedByUser?.fullName ?? document.uploadedByUser?.fullName ?? EMPTY}</TableCell>
+                  <TableCell sx={{ whiteSpace: 'nowrap' }}>{formatDateTime(document.updatedAt ?? document.createdAt)}</TableCell>
                   <TableCell align="right" sx={{ whiteSpace: 'nowrap' }}>
                     <Tooltip title="Download">
                       <IconButton size="small" aria-label={`Download ${document.fileName}`} onClick={() => save(document)}>
                         <DownloadOutlinedIcon fontSize="small" />
                       </IconButton>
                     </Tooltip>
-                    {canDelete(document) && (
-                      <Tooltip title="Delete">
-                        <IconButton size="small" aria-label={`Delete ${document.fileName}`} onClick={() => setDeleting(document)}>
-                          <DeleteOutlinedIcon fontSize="small" />
-                        </IconButton>
-                      </Tooltip>
-                    )}
+                    <DocumentActionsMenu document={document} exclude={['download']} />
                   </TableCell>
                 </TableRow>
               ))}
@@ -178,17 +165,6 @@ export default function DocumentList({ entityType, entityId, search = '' }) {
       {data.pagination.totalPages > 1 && (
         <Pagination count={data.pagination.totalPages} page={page} onChange={(event, value) => setPage(value)} sx={{ alignSelf: 'center' }} />
       )}
-      <ConfirmDialog
-        open={Boolean(deleting)}
-        title="Delete document"
-        confirmLabel="Delete"
-        confirmColor="error"
-        loading={remove.isPending}
-        onConfirm={confirmDelete}
-        onClose={() => setDeleting(null)}
-      >
-        {deleting ? `${deleting.fileName} will be deleted for everyone. This cannot be undone.` : ''}
-      </ConfirmDialog>
     </Stack>
   );
 }

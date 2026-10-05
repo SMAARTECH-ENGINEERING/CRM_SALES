@@ -109,6 +109,7 @@ export const NAV_GROUPS = [
           P.TICKETS_MANAGE_SETTINGS,
           P.CONTRACTS_MANAGE_SETTINGS,
           P.PAYMENTS_MANAGE_SETTINGS,
+          P.DOCUMENTS_MANAGE_SETTINGS,
         ],
       },
       { id: 'applicationSettings', labelKey: 'nav.applicationSettings', to: '/settings/application', icon: StorefrontOutlinedIcon, permission: P.SETTINGS_MANAGE },

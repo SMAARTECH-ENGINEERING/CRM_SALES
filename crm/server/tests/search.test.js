@@ -95,7 +95,7 @@ test('search keys: words, numbers without their zeros, phone numbers', () => {
 test('returns every category, each a list of { id, type, title, subtitle }', async () => {
   const data = await find('acme');
   assert.deepEqual(Object.keys(data), SEARCH_CATEGORIES);
-  assert.deepEqual(Object.keys(data), ['companies', 'contacts', 'leads', 'opportunities', 'quotations', 'orders', 'projects', 'tickets', 'contracts']);
+  assert.deepEqual(Object.keys(data), ['companies', 'contacts', 'leads', 'opportunities', 'quotations', 'orders', 'projects', 'tickets', 'contracts', 'documents']);
   assert.deepEqual(data.companies, [{ id: ctx.acme.id, type: 'company', title: 'Acme Industries', subtitle: `${ctx.acme.companyCode} · Pune` }]);
   // A contact is found by the words of their email.
   assert.deepEqual(data.contacts, [{ id: ctx.asha.id, type: 'contact', title: 'Asha Rao', subtitle: 'Purchase Head · Acme Industries · asha.rao@acme.example' }]);

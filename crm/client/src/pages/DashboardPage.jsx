@@ -23,6 +23,7 @@ import { useDashboardSection } from '../hooks/useDashboard.js';
 import usePermission from '../hooks/usePermission.js';
 import { formatAmount, formatCompact, formatDate, formatDateTime, formatMonth } from '../utils/format.js';
 import { PERMISSIONS } from '../utils/permissions.js';
+import RecentDocuments from '../components/dashboard/RecentDocuments.jsx';
 
 // The periods the API understands.
 const PERIODS = [
@@ -261,6 +262,7 @@ export default function DashboardPage() {
         />
     ) });
   }
+  if (can(PERMISSIONS.DOCUMENTS_READ)) widgets.push({ id: 'recentDocuments', title: 'Recent documents', size: 6, content: <RecentDocuments /> });
   const { layout, save, reset } = useDashboardLayout(widgets);
 
   return (

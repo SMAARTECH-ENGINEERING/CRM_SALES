@@ -104,7 +104,8 @@
       "orders": "ऑर्डर",
       "projects": "प्रोजेक्ट",
       "tickets": "टिकट",
-      "contracts": "अनुबंध"
+      "contracts": "अनुबंध",
+      "documents": "दस्तावेज़"
     }
   },
   "quickCreate": {

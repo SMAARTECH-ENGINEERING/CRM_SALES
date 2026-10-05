@@ -104,7 +104,8 @@
       "orders": "Orders",
       "projects": "Projects",
       "tickets": "Tickets",
-      "contracts": "Contracts"
+      "contracts": "Contracts",
+      "documents": "Documents"
     }
   },
   "quickCreate": {

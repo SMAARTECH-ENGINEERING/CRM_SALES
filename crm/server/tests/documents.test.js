@@ -105,7 +105,7 @@ test('config: the upload rules and the kinds of record this user can attach to',
   assert.ok(data.allowedTypes.includes('application/pdf'));
   assert.deepEqual(data.entityTypes, ['company']);
   const all = (await request(app).get(`${API}/config`).set(admin())).body.data.entityTypes;
-  assert.deepEqual(all, ['company', 'contact', 'lead', 'opportunity', 'quotation', 'order', 'project', 'ticket', 'contract', 'payment']);
+  assert.deepEqual(all, ['company', 'contact', 'lead', 'opportunity', 'quotation', 'order', 'customer', 'project', 'task', 'ticket', 'contract', 'payment']);
 });
 
 test('upload: the file goes to storage, only its details to the database', async () => {
@@ -131,7 +131,8 @@ test('upload: the file goes to storage, only its details to the database', async
   const raw = await Document.collection.findOne({ _id: new mongoose.Types.ObjectId(pdf.id) });
   assert.deepEqual(
     Object.keys(raw).sort(),
-    ['__v', '_id', 'createdAt', 'entityId', 'entityType', 'fileName', 'fileSize', 'fileType', 'storageDriver', 'storageKey', 'uploadedBy']
+    // Details only - plus the record's company and name (for finding it), its versions and search keys.
+    ['__v', '_id', 'companyId', 'createdAt', 'entityId', 'entityType', 'fileName', 'fileSize', 'fileType', 'relatedLabel', 'searchKeys', 'storageDriver', 'storageKey', 'updatedAt', 'updatedBy', 'uploadedBy', 'version', 'versions']
   );
   assert.match(raw.storageKey, new RegExp(`^documents/company/${ctx.acme.id}/[0-9a-f-]{36}\\.pdf$`));
 

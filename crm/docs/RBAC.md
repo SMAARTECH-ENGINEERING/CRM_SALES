@@ -64,7 +64,7 @@ start; a typo is reported in the log instead of silently denying everyone.
 | `tickets` | read, create, update, delete, assign, reply, addInternalNote, manageSettings |
 | `contracts` | read, create, update, delete, manageSettings |
 | `payments` | read, create, update, delete, manageSettings |
-| `documents` | read, create, delete |
+| `documents` | read, create, update, manageVersions, delete, manageSettings |
 | `dashboard` | read, viewAll |
 | `reports` | read, export, viewAll |
 | `audit` | read, viewAll |

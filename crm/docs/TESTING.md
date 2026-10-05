@@ -49,6 +49,14 @@ npx vitest run src/pages/LeadsPage.test.jsx   # one file (from client/)
   the dashboard and its layout, search and commands, preferences, themes
   (including contrast in every theme and mode) and the completeness of the
   three languages.
+- Document tools (`client/src/features/documents/lib/documentTools.test.js`,
+  run in Node, no browser): page ranges, print layout (paper, copies, header),
+  Excel written and read back with formulas, formatting, merges and sizes,
+  CSV, spreadsheets drawn onto PDF pages, tables found in PDF text and amounts
+  read as numbers, the PDF editor's model (wrapping, turning pages), and the
+  edited PDF it saves (page order, rotation, comments). The actions menu,
+  rename and version history are tested as screens. The editors themselves
+  (drawing on a canvas) were checked in a real browser.
 - Workers are capped at four (`client/vite.config.js`): one per core starves
   them on a machine that is also running the app.
 

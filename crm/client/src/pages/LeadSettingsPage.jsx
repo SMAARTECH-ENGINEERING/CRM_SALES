@@ -24,6 +24,7 @@ import { useSearchParams } from 'react-router-dom';
 import {
   ACTIVITY_CONFIG,
   CONTRACT_CONFIG,
+  DOCUMENT_CONFIG,
   LEAD_CONFIG,
   PAYMENT_CONFIG,
   ORDER_CONFIG,
@@ -56,6 +57,7 @@ const LISTS = [
   ...Object.values(TICKET_CONFIG).map((list) => ({ ...list, permission: PERMISSIONS.TICKETS_MANAGE_SETTINGS })),
   ...Object.values(CONTRACT_CONFIG).map((list) => ({ ...list, permission: PERMISSIONS.CONTRACTS_MANAGE_SETTINGS })),
   ...Object.values(PAYMENT_CONFIG).map((list) => ({ ...list, permission: PERMISSIONS.PAYMENTS_MANAGE_SETTINGS })),
+  ...Object.values(DOCUMENT_CONFIG).map((list) => ({ ...list, permission: PERMISSIONS.DOCUMENTS_MANAGE_SETTINGS })),
 ];
 
 const categoryLabel = (list, value) =>

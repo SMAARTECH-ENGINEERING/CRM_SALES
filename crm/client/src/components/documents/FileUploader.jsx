@@ -34,9 +34,11 @@ function problemOf(file, rules) {
 //  - `rules`: the limits to show and pre-check (from the API); optional
 //  - `onUpload(files, { onProgress })`: must return a promise; the picked
 //    files are cleared when it resolves, and its error is shown when it rejects
-export default function FileUploader({ onUpload, rules, disabled = false, label = 'Upload files', hint }) {
+//  - `initialFiles`: files already picked (dropped somewhere else)
+//  - `ready`: false keeps the Upload button off (e.g. until a record is chosen)
+export default function FileUploader({ onUpload, rules, disabled = false, ready = true, label = 'Upload files', hint, initialFiles }) {
   const input = useRef(null);
-  const [files, setFiles] = useState([]);
+  const [files, setFiles] = useState(() => Array.from(initialFiles ?? []));
   const [dragging, setDragging] = useState(false);
   const [progress, setProgress] = useState(null);
   const [error, setError] = useState(null);
@@ -157,7 +159,7 @@ export default function FileUploader({ onUpload, rules, disabled = false, label 
 
       {files.length > 0 && (
         <Stack direction="row" spacing={1}>
-          <Button variant="contained" onClick={upload} disabled={blocked || disabled} loading={uploading}>
+          <Button variant="contained" onClick={upload} disabled={blocked || disabled || !ready} loading={uploading}>
             Upload {files.length} file{files.length === 1 ? '' : 's'}
           </Button>
           <Button onClick={() => setFiles([])} disabled={uploading}>

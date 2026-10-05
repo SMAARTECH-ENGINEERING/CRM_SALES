@@ -42,6 +42,7 @@ import {
   seedQuotationStatuses,
   seedContractSettings,
   seedPaymentSettings,
+  seedDocumentSettings,
   seedTicketSettings,
   syncRbac,
 } from '../src/services/seed.service.js';
@@ -61,6 +62,8 @@ try {
   const ticketSettingsSeeded = await seedTicketSettings();
   const contractSettingsSeeded = await seedContractSettings();
   const paymentSettingsSeeded = await seedPaymentSettings();
+  const documentSettingsSeeded = await seedDocumentSettings();
+  console.log(`Document types and statuses: ${documentSettingsSeeded ? 'initial values added' : 'already seeded, left unchanged'}`);
 
   console.log(
     `Database now has ${await Permission.countDocuments()} permission(s) and ${await Role.countDocuments()} role(s)`

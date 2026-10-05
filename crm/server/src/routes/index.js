@@ -22,6 +22,8 @@ import {
   contractReminderPeriodRoutes,
   contractStatusRoutes,
   contractTypeRoutes,
+  documentStatusRoutes,
+  documentTypeRoutes,
   paymentMethodRoutes,
   paymentStatusRoutes,
   quotationStatusRoutes,
@@ -81,6 +83,8 @@ router.use('/imports', importRoutes);
 router.use('/audit-logs', auditRoutes);
 router.use('/notifications', notificationRoutes);
 router.use('/documents', documentRoutes);
+router.use('/document-types', documentTypeRoutes);
+router.use('/document-statuses', documentStatusRoutes);
 router.use('/payments', paymentRoutes);
 router.use('/payment-methods', paymentMethodRoutes);
 router.use('/payment-statuses', paymentStatusRoutes);

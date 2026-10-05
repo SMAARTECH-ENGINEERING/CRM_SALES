@@ -13,6 +13,7 @@ import {
   seedQuotationStatuses,
   seedContractSettings,
   seedPaymentSettings,
+  seedDocumentSettings,
   seedTicketSettings,
   syncRbac,
   verifyDeclaredPermissions,
@@ -21,6 +22,7 @@ import { startContractReminderJob, stopContractReminderJob } from './jobs/contra
 import { startNotificationJob, stopNotificationJob } from './jobs/notifications.job.js';
 import { attachSocket, closeSocket } from './realtime/socket.js';
 import { backfillSearchKeys } from './services/search.service.js';
+import { backfillDocumentDetails } from './services/document.service.js';
 
 const SHUTDOWN_TIMEOUT_MS = 10000;
 
@@ -40,6 +42,8 @@ async function start() {
   await seedTicketSettings();
   await seedContractSettings();
   await seedPaymentSettings();
+  await seedDocumentSettings();
+  await backfillDocumentDetails();
   await backfillSearchKeys();
   await verifyDeclaredPermissions();
   server = app.listen(env.port, () => {

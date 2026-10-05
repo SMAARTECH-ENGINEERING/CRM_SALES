@@ -1,4 +1,5 @@
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import EditNoteOutlinedIcon from '@mui/icons-material/EditNoteOutlined';
 import PictureAsPdfOutlinedIcon from '@mui/icons-material/PictureAsPdfOutlined';
 import SendOutlinedIcon from '@mui/icons-material/SendOutlined';
 import Alert from '@mui/material/Alert';
@@ -251,6 +252,12 @@ export default function QuotationDetailPage() {
               <Button variant="outlined" startIcon={<PictureAsPdfOutlinedIcon />} onClick={downloadPdf} loading={pdf.isPending}>
                 PDF
               </Button>
+              {/* Change the PDF itself (text, logo, signature) and attach it to the quotation. */}
+              {can(PERMISSIONS.DOCUMENTS_READ) && can(PERMISSIONS.DOCUMENTS_CREATE) && can(PERMISSIONS.DOCUMENTS_UPDATE) && (
+                <Button variant="outlined" startIcon={<EditNoteOutlinedIcon />} component={RouterLink} to={`/quotations/${quotation.id}/edit-pdf`}>
+                  Edit PDF
+                </Button>
+              )}
               {quotation.order ? (
                 <PermissionGate permission={PERMISSIONS.ORDERS_READ}>
                   <Button variant="outlined" component={RouterLink} to={`/orders/${quotation.orderId}`}>

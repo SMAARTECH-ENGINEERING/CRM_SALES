@@ -27,6 +27,11 @@ function Landing() {
   const { can } = usePermission();
   return can(PERMISSIONS.DASHBOARD_READ) ? <DashboardPage /> : <HomePage />;
 }
+const DocumentViewerPage = lazy(() => import("../features/documents/pages/DocumentViewerPage.jsx"));
+const DocumentEditorPage = lazy(() => import("../features/documents/pages/DocumentEditorPage.jsx"));
+const ConvertToExcelPage = lazy(() => import("../features/documents/pages/ConvertToExcelPage.jsx"));
+const ConvertToPdfPage = lazy(() => import("../features/documents/pages/ConvertToPdfPage.jsx"));
+const QuotationPdfEditorPage = lazy(() => import("../features/documents/pages/QuotationPdfEditorPage.jsx"));
 const LeadDetailPage = lazy(() => import("../pages/LeadDetailPage.jsx"));
 const LeadFormPage = lazy(() => import("../pages/LeadFormPage.jsx"));
 const LeadSettingsPage = lazy(() => import("../pages/LeadSettingsPage.jsx"));
@@ -254,6 +259,21 @@ export default function AppRoutes() {
               <Route path="/quotations" element={<QuotationsPage />} />
               <Route path="/quotations/:id" element={<QuotationDetailPage />} />
             </Route>
+            {/* Editing the quotation's PDF and attaching it to the quotation. */}
+            <Route
+              element={
+                <RequirePermission
+                  permission={[
+                    PERMISSIONS.QUOTATIONS_READ,
+                    PERMISSIONS.DOCUMENTS_READ,
+                    PERMISSIONS.DOCUMENTS_CREATE,
+                    PERMISSIONS.DOCUMENTS_UPDATE,
+                  ]}
+                />
+              }
+            >
+              <Route path="/quotations/:id/edit-pdf" element={<QuotationPdfEditorPage />} />
+            </Route>
 
             <Route
               element={
@@ -306,6 +326,10 @@ export default function AppRoutes() {
               }
             >
               <Route path="/documents" element={<DocumentsPage />} />
+              <Route path="/documents/:id" element={<DocumentViewerPage />} />
+              <Route path="/documents/:id/edit" element={<DocumentEditorPage />} />
+              <Route path="/documents/:id/to-excel" element={<ConvertToExcelPage />} />
+              <Route path="/documents/:id/to-pdf" element={<ConvertToPdfPage />} />
             </Route>
 
             <Route
@@ -389,6 +413,7 @@ export default function AppRoutes() {
                     PERMISSIONS.TICKETS_MANAGE_SETTINGS,
                     PERMISSIONS.CONTRACTS_MANAGE_SETTINGS,
                     PERMISSIONS.PAYMENTS_MANAGE_SETTINGS,
+                    PERMISSIONS.DOCUMENTS_MANAGE_SETTINGS,
                   ]}
                 />
               }

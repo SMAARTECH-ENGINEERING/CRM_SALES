@@ -123,6 +123,11 @@ export const contractStatusRoutes = leadConfigRouter('contractStatuses', CONTRAC
 export const billingCycleRoutes = leadConfigRouter('billingCycles', CONTRACTS);
 export const contractReminderPeriodRoutes = leadConfigRouter('contractReminderPeriods', CONTRACTS);
 
+// Document types and statuses: readable by anyone who works with documents.
+const DOCUMENTS = { manage: 'documents.manageSettings', readers: ['documents.read', 'documents.create', 'documents.update'] };
+export const documentTypeRoutes = leadConfigRouter('documentTypes', DOCUMENTS);
+export const documentStatusRoutes = leadConfigRouter('documentStatuses', DOCUMENTS);
+
 // Payment methods and statuses: readable by anyone who works with payments.
 const PAYMENTS = { manage: 'payments.manageSettings', readers: ['payments.read', 'payments.create', 'payments.update'] };
 export const paymentMethodRoutes = leadConfigRouter('paymentMethods', PAYMENTS);

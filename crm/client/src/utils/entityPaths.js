@@ -15,6 +15,7 @@ const ENTITY_PATHS = Object.freeze({
   product: 'products',
   user: 'users',
   role: 'roles',
+  document: 'documents',
 });
 
 // "/quotations/<id>", or null for a kind of record that has no page.

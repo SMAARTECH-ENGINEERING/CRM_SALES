@@ -269,6 +269,14 @@ export const MESSAGES = Object.freeze({
   DOCUMENT_ENTITY_NOT_FOUND: 'The record to attach the document to was not found',
   DOCUMENT_ENTITY_FORBIDDEN: 'You do not have access to the record this document belongs to',
   DOCUMENT_DELETE_FORBIDDEN: 'You can only delete documents you uploaded yourself',
+  DOCUMENT_UPDATED: 'Document updated',
+  DOCUMENT_VERSIONS: 'Document versions retrieved',
+  DOCUMENT_VERSION_ADDED: 'New version saved',
+  DOCUMENT_VERSION_RESTORED: 'Version restored as the current one',
+  DOCUMENT_VERSION_NOT_FOUND: 'That version of the document does not exist',
+  DOCUMENT_ONE_FILE: 'Send exactly one file for a new version',
+  DOCUMENT_TYPE_NOT_FOUND: 'Document type not found or inactive',
+  DOCUMENT_STATUS_NOT_FOUND: 'Document status not found or inactive',
   NOTIFICATIONS_LISTED: 'Notifications retrieved',
   NOTIFICATION_READ: 'Notification marked as read',
   NOTIFICATIONS_ALL_READ: 'All notifications marked as read',
@@ -480,6 +488,22 @@ export const CONTRACT_STATUS_CATEGORY = Object.freeze({
 // first three are never chosen by hand: the server works out which applies
 // from the amounts. "Overdue" is not a status - it is unpaid or partially
 // paid past the due date, worked out when asked.
+// What a document status means; the statuses themselves are data.
+export const DOCUMENT_STATUS_CATEGORY = Object.freeze({
+  DRAFT: 'draft',
+  FINAL: 'final',
+  ARCHIVED: 'archived',
+});
+
+// Kinds of file, for filtering - worked out from the file's type.
+export const DOCUMENT_KIND = Object.freeze({
+  PDF: 'pdf',
+  EXCEL: 'excel',
+  WORD: 'word',
+  IMAGE: 'image',
+  OTHER: 'other',
+});
+
 export const PAYMENT_STATUS_CATEGORY = Object.freeze({
   UNPAID: 'unpaid',
   PARTIALLY_PAID: 'partially_paid',

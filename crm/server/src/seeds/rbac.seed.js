@@ -130,7 +130,10 @@ export const PERMISSION_SEED = {
   documents: {
     read: 'View and download documents of records you can see',
     create: 'Upload documents, and delete your own',
+    update: 'Rename, edit and convert documents, and save new versions',
+    manageVersions: 'Restore an earlier version of a document',
     delete: 'Delete any document',
+    manageSettings: 'Manage document types and statuses',
   },
   payments: {
     read: 'View payments and what is outstanding',

@@ -15,6 +15,8 @@ import BillingCycle from '../models/BillingCycle.js';
 import ContractReminderPeriod from '../models/ContractReminderPeriod.js';
 import ContractStatus from '../models/ContractStatus.js';
 import ContractType from '../models/ContractType.js';
+import DocumentStatus from '../models/DocumentStatus.js';
+import DocumentType from '../models/DocumentType.js';
 import PaymentMethod from '../models/PaymentMethod.js';
 import PaymentStatus from '../models/PaymentStatus.js';
 import Tax from '../models/Tax.js';
@@ -42,6 +44,8 @@ export const LEAD_CONFIG = Object.freeze({
   ticketPriorities: { Model: TicketPriority, extraFields: ['level', 'color'], hasDefault: true },
   ticketStatuses: { Model: TicketStatus, extraFields: ['category', 'color'], hasDefault: true },
   contractTypes: { Model: ContractType, extraFields: ['color'], hasDefault: false },
+  documentTypes: { Model: DocumentType, extraFields: ['color'], hasDefault: false },
+  documentStatuses: { Model: DocumentStatus, extraFields: ['category', 'color'], hasDefault: true },
   contractStatuses: { Model: ContractStatus, extraFields: ['category', 'color'], hasDefault: true },
   billingCycles: { Model: BillingCycle, extraFields: ['months'], hasDefault: true },
   paymentMethods: { Model: PaymentMethod, extraFields: ['color'], hasDefault: false },

@@ -74,7 +74,8 @@ The Postman collection has a request - with tests - for every one of them.
 | `/customers` | `GET POST /customers`<br>`GET PUT DELETE /customers/:id`<br>`GET /customers/:id/summary`<br>`GET /customers/:id/timeline` |
 | `/dashboard` | `GET /dashboard/activities`<br>`GET /dashboard/leads`<br>`GET /dashboard/opportunities`<br>`GET /dashboard/sales`<br>`GET /dashboard/summary` |
 | `/departments` | `GET /departments` |
-| `/documents` | `GET POST /documents`<br>`GET DELETE /documents/:id`<br>`GET /documents/:id/download`<br>`GET /documents/config` |
+| `/documents` | `GET POST /documents`<br>`GET PATCH DELETE /documents/:id`<br>`GET /documents/:id/download[?version=N]`<br>`GET POST /documents/:id/versions`<br>`POST /documents/:id/versions/:version/restore`<br>`GET /documents/config` - see [DOCUMENTS.md](DOCUMENTS.md) |
+| `/document-types`, `/document-statuses` | `GET POST /...`<br>`PUT DELETE /.../:id` |
 | `/followups` | `GET POST /followups`<br>`PUT /followups/:id`<br>`PATCH /followups/:id/complete`<br>`PATCH /followups/:id/reschedule` |
 | `/health` | `GET /health` |
 | `/industries` | `GET POST /industries` |
