@@ -11,6 +11,7 @@
 // npx the first time.
 import { spawn, spawnSync } from 'node:child_process';
 import fs from 'node:fs';
+import http from 'node:http';
 import { createRequire } from 'node:module';
 import os from 'node:os';
 import path from 'node:path';
@@ -35,7 +36,21 @@ const ADMIN = { email: 'postman.admin@example.com', password: 'Postman!Adm1n#Pas
 const args = process.argv.slice(2);
 const folder = args.includes('--folder') ? args[args.indexOf('--folder') + 1] : undefined;
 
-const env = { ...process.env, NODE_ENV: 'development', PORT: String(PORT), MONGODB_URI: DB, LOG_LEVEL: 'warn', SMTP_URL: '', SMTP_HOST: '', STORAGE_DRIVER: 'local', UPLOAD_DIR: 'uploads-postman-run', RATE_LIMIT_ENABLED: 'false', CONTRACT_REMINDER_INTERVAL_MINUTES: '0', NOTIFICATION_CHECK_INTERVAL_MINUTES: '0', ADMIN_PASSWORD: ADMIN.password };
+const env = { ...process.env, NODE_ENV: 'development', PORT: String(PORT), MONGODB_URI: DB, LOG_LEVEL: 'warn', SMTP_URL: '', SMTP_HOST: '', STORAGE_DRIVER: 'local', UPLOAD_DIR: 'uploads-postman-run', RATE_LIMIT_ENABLED: 'false', CONTRACT_REMINDER_INTERVAL_MINUTES: '0', NOTIFICATION_CHECK_INTERVAL_MINUTES: '0', ADMIN_PASSWORD: ADMIN.password, SCRAPER_ALLOW_PRIVATE_HOSTS: 'true', SCRAPER_MIN_DELAY_MS: '250' };
+
+// A tiny public-looking website for the Web Data Scraper requests, so the run
+// needs no internet. (Only this run lets the scraper reach localhost.)
+const SITE = {
+  '/robots.txt': ['User-agent: *', 'Disallow: /private', ''].join('\n'),
+  '/': '<html><head><title>Postman Test FPO</title><script type="application/ld+json">{"@type":"Organization","name":"Postman Test FPO","email":"office@postman-fpo.example.com","telephone":"+91 674 255 0101","address":{"addressLocality":"Cuttack","addressRegion":"Odisha"}}</script></head><body><a href="/team">Team</a> <a href="/private/x">Private</a></body></html>',
+  '/team': '<html><body><div class="team-member"><h3>Ramesh Behera</h3><p>Director</p><a href="mailto:ramesh@postman-fpo.example.com">Email</a></div></body></html>',
+};
+const site = http.createServer((req, res) => {
+  const body = SITE[req.url];
+  if (!body) return res.writeHead(404).end();
+  return res.writeHead(200, { 'Content-Type': req.url === '/robots.txt' ? 'text/plain' : 'text/html' }).end(body);
+});
+await new Promise((resolve) => site.listen(0, '127.0.0.1', resolve));
 const mongoose = (await import(pathToFileURL(SERVER + '/node_modules/mongoose/index.js').href)).default;
 await mongoose.connect(DB);
 await mongoose.connection.dropDatabase();
@@ -58,6 +73,7 @@ set('userEmail', ADMIN.email);
 set('userPassword', ADMIN.password);
 set('newPassword', 'Postman!Adm1n#Pass2');
 set('managedUserPassword', 'Managed!Us3r#Pass');
+set('scraperTarget', `http://127.0.0.1:${site.address().port}/`);
 
 const summary = await new Promise((resolve, reject) =>
   newman.run({ collection: `${POSTMAN}/CRM.postman_collection.json`, environment, folder, workingDir: POSTMAN, reporters: [], timeoutRequest: 20000 }, (err, s) => (err ? reject(err) : resolve(s)))
@@ -74,6 +90,7 @@ for (const f of failures) {
 if (args.includes('--verbose')) for (const e of executions) console.log(e.response?.code, e.item.name);
 
 await new Promise((resolve) => { server.once('exit', resolve); server.kill(); });
+site.close();
 await mongoose.connection.dropDatabase();
 await mongoose.disconnect();
 fs.rmSync(`${SERVER}/uploads-postman-run`, { recursive: true, force: true });

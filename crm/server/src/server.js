@@ -23,6 +23,7 @@ import { startNotificationJob, stopNotificationJob } from './jobs/notifications.
 import { attachSocket, closeSocket } from './realtime/socket.js';
 import { backfillSearchKeys } from './services/search.service.js';
 import { backfillDocumentDetails } from './services/document.service.js';
+import { resumeScrapeJobs } from './services/scraper.service.js';
 
 const SHUTDOWN_TIMEOUT_MS = 10000;
 
@@ -46,6 +47,7 @@ async function start() {
   await backfillDocumentDetails();
   await backfillSearchKeys();
   await verifyDeclaredPermissions();
+  await resumeScrapeJobs();
   server = app.listen(env.port, () => {
     logger.info(`CRM API listening on http://localhost:${env.port}${env.apiPrefix} [${env.nodeEnv}]`);
     startContractReminderJob();

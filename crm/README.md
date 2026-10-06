@@ -44,7 +44,9 @@ Company & contacts → Lead → Opportunity (pipeline) → Quotation → Order �
 Around that flow: activities and follow-ups, documents (with versions, a PDF
 editor, a spreadsheet editor, PDF ↔ Excel conversion and print preview - see
 [docs/DOCUMENTS.md](docs/DOCUMENTS.md)), notifications, a dashboard, reports,
-an audit log, global search and application settings.
+an audit log, global search, application settings, and a web data scraper
+that collects public business details for review before they are imported
+(see [docs/SCRAPER.md](docs/SCRAPER.md)).
 
 Two principles run through it:
 
@@ -149,7 +151,7 @@ crm/
 │   ├── CRM.postman_environment.json
 │   ├── run-collection.js        Runs the collection with Newman
 │   └── sample-document.txt      The file the upload request sends
-├── docs/                        USER_GUIDE, DOCUMENTS, ARCHITECTURE, DATABASE, API, RBAC, DEPLOYMENT,
+├── docs/                        USER_GUIDE, DOCUMENTS, SCRAPER, ARCHITECTURE, DATABASE, API, RBAC, DEPLOYMENT,
 │                                TESTING, MODULES, UI_UX, THEMING, I18N
 ├── README.md
 └── .gitignore

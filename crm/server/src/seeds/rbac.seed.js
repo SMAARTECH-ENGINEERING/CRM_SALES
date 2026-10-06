@@ -120,6 +120,14 @@ export const PERMISSION_SEED = {
     export: 'Export reports to CSV, Excel and PDF',
     viewAll: 'Run reports across every organization and every user',
   },
+  scraper: {
+    read: 'View web scraping jobs and their results',
+    create: 'Create, run and cancel web scraping jobs',
+    import: 'Import reviewed results into companies, contacts and leads',
+    export: 'Export scraped results to Excel or CSV',
+    delete: 'Delete web scraping jobs and their results',
+    viewAll: 'See the scraping jobs of every user, not only your own',
+  },
   search: {
     viewAll: 'Find records of every organization and every user in global search',
   },

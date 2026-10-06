@@ -68,6 +68,7 @@ start; a typo is reported in the log instead of silently denying everyone.
 | `dashboard` | read, viewAll |
 | `reports` | read, export, viewAll |
 | `audit` | read, viewAll |
+| `scraper` | read, create, import, export, delete, viewAll |
 | `search` | viewAll |
 | `settings` | manage |
 

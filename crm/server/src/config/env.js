@@ -124,6 +124,14 @@ const schema = Joi.object({
   // (lead conversion). Checked in the order given; the first match wins.
   COMPANY_MATCH_FIELDS: fieldList(COMPANY_MATCHABLE).default('gstNumber,email,name'),
   CONTACT_MATCH_FIELDS: fieldList(CONTACT_MATCHABLE).default('email,phone'),
+  // Web data scraper. It identifies itself with this name (robots.txt rules for
+  // it, or for "*", are obeyed) and never fetches faster than SCRAPER_MIN_DELAY_MS
+  // per site. Addresses inside private networks (localhost, 10.x, 192.168.x, ...)
+  // are refused unless SCRAPER_ALLOW_PRIVATE_HOSTS is true - keep it false in production.
+  SCRAPER_USER_AGENT: Joi.string().max(200).default('CRMResearchBot/1.0 (business contact research; respects robots.txt)'),
+  SCRAPER_MIN_DELAY_MS: Joi.number().integer().min(250).max(60000).default(1000),
+  SCRAPER_TIMEOUT_MS: Joi.number().integer().min(1000).max(60000).default(15000),
+  SCRAPER_ALLOW_PRIVATE_HOSTS: Joi.boolean().default(false),
   CORS_ORIGIN: Joi.string().allow('').default(''),
   // false switches both limiters (all requests, and failed sign-ins) off.
   RATE_LIMIT_ENABLED: Joi.boolean().default(true),
@@ -246,6 +254,12 @@ const env = Object.freeze({
   matchFields: Object.freeze({
     company: Object.freeze(splitList(value.COMPANY_MATCH_FIELDS)),
     contact: Object.freeze(splitList(value.CONTACT_MATCH_FIELDS)),
+  }),
+  scraper: Object.freeze({
+    userAgent: value.SCRAPER_USER_AGENT,
+    minDelayMs: value.SCRAPER_MIN_DELAY_MS,
+    timeoutMs: value.SCRAPER_TIMEOUT_MS,
+    allowPrivateHosts: value.SCRAPER_ALLOW_PRIVATE_HOSTS,
   }),
   corsOrigins: Object.freeze(
     value.CORS_ORIGIN.split(',')

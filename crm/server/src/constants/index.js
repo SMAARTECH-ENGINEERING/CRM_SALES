@@ -270,6 +270,25 @@ export const MESSAGES = Object.freeze({
   DOCUMENT_ENTITY_FORBIDDEN: 'You do not have access to the record this document belongs to',
   DOCUMENT_DELETE_FORBIDDEN: 'You can only delete documents you uploaded yourself',
   DOCUMENT_UPDATED: 'Document updated',
+  SCRAPE_JOBS_LISTED: 'Scraping jobs retrieved successfully',
+  SCRAPE_JOB_RETRIEVED: 'Scraping job retrieved successfully',
+  SCRAPE_JOB_CREATED: 'Scraping job created and queued',
+  SCRAPE_JOB_CANCELLED: 'Scraping job cancelled',
+  SCRAPE_JOB_DELETED: 'Scraping job and its results deleted',
+  SCRAPE_JOB_NOT_FOUND: 'Scraping job not found',
+  SCRAPE_JOB_NOT_RUNNING: 'Only a queued or running job can be cancelled',
+  SCRAPE_JOB_BUSY: 'The job is still running: cancel it first',
+  SCRAPE_RECORDS_LISTED: 'Scraped results retrieved successfully',
+  SCRAPE_RECORD_UPDATED: 'Scraped result updated',
+  SCRAPE_RECORD_NOT_FOUND: 'Scraped result not found',
+  SCRAPE_PAGES_LISTED: 'Scraped pages retrieved successfully',
+  SCRAPE_STATS: 'Scraper figures retrieved successfully',
+  SCRAPE_IMPORT_PREVIEW: 'Import preview: nothing has been changed yet',
+  SCRAPE_IMPORT_DONE: 'Import finished',
+  SCRAPE_URL_NOT_ALLOWED: 'This address cannot be scraped',
+  SCRAPE_CHOOSE: 'This may already be in the CRM: choose Skip, Update existing or Create new',
+  SCRAPE_ALREADY_IMPORTED: 'Already imported',
+  SCRAPE_NO_COMPANY: 'A contact needs a company: none was found for it',
   DOCUMENT_VERSIONS: 'Document versions retrieved',
   DOCUMENT_VERSION_ADDED: 'New version saved',
   DOCUMENT_VERSION_RESTORED: 'Version restored as the current one',
@@ -608,7 +627,27 @@ export const TIMELINE_ACTIONS = Object.freeze([
   'reminded',
   // An email was sent to the record's contact (e.g. from the leads list).
   'emailed',
+  // Brought in from outside: the web data scraper.
+  'imported',
 ]);
+
+// Web data scraper.
+export const SCRAPE_JOB_STATUS = Object.freeze({
+  QUEUED: 'queued',
+  RUNNING: 'running',
+  COMPLETED: 'completed',
+  CANCELLED: 'cancelled',
+  FAILED: 'failed',
+});
+// What was asked for: companies, contacts, or both.
+export const SCRAPE_DATA_TYPE = Object.freeze({ COMPANIES: 'companies', CONTACTS: 'contacts', BOTH: 'both' });
+// How a result compares with the CRM.
+export const SCRAPE_MATCH = Object.freeze({ NEW: 'new', POSSIBLE: 'possible', EXISTING: 'existing' });
+// What happens to a result on import; null until the user chooses (the default
+// follows the match: new -> create, existing -> link, possible -> must choose).
+export const SCRAPE_DECISION = Object.freeze({ CREATE: 'create', UPDATE: 'update', LINK: 'link', SKIP: 'skip' });
+export const SCRAPE_IMPORT_STATUS = Object.freeze({ PENDING: 'pending', IMPORTED: 'imported', SKIPPED: 'skipped', FAILED: 'failed' });
+export const SCRAPE_PAGE_STATUS = Object.freeze({ DONE: 'done', FAILED: 'failed', SKIPPED: 'skipped' });
 
 export const CONTACT_STATUS = Object.freeze({
   ACTIVE: 'active',

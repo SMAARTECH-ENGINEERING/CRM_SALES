@@ -20,6 +20,7 @@ import StorefrontOutlinedIcon from '@mui/icons-material/StorefrontOutlined';
 import StraightenOutlinedIcon from '@mui/icons-material/StraightenOutlined';
 import SupportAgentOutlinedIcon from '@mui/icons-material/SupportAgentOutlined';
 import TrackChangesOutlinedIcon from '@mui/icons-material/TrackChangesOutlined';
+import TravelExploreOutlinedIcon from '@mui/icons-material/TravelExploreOutlined';
 import TuneOutlinedIcon from '@mui/icons-material/TuneOutlined';
 import ViewKanbanOutlinedIcon from '@mui/icons-material/ViewKanbanOutlined';
 import VpnKeyOutlinedIcon from '@mui/icons-material/VpnKeyOutlined';
@@ -46,6 +47,7 @@ export const NAV_GROUPS = [
       { id: 'pipelines', labelKey: 'nav.pipelines', to: '/pipelines', icon: AccountTreeOutlinedIcon, permission: P.PIPELINES_MANAGE },
       { id: 'quotations', labelKey: 'nav.quotations', to: '/quotations', icon: RequestQuoteOutlinedIcon, permission: P.QUOTATIONS_READ },
       { id: 'orders', labelKey: 'nav.orders', to: '/orders', icon: ShoppingCartOutlinedIcon, permission: P.ORDERS_READ },
+      { id: 'scraper', labelKey: 'nav.scraper', to: '/scraper', icon: TravelExploreOutlinedIcon, permission: P.SCRAPER_READ },
     ],
   },
   {

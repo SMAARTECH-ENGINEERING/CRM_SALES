@@ -75,6 +75,7 @@ The Postman collection has a request - with tests - for every one of them.
 | `/dashboard` | `GET /dashboard/activities`<br>`GET /dashboard/leads`<br>`GET /dashboard/opportunities`<br>`GET /dashboard/sales`<br>`GET /dashboard/summary` |
 | `/departments` | `GET /departments` |
 | `/documents` | `GET POST /documents`<br>`GET PATCH DELETE /documents/:id`<br>`GET /documents/:id/download[?version=N]`<br>`GET POST /documents/:id/versions`<br>`POST /documents/:id/versions/:version/restore`<br>`GET /documents/config` - see [DOCUMENTS.md](DOCUMENTS.md) |
+| `/scraper` | `GET /scraper/stats`<br>`GET POST /scraper/jobs`, `GET DELETE /scraper/jobs/:id`, `POST /scraper/jobs/:id/cancel`, `.../rerun`<br>`GET /scraper/pages`<br>`GET /scraper/records`, `/records/ids`, `/records/export`, `GET PATCH /scraper/records/:id`, `POST /scraper/records/recheck`<br>`POST /scraper/import/preview`, `POST /scraper/import` - see [SCRAPER.md](SCRAPER.md) |
 | `/document-types`, `/document-statuses` | `GET POST /...`<br>`PUT DELETE /.../:id` |
 | `/followups` | `GET POST /followups`<br>`PUT /followups/:id`<br>`PATCH /followups/:id/complete`<br>`PATCH /followups/:id/reschedule` |
 | `/health` | `GET /health` |

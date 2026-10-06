@@ -3452,6 +3452,14 @@ curl http://localhost:5000/api/v1/payments/stats -H "Authorization: Bearer <acce
 Company and customer pages have a **Payments** tab, and the order page a **Payments** tab that also
 shows the order total and how much of it is still to invoice. No screen has a "remaining" input.
 
+## Web Data Scraper
+
+Collects public business details from websites into results for review, and imports the
+results a user approves into the existing companies, contacts and (optionally) leads - through
+the same services as the screens. Everything about it - what it reads, the rules it obeys
+(robots.txt, delays, no sign-ins or CAPTCHAs), duplicates, the import, permissions and the API -
+is in **[SCRAPER.md](SCRAPER.md)**.
+
 ## Document management
 
 Files can be attached to a **company, contact, lead, opportunity, quotation, order, customer,

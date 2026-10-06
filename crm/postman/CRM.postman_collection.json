@@ -13051,6 +13051,826 @@
       ]
     },
     {
+      "name": "Web Data Scraper",
+      "description": "Collects public business details from web pages into results for review; nothing reaches Companies, Contacts or Leads until imported. Permissions: scraper.read, scraper.create, scraper.import (plus companies.create and contacts.create; leads.create for leads), scraper.export, scraper.delete, scraper.viewAll.\n\nThe pages are read in the background: \"Get Scraping Job\" repeats itself (up to 40 times, a second apart) until the job has finished.\n\nscraperTarget is the website to scrape. npm run test:postman starts a small local site for it; in the Postman app set it to a public site you may scrape (local addresses are refused unless SCRAPER_ALLOW_PRIVATE_HOSTS=true on the server).",
+      "item": [
+        {
+          "name": "Scraper Figures",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test('Figures and limits', function () { var d = pm.response.json().data; pm.expect(d).to.include.keys('jobs', 'records', 'newCompanies', 'newContacts', 'duplicates', 'imported', 'failedPages', 'limits'); });"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/scraper/stats",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "scraper",
+                "stats"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Scraping Job",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status is 201', function () {",
+                  "  pm.response.to.have.status(201);",
+                  "});",
+                  "",
+                  "var body = pm.response.json();",
+                  "if (body.success) { pm.environment.set('scrapeJobId', body.data.job.id); pm.environment.set('scrapeWaits', '0'); }",
+                  "pm.test('Queued', function () { pm.expect(body.data.job.status).to.eql('queued'); });"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Postman FPO research {{$timestamp}}\",\n  \"targets\": [\n    \"{{scraperTarget}}\"\n  ],\n  \"dataType\": \"both\",\n  \"settings\": {\n    \"maxPages\": 5,\n    \"maxRecords\": 50,\n    \"maxDepth\": 1,\n    \"delayMs\": 1000,\n    \"sameDomain\": true,\n    \"followLinks\": true\n  }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/scraper/jobs",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "scraper",
+                "jobs"
+              ]
+            },
+            "description": "Requires scraper.read and scraper.create. settings (all optional, with safe ceilings): maxPages 1-200 (20), maxRecords 1-1000 (200), maxDepth 0-3 (1), delayMs 1000-30000 (2000), sameDomain (true), followLinks (true), extract: { emails, phones, companyNames, addresses, websites, contactNames, jobTitles }. industryId: from the Industries list. Saves scrapeJobId."
+          },
+          "response": []
+        },
+        {
+          "name": "Create Scraping Job - private address (expect 400)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status is 400', function () {",
+                  "  pm.response.to.have.status(400);",
+                  "});",
+                  "",
+                  "pm.test('Says which address', function () { pm.expect(pm.response.json().errors[0].field).to.eql('targets.0'); });"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Not allowed\",\n  \"targets\": [\n    \"ftp://example.com/\"\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/scraper/jobs",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "scraper",
+                "jobs"
+              ]
+            },
+            "description": "Only http(s) on ports 80/443; never localhost or private network addresses (unless the server allows them for testing)."
+          },
+          "response": []
+        },
+        {
+          "name": "Create Scraping Job - too fast (expect 422)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status is 422', function () {",
+                  "  pm.response.to.have.status(422);",
+                  "});",
+                  ""
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Too fast\",\n  \"targets\": [\n    \"https://example.com/\"\n  ],\n  \"settings\": {\n    \"delayMs\": 100\n  }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/scraper/jobs",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "scraper",
+                "jobs"
+              ]
+            },
+            "description": "At least one second between pages of a site."
+          },
+          "response": []
+        },
+        {
+          "name": "Get Scraping Job",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "var job = pm.response.json().data.job;",
+                  "var waits = Number(pm.environment.get('scrapeWaits') || 0);",
+                  "if (['queued', 'running'].indexOf(job.status) >= 0 && waits < 40) {",
+                  "  pm.environment.set('scrapeWaits', String(waits + 1));",
+                  "  setTimeout(function () {}, 1000);",
+                  "  postman.setNextRequest('Get Scraping Job');",
+                  "} else {",
+                  "  pm.test('The job finished and found results', function () { pm.expect(job.status).to.eql('completed'); pm.expect(job.stats.records).to.be.above(0); });",
+                  "}"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/scraper/jobs/{{scrapeJobId}}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "scraper",
+                "jobs",
+                "{{scrapeJobId}}"
+              ]
+            },
+            "description": "Progress: status (queued, running, completed, cancelled, failed), stats (pagesVisited, pagesFailed, records, companies, contacts, new, possible, existing, imported)."
+          },
+          "response": []
+        },
+        {
+          "name": "List Scraping Jobs",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test('Has the job', function () { pm.expect(pm.response.json().data.jobs.map(function (j) { return j.id; })).to.include(pm.environment.get('scrapeJobId')); });"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/scraper/jobs?page=1&limit=20&sortBy=createdAt&sortOrder=desc",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "scraper",
+                "jobs"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "1"
+                },
+                {
+                  "key": "limit",
+                  "value": "20"
+                },
+                {
+                  "key": "sortBy",
+                  "value": "createdAt"
+                },
+                {
+                  "key": "sortOrder",
+                  "value": "desc"
+                }
+              ]
+            },
+            "description": "Your own jobs; every user's with scraper.viewAll. Filters: status, search."
+          },
+          "response": []
+        },
+        {
+          "name": "List Pages Visited",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test('robots.txt was obeyed', function () { var pages = pm.response.json().data.pages; var priv = pages.filter(function (p) { return /\\/private/.test(p.url); }); priv.forEach(function (p) { pm.expect(p.status).to.eql('skipped'); pm.expect(p.reason).to.eql('robots'); }); });"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/scraper/pages?jobId={{scrapeJobId}}&page=1&limit=50",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "scraper",
+                "pages"
+              ],
+              "query": [
+                {
+                  "key": "jobId",
+                  "value": "{{scrapeJobId}}"
+                },
+                {
+                  "key": "page",
+                  "value": "1"
+                },
+                {
+                  "key": "limit",
+                  "value": "50"
+                }
+              ]
+            },
+            "description": "status: done | failed | skipped. Failed and skipped pages say why (robots, timeout, access_denied, anti_bot, rate_limited, http_error, not_html, too_large, invalid_html, blocked_address)."
+          },
+          "response": []
+        },
+        {
+          "name": "List Results",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "var records = pm.response.json().data.records;",
+                  "var company = records.find(function (r) { return r.type === 'company'; });",
+                  "var person = records.find(function (r) { return r.type === 'contact'; });",
+                  "if (company) pm.environment.set('scrapedCompanyId', company.id);",
+                  "if (person) pm.environment.set('scrapedContactId', person.id);",
+                  "pm.test('Each result has its source, quality and how it compares with the CRM', function () { records.forEach(function (r) { pm.expect(r).to.include.keys('sourceUrl', 'quality', 'missing', 'match', 'importStatus'); pm.expect(['new', 'possible', 'existing']).to.include(r.match.status); }); });"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/scraper/records?jobId={{scrapeJobId}}&page=1&limit=50&sortBy=quality&sortOrder=desc",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "scraper",
+                "records"
+              ],
+              "query": [
+                {
+                  "key": "jobId",
+                  "value": "{{scrapeJobId}}"
+                },
+                {
+                  "key": "page",
+                  "value": "1"
+                },
+                {
+                  "key": "limit",
+                  "value": "50"
+                },
+                {
+                  "key": "sortBy",
+                  "value": "quality"
+                },
+                {
+                  "key": "sortOrder",
+                  "value": "desc"
+                }
+              ]
+            },
+            "description": "Filters: jobId, type (company | contact), match (new | possible | existing), duplicates, importStatus (pending | imported | skipped | failed), hasEmail, hasPhone, location, industry, minQuality, search, from, to. Sort: scrapedAt, company, contact, quality, state, city, match."
+          },
+          "response": []
+        },
+        {
+          "name": "Result IDs (select all)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test('Ids', function () { pm.expect(pm.response.json().data.ids).to.be.an('array'); });"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/scraper/records/ids?jobId={{scrapeJobId}}&importStatus=pending",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "scraper",
+                "records",
+                "ids"
+              ],
+              "query": [
+                {
+                  "key": "jobId",
+                  "value": "{{scrapeJobId}}"
+                },
+                {
+                  "key": "importStatus",
+                  "value": "pending"
+                }
+              ]
+            },
+            "description": "Every id matching the filters - for \"select all N results\"."
+          },
+          "response": []
+        },
+        {
+          "name": "Get Result",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  ""
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/scraper/records/{{scrapedCompanyId}}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "scraper",
+                "records",
+                "{{scrapedCompanyId}}"
+              ]
+            },
+            "description": "One result, with the matching CRM company / contact (for the side-by-side comparison)."
+          },
+          "response": []
+        },
+        {
+          "name": "Correct a Result and choose",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test('Saved', function () { var r = pm.response.json().data.record; pm.expect(r.company.country).to.eql('India'); pm.expect(r.decision).to.eql('create'); });"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"company\": {\n    \"country\": \"India\"\n  },\n  \"decision\": \"create\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/scraper/records/{{scrapedCompanyId}}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "scraper",
+                "records",
+                "{{scrapedCompanyId}}"
+              ]
+            },
+            "description": "Requires scraper.create. Corrections to company / contact fields, and the decision: create | update (fill only empty CRM fields) | link (use the existing record) | skip | null (follow the match)."
+          },
+          "response": []
+        },
+        {
+          "name": "Check Results against the CRM again",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  ""
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"recordIds\": [\n    \"{{scrapedContactId}}\"\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/scraper/records/recheck",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "scraper",
+                "records",
+                "recheck"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Import Preview",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test('Says what would happen; nothing changed', function () { var d = pm.response.json().data; pm.expect(d.dryRun).to.eql(true); pm.expect(d.summary).to.include.keys('companies', 'contacts', 'leads', 'ready', 'needChoice'); });"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"recordIds\": [\n    \"{{scrapedCompanyId}}\",\n    \"{{scrapedContactId}}\"\n  ],\n  \"options\": {\n    \"createLead\": false\n  }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/scraper/import/preview",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "scraper",
+                "import",
+                "preview"
+              ]
+            },
+            "description": "Requires scraper.import, companies.create and contacts.create. Up to 1000 ids."
+          },
+          "response": []
+        },
+        {
+          "name": "Import Results",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "var d = pm.response.json().data;",
+                  "pm.test('Imported into the existing companies and contacts', function () { pm.expect(d.summary.imported).to.be.above(0); });",
+                  "var done = d.results.find(function (r) { return r.type === 'company' && r.outcome === 'imported'; });",
+                  "if (done) { pm.environment.set('scrapedImportedCompanyId', done.companyId); pm.environment.set('scrapedLeadId', done.leadId || ''); }"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"recordIds\": [\n    \"{{scrapedCompanyId}}\",\n    \"{{scrapedContactId}}\"\n  ],\n  \"options\": {\n    \"createLead\": true,\n    \"lead\": {\n      \"title\": \"{company} - research\",\n      \"requirement\": \"To be confirmed with the customer\"\n    }\n  }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/scraper/import",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "scraper",
+                "import"
+              ]
+            },
+            "description": "Up to 50 ids per call (the screen sends batches). options: createLead (false unless set), lead: { title (\"{company}\" is replaced), requirement (as entered - never taken from the website), sourceId, statusId, priorityId, assignedTo, tags }, industryId, companyTypeId, assignedTo. The source URL, job and dates are written into the records' notes."
+          },
+          "response": []
+        },
+        {
+          "name": "Export Results - Excel",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test('An Excel file', function () { pm.expect(pm.response.headers.get('Content-Type')).to.include('spreadsheetml'); });"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/scraper/records/export?jobId={{scrapeJobId}}&format=xlsx",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "scraper",
+                "records",
+                "export"
+              ],
+              "query": [
+                {
+                  "key": "jobId",
+                  "value": "{{scrapeJobId}}"
+                },
+                {
+                  "key": "format",
+                  "value": "xlsx"
+                }
+              ]
+            },
+            "description": "Requires scraper.export. Same filters as the list."
+          },
+          "response": []
+        },
+        {
+          "name": "Export Results - CSV",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test('CSV with headings', function () { pm.expect(pm.response.text()).to.include('Type,Company,Website'); });"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/scraper/records/export?jobId={{scrapeJobId}}&format=csv",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "scraper",
+                "records",
+                "export"
+              ],
+              "query": [
+                {
+                  "key": "jobId",
+                  "value": "{{scrapeJobId}}"
+                },
+                {
+                  "key": "format",
+                  "value": "csv"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Re-run Scraping Job",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status is 201', function () {",
+                  "  pm.response.to.have.status(201);",
+                  "});",
+                  "",
+                  "pm.environment.set('scrapeRerunId', pm.response.json().data.job.id);"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/scraper/jobs/{{scrapeJobId}}/rerun",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "scraper",
+                "jobs",
+                "{{scrapeJobId}}",
+                "rerun"
+              ]
+            },
+            "description": "A new job with the same sources and settings; the earlier one stays in the history."
+          },
+          "response": []
+        },
+        {
+          "name": "Cancel Scraping Job",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Cancelled, or already finished', function () { pm.expect(pm.response.code).to.be.oneOf([200, 409]); });"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/scraper/jobs/{{scrapeRerunId}}/cancel",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "scraper",
+                "jobs",
+                "{{scrapeRerunId}}",
+                "cancel"
+              ]
+            },
+            "description": "Only a queued or running job; results found so far are kept."
+          },
+          "response": []
+        }
+      ]
+    },
+    {
       "name": "Notifications",
       "description": "The signed-in user's own notifications. No permission is needed - only a token - and nobody can see or change anyone else's (404).\n\nNotifications come from business events, for the people the record names (never for whoever caused the event):\n- lead_assigned / ticket_assigned -> the new assignee\n- quotation_status_changed -> whoever created the quotation, and the owner of its opportunity\n- follow_up_due -> the follow-up's assignee (found by a check every NOTIFICATION_CHECK_INTERVAL_MINUTES)\n- payment_overdue -> whoever recorded the payment, the customer's account manager, the order's assignee (same check)\n- contract_expiring -> the contract's assignee (with the contract reminder)\n\nTO GET ONE HERE: with a single user, the quickest is Payments -> Create Payment (it is due 5 days ago) and then wait for the next check - or restart the API, which runs the check at start. With two users: log in as A, assign a lead or ticket to B, then log in as B.\n\nReal time: the API also pushes each new notification over Socket.IO (event \"notification:new\", payload { notification, unreadCount }) to connections authenticated with { auth: { token: <accessToken> } }. Postman's Socket.IO request type can connect to {{baseUrl}} without the /api/v1 path.",
       "item": [
@@ -17031,6 +17851,95 @@
       "name": "Cleanup",
       "description": "Deletes the records the folders above created, in an order in which each delete is allowed (a payment before its order, a contact before its company, ...). Deleting is soft: records are hidden, not destroyed. Run it last - or skip it to keep the records.",
       "item": [
+        {
+          "name": "Delete Scraping Jobs",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Deleted (results only - imported records stay)', function () { pm.expect(pm.response.code).to.be.oneOf([200, 404]); });"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/scraper/jobs/{{scrapeJobId}}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "scraper",
+                "jobs",
+                "{{scrapeJobId}}"
+              ]
+            },
+            "description": "Requires scraper.delete. Deletes the job and its results; what was imported stays in the CRM."
+          },
+          "response": []
+        },
+        {
+          "name": "Delete Lead from the Scraper",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Deleted or none', function () { pm.expect(pm.response.code).to.be.oneOf([200, 404, 422]); });"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/leads/{{scrapedLeadId}}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "leads",
+                "{{scrapedLeadId}}"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Delete Company from the Scraper",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Deleted, in use, or none', function () { pm.expect(pm.response.code).to.be.oneOf([200, 404, 409, 422]); });"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/companies/{{scrapedImportedCompanyId}}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "companies",
+                "{{scrapedImportedCompanyId}}"
+              ]
+            }
+          },
+          "response": []
+        },
         {
           "name": "Delete Payment",
           "event": [

@@ -32,6 +32,11 @@ const DocumentEditorPage = lazy(() => import("../features/documents/pages/Docume
 const ConvertToExcelPage = lazy(() => import("../features/documents/pages/ConvertToExcelPage.jsx"));
 const ConvertToPdfPage = lazy(() => import("../features/documents/pages/ConvertToPdfPage.jsx"));
 const QuotationPdfEditorPage = lazy(() => import("../features/documents/pages/QuotationPdfEditorPage.jsx"));
+const ScraperHomePage = lazy(() => import("../features/scraper/pages/ScraperHomePage.jsx"));
+const NewScrapeJobPage = lazy(() => import("../features/scraper/pages/NewScrapeJobPage.jsx"));
+const ScrapeJobPage = lazy(() => import("../features/scraper/pages/ScrapeJobPage.jsx"));
+const ScrapedResultsPage = lazy(() => import("../features/scraper/pages/ScrapedResultsPage.jsx"));
+const FailedPagesPage = lazy(() => import("../features/scraper/pages/FailedPagesPage.jsx"));
 const LeadDetailPage = lazy(() => import("../pages/LeadDetailPage.jsx"));
 const LeadFormPage = lazy(() => import("../pages/LeadFormPage.jsx"));
 const LeadSettingsPage = lazy(() => import("../pages/LeadSettingsPage.jsx"));
@@ -318,6 +323,24 @@ export default function AppRoutes() {
             >
               <Route path="/payments" element={<PaymentsPage />} />
               <Route path="/payments/:id" element={<PaymentDetailPage />} />
+            </Route>
+
+            <Route
+              element={
+                <RequirePermission permission={PERMISSIONS.SCRAPER_READ} />
+              }
+            >
+              <Route path="/scraper" element={<ScraperHomePage />} />
+              <Route path="/scraper/results" element={<ScrapedResultsPage />} />
+              <Route path="/scraper/failed" element={<FailedPagesPage />} />
+              <Route path="/scraper/jobs/:id" element={<ScrapeJobPage />} />
+            </Route>
+            <Route
+              element={
+                <RequirePermission permission={[PERMISSIONS.SCRAPER_READ, PERMISSIONS.SCRAPER_CREATE]} />
+              }
+            >
+              <Route path="/scraper/new" element={<NewScrapeJobPage />} />
             </Route>
 
             <Route

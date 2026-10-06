@@ -37,6 +37,7 @@ Create `server/.env` (start from `.env.example`). For production, at least:
 | `CORS_ORIGIN` | The exact address of the web app, e.g. `https://crm.yourcompany.com`. Several: comma-separated |
 | `TRUST_PROXY` | `1` behind one reverse proxy, so rate limiting and the audit log see the real client address |
 | `RATE_LIMIT_ENABLED` | `true` |
+| `SCRAPER_ALLOW_PRIVATE_HOSTS` | `false` |
 | `ALLOW_PUBLIC_REGISTRATION` | `false` (the default in production): accounts are created by administrators |
 | `STORAGE_DRIVER` | `s3`, with `S3_BUCKET`, `S3_REGION`, `S3_ACCESS_KEY_ID`, `S3_SECRET_ACCESS_KEY` (and `S3_ENDPOINT`, `S3_FORCE_PATH_STYLE` for a store other than AWS) |
 | `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`, `MAIL_FROM` | Your mail server; leave unset to switch email off |
@@ -147,6 +148,7 @@ Serve everything over HTTPS only.
 - [ ] `NODE_ENV=production`, strong JWT secrets, different from each other and from any other environment
 - [ ] `CORS_ORIGIN` is the real web address, not `*`
 - [ ] `RATE_LIMIT_ENABLED=true` and `TRUST_PROXY` matches the number of proxies
+- [ ] `SCRAPER_ALLOW_PRIVATE_HOSTS=false` (the default): the web data scraper must not reach internal addresses
 - [ ] `ALLOW_PUBLIC_REGISTRATION=false`
 - [ ] HTTPS everywhere; the API port is not reachable from outside
 - [ ] MongoDB requires authentication and is not exposed to the internet

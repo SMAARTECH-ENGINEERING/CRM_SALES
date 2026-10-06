@@ -215,6 +215,24 @@ Documents tab, and every later save is a new version.
 What the PDF editor can and cannot change is explained in
 [DOCUMENTS.md](DOCUMENTS.md#limits---what-it-cannot-do).
 
+### 19. Finding new FPOs on the web (Web Data Scraper)
+**Sales → Web Data Scraper → New scraping job.** Name it `Odisha FPO Cold
+Storage Leads`, choose *Companies and contacts*, and enter a public page you may
+collect from - for example a federation's list of member FPOs. Keep the default
+settings and confirm, then **Start scraping**. The job reads a few pages slowly
+(it obeys the site's robots.txt and never signs in) and shows its progress.
+
+When it has finished, review the results: each says whether it is **New**, a
+**Possible duplicate** or **Existing** in the CRM, and how complete it is. Open a
+possible duplicate to compare it with the CRM company and choose *Skip*,
+*Update existing* (fills only empty fields) or *Create new*. Tick the ones you
+want and **Import**: optionally tick *Also create a lead*, with the requirement
+only if you know it (e.g. *Potential cold storage - to confirm on a call*), then
+**Preview** and **Import**. The companies, contacts and leads appear in their
+usual lists, each with its source page in the notes.
+
+More: [SCRAPER.md](SCRAPER.md).
+
 ---
 
 ## Part 4 – Watching the business
